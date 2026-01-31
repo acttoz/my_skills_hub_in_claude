@@ -1,0 +1,1 @@
+hs_no,wr_no,wr_renum,bg_no,mb_no,mb_id,bk_no,hs_name,hs_hp,hs_datetime,hs_flag,hs_code,hs_memo,hs_log

@@ -1,0 +1,1 @@
+wi_id,mb_id,it_id,wi_time,wi_ip

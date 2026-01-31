@@ -1,0 +1,16 @@
+{
+  "name": "mysql_query",
+  "description": "[MySQL MCP Server [vundefined]] Run SQL queries against MySQL database (READ-ONLY)",
+  "arguments": {
+    "type": "object",
+    "properties": {
+      "sql": {
+        "type": "string",
+        "description": "The SQL query to execute"
+      }
+    },
+    "required": [
+      "sql"
+    ]
+  }
+}

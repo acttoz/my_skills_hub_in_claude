@@ -1,0 +1,1 @@
+oid,P_TID,P_MID,P_AUTH_DT,P_STATUS,P_TYPE,P_OID,P_FN_NM,P_AUTH_NO,P_AMT,P_RMESG1,post_data,is_mail_send

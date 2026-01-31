@@ -1,0 +1,4 @@
+co_id,co_html,co_subject,co_content,co_seo_title,co_mobile_content,co_skin,co_mobile_skin,co_tag_filter_use,co_hit,co_include_head,co_include_tail
+company,1,회사소개,<p align=center><b>회사소개에 대한 내용을 입력하십시오.</b></p>,,,basic,basic,0,0,,
+privacy,1,개인정보 처리방침,<p align=center><b>개인정보 처리방침에 대한 내용을 입력하십시오.</b></p>,,,basic,basic,0,0,,
+provision,1,서비스 이용약관,<p align=center><b>서비스 이용약관에 대한 내용을 입력하십시오.</b></p>,,,basic,basic,0,0,,

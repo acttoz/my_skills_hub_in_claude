@@ -1,0 +1,123 @@
+user:
+<user_query>
+@theme/basic/skin/board/board_04/write.skin.php 시공제품 선택 select 가져오는 커리 문 보여줘
+</user_query>
+
+assistant:
+[Thinking] **Searching for SQL selection query**
+
+The user is asking me to show the PHP query that fetches the construction product selection. They’re referring to "시공제품 선택," which means "construction product selection" in Korean. I’ll need to read the relevant PHP file and extract the SQL select statement. I might use tools like Read or Grep to help me locate it. So, I'll start with the Read segment to find what I’m looking for!
+먼저 `write.skin.php` 파일을 읽어서 "시공제품 선택" 관련 select 쿼리를 찾아볼게요.
+[Tool call] Read
+  path: /home/ubuntu/rainbow/theme/basic/skin/board/board_04/write.skin.php
+  offset: 1
+  limit: 400
+
+[Tool result] Read
+
+assistant:
+[Thinking] 
+### 시공제품 `select` 옵션 가져오는 SQL 쿼리
+
+`전면` 시공제품 `select`에 들어가는 쿼리는 아래 부분입니다.
+
+```261:278:theme/basic/skin/board/board_04/write.skin.php
+<select class="all_sub_05_04 wr_3 sel_1" name="wr_3" style="width: 100% !important;">
+    <option value="">선택안함</option>
+    <?php
+        if ($member['mb_level'] >= '5') { // 회원등급이 프리미엄스토어(7) 이상일 때 'iris-VS200' 제품 노출
+
+            $sql = "SELECT * FROM online_data WHERE data_type1='제품' and data_name1 != '기존필름 제거'";
+            $result = sql_query($sql);
+
+        } else { // 회원등급이 프리미엄스토어(7) 미만일때 'iris-VS200' 제품 숨김
+
+            $sql = "SELECT * FROM online_data WHERE data_type1='제품' and data_name1 != '기존필름 제거'  ";
+            $sql .= " and data_name1 != 'iris-VS200' and data_name1 != 'IRIS IS200' and data_name1 != 'IRIS IS100'";
+            $result = sql_query($sql);
+        }
+
+        for ($i = 0; $row = sql_fetch_array($result); $i++) {
+            ?>
+            <option value='<?= $row['data_name1'] ?>'<? if ($write['wr_3'] == $row['data_name1']) {
+                echo 'selected';
+            } ?>><?= $row['data_name1'] ?></option>
+            <?
+        }
+    ?>
+</select>
+```
+
+user:
+<user_query>
+이게 최초 쿼리문이고 2차 select 카리모도 보여줘
+</user_query>
+
+assistant:
+[Thinking] **Providing select query code**
+
+The user, writing in Korean, wants a second select query related to "농도" that can load options via AJAX to `itemAjax.php`. They mentioned needing a snippet for both server-side and JavaScript code. I've seen the relevant code starting around line 294, and there’s enough in the read window to provide what they need for now. I’ll focus on citing the necessary code references without adding new tools.
+### 2차 `select` (농도) 쿼리/로직
+
+**1차 쿼리** (이미 위에 있음): 제품 리스트  
+**2차 `select`**(농도)는 아래처럼 **AJAX로 `itemAjax.php` 호출**해서 가져옵니다.
+
+```294:345:theme/basic/skin/board/board_04/write.skin.php
+<script>
+    <?if($write['wr_3']){ ?>
+    $(document).ready(function () {
+        $html = '<option value="">농도</option>';
+        var dataArr = new Object();
+        var item_val = "<?=$write['wr_3_op1']?>";
+
+        if( $('select[name=wr_3]').val() == '' )
+        {
+            $('.sel_1_2').find("option").remove();
+            $('.sel_1_2').html($html);
+            return false;
+        }
+        dataArr[0] = $('.sel_1').val();
+        dataArr[1] = $('.data_type1_1').text();
+        $.post('/theme/basic/skin/include/itemAjax.php', dataArr, function(response){
+            var data = JSON.parse(response);
+            $.each( data, function( key, item ){
+                if(item == item_val){
+                    $html += '<option value="' + item + '" selected>' + item + '</option>'
+                }else{
+                    $html += '<option value="' + item + '">' + item + '</option>'
+                }
+            });
+            $('.sel_1_2').html($html);
+
+            $html = "";
+
+        });
+    });
+    <? }?>
+
+    $('.sel_1').on('change', function(){
+
+        $html = '<option value="">농도</option>';
+        var dataArr = new Object();
+        if( $(this).val() == '' )
+        {
+            $('.sel_1_2').find("option").remove();
+            $('.sel_1_2').html($html);
+            return false;
+        }
+        dataArr[0] = $('.sel_1').val();
+        dataArr[1] = $('.data_type1_1').text();
+        $.post('/theme/basic/skin/include/itemAjax.php', dataArr, function(response){
+            var data = JSON.parse(response);
+            $.each( data, function( key, item ){
+                $html += '<option value="' + item + '">' + item + '</option>'
+            });
+            $('.sel_1_2').html($html);
+
+        });
+    });
+
+</script>
+```
+
+여기서 `itemAjax.php` 안에서 실제 농도 리스트를 뽑는 SQL이 있을 텐데, 그 쿼리도 필요하면 `itemAjax.php` 내용 보여달라고 해 주세요.

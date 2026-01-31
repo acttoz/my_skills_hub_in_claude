@@ -1,0 +1,1 @@
+me_id,me_recv_mb_id,me_send_mb_id,me_send_datetime,me_read_datetime,me_memo,me_send_id,me_type,me_send_ip

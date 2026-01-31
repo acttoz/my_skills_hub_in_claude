@@ -1,0 +1,6 @@
+{
+  "uri": "mysql://tables/g5_poll_etc",
+  "name": "g5_poll_etc",
+  "description": "Table g5_poll_etc in database rainbow_2025",
+  "mimeType": "application/json"
+}

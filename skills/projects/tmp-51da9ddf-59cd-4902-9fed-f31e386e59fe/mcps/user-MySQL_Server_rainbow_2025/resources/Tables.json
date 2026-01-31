@@ -1,0 +1,6 @@
+{
+  "uri": "mysql://tables",
+  "name": "Tables",
+  "description": "List of all MySQL tables",
+  "mimeType": "application/json"
+}

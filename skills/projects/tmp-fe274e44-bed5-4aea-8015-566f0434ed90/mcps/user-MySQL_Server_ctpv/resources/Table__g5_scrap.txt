@@ -1,0 +1,1 @@
+ms_id,mb_id,bo_table,wr_id,ms_datetime

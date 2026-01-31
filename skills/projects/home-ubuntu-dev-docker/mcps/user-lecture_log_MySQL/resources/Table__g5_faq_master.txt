@@ -1,0 +1,2 @@
+fm_id,fm_subject,fm_head_html,fm_tail_html,fm_mobile_head_html,fm_mobile_tail_html,fm_order
+1,자주하시는 질문,,,,,0

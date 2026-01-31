@@ -1,0 +1,1 @@
+de_id,de_key,de_data,mb_id,de_ip,de_datetime

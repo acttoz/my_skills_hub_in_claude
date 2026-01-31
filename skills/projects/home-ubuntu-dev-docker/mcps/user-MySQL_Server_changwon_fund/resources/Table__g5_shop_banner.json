@@ -1,0 +1,6 @@
+{
+  "uri": "mysql://g5_shop_banner/data",
+  "name": "Table: g5_shop_banner",
+  "description": "Data in table: g5_shop_banner",
+  "mimeType": "text/plain"
+}

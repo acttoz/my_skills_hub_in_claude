@@ -1,0 +1,6 @@
+me_id,me_code,me_name,me_link,me_target,me_order,me_use,me_mobile_use
+19,10,강의 기록,/bbs/board.php?bo_table=calendar,self,0,1,1
+20,20,연간 통계,/sub/year.php,self,0,1,1
+21,30,강의 실록 공지,/bbs/board.php?bo_table=notice,self,0,1,1
+22,40,강의 소식 공유,/bbs/board.php?bo_table=lecture_news,self,0,1,1
+23,50,강의 정보 공유,/bbs/board.php?bo_table=lecture_share,self,0,1,1

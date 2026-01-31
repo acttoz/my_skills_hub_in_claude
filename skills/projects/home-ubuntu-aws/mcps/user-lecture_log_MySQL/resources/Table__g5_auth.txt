@@ -1,0 +1,2 @@
+mb_id,au_menu,au_auth
+schong1972,200100,{'w', 'r', 'd'}

@@ -1,0 +1,1 @@
+ad_id,mb_id,ad_subject,ad_default,ad_name,ad_tel,ad_hp,ad_zip1,ad_zip2,ad_addr1,ad_addr2,ad_addr3,ad_jibeon

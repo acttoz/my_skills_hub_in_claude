@@ -1,0 +1,6 @@
+{
+  "uri": "mysql://g5_write_online/data",
+  "name": "Table: g5_write_online",
+  "description": "Data in table: g5_write_online",
+  "mimeType": "text/plain"
+}

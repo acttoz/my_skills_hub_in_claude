@@ -1,0 +1,8 @@
+# 루트의 나머지 모두 무시 (skills, agents, mcp.json만 추적)
+/*
+!.gitignore
+!agents/
+!skills/
+!mcp.json
+!agents/**
+!skills/**

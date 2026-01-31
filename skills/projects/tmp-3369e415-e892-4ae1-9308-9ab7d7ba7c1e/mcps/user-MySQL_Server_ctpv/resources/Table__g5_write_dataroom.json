@@ -1,0 +1,6 @@
+{
+  "uri": "mysql://g5_write_dataroom/data",
+  "name": "Table: g5_write_dataroom",
+  "description": "Data in table: g5_write_dataroom",
+  "mimeType": "text/plain"
+}

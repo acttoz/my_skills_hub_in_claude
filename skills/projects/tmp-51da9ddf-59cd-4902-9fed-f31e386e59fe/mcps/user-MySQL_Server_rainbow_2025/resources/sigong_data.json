@@ -1,0 +1,6 @@
+{
+  "uri": "mysql://tables/sigong_data",
+  "name": "sigong_data",
+  "description": "이 테이블은 시공 갤러리에 사용되는 data를 담기 위한 테이블 입니다. 이 테이블에는 자동차,제조사등 담김",
+  "mimeType": "application/json"
+}

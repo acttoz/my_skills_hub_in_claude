@@ -1,0 +1,54 @@
+---
+pid: 73079
+cwd: "/home/ubuntu/aws"
+command: "cd /home/ubuntu/aws && ssh -i pem/baraem_131.pem root@210.205.6.131 -p 2020 -o HostKeyAlgorithms=+ssh-rsa,ssh-dss -o PubkeyAcceptedKeyTypes=+ssh-rsa,ssh-dss 'echo \"=== grep 503 in global access_log for today ===\"; LC_ALL=C grep \" 503 \" /log/httpd/access_log | tail -n 40 || echo \"no 503\"'"
+started_at: 2026-01-29T09:08:04.000Z
+running_for_seconds: 424   
+---
+=== grep 503 in global access_log for today ===
+40.77.167.164 - - [07/Mar/2023:16:59:06 +0900] "GET /include/in_pro2.html HTTP/1.1" 200 503 "-" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/103.0.5060.134 Safari/537.36"
+66.249.79.82 - - [09/Mar/2023:00:37:23 +0900] "GET /include/in_pro2.html HTTP/1.1" 200 503 "-" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.5481.177 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+180.67.74.154 - - [10/Mar/2023:08:54:37 +0900] "GET /image/shop/adm/manage_top_bg.gif HTTP/1.1" 200 503 "https://everpureshop.co.kr:448/adm/adm.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+180.67.74.154 - - [10/Mar/2023:13:44:19 +0900] "GET /image/shop/adm/manage_top_bg.gif HTTP/1.1" 200 503 "https://everpureshop.co.kr:448/adm/adm.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+180.230.200.100 - - [12/Mar/2023:11:15:43 +0900] "GET /image/shop/adm/manage_top_bg.gif HTTP/1.1" 200 503 "-" "Mozilla/5.0 (Linux; Android 10; LM-V510N Build/QKQ1.200216.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/102.0.5005.189 Whale/1.0.0.0 Crosswalk/27.102.0.11 Mobile Safari/537.36 NAVER(inapp; search; 1010; 11.20.6)"
+112.223.39.108 - - [13/Mar/2023:09:32:10 +0900] "GET /include/in_pro2.html HTTP/1.1" 200 503 "http://www.kumwooltd.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.69"
+171.250.113.65 - - [22/Mar/2023:16:03:15 +0900] "GET /include/in_pro2.html HTTP/1.1" 200 503 "http://www.kumwooltd.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
+180.67.74.154 - - [24/Mar/2023:12:44:24 +0900] "GET /image/shop/adm/manage_top_bg.gif HTTP/1.1" 200 503 "https://everpureshop.co.kr:448/adm/adm.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
+34.23.75.131 - - [26/Mar/2023:05:39:00 +0900] "GET /include/in_pro2.html HTTP/1.0" 200 503 "-" "ZoominfoBot (zoominfobot at zoominfo dot com)"
+34.23.75.131 - - [26/Mar/2023:05:39:45 +0900] "GET /include/in_pro2.html HTTP/1.0" 200 503 "-" "ZoominfoBot (zoominfobot at zoominfo dot com)"
+180.67.74.154 - - [27/Mar/2023:15:42:38 +0900] "GET /image/shop/adm/manage_top_bg.gif HTTP/1.1" 200 503 "https://everpureshop.co.kr:448/adm/adm.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
+180.67.74.154 - - [03/Apr/2023:08:58:11 +0900] "GET /image/shop/adm/manage_top_bg.gif HTTP/1.1" 200 503 "https://everpureshop.co.kr:448/adm/adm.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
+180.67.74.154 - - [03/Apr/2023:09:21:41 +0900] "GET /image/shop/adm/manage_top_bg.gif HTTP/1.1" 200 503 "https://everpureshop.co.kr:448/adm/adm.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
+182.226.242.253 - - [04/Apr/2023:10:33:41 +0900] "GET /image/shop/adm/manage_top_bg.gif HTTP/1.1" 200 503 "http://artwrap.co.kr/adm/adm.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.62"
+219.251.29.211 - - [07/Apr/2023:18:17:49 +0900] "GET /image/shop/adm/manage_top_bg.gif HTTP/1.1" 200 503 "http://bigmind.co.kr/adm/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
+221.167.39.41 - - [08/Apr/2023:12:06:14 +0900] "GET /include/in_pro2.html HTTP/1.1" 200 503 "http://www.kumwooltd.com/" "Mozilla/5.0 (Linux; Android 13; SM-S901N Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/102.0.5005.189 Whale/1.0.0.0 Crosswalk/27.102.0.14 Mobile Safari/537.36 NAVER(inapp; search; 1010; 11.21.8)"
+211.110.137.189 - - [09/Apr/2023:02:22:48 +0900] "GET /include/in_pro2.html HTTP/1.1" 200 503 "http://www.kumwooltd.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+180.67.74.154 - - [10/Apr/2023:15:53:49 +0900] "GET /image/shop/adm/manage_top_bg.gif HTTP/1.1" 200 503 "https://everpureshop.co.kr:448/adm/adm.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
+180.67.74.154 - - [12/Apr/2023:13:04:41 +0900] "GET /image/shop/adm/manage_top_bg.gif HTTP/1.1" 200 503 "https://everpureshop.co.kr:448/adm/adm.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
+211.224.50.199 - - [12/Apr/2023:16:33:45 +0900] "POST /API/API.Core.Class.php HTTP/1.1" 200 503 "http://ksfilter.kr/shop/mypage.php" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+211.224.50.199 - - [12/Apr/2023:16:33:59 +0900] "POST /API/API.Core.Class.php HTTP/1.1" 200 503 "http://ksfilter.kr/shop/list.php" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+218.52.101.138 - - [17/Apr/2023:11:11:23 +0900] "GET /theme/basic/img/bg_40_10.jpg HTTP/1.1" 206 503 "http://www.krmotors.com/theme/basic/css/bri/style.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48"
+180.67.74.154 - - [19/Apr/2023:09:02:51 +0900] "GET /image/shop/adm/manage_top_bg.gif HTTP/1.1" 200 503 "https://everpureshop.co.kr:448/adm/adm.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
+211.224.50.199 - - [21/Apr/2023:13:28:02 +0900] "POST /API/API.Core.Class.php HTTP/1.1" 200 503 "http://ksfilter.kr/shop/mypage.php" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+211.224.50.199 - - [25/Apr/2023:08:53:32 +0900] "POST /API/API.Core.Class.php HTTP/1.1" 200 503 "http://ksfilter.kr/shop/mypage.php" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+180.67.74.154 - - [26/Apr/2023:09:44:57 +0900] "GET /image/shop/adm/manage_top_bg.gif HTTP/1.1" 200 503 "https://everpureshop.co.kr:448/adm/adm.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+180.67.74.154 - - [26/Apr/2023:13:39:38 +0900] "GET /image/shop/adm/manage_top_bg.gif HTTP/1.1" 200 503 "https://everpureshop.co.kr:448/adm/adm.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+1.212.55.18 - - [26/Apr/2023:14:56:06 +0900] "GET /image/shop/adm/manage_top_bg.gif HTTP/1.1" 200 503 "https://everpureshop.co.kr:448/adm/adm.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+1.212.55.18 - - [26/Apr/2023:14:57:37 +0900] "GET /image/shop/adm/manage_top_bg.gif HTTP/1.1" 200 503 "https://everpureshop.co.kr:448/adm/adm.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+40.77.167.94 - - [29/Apr/2023:10:17:01 +0900] "GET /include/in_pro2.html HTTP/1.1" 200 503 "-" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/103.0.5060.134 Safari/537.36"
+1.212.55.18 - - [02/May/2023:10:33:45 +0900] "GET /image/shop/adm/manage_top_bg.gif HTTP/1.1" 200 503 "https://everpureshop.co.kr:448/adm/adm.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+66.249.75.184 - - [03/May/2023:03:59:52 +0900] "GET /find_pw_update.php HTTP/1.1" 200 503 "-" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.142 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+180.67.74.154 - - [03/May/2023:14:16:19 +0900] "GET /image/shop/adm/manage_top_bg.gif HTTP/1.1" 200 503 "https://everpureshop.co.kr:448/adm/adm.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+180.67.74.154 - - [04/May/2023:09:21:01 +0900] "GET /image/shop/adm/manage_top_bg.gif HTTP/1.1" 200 503 "https://everpureshop.co.kr:448/adm/adm.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+211.224.50.199 - - [04/May/2023:15:47:02 +0900] "POST /API/API.Core.Class.php HTTP/1.1" 200 503 "http://ksfilter.kr/shop/mypage.php" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+180.67.74.154 - - [16/May/2023:13:14:48 +0900] "GET /image/shop/adm/manage_top_bg.gif HTTP/1.1" 200 503 "https://everpureshop.co.kr:448/adm/adm.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+180.67.74.154 - - [25/May/2023:14:49:39 +0900] "GET /image/shop/adm/manage_top_bg.gif HTTP/1.1" 200 503 "https://everpureshop.co.kr:448/adm/adm.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+180.67.74.154 - - [26/May/2023:14:22:14 +0900] "GET /image/shop/adm/manage_top_bg.gif HTTP/1.1" 200 503 "https://everpureshop.co.kr:448/adm/adm.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+180.67.74.154 - - [30/May/2023:08:46:29 +0900] "GET /image/shop/adm/manage_top_bg.gif HTTP/1.1" 200 503 "https://everpureshop.co.kr:448/adm/adm.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+180.67.74.154 - - [31/May/2023:09:00:25 +0900] "GET /image/shop/adm/manage_top_bg.gif HTTP/1.1" 200 503 "https://everpureshop.co.kr:448/adm/adm.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+---
+exit_code: 0
+elapsed_ms: 427204
+ended_at: 2026-01-29T09:15:11.204Z
+---

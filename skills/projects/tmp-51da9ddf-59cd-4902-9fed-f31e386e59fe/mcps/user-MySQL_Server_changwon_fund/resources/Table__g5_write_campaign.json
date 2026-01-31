@@ -1,0 +1,6 @@
+{
+  "uri": "mysql://g5_write_campaign/data",
+  "name": "Table: g5_write_campaign",
+  "description": "Data in table: g5_write_campaign",
+  "mimeType": "text/plain"
+}

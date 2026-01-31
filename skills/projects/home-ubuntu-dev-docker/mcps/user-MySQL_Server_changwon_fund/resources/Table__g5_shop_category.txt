@@ -1,0 +1,5 @@
+ca_id,ca_name,ca_order,ca_skin_dir,ca_mobile_skin_dir,ca_skin,ca_mobile_skin,ca_img_width,ca_img_height,ca_mobile_img_width,ca_mobile_img_height,ca_sell_email,ca_use,ca_stock_qty,ca_explan_html,ca_head_html,ca_tail_html,ca_mobile_head_html,ca_mobile_tail_html,ca_list_mod,ca_list_row,ca_mobile_list_mod,ca_mobile_list_row,ca_include_head,ca_include_tail,ca_mb_id,ca_cert_use,ca_adult_use,ca_nocoupon,ca_1_subj,ca_2_subj,ca_3_subj,ca_4_subj,ca_5_subj,ca_6_subj,ca_7_subj,ca_8_subj,ca_9_subj,ca_10_subj,ca_1,ca_2,ca_3,ca_4,ca_5,ca_6,ca_7,ca_8,ca_9,ca_10
+10,전체,0,,,list.10.skin.php,list.10.skin.php,700,456,700,456,,1,99999,1,,,,,3,5,3,5,,,,0,0,0,,,,,,,,,,,,,,,,,,,,
+20,개인기부,0,,,list.10.skin.php,list.10.skin.php,700,456,700,456,,1,99999,1,,,,,3,5,3,5,,,,0,0,0,,,,,,,,,,,,,,,,,,,,
+30,법인기부,0,,,list.10.skin.php,list.10.skin.php,700,456,700,456,,1,99999,1,,,,,3,5,3,5,,,,0,0,0,,,,,,,,,,,,,,,,,,,,
+40,기타기부,0,,,list.10.skin.php,list.10.skin.php,700,456,700,456,,1,99999,1,,,,,3,5,3,5,,,,0,0,0,,,,,,,,,,,,,,,,,,,,

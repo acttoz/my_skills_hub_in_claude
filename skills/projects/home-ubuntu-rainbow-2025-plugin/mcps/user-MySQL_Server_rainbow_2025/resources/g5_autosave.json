@@ -1,0 +1,6 @@
+{
+  "uri": "mysql://tables/g5_autosave",
+  "name": "g5_autosave",
+  "description": "Table g5_autosave in database rainbow_2025",
+  "mimeType": "application/json"
+}

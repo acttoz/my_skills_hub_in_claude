@@ -1,0 +1,1 @@
+bg_id,bo_table,wr_id,mb_id,bg_flag,bg_datetime

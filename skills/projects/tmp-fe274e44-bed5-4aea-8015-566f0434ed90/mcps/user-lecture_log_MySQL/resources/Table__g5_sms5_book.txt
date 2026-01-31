@@ -1,0 +1,1 @@
+bk_no,bg_no,mb_no,mb_id,bk_name,bk_hp,bk_receipt,bk_datetime,bk_memo

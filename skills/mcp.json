@@ -1,0 +1,197 @@
+{
+  "mcpServers": {
+    "localhost_Root": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "mysql-mcp-server",
+        "mysql_mcp_server"
+      ],
+      "env": {
+        "MYSQL_DATABASE": "rainbow",
+        "MYSQL_HOST": "localhost",
+        "MYSQL_PASSWORD": "rootpass",
+        "MYSQL_PORT": "13306",
+        "MYSQL_USER": "root"
+      },
+      "fromGalleryId": "designcomputer.mysql_mcp_server"
+    },
+    "MySQL Server_changwon_fund": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "mysql-mcp-server",
+        "mysql_mcp_server"
+      ],
+      "env": {
+        "MYSQL_DATABASE": "changwon_fund",
+        "MYSQL_HOST": "3.37.0.195",
+        "MYSQL_PASSWORD": "qkfoa2025!",
+        "MYSQL_PORT": "3306",
+        "MYSQL_USER": "changwon_fund"
+      },
+      "fromGalleryId": "designcomputer.mysql_mcp_server"
+    },
+    "MySQL Server_rainbow_2025": {
+      "command": "npx -y @benborla29/mcp-server-mysql",
+      "args": [],
+      "env": {
+        "MYSQL_DB": "rainbow_2025",
+        "MYSQL_HOST": "119.207.78.179",
+        "MYSQL_PASS": "qkfoa2025!",
+        "MYSQL_PORT": "3306",
+        "MYSQL_USER": "rainbow_2025",
+        "MYSQL_SSL": "false",
+        "ALLOW_INSERT_OPERATION": "false",
+        "ALLOW_UPDATE_OPERATION": "false",
+        "ALLOW_DELETE_OPERATION": "false"
+      },
+      "fromGalleryId": "designcomputer.mysql_mcp_server"
+    },
+    "lecture_log_MySQL": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "mysql-mcp-server",
+        "mysql_mcp_server"
+      ],
+      "env": {
+        "MYSQL_DATABASE": "lecture_log",
+        "MYSQL_HOST": "115.68.232.174",
+        "MYSQL_PASSWORD": "dlvmfflq!",
+        "MYSQL_PORT": "3306",
+        "MYSQL_USER": "lecture_log"
+      },
+      "fromGalleryId": "designcomputer.mysql_mcp_server"
+    },
+    "MySQL Server_emaintec": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "mysql-mcp-server",
+        "mysql_mcp_server"
+      ],
+      "env": {
+        "MYSQL_DATABASE": "emaintec",
+        "MYSQL_HOST": "221.143.46.101",
+        "MYSQL_PASSWORD": "qkfoa2018",
+        "MYSQL_PORT": "3306",
+        "MYSQL_USER": "emaintec"
+      },
+      "fromGalleryId": "designcomputer.mysql_mcp_server"
+    },
+    "MySQL Server_ctpv": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "mysql-mcp-server",
+        "mysql_mcp_server"
+      ],
+      "env": {
+        "MYSQL_DATABASE": "ctpv_2025",
+        "MYSQL_HOST": "3.37.0.195",
+        "MYSQL_PASSWORD": "qkfoa2024!",
+        "MYSQL_PORT": "3306",
+        "MYSQL_USER": "ctpv"
+      },
+      "fromGalleryId": "designcomputer.mysql_mcp_server"
+    },
+    "MySQL Server_same": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "mysql-mcp-server",
+        "mysql_mcp_server"
+      ],
+      "env": {
+        "MYSQL_DATABASE": "",
+        "MYSQL_HOST": "43.200.106.36",
+        "MYSQL_PASSWORD": "tpdla2025!",
+        "MYSQL_PORT": "3306",
+        "MYSQL_USER": "same"
+      },
+      "fromGalleryId": "designcomputer.mysql_mcp_server"
+    },
+    "MySQL Server_daegu_granfest": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "mysql-mcp-server",
+        "mysql_mcp_server"
+      ],
+      "env": {
+        "MYSQL_DATABASE": "cjgranfondo",
+        "MYSQL_HOST": "localhost",
+        "MYSQL_PASSWORD": "cndwnelql1@",
+        "MYSQL_PORT": "3306",
+        "MYSQL_USER": "cjgranfondo"
+      },
+      "fromGalleryId": "designcomputer.mysql_mcp_server"
+    },
+    "MySQL Server_goteacher": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "mysql-mcp-server",
+        "mysql_mcp_server"
+      ],
+      "env": {
+        "MYSQL_DATABASE": "goteacher",
+        "MYSQL_HOST": "localhost",
+        "MYSQL_PASSWORD": "loudmoon1!",
+        "MYSQL_PORT": "13306",
+        "MYSQL_USER": "goteacher"
+      },
+      "fromGalleryId": "designcomputer.mysql_mcp_server"
+    },
+    "MySQL Server_cms": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "mysql-mcp-server",
+        "mysql_mcp_server"
+      ],
+      "env": {
+        "MYSQL_DATABASE": "bri_cms",
+        "MYSQL_HOST": "localhost",
+        "MYSQL_PASSWORD": "bri_cms2479!",
+        "MYSQL_PORT": "3306",
+        "MYSQL_USER": "bri_cms"
+      },
+      "fromGalleryId": "designcomputer.mysql_mcp_server",
+      "disabled": false
+    },
+    "Sequential Thinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ],
+      "env": {},
+      "fromGalleryId": "modelcontextprotocol.servers_sequentialthinking"
+    },
+    "Memory": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ],
+      "env": {
+        "MEMORY_FILE_PATH": "memory.json"
+      },
+      "fromGalleryId": "modelcontextprotocol.servers_memory"
+    },
+    "context7": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp@latest"
+      ]
+    },
+    "Playwright": {
+      "command": "npx -y @playwright/mcp@latest",
+      "env": {},
+      "args": []
+    }
+  }
+}

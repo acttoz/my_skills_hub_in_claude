@@ -1,0 +1,6 @@
+{
+  "uri": "mysql://g5_shop_coupon_log/data",
+  "name": "Table: g5_shop_coupon_log",
+  "description": "Data in table: g5_shop_coupon_log",
+  "mimeType": "text/plain"
+}

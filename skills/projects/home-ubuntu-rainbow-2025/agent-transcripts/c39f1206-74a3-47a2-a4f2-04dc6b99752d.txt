@@ -1,0 +1,470 @@
+user:
+<attached_files>
+
+<code_selection path="\home\ubuntu\rainbow_2025\theme\basic\skin\board\certificate\write.skin.php" lines="462-462">
+L462:                <label for="glass_service">시공 서비스명</label>
+</code_selection>
+
+</attached_files>
+<user_query>
+@theme/basic/skin/board/certificate/write.skin.php:462 변경에 따라 입력법이 달라지는데 이거 어디서 구현되어 있는 거야?
+</user_query>
+
+assistant:
+[Thinking] **Inspecting input method change**
+
+The user, who I'm guessing speaks Korean, wants to understand where the input method changes at line 462. I need to inspect the file and check the JavaScript, perhaps using Read or Grep. It seems pretty straightforward without any need for a todo tool. I'll start by reading around that specific line in the file and searching for terms like "glass_service" or "events." Sounds like a focused approach!
+[Tool call] Read
+  path: /home/ubuntu/rainbow_2025/theme/basic/skin/board/certificate/write.skin.php
+
+[Tool result] Read
+
+assistant:
+[Thinking] 
+**결론부터 말하면**, 시공 서비스명(`glass_service`) 자체에는 특별한 입력 방식 제어가 없고,  
+**제품구분에 따라 폼(입력 방식)이 바뀌는 로직은 이 파일 하단의 `form_change()` 자바스크립트에서 구현**되어 있습니다.
+
+### 어디서 구현되어 있는지
+
+`write.skin.php` 맨 아래쪽에 있는 이 부분입니다:
+
+```719:752:/home/ubuntu/rainbow_2025/theme/basic/skin/board/certificate/write.skin.php
+    // 제품구분에 따른 폼 전환 함수
+    function form_change(value) {
+        var fwrite = document.getElementById('fwrite');
+        var fwrite2 = document.getElementById('fwrite2');
+        var fwrite3 = document.getElementById('fwrite3');
+        
+        // 모든 폼의 제품구분 선택값 동기화
+        var selects = document.querySelectorAll('select[name="wr_subject"]');
+        selects.forEach(function(select) {
+            select.value = value;
+        });
+
+        // 폼 표시/숨김 처리
+        if (value == 'IRIS') {
+            if (fwrite) fwrite.style.display = 'block';
+            if (fwrite2) fwrite2.style.display = 'none';
+            if (fwrite3) fwrite3.style.display = 'none';
+        } else if (value == 'IRIS PPF' || value == 'LEGEND ONYX MS150(연질)' || value == 'LEGEND ONYX MH180(경질)') {
+            if (fwrite) fwrite.style.display = 'none';
+            if (fwrite2) fwrite2.style.display = 'block';
+            if (fwrite3) fwrite3.style.display = 'none';
+        } else if (value == 'GLASS') {
+            if (fwrite) fwrite.style.display = 'none';
+            if (fwrite2) fwrite2.style.display = 'none';
+            if (fwrite3) fwrite3.style.display = 'block';
+        } else {
+            // 기본값: IRIS 폼 표시
+            if (fwrite) fwrite.style.display = 'block';
+            if (fwrite2) fwrite2.style.display = 'none';
+            if (fwrite3) fwrite3.style.display = 'none';
+        }
+    }
+```
+
+그리고 각 제품구분 셀렉트에 `onchange="form_change(this.value)"`가 걸려 있습니다:
+
+- IRIS 기본 폼: `id="product_dis"`  
+- PPF/ONYX 폼: `id="product_dis_ppf"`  
+- GLASS 폼: `id="product_dis_glass"`
+
+이 셀렉트에서 값을 바꾸면 `form_change()`가 호출되면서 `#fwrite`, `#fwrite2`, `#fwrite3` 중 어떤 폼을 보여줄지 결정하고, 이게 곧 “입력법이 달라지는 것”으로 보시면 됩니다.
+
+만약 `glass_service` 선택에 따라 추가로 뭔가 입력 방식을 바꾸고 싶으신 거라면, 현재는 관련 이벤트/함수가 없어서 **새로 JS 이벤트를 붙여서 구현해야 하는 상태**입니다.
+
+user:
+<user_query>
+유리막 선택하면 갑자기 시공 서비스명 select 가 다른 폼과 달라진다
+</user_query>
+
+assistant:
+[Thinking] 
+**정리해서 말하면**,  
+`GLASS(유리막)`을 선택했을 때 보이는 `시공 서비스명` 셀렉트는 **다른 폼에서 쓰는 제품 셀렉트랑 완전히 별개로, 이 파일 안에 고정 옵션으로 따로 구현**되어 있어서 동작/구성이 다르게 보이는 겁니다.
+
+### 왜 GLASS에서만 다르게 보이는지
+
+- **IRIS / IRIS PPF / LEGEND ONYX 쪽 제품 선택**
+  - 시공내역 섹션에서 제품 셀렉트는 전부 `get_sigong_select()`로 채웁니다:
+    ```196:199:/home/ubuntu/rainbow_2025/theme/basic/skin/board/certificate/write.skin.php
+    <select name="wr_3" id="wr_3">
+        <option value="">선택안함</option>
+        <?php get_sigong_select($member, $write['wr_3']); ?>
+    </select>
+    ```
+  - 그리고 하단 JS에서 `tintOptions` / `updateTintOptions()`로 농도 셀렉트까지 **동적으로 바뀌게** 되어 있습니다.
+
+- **GLASS(유리막) 선택 시 보이는 시공 서비스명**
+  - GLASS 폼 안에서는 `시공 서비스명` 셀렉트가 이렇게 **별도로 하드코딩** 되어 있습니다:
+    ```462:466:/home/ubuntu/rainbow_2025/theme/basic/skin/board/certificate/write.skin.php
+    <label for="glass_service">시공 서비스명</label>
+    <select name="wr_4" id="glass_service" class="frm_input full_input">
+        <option value="이지스 프리미엄 유리막" <?php echo get_selected($glass_service, '이지스 프리미엄 유리막'); ?>>이지스 프리미엄 유리막</option>
+    </select>
+    ```
+  - **`get_sigong_select()`도 안 쓰고, 아래쪽 JS(`tintOptions`, `updateTintOptions`)와도 연결이 안 되어** 있어서,
+    - 옵션이 1개뿐이고,
+    - 다른 폼에서처럼 제품/농도 조합이 바뀌는 동작도 없고,
+    - UX/구성 느낌이 “갑자기 다른 폼”처럼 보이는 상태입니다.
+
+즉, 유리막 선택 시에만 `#fwrite3`(GLASS 폼)이 표시되고, 그 안의 `#glass_service`는 **완전히 독립된 셀렉트**라서 그렇게 보이는 거고,  
+만약 다른 폼들과 동일한 방식(제품 목록 공유, 동적 옵션 등)으로 맞추고 싶으시면 `glass_service`도 `get_sigong_select()`나 별도 JS 로직을 붙여줘야 합니다.
+
+user:
+<user_query>
+이거 다른 폼이랑 똑같이 동일하게 통일시켜줘.
+</user_query>
+
+assistant:
+[Thinking] **Clarifying selection process**
+
+The user wants to unify the 시공 서비스명 select in the GLASS form with other forms. I'm thinking I need to understand how other selects are built, like get_sigong_select and tintOptions. It seems GLASS might only need the product list and maybe tint. They mentioned "동일하게 통일," which suggests using the same product options and styling as other forms. GLASS form is more simplified, storing only service name, date, and notes, so let’s inspect the relevant files for further guidance.
+[Tool call] Read
+  path: /home/ubuntu/rainbow_2025/lib/sigong.lib.php
+[Tool call] Read
+  path: /home/ubuntu/rainbow_2025/theme/basic/skin/board/product/write.skin.php
+
+[Tool result] Read
+
+[Tool result] Read
+
+assistant:
+[Thinking] 
+GLASS 폼의 `시공 서비스명` 셀렉트를 다른 폼과 동일하게 `get_sigong_select()`를 사용하도록 수정하겠습니다.
+[Tool call] ApplyPatch*** Begin Patch
+*** Update File: /home/ubuntu/rainbow_2025/theme/basic/skin/board/certificate/write.skin.php
+@@
+-            <div>
+-                <label for="glass_service">시공 서비스명</label>
+-                <select name="wr_4" id="glass_service" class="frm_input full_input">
+-                    <option value="이지스 프리미엄 유리막" <?php echo get_selected($glass_service, '이지스 프리미엄 유리막'); ?>>이지스 프리미엄 유리막</option>
+-                </select>
+-            </div>
++            <div>
++                <label for="glass_service">시공 서비스명</label>
++                <select name="wr_4" id="glass_service" class="frm_input full_input">
++                    <option value="">선택안함</option>
++                    <?php get_sigong_select($member, $write['wr_4']); ?>
++                </select>
++            </div>
+*** End Patch
+
+[Tool result] ApplyPatch
+
+assistant:
+### 변경 내용 요약
+
+- **GLASS 폼의 `시공 서비스명` 셀렉트를 다른 폼과 동일하게 통일**했습니다.
+- 기존의 하드코딩 옵션을 제거하고, **다른 시공내역 셀렉트들과 같은 `get_sigong_select()` 사용 방식**으로 변경했습니다.
+
+```462:467:/home/ubuntu/rainbow_2025/theme/basic/skin/board/certificate/write.skin.php
+            <div>
+                <label for="glass_service">시공 서비스명</label>
+                <select name="wr_4" id="glass_service" class="frm_input full_input">
+                    <option value="">선택안함</option>
+                    <?php get_sigong_select($member, $write['wr_4']); ?>
+                </select>
+            </div>
+```
+
+이제 GLASS 선택 시 나오는 `시공 서비스명`도 다른 폼에서 사용하는 제품 셀렉트와 **동일한 방식(회원 설정/레벨 기준 제품 리스트)**으로 동작합니다.
+
+user:
+<user_query>
+이번에는 이지스 프리미엄 나오지 않고 숫자 1만 나온다.
+</user_query>
+
+assistant:
+[Thinking] 
+[Tool call] Read
+  path: /home/ubuntu/rainbow_2025/adm/old/certificate.writes.skin.php
+
+[Tool result] Read
+
+assistant:
+[Thinking] **Clarifying GLASS feature requirements**
+
+I noticed that the previous file didn't include GLASS, which is a new feature. The '1' value appears to come from sigong_config or member mb_9, not from our code. The user seems to want to restore "이지스 프리미엄 유리막" for GLASS, rather than a database-driven option. They previously requested uniformity across forms. I need to clarify whether they still want "이지스..." hardcoded for GLASS or if I should include other products. It's crucial to ask for explicit preferences before making further edits.
+### 왜 숫자 1만 나오는지
+
+- 지금 GLASS 폼의 `시공 서비스명`은 **`get_sigong_select($member, $write['wr_4'])`**로 채우고 있습니다.
+- `get_sigong_select()`는 **회원 설정(`$member['mb_9']`)이나 `sigong_config` 테이블의 `data_name3` 값**을 `|`로 잘라서 옵션으로 쓰는데,  
+  현재 그 설정 값이 `"1"` 같은 숫자만 들어있어서, 셀렉트에도 그대로 `1`이 뜨는 상태입니다.
+- 예전처럼 `"이지스 프리미엄 유리막"`을 보려면:
+  - DB/회원 설정에서 `"1"` 대신 `"이지스 프리미엄 유리막"` 같은 실제 서비스명을 넣거나,
+  - 또는 GLASS 쪽만 예외로 다시 하드코딩(또는 GLASS 전용 목록)으로 처리해야 합니다.
+
+### 어떻게 맞추고 싶은지 확인 필요
+
+두 가지 중 어떤 걸 원하세요?
+
+1. **GLASS도 다른 폼처럼 DB/회원 설정에 있는 “서비스명”을 그대로 쓰고**, 설정 쪽에서 `"이지스 프리미엄 유리막"`으로 바꿔서 관리  
+2. **GLASS만 예외로** `시공 서비스명`을 다시 `"이지스 프리미엄 유리막"` 등 **하드코딩/고정 목록**으로 돌리고 싶으신지  
+
+원하는 쪽을 알려주시면, 거기에 맞게 코드 수정까지 바로 해줄게요.
+
+user:
+<user_query>
+mb_9를 어디서 조회하는거야?
+</user_query>
+
+assistant:
+[Thinking] **Searching for mb_9**
+
+I need to figure out where mb_9 is being read. They referenced sigong.lib.php earlier, and I can see get_sigong_select uses $member['mb_9'] directly. But the user's question is more about where we're actually querying mb_9 from the database. To get to the bottom of this, I should search the codebase for mb_9. Using Grep seems like the best way to do that. Let's dive into it!
+[Tool call] Grep
+  pattern: mb_9
+  path: /home/ubuntu/rainbow_2025
+  glob: *.php
+  output_mode: content
+  head_limit: 50
+
+[Tool result] Grep
+
+assistant:
+[Tool call] Read
+  path: /home/ubuntu/rainbow_2025/adm/member_form.php
+
+[Tool result] Read
+
+assistant:
+### 요약
+
+**`mb_9`는 회원 테이블의 필드이고, 관리자 회원수정 페이지(`adm/member_form.php`)에서 조회·설정합니다.**  
+프론트에서 `get_sigong_select($member, ...)` 호출 시에는 이미 세션의 `$member` 배열 안에 `mb_9` 값이 들어있는 상태에서 그냥 `$member['mb_9']`를 읽어 쓰는 구조입니다.
+
+### 상세 위치
+
+- **조회/표시 위치 (관리자 회원 수정 화면)**  
+  파일: `adm/member_form.php`
+  - 회원 정보 로딩 시:
+    ```php
+    $mb = get_member($mb_id);
+    ...
+    $mb['mb_9'] = get_text($mb['mb_9']);
+    ```
+  - 하단에서 **시공가능 제품**으로 체크박스 형태로 편집:
+    ```php
+    // 등록된 제품 배열화
+    $configList = array();
+    if($mb['mb_9']){
+        $configList = array_filter(explode("|",$mb['mb_9']));//등록되있는 제품 배열화                
+    }
+    ...
+    <input type="checkbox" name="mb_9[]" ... value="<?php echo $data['data_name1']?>" <?php echo $prodChk?>/>
+    ```
+  - 저장은 `adm/member_form_update.php` 에서:
+    ```php
+    mb_9 = '{$posts['mb_9']}',
+    ```
+
+- **프론트 사용 위치 (상품/보증서 폼 등)**  
+  파일: `lib/sigong.lib.php`
+  ```php
+  function get_sigong_select($member,$write_col){
+      if($member['mb_9']){                
+          $itemArr = array_filter(explode("|",$member['mb_9']));
+      }else{
+          $where = "mb_level = '".$member["mb_level"]."'";           
+          $get_configList = get_sigong_config($where);
+      }
+      ...
+  }
+  ```
+
+정리하면: **DB의 `g5_member.mb_9` 컬럼을 관리자 > 회원관리(`adm/member_form.php`)에서 체크박스로 설정하고, 프론트에서는 세션 `$member`에 실려 있는 그 값을 그대로 읽어서 `get_sigong_select()` 안에서 사용**하고 있습니다.
+
+user:
+<user_query>
+이거 완전 잘못되었네.. 
+get_sigong_select함수 제거
+
+먼저 시공 위치(1차) select는 아래와 같은 쿼리로 출력되게 수정
+
+ if ($member['mb_level'] >= '5') { // 회원등급이 프리미엄스토어(7) 이상일 때 'iris-VS200' 제품 노출
+
+            $sql = "SELECT * FROM online_data WHERE data_type1='제품' and data_name1 != '기존필름 제거'";
+            $result = sql_query($sql);
+
+        } else { // 회원등급이 프리미엄스토어(7) 미만일때 'iris-VS200' 제품 숨김
+
+            $sql = "SELECT * FROM online_data WHERE data_type1='제품' and data_name1 != '기존필름 제거'  ";
+            $sql .= " and data_name1 != 'iris-VS200' and data_name1 != 'IRIS IS200' and data_name1 != 'IRIS IS100'";
+            $result = sql_query($sql);
+        }
+
+        for ($i = 0; $row = sql_fetch_array($result); $i++) {
+            ?>
+            <option value='<?= $row['data_name1'] ?>'<? if ($write['wr_3'] == $row['data_name1']) {
+                echo 'selected';
+            } ?>><?= $row['data_name1'] ?></option>
+            <?
+        }
+</user_query>
+
+assistant:
+[Thinking] **Implementing a patch**
+
+I see that I should follow the rule of only modifying wr_3 for now and not making global changes. My focus will be on implementing the patch for wr_3 specifically. I need to apply the necessary changes around the `certificate/write.skin.php` file for wr_3's select function. I'll make sure to mirror the snippet correctly, using short PHP tags like `<?=` and `<?`, and ensure consistent indentation. Let's go ahead with this patch!
+시공 위치 1차 select(wr_3)를 `get_sigong_select` 대신 주신 쿼리 방식으로만 옵션을 출력하도록 먼저 바꾸겠습니다.
+[Tool call] ApplyPatch*** Begin Patch
+*** Update File: /home/ubuntu/rainbow_2025/theme/basic/skin/board/certificate/write.skin.php
+@@
+             <div class="d-flex">
+                 <label>전면</label>
+                 <div style="display:flex; gap:10px;">
+                     <select name="wr_3" id="wr_3">
+                         <option value="">선택안함</option>
+-                        <?php get_sigong_select($member, $write['wr_3']); ?>
++                        <?php
++                        if ($member['mb_level'] >= '5') { // 회원등급이 프리미엄스토어(7) 이상일 때 'iris-VS200' 제품 노출
++                            $sql = "SELECT * FROM online_data WHERE data_type1='제품' and data_name1 != '기존필름 제거'";
++                            $result = sql_query($sql);
++                        } else { // 회원등급이 프리미엄스토어(7) 미만일때 'iris-VS200' 제품 숨김
++                            $sql = "SELECT * FROM online_data WHERE data_type1='제품' and data_name1 != '기존필름 제거'  ";
++                            $sql .= " and data_name1 != 'iris-VS200' and data_name1 != 'IRIS IS200' and data_name1 != 'IRIS IS100'";
++                            $result = sql_query($sql);
++                        }
++
++                        for ($i = 0; $row = sql_fetch_array($result); $i++) {
++                        ?>
++                            <option value="<?= $row['data_name1'] ?>"<?php if ($write['wr_3'] == $row['data_name1']) { echo ' selected'; } ?>>
++                                <?= $row['data_name1'] ?>
++                            </option>
++                        <?php } ?>
+                     </select>
+*** End Patch
+
+[Tool result] ApplyPatch
+
+assistant:
+### 적용 내용
+
+- `전면`(시공 위치 1차, `wr_3`) select에서 **`get_sigong_select` 호출을 제거**하고, 말씀해주신 **`online_data` 테이블 조회 쿼리로 옵션을 출력**하도록 수정했습니다.
+
+```196:210:/home/ubuntu/rainbow_2025/theme/basic/skin/board/certificate/write.skin.php
+            <div class="d-flex">
+                <label>전면</label>
+                <div style="display:flex; gap:10px;">
+                    <select name="wr_3" id="wr_3">
+                        <option value="">선택안함</option>
+                        <?php
+                        if ($member['mb_level'] >= '5') { // 회원등급이 프리미엄스토어(7) 이상일 때 'iris-VS200' 제품 노출
+                            $sql = "SELECT * FROM online_data WHERE data_type1='제품' and data_name1 != '기존필름 제거'";
+                            $result = sql_query($sql);
+                        } else { // 회원등급이 프리미엄스토어(7) 미만일때 'iris-VS200' 제품 숨김
+                            $sql = "SELECT * FROM online_data WHERE data_type1='제품' and data_name1 != '기존필름 제거'  ";
+                            $sql .= " and data_name1 != 'iris-VS200' and data_name1 != 'IRIS IS200' and data_name1 != 'IRIS IS100'";
+                            $result = sql_query($sql);
+                        }
+
+                        for ($i = 0; $row = sql_fetch_array($result); $i++) {
+                        ?>
+                            <option value="<?= $row['data_name1'] ?>"<?php if ($write['wr_3'] == $row['data_name1']) { echo ' selected'; } ?>>
+                                <?= $row['data_name1'] ?>
+                            </option>
+                        <?php } ?>
+                    </select>
+                    <select name="wr_3_op1" id="wr_3_op1" disabled>
+                        ...
+```
+
+이제 전면 1차 select는 예전 구 스킨처럼 `online_data` 기준으로 동일하게 동작할 것입니다.  
+나머지 시공 위치(select들)와 GLASS 쪽도 같은 방식으로 바꾸고 싶으시면, 어느 부분까지 동일 쿼리로 통일할지 말씀만 주세요.
+
+user:
+<user_query>
+2차 3차도 구스킨과 동일하게 
+</user_query>
+
+assistant:
+[Thinking] 
+측면 1·2·3열 select들도 구 스킨과 같은 `online_data` 쿼리 방식으로 교체하겠습니다.
+[Tool call] ApplyPatch*** Begin Patch
+*** Update File: /home/ubuntu/rainbow_2025/theme/basic/skin/board/certificate/write.skin.php
+@@
+             <div class="d-flex">
+                 <label>측면1열</label>
+                 <div style="display:flex; gap:10px;">
+                     <select name="wr_4" id="wr_4">
+                         <option value="">선택안함</option>
+-                        <?php get_sigong_select($member, $write['wr_4']); ?>
++                        <?php
++                        if ($member['mb_level'] >= '5') { // 회원등급이 프리미엄스토어(7) 이상일 때 'iris-VS200' 제품 노출
++                            $sql = "SELECT * FROM online_data WHERE data_type1='제품' and data_name1 != '기존필름 제거'";
++                            $result = sql_query($sql);
++                        } else { // 회원등급이 프리미엄스토어(7) 미만일때 'iris-VS200' 제품 숨김
++                            $sql = "SELECT * FROM online_data WHERE data_type1='제품' and data_name1 != '기존필름 제거'  ";
++                            $sql .= " and data_name1 != 'iris-VS200' and data_name1 != 'IRIS IS200' and data_name1 != 'IRIS IS100'";
++                            $result = sql_query($sql);
++                        }
++
++                        for ($i = 0; $row = sql_fetch_array($result); $i++) {
++                        ?>
++                            <option value="<?= $row['data_name1'] ?>"<?php if ($write['wr_4'] == $row['data_name1']) { echo ' selected'; } ?>>
++                                <?= $row['data_name1'] ?>
++                            </option>
++                        <?php } ?>
+                     </select>
+@@
+             <div class="d-flex">
+                 <label>측면2열</label>
+                 <div style="display:flex; gap:10px;">
+                     <select name="wr_5" id="wr_5">
+                         <option value="">선택안함</option>
+-                        <?php get_sigong_select($member, $write['wr_5']); ?>
++                        <?php
++                        if ($member['mb_level'] >= '5') { // 회원등급이 프리미엄스토어(7) 이상일 때 'iris-VS200' 제품 노출
++                            $sql = "SELECT * FROM online_data WHERE data_type1='제품' and data_name1 != '기존필름 제거'";
++                            $result = sql_query($sql);
++                        } else { // 회원등급이 프리미엄스토어(7) 미만일때 'iris-VS200' 제품 숨김
++                            $sql = "SELECT * FROM online_data WHERE data_type1='제품' and data_name1 != '기존필름 제거'  ";
++                            $sql .= " and data_name1 != 'iris-VS200' and data_name1 != 'IRIS IS200' and data_name1 != 'IRIS IS100'";
++                            $result = sql_query($sql);
++                        }
++
++                        for ($i = 0; $row = sql_fetch_array($result); $i++) {
++                        ?>
++                            <option value="<?= $row['data_name1'] ?>"<?php if ($write['wr_5'] == $row['data_name1']) { echo ' selected'; } ?>>
++                                <?= $row['data_name1'] ?>
++                            </option>
++                        <?php } ?>
+                     </select>
+@@
+             <div class="d-flex">
+                 <label>측면3열</label>
+                 <div style="display:flex; gap:10px;">
+                     <select name="wr_6" id="wr_6">
+                         <option value="">선택안함</option>
+-                        <?php get_sigong_select($member, $write['wr_6']); ?>
++                        <?php
++                        if ($member['mb_level'] >= '5') { // 회원등급이 프리미엄스토어(7) 이상일 때 'iris-VS200' 제품 노출
++                            $sql = "SELECT * FROM online_data WHERE data_type1='제품' and data_name1 != '기존필름 제거'";
++                            $result = sql_query($sql);
++                        } else { // 회원등급이 프리미엄스토어(7) 미만일때 'iris-VS200' 제품 숨김
++                            $sql = "SELECT * FROM online_data WHERE data_type1='제품' and data_name1 != '기존필름 제거'  ";
++                            $sql .= " and data_name1 != 'iris-VS200' and data_name1 != 'IRIS IS200' and data_name1 != 'IRIS IS100'";
++                            $result = sql_query($sql);
++                        }
++
++                        for ($i = 0; $row = sql_fetch_array($result); $i++) {
++                        ?>
++                            <option value="<?= $row['data_name1'] ?>"<?php if ($write['wr_6'] == $row['data_name1']) { echo ' selected'; } ?>>
++                                <?= $row['data_name1'] ?>
++                            </option>
++                        <?php } ?>
+                     </select>
+*** End Patch
+
+[Tool result] ApplyPatch
+
+assistant:
+### 변경 내용
+
+- **측면1열(`wr_4`), 측면2열(`wr_5`), 측면3열(`wr_6`)의 1차 select**에서도
+  - `get_sigong_select($member, ...)`를 **완전히 제거**하고,
+  - 구 스킨과 동일하게 `online_data` 테이블에서 `data_type1='제품'`을 조회하는 **등급별 쿼리 방식**으로 통일했습니다.
+- 전면/측면1/2/3열 1차 셀렉트는 이제 모두 **구 스킨(`adm/old/certificate.writes.skin.php`)과 같은 로직**으로 제품 목록을 출력합니다.
+
+필요하면 후면(`wr_7`), 썬루프(`wr_8`), 파노라마(`wr_9`), GLASS 시공 서비스명도 같은 패턴으로 이어서 맞춰줄 수 있습니다.

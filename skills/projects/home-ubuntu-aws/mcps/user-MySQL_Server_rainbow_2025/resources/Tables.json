@@ -1,0 +1,86 @@
+[
+  {
+    "column_name": "TABLE_CATALOG",
+    "data_type": "varchar"
+  },
+  {
+    "column_name": "TABLE_SCHEMA",
+    "data_type": "varchar"
+  },
+  {
+    "column_name": "TABLE_NAME",
+    "data_type": "varchar"
+  },
+  {
+    "column_name": "TABLE_TYPE",
+    "data_type": "varchar"
+  },
+  {
+    "column_name": "ENGINE",
+    "data_type": "varchar"
+  },
+  {
+    "column_name": "VERSION",
+    "data_type": "bigint"
+  },
+  {
+    "column_name": "ROW_FORMAT",
+    "data_type": "varchar"
+  },
+  {
+    "column_name": "TABLE_ROWS",
+    "data_type": "bigint"
+  },
+  {
+    "column_name": "AVG_ROW_LENGTH",
+    "data_type": "bigint"
+  },
+  {
+    "column_name": "DATA_LENGTH",
+    "data_type": "bigint"
+  },
+  {
+    "column_name": "MAX_DATA_LENGTH",
+    "data_type": "bigint"
+  },
+  {
+    "column_name": "INDEX_LENGTH",
+    "data_type": "bigint"
+  },
+  {
+    "column_name": "DATA_FREE",
+    "data_type": "bigint"
+  },
+  {
+    "column_name": "AUTO_INCREMENT",
+    "data_type": "bigint"
+  },
+  {
+    "column_name": "CREATE_TIME",
+    "data_type": "datetime"
+  },
+  {
+    "column_name": "UPDATE_TIME",
+    "data_type": "datetime"
+  },
+  {
+    "column_name": "CHECK_TIME",
+    "data_type": "datetime"
+  },
+  {
+    "column_name": "TABLE_COLLATION",
+    "data_type": "varchar"
+  },
+  {
+    "column_name": "CHECKSUM",
+    "data_type": "bigint"
+  },
+  {
+    "column_name": "CREATE_OPTIONS",
+    "data_type": "varchar"
+  },
+  {
+    "column_name": "TABLE_COMMENT",
+    "data_type": "varchar"
+  }
+]

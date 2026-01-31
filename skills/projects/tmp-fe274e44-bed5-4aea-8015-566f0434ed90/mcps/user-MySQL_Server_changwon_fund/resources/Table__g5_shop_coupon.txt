@@ -1,0 +1,1 @@
+cp_no,cp_id,cp_subject,cp_method,cp_target,mb_id,cz_id,cp_start,cp_end,cp_price,cp_type,cp_trunc,cp_minimum,cp_maximum,od_id,cp_datetime

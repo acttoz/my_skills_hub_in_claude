@@ -1,0 +1,1 @@
+cz_id,cz_type,cz_subject,cz_start,cz_end,cz_file,cz_period,cz_point,cp_method,cp_target,cp_price,cp_type,cp_trunc,cp_minimum,cp_maximum,cz_download,cz_datetime

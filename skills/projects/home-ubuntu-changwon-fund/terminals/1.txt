@@ -1,0 +1,70 @@
+---
+pid: 76405
+cwd: /home/ubuntu/changwon_fund
+last_command: playwright test-ui
+last_exit_code: 127
+---
+ubuntu@ITK-20220526XTN:~/changwon_fund$ 
+ubuntu@ITK-20220526XTN:~/changwon_fund$ ddup
+Command 'ddup' not found, did you mean:
+  command 'rdup' from deb rdup (1.1.15-1ubuntu2)
+  command 'hdup' from deb hdup (2.0.14-6)
+Try: sudo apt install <deb name>
+ubuntu@ITK-20220526XTN:~/changwon_fund$ dup
+[+] Running 1/1
+ ✔ Container changwon_fund  Started                                                                                                 0.5s 
+ubuntu@ITK-20220526XTN:~/changwon_fund$ ddown
+[+] Running 1/1
+ ✔ Container changwon_fund  Removed                                                                                                 1.3s 
+ubuntu@ITK-20220526XTN:~/changwon_fund$ dup
+[+] Running 1/1
+ ✔ Container changwon_fund  Started                                                                                                 0.5s 
+ubuntu@ITK-20220526XTN:~/changwon_fund$ 
+ubuntu@ITK-20220526XTN:~/changwon_fund$ 
+ubuntu@ITK-20220526XTN:~/changwon_fund$ docker exec changwon_fund bash
+ubuntu@ITK-20220526XTN:~/changwon_fund$ docker exec -it changwon_fund bash
+root@fd21ecbc3480:/var/www/html# 
+root@fd21ecbc3480:/var/www/html# 
+root@fd21ecbc3480:/var/www/html# lss
+bash: lss: command not found
+root@fd21ecbc3480:/var/www/html# ls
+ LICENSE.txt                           lib
+ README.md                             mobile
+ SECURITY.md                           orderupgrade.php
+ _common.php                           package-lock.json
+ _head.php                             package.json
+ _tail.php                             perms.sh
+ adm_cw                                pip_setup_guide.md
+ alim                                  playwright.config.ts
+ all_menu.php                          plugin
+ baraem_main.pem                       responsive.md
+ bbs                                   robots.txt
+ cloudflare.check.php                  screenshot1.png
+ common.php                            shop
+ compose.yml                           shop.config.php
+ config.php                            sitemap.php
+ css                                   skin
+ cursor-cli-install-guide.md           sub_page
+ data                                  tail.php
+ db_migration                          tail.sub.php
+ donor-section.php                     test_problem_solve_20260124.md
+ dump-changwon_fund-202601131323.sql   tests
+ e2e                                   theme
+ extend                                tsconfig.json
+ g4_import.php                         upgrade_adm_from_figma.md
+ g4_import_run.php                     upgrade_element.md
+ head.php                              version.php
+ head.sub.php                          write_sponser_plan.md
+ img                                   write_sponsor_php.md
+ index.php                             yc4_import.php
+ insert_campaign_data.php              yc4_import_run.php
+ js                                   ''$'\354\212\244\355\201\254\353\246\260\354\203\267'' 2026-01-25 121436.png'
+root@fd21ecbc3480:/var/www/html# mkdir data/cache
+root@fd21ecbc3480:/var/www/html# chmod -R 757 data
+root@fd21ecbc3480:/var/www/html# exit;
+exit
+ubuntu@ITK-20220526XTN:~/changwon_fund$ 
+ubuntu@ITK-20220526XTN:~/changwon_fund$ 
+ubuntu@ITK-20220526XTN:~/changwon_fund$ playwright test-ui
+Command 'playwright' not found, but can be instal
+ubuntu@ITK-20220526XTN:~/changwon_fund$

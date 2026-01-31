@@ -1,0 +1,674 @@
+const imgMessageIcon = "https://www.figma.com/api/mcp/asset/9f7c531e-1b21-4978-8b1c-7a2fcd016b31";
+const imgMessageIcon1 = "https://www.figma.com/api/mcp/asset/705cb27d-f4a7-40f9-8a3d-0cb899272e20";
+const imgPersonIcon = "https://www.figma.com/api/mcp/asset/97254df7-af84-43d0-8e47-e281aa010d0a";
+const imgTextInputContainer = "https://www.figma.com/api/mcp/asset/d93e8f1d-0cf0-4731-b7d9-c32731183900";
+const imgLogo = "https://www.figma.com/api/mcp/asset/6e02ac68-2d90-4c5a-a65e-da0666ea9625";
+const imgTextInput = "https://www.figma.com/api/mcp/asset/b19d9cac-d5f9-4173-b306-5708074f7e36";
+const imgLogo1 = "https://www.figma.com/api/mcp/asset/652a7289-ab5f-4eca-8628-4e98487412c6";
+const img497 = "https://www.figma.com/api/mcp/asset/4e810e7b-41e2-4cf7-846d-20ee1cafbb9e";
+const imgVector = "https://www.figma.com/api/mcp/asset/1c04d980-cebe-4fca-a33a-063e777e271d";
+const imgVector3 = "https://www.figma.com/api/mcp/asset/6ec14251-2608-457c-9682-952b53efd402";
+const imgTextInput1 = "https://www.figma.com/api/mcp/asset/c20b2946-2b7a-4ff1-8577-cb49c26de583";
+const img361 = "https://www.figma.com/api/mcp/asset/87444709-8e4a-407c-a3fc-fe4fd6741a42";
+const imgTextInput2 = "https://www.figma.com/api/mcp/asset/54a0fbc1-cc70-40f1-9e43-8567b0ff5350";
+const img363 = "https://www.figma.com/api/mcp/asset/8508fa1a-bc03-4d69-b706-3d39804e7635";
+const img364 = "https://www.figma.com/api/mcp/asset/a61b3ef9-7d46-4e66-83c8-93d4f73b303d";
+const imgSwitch = "https://www.figma.com/api/mcp/asset/8280893c-b222-41ff-92da-f56643660089";
+const imgEllipse2 = "https://www.figma.com/api/mcp/asset/8a5acab8-ede4-4b67-bc6d-df3b4f079d2e";
+const imgEllipse3 = "https://www.figma.com/api/mcp/asset/d6c1408a-4ecd-4321-a1ea-76ac2e5767fe";
+const imgVector10 = "https://www.figma.com/api/mcp/asset/cbb22826-a3d9-4361-8cfe-15fc044f88c9";
+const imgVector11 = "https://www.figma.com/api/mcp/asset/9ff8bc22-79c7-42e0-b305-6f4c7297fbfa";
+const imgVector1 = "https://www.figma.com/api/mcp/asset/da1978f4-4652-4d7e-b3d0-8c825dc22a0c";
+const img = "https://www.figma.com/api/mcp/asset/c519e9c8-eedf-4d3f-baee-acd9521bb6b6";
+const img1 = "https://www.figma.com/api/mcp/asset/8e406be9-51f8-40c7-bbcf-62dde1addf72";
+const img2 = "https://www.figma.com/api/mcp/asset/8fb47783-6c4e-409d-bde0-4ea2bdff16a3";
+const img3 = "https://www.figma.com/api/mcp/asset/a3e4017b-619c-4506-bccb-4aeeb8589ef3";
+const img4 = "https://www.figma.com/api/mcp/asset/43f9fe85-0c78-4402-aa5e-2136ea557a4d";
+const img5 = "https://www.figma.com/api/mcp/asset/88583245-837d-478a-ad61-74a46814c4b8";
+const img6 = "https://www.figma.com/api/mcp/asset/ae22f53f-2f98-4ba8-9aa4-f15f5aef9815";
+const img7 = "https://www.figma.com/api/mcp/asset/e6c1c197-c49c-4b2a-920a-19cdd6cc52a6";
+const img8 = "https://www.figma.com/api/mcp/asset/aa825d97-2a58-4603-84bd-8576c1639e34";
+const img9 = "https://www.figma.com/api/mcp/asset/05846bbc-a723-4820-ab27-0902e3621f4b";
+const img10 = "https://www.figma.com/api/mcp/asset/43927869-b0f2-4e35-8247-ae30154906d1";
+const img11 = "https://www.figma.com/api/mcp/asset/7e4fff03-aae9-4c63-8a2d-58bb06501ab8";
+
+function Gnb({ className }: { className?: string }) {
+  return (
+    <div className={className} data-name="gnb" data-node-id="38:316">
+      <div className="content-stretch flex gap-[4px] items-center leading-[0] relative shrink-0" data-name="Donate Button" data-node-id="38:308">
+        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid justify-items-start relative shrink-0" data-name="Icon Group" data-node-id="38:292">
+          <div className="col-[1] grid-cols-[max-content] grid-rows-[max-content] inline-grid justify-items-start leading-[0] ml-[2.72%] mt-[12.75%] relative row-[1]" data-name="Mask Group" data-node-id="38:295">
+            <div className="col-[1] h-[16.167px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-0.545px_-2.55px] mask-size-[20px_20px] ml-0 mt-0 relative row-[1] w-[18.91px]" data-name="Message Icon" data-node-id="38:296" style={{ maskImage: `url('${imgMessageIcon}')` }}>
+              <img alt="" className="block max-w-none size-full" src={imgMessageIcon1} />
+            </div>
+          </div>
+        </div>
+        <div className="font-['Pretendard:ExtraBold',sans-serif] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap" data-node-id="38:307">
+          <p className="leading-[1.5]">기부하기</p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Gnb1({ className }: { className?: string }) {
+  return (
+    <div className={className} data-name="gnb" data-node-id="38:315">
+      <div className="content-stretch flex gap-[4px] items-center relative shrink-0" data-name="Login Button" data-node-id="38:314">
+        <div className="relative shrink-0 size-[20px]" data-name="Person Icon" data-node-id="38:311">
+          <img alt="" className="block max-w-none size-full" src={imgPersonIcon} />
+        </div>
+        <div className="font-['Pretendard:ExtraBold',sans-serif] leading-[0] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap" data-node-id="38:310">
+          <p className="leading-[1.5]">LOGIN</p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Footer({ className }: { className?: string }) {
+  return (
+    <div className={className} data-name="Footer" data-node-id="68:8650">
+      <div className="content-stretch flex items-center justify-between relative shrink-0 w-[1421px]" data-name="Text input container" data-node-id="68:235">
+        <div className="h-[58px] overflow-clip relative shrink-0 w-[97px]" data-name="Text input container" data-node-id="66:974">
+          <div className="absolute bottom-0 left-0 right-0 top-[72.58%]" data-name="Text input container" data-node-id="66:975">
+            <img alt="" className="block max-w-none size-full" src={imgTextInputContainer} />
+          </div>
+          <div className="absolute bottom-[37.09%] contents left-[0.38%] right-[0.37%] top-0" data-name="Text input container" data-node-id="66:993">
+            <div className="absolute bottom-[37.09%] contents left-[0.38%] right-[0.37%] top-0" data-name="Text input container" data-node-id="66:994">
+              <div className="absolute inset-[0.99%_48.79%_38.08%_23.54%]" data-name="Logo" data-node-id="66:995">
+                <img alt="" className="block max-w-none size-full" src={imgLogo} />
+              </div>
+              <div className="absolute contents inset-[0.99%_0.38%_37.09%_78.72%]" data-name="Text input container" data-node-id="66:996">
+                <div className="absolute inset-[0.99%_0.38%_37.09%_78.72%]" data-name="Text input" data-node-id="66:997">
+                  <img alt="" className="block max-w-none size-full" src={imgTextInput} />
+                </div>
+              </div>
+              <div className="absolute bottom-[37.09%] left-[0.38%] right-[78.97%] top-0" data-name="Logo_" data-node-id="66:999">
+                <img alt="" className="block max-w-none size-full" src={imgLogo1} />
+              </div>
+              <div className="absolute inset-[0.99%_24.95%_38.08%_54.41%]" data-name="패스 497" data-node-id="66:1000">
+                <img alt="" className="block max-w-none size-full" src={img497} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex gap-[80px] h-[56px] items-center relative shrink-0" data-name="Text input" data-node-id="66:1003">
+          <div className="content-stretch flex flex-col font-['Pretendard:Regular',sans-serif] gap-[4px] items-start leading-[0] not-italic relative shrink-0 text-[14px] text-white w-[357px]" data-name="Paragraph container" data-node-id="66:1001">
+            <div className="relative shrink-0 w-full" data-node-id="66:969">
+              <p className="leading-[1.5] whitespace-pre-wrap">주소: 경남 창원시 의창구 창원대학로 20 대학본부(1호관) 1313호</p>
+            </div>
+            <div className="relative shrink-0 w-full" data-node-id="66:971">
+              <p className="leading-[1.5] whitespace-pre-wrap">전화번호: 055-213-2605</p>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col font-['Pretendard:Regular',sans-serif] gap-[4px] items-start leading-[0] not-italic relative shrink-0 text-[14px] text-white w-[195px]" data-name="Paragraph container" data-node-id="66:1002">
+            <div className="relative shrink-0 w-full" data-node-id="66:972">
+              <p className="leading-[1.5] whitespace-pre-wrap">이메일: ay9754@chagwon.ac.kr</p>
+            </div>
+            <div className="relative shrink-0 w-full" data-node-id="66:973">
+              <p className="leading-[1.5] whitespace-pre-wrap">팩스번호: 055-213-2609</p>
+            </div>
+          </div>
+        </div>
+        <div className="border border-solid border-white box-border content-stretch flex items-center justify-between px-[20px] py-[16px] relative rounded-[8px] shrink-0 w-[458px]" data-name="Text input" data-node-id="66:1009">
+          <div className="font-['Pretendard:Regular',sans-serif] leading-[0] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap" data-node-id="66:1008">
+            <p className="leading-[1.5]">국립창원대학교</p>
+          </div>
+          <div className="h-[16px] relative shrink-0 w-[20px]" data-name="Vector" data-node-id="66:1007">
+            <div className="absolute inset-0" style={{ "--fill-0": "rgba(255, 255, 255, 1)" } as React.CSSProperties}>
+              <img alt="" className="block max-w-none size-full" src={imgVector} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="h-0 relative shrink-0 w-[1417.5px]" data-node-id="68:234">
+        <div className="absolute inset-[-0.5px_-0.04%]" style={{ "--stroke-0": "rgba(255, 255, 255, 1)" } as React.CSSProperties}>
+          <img alt="" className="block max-w-none size-full" src={imgVector3} />
+        </div>
+      </div>
+      <div className="content-stretch flex items-center justify-between relative shrink-0 w-[1420px]" data-name="Text input container" data-node-id="68:250">
+        <div className="content-stretch flex items-center justify-between relative shrink-0 w-[297.581px]" data-name="Text input container" data-node-id="68:249">
+          <div className="content-stretch flex gap-[9px] items-center relative shrink-0" data-name="Text input container" data-node-id="68:239">
+            <div className="font-['Pretendard:Regular',sans-serif] leading-[0] not-italic relative shrink-0 text-[16px] text-[color:var(--컬러\/white,#ffffff)] whitespace-nowrap" data-node-id="68:237">
+              <p className="leading-[1.5]">개인정보 취급방침</p>
+            </div>
+            <div className="flex h-[calc(1px*((var(--transform-inner-width)*1)+(var(--transform-inner-height)*0)))] items-center justify-center relative shrink-0 w-[calc(1px*((var(--transform-inner-height)*1)+(var(--transform-inner-width)*0)))]">
+              <div className="flex-none rotate-[90deg]">
+                <div className="h-0 relative w-[12px]" data-name="Text input" data-node-id="68:238">
+                  <div className="absolute bottom-0 left-0 right-0 top-[-1px]">
+                    <img alt="" className="block max-w-none size-full" src={imgTextInput1} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="font-['Pretendard:Regular',sans-serif] leading-[0] not-italic relative shrink-0 text-[16px] text-[color:var(--컬러\/white,#ffffff)] whitespace-nowrap" data-node-id="68:240">
+              <p className="leading-[1.5]">오시는 길</p>
+            </div>
+            <div className="flex h-[calc(1px*((var(--transform-inner-width)*1)+(var(--transform-inner-height)*0)))] items-center justify-center relative shrink-0 w-[calc(1px*((var(--transform-inner-height)*1)+(var(--transform-inner-width)*0)))]">
+              <div className="flex-none rotate-[90deg]">
+                <div className="h-0 relative w-[12px]" data-name="Text input" data-node-id="68:242">
+                  <div className="absolute bottom-0 left-0 right-0 top-[-1px]">
+                    <img alt="" className="block max-w-none size-full" src={imgTextInput1} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="font-['Pretendard:Regular',sans-serif] leading-[0] not-italic relative shrink-0 text-[16px] text-[color:var(--컬러\/white,#ffffff)] whitespace-nowrap" data-node-id="68:246">
+              <p className="leading-[1.5]">관리자 페이지</p>
+            </div>
+          </div>
+        </div>
+        <div className="font-['Pretendard:Regular',sans-serif] leading-[0] not-italic relative shrink-0 text-[16px] text-[color:var(--컬러\/white,#ffffff)] w-[499.297px]" data-node-id="68:248">
+          <p className="leading-[1.5] whitespace-pre-wrap">Copyright © 2025 Changwon National University. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default function Component() {
+  return (
+    <div className="bg-[var(--컬러\/white,#ffffff)] relative size-full" data-name="사용자 캠페인참여" data-node-id="161:1136">
+      <div className="absolute contents left-[-2.35px] top-[120px]" data-name="bn" data-node-id="188:1561">
+        <div className="absolute h-[1179.519px] left-0 top-[120px] w-[1921px]" data-name="Title Container" data-node-id="161:1158" style={{ backgroundImage: "linear-gradient(90deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), linear-gradient(148.44953561563165deg, var(--컬러\/color-primary-02,rgba(0, 70, 172, 1)) 0%, var(--컬러\/color-primary-02,rgba(0, 70, 172, 1)) 26.923%, rgba(0, 0, 0, 1) 100%)" }} />
+        <div className="absolute bottom-[79.89%] contents left-[-0.12%] right-0 top-[6.23%]" data-name="로고" data-node-id="161:1137">
+          <div className="absolute bottom-[79.89%] contents left-[-0.12%] right-0 top-[6.23%]" data-name="Text input container" data-node-id="161:1627">
+            <div className="absolute inset-[6.45%_48.84%_80.11%_23.25%] opacity-5" data-name="패스 361" data-node-id="161:1628">
+              <div className="absolute inset-0" style={{ "--fill-0": "rgba(241, 243, 247, 1)" } as React.CSSProperties}>
+                <img alt="" className="block max-w-none size-full" src={img361} />
+              </div>
+            </div>
+            <div className="absolute bottom-[79.89%] contents left-[78.9%] right-0 top-[6.45%]" data-name="Text input container" data-node-id="161:1629">
+              <div className="absolute bottom-[79.89%] left-[78.9%] opacity-5 right-0 top-[6.45%]" data-name="Text input" data-node-id="161:1630">
+                <img alt="" className="block max-w-none size-full" src={imgTextInput2} />
+              </div>
+            </div>
+            <div className="absolute inset-[6.23%_79.29%_79.89%_-0.12%] opacity-5" data-name="패스 363" data-node-id="161:1632">
+              <div className="absolute inset-0" style={{ "--fill-0": "rgba(241, 243, 247, 1)" } as React.CSSProperties}>
+                <img alt="" className="block max-w-none size-full" src={img363} />
+              </div>
+            </div>
+            <div className="absolute inset-[6.45%_24.79%_80.11%_54.38%] opacity-5" data-name="패스 364" data-node-id="161:1633">
+              <div className="absolute inset-0" style={{ "--fill-0": "rgba(241, 243, 247, 1)" } as React.CSSProperties}>
+                <img alt="" className="block max-w-none size-full" src={img364} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute box-border content-stretch flex flex-col gap-[180px] items-center left-[-1px] pb-0 pt-[120px] px-0 top-[120px] w-[1920px]" data-name="Main Frame" data-node-id="188:1563">
+        <div className="content-stretch flex flex-col gap-[120px] items-start relative shrink-0 w-[1420px]" data-name="Container" data-node-id="188:1562">
+          <div className="content-stretch flex flex-col gap-[20px] items-center relative shrink-0 w-[1423px]" data-name="Campaign Card" data-node-id="161:1160">
+            <div className="content-stretch flex flex-col gap-[120px] items-center justify-center relative shrink-0" data-name="Campaign Card" data-node-id="161:1161">
+              <div className="content-stretch flex flex-col gap-[24px] items-center relative shrink-0" data-name="Campaign Card" data-node-id="161:1162">
+                <div className="h-[128.519px] relative shrink-0 w-[91px]" data-name="Switch" data-node-id="161:1163">
+                  <img alt="" className="block max-w-none size-full" src={imgSwitch} />
+                </div>
+                <div className="content-stretch flex flex-col gap-[20px] items-start leading-[0] not-italic relative shrink-0 text-[color:var(--컬러\/white,#ffffff)] text-center" data-name="Campaign Info" data-node-id="161:1180">
+                  <div className="font-['Paperlogy:7_Bold',sans-serif] relative shrink-0 text-[64px] w-[1420px]" data-node-id="161:1181">
+                    <p className="leading-[1.3] whitespace-pre-wrap">국립창원대학교 발전기금 기부하기</p>
+                  </div>
+                  <div className="font-['Paperlogy:3_Light',sans-serif] leading-[1.5] relative shrink-0 text-[32px] w-[1420px] whitespace-pre-wrap" data-node-id="161:1182">
+                    <p className="mb-0">기부해 주신 소중한 금액은 대학의 지속적인 발전을 위해</p>
+                    <p className="mb-0">전략적으로 배분되며, 이를 통해 시설 개선, 교육 강화, 장학금 지원,</p>
+                    <p>그라ㅣ고 연구 활성화를 위한 소중한 밑거름이 됩니다,.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[60px] items-center relative shrink-0 w-full" data-name="Container" data-node-id="188:1559">
+            <div className="content-stretch flex flex-col gap-[80px] items-center justify-center relative shrink-0 w-full" data-name="Container" data-node-id="188:1503">
+              <div className="bg-[var(--컬러\/color-primary-bg,#f1f3f7)] box-border content-stretch flex flex-col gap-[140px] items-center justify-center max-w-[1420px] px-[32px] py-[116px] relative rounded-[40px] shrink-0 w-[1420px]" data-name="Campaign Content Container" data-node-id="161:1184">
+                <div className="bg-[var(--#color-primary1,#003179)] box-border content-stretch flex flex-col gap-[10px] items-center justify-center px-0 py-[8px] relative rounded-[12px] shrink-0 w-[342px]" data-name="Campaign Info Title Container" data-node-id="161:1186">
+                  <div className="font-['Paperlogy:7_Bold',sans-serif] leading-[0] not-italic relative shrink-0 text-[48px] text-white whitespace-nowrap" data-node-id="161:1187">
+                    <p className="leading-[1.5]">기부정보</p>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col gap-[52px] items-start max-w-[1120px] relative shrink-0 w-full" data-name="Campaign Info Content Container" data-node-id="161:1188">
+                  <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full" data-name="Campaign Info Pin Container" data-node-id="161:1189">
+                    <div className="font-['Paperlogy:8_ExtraBold',sans-serif] leading-[0] not-italic relative shrink-0 text-[24px] text-[color:var(--#color-primary1,#003179)] whitespace-nowrap" data-node-id="161:1190">
+                      <p className="leading-[1.5]">기부유형*</p>
+                    </div>
+                    <div className="content-center flex flex-wrap gap-[20px_40px] h-[100px] items-center relative shrink-0 w-full" data-name="Campaign Info Pin Options" data-node-id="161:1191">
+                      <div className="content-stretch flex gap-[12px] items-center relative shrink-0" data-name="Campaign Info Pin Option" data-node-id="161:1192">
+                        <div className="relative shrink-0 size-[26px]" data-node-id="161:1193">
+                          <div className="absolute inset-0" style={{ "--fill-0": "rgba(0, 49, 121, 1)", "--stroke-0": "rgba(0, 49, 121, 1)" } as React.CSSProperties}>
+                            <img alt="" className="block max-w-none size-full" src={imgEllipse2} />
+                          </div>
+                        </div>
+                        <div className="font-['Pretendard:ExtraBold',sans-serif] leading-[0] not-italic relative shrink-0 text-[20px] text-black whitespace-nowrap" data-node-id="161:1194">
+                          <p className="leading-[1.5]">정기기부</p>
+                        </div>
+                      </div>
+                      <div className="content-stretch flex gap-[12px] items-center relative shrink-0" data-name="Campaign Info Pin Option" data-node-id="161:1195">
+                        <div className="relative shrink-0 size-[26px]" data-node-id="161:1196">
+                          <img alt="" className="block max-w-none size-full" src={imgEllipse3} />
+                        </div>
+                        <div className="font-['Pretendard:Regular',sans-serif] leading-[0] not-italic relative shrink-0 text-[20px] text-black whitespace-nowrap" data-node-id="161:1197">
+                          <p className="leading-[1.5]">일시기부</p>
+                        </div>
+                      </div>
+                      <div className="content-stretch flex gap-[12px] items-center relative shrink-0" data-name="Campaign Info Pin Option" data-node-id="161:1636">
+                        <div className="relative shrink-0 size-[26px]" data-node-id="161:1637">
+                          <img alt="" className="block max-w-none size-full" src={imgEllipse3} />
+                        </div>
+                        <div className="font-['Pretendard:Regular',sans-serif] leading-[0] not-italic relative shrink-0 text-[20px] text-black whitespace-nowrap" data-node-id="161:1638">
+                          <p className="leading-[1.5]">분할납부</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="h-0 relative shrink-0 w-full" data-node-id="162:1329">
+                    <div className="absolute bottom-[-0.5px] left-0 right-0 top-[-0.5px]" style={{ "--stroke-0": "rgba(0, 49, 121, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={imgVector10} />
+                    </div>
+                  </div>
+                  <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full" data-name="Donation Type Container" data-node-id="162:1294">
+                    <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full" data-name="Donation Type Options Container" data-node-id="162:1295">
+                      <div className="font-['Paperlogy:8_ExtraBold',sans-serif] leading-[0] not-italic relative shrink-0 text-[24px] text-[color:var(--#color-primary1,#003179)] w-full" data-node-id="162:1296">
+                        <p className="leading-[1.5] whitespace-pre-wrap">기부금액*</p>
+                      </div>
+                      <div className="content-center flex flex-wrap gap-[20px_40px] items-center relative shrink-0 w-full" data-name="Donation Type Options" data-node-id="162:1297">
+                        <div className="content-stretch flex gap-[12px] items-center relative shrink-0" data-name="Donation Type Option" data-node-id="162:1298">
+                          <div className="relative shrink-0 size-[26px]" data-node-id="162:1299">
+                            <div className="absolute inset-0" style={{ "--fill-0": "rgba(0, 49, 121, 1)", "--stroke-0": "rgba(0, 49, 121, 1)" } as React.CSSProperties}>
+                              <img alt="" className="block max-w-none size-full" src={imgEllipse2} />
+                            </div>
+                          </div>
+                          <div className="font-['Pretendard:ExtraBold',sans-serif] leading-[0] not-italic relative shrink-0 text-[20px] text-black whitespace-nowrap" data-node-id="162:1300">
+                            <p className="leading-[1.5]">1만원</p>
+                          </div>
+                        </div>
+                        <div className="content-stretch flex gap-[12px] items-center relative shrink-0" data-name="Donation Type Option" data-node-id="162:1301">
+                          <div className="relative shrink-0 size-[26px]" data-node-id="162:1302">
+                            <img alt="" className="block max-w-none size-full" src={imgEllipse3} />
+                          </div>
+                          <div className="font-['Pretendard:Regular',sans-serif] leading-[0] not-italic relative shrink-0 text-[20px] text-black whitespace-nowrap" data-node-id="162:1303">
+                            <p className="leading-[1.5]">2만원</p>
+                          </div>
+                        </div>
+                        <div className="content-stretch flex gap-[12px] items-center relative shrink-0" data-name="Donation Type Option" data-node-id="162:1304">
+                          <div className="relative shrink-0 size-[26px]" data-node-id="162:1305">
+                            <img alt="" className="block max-w-none size-full" src={imgEllipse3} />
+                          </div>
+                          <div className="font-['Pretendard:Regular',sans-serif] leading-[0] not-italic relative shrink-0 text-[20px] text-black whitespace-nowrap" data-node-id="162:1306">
+                            <p className="leading-[1.5]">3만원</p>
+                          </div>
+                        </div>
+                        <div className="content-stretch flex gap-[12px] items-center relative shrink-0" data-name="Donation Type Option" data-node-id="162:1307">
+                          <div className="relative shrink-0 size-[26px]" data-node-id="162:1308">
+                            <img alt="" className="block max-w-none size-full" src={imgEllipse3} />
+                          </div>
+                          <div className="font-['Pretendard:Regular',sans-serif] leading-[0] not-italic relative shrink-0 text-[20px] text-black whitespace-nowrap" data-node-id="162:1309">
+                            <p className="leading-[1.5]">5만원</p>
+                          </div>
+                        </div>
+                        <div className="content-stretch flex gap-[12px] items-center relative shrink-0" data-name="Donation Type Option" data-node-id="162:1310">
+                          <div className="relative shrink-0 size-[26px]" data-node-id="162:1311">
+                            <img alt="" className="block max-w-none size-full" src={imgEllipse3} />
+                          </div>
+                          <div className="font-['Pretendard:Regular',sans-serif] leading-[0] not-italic relative shrink-0 text-[20px] text-black whitespace-nowrap" data-node-id="162:1312">
+                            <p className="leading-[1.5]">10만원</p>
+                          </div>
+                        </div>
+                        <div className="content-stretch flex gap-[12px] items-center relative shrink-0" data-name="Donation Type Option" data-node-id="162:1320">
+                          <div className="relative shrink-0 size-[26px]" data-node-id="162:1321">
+                            <img alt="" className="block max-w-none size-full" src={imgEllipse3} />
+                          </div>
+                          <div className="font-['Pretendard:Regular',sans-serif] leading-[0] not-italic relative shrink-0 text-[20px] text-black whitespace-nowrap" data-node-id="162:1322">
+                            <p className="leading-[1.5]">100만원</p>
+                          </div>
+                        </div>
+                        <div className="content-stretch flex gap-[12px] items-center relative shrink-0" data-name="Donation Type Option" data-node-id="162:1324">
+                          <div className="relative shrink-0 size-[26px]" data-node-id="162:1325">
+                            <img alt="" className="block max-w-none size-full" src={imgEllipse3} />
+                          </div>
+                          <div className="font-['Pretendard:Regular',sans-serif] leading-[0] not-italic relative shrink-0 text-[20px] text-black whitespace-nowrap" data-node-id="162:1326">
+                            <p className="leading-[1.5]">직접입력</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="bg-[var(--컬러\/white,#ffffff)] border border-[var(--#color-primary1,#003179)] border-solid box-border content-stretch flex gap-[10px] items-center px-[24px] py-[20px] relative rounded-[12px] shrink-0 w-full" data-name="Search Input Container" data-node-id="162:1313">
+                      <div className="flex-[1_0_0] font-['Pretendard:Regular',sans-serif] leading-[0] min-h-px min-w-px not-italic opacity-50 relative shrink-0 text-[20px] text-[color:var(--컬러\/black,#000000)]" data-node-id="162:1314">
+                        <p className="leading-[1.5] whitespace-pre-wrap">위 옵션을 선택하시면 금액이 자동입력 됩니다. (원하시는 금액이 없다면 금액을 직접 입력해 주세요.)</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="h-0 relative shrink-0 w-full" data-node-id="162:1331">
+                    <div className="absolute bottom-[-0.5px] left-0 right-0 top-[-0.5px]" style={{ "--stroke-0": "rgba(0, 49, 121, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={imgVector10} />
+                    </div>
+                  </div>
+                  <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full" data-name="Campaign Name Container" data-node-id="161:1198">
+                    <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full" data-name="Post Content Container" data-node-id="162:1223">
+                      <div className="font-['Paperlogy:8_ExtraBold',sans-serif] leading-[0] not-italic relative shrink-0 text-[24px] text-[color:var(--#color-primary1,#003179)] w-full" data-node-id="162:1224">
+                        <p className="leading-[1.5] whitespace-pre-wrap">기부 메세지</p>
+                      </div>
+                      <div className="bg-[var(--컬러\/white,#ffffff)] border border-[var(--#color-primary1,#003179)] border-solid box-border content-stretch flex gap-[10px] items-start min-h-[320px] px-[24px] py-[20px] relative rounded-[12px] shrink-0 w-full" data-name="Search Input Container" data-node-id="162:1225">
+                        <div className="flex-[1_0_0] font-['Pretendard:Regular',sans-serif] leading-[0] min-h-px min-w-px not-italic opacity-50 relative shrink-0 text-[20px] text-[color:var(--컬러\/black,#000000)]" data-node-id="162:1226">
+                          <p className="leading-[1.5] whitespace-pre-wrap">국립창원대학교에게 응원의 메세지를 남겨주세요!</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-[var(--컬러\/color-gray-100,#f9f9f9)] box-border content-stretch flex flex-col gap-[80px] items-center max-w-[1420px] px-[32px] py-[116px] relative rounded-[60px] shrink-0 w-[1420px]" data-name="Container" data-node-id="188:1437">
+                <div className="bg-[var(--컬러\/color-primary-02,#0046ac)] box-border content-stretch flex flex-col gap-[10px] items-center justify-center px-0 py-[8px] relative rounded-[12px] shrink-0 w-[342px]" data-name="Campaign Content Title Container" data-node-id="188:1438">
+                  <div className="font-['Paperlogy:7_Bold',sans-serif] leading-[0] not-italic relative shrink-0 text-[48px] text-white whitespace-nowrap" data-node-id="188:1439">
+                    <p className="leading-[1.5]">기부자 정보</p>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col gap-[52px] items-start max-w-[1120px] relative shrink-0 w-full" data-name="Main Container" data-node-id="188:1440">
+                  <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid justify-items-start leading-[0] relative shrink-0 w-full" data-name="Header Container" data-node-id="188:1441">
+                    <div className="box-border col-[1] content-stretch flex flex-col gap-[20px] items-start ml-0 mt-0 relative row-[1] w-[1120px]" data-name="Donation Type Container" data-node-id="188:1442">
+                      <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full" data-name="Donation Type Options Container" data-node-id="188:1443">
+                        <div className="font-['Paperlogy:8_ExtraBold',sans-serif] leading-[0] not-italic relative shrink-0 text-[24px] text-[color:var(--#color-primary1,#003179)] w-full" data-node-id="188:1444">
+                          <p className="leading-[1.5] whitespace-pre-wrap">기부금액*</p>
+                        </div>
+                        <div className="content-stretch flex gap-[40px] items-center max-w-[1120px] relative shrink-0 w-full" data-name="Donation Type Options" data-node-id="188:1445">
+                          <div className="content-stretch flex gap-[12px] items-center relative shrink-0" data-name="Donation Type Option" data-node-id="188:1446">
+                            <div className="relative shrink-0 size-[26px]" data-node-id="188:1447">
+                              <div className="absolute inset-0" style={{ "--fill-0": "rgba(0, 49, 121, 1)", "--stroke-0": "rgba(0, 49, 121, 1)" } as React.CSSProperties}>
+                                <img alt="" className="block max-w-none size-full" src={imgEllipse2} />
+                              </div>
+                            </div>
+                            <div className="font-['Pretendard:ExtraBold',sans-serif] leading-[0] not-italic relative shrink-0 text-[20px] text-black whitespace-nowrap" data-node-id="188:1448">
+                              <p className="leading-[1.5]">개인기부</p>
+                            </div>
+                          </div>
+                          <div className="content-stretch flex gap-[12px] items-center relative shrink-0" data-name="Donation Type Option" data-node-id="188:1449">
+                            <div className="relative shrink-0 size-[26px]" data-node-id="188:1450">
+                              <img alt="" className="block max-w-none size-full" src={imgEllipse3} />
+                            </div>
+                            <div className="font-['Pretendard:Regular',sans-serif] leading-[0] not-italic relative shrink-0 text-[20px] text-black whitespace-nowrap" data-node-id="188:1451">
+                              <p className="leading-[1.5]">법인기부</p>
+                            </div>
+                          </div>
+                          <div className="content-stretch flex gap-[12px] items-center relative shrink-0" data-name="Donation Type Option" data-node-id="188:1452">
+                            <div className="relative shrink-0 size-[26px]" data-node-id="188:1453">
+                              <img alt="" className="block max-w-none size-full" src={imgEllipse3} />
+                            </div>
+                            <div className="font-['Pretendard:Regular',sans-serif] leading-[0] not-italic relative shrink-0 text-[20px] text-black whitespace-nowrap" data-node-id="188:1454">
+                              <p className="leading-[1.5]">익명기부</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-[1] h-0 ml-0 mt-[128px] relative row-[1] w-[1120px]" data-node-id="188:1455">
+                      <div className="absolute bottom-[-0.5px] left-0 right-0 top-[-0.5px]" style={{ "--stroke-0": "rgba(0, 49, 121, 1)" } as React.CSSProperties}>
+                        <img alt="" className="block max-w-none size-full" src={imgVector11} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full" data-name="Campaign Name Container" data-node-id="188:1457">
+                    <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full" data-name="Post Content Container" data-node-id="188:1458">
+                      <div className="font-['Paperlogy:8_ExtraBold',sans-serif] leading-[0] not-italic relative shrink-0 text-[24px] text-[color:var(--#color-primary1,#003179)] w-full" data-node-id="188:1459">
+                        <p className="leading-[1.5] whitespace-pre-wrap">성함*</p>
+                      </div>
+                      <div className="bg-[var(--컬러\/white,#ffffff)] border border-[var(--#color-primary1,#003179)] border-solid box-border content-stretch flex gap-[10px] h-[70px] items-start px-[24px] py-[20px] relative rounded-[12px] shrink-0 w-full" data-name="Search Input Container" data-node-id="188:1460">
+                        <div className="font-['Pretendard:Regular',sans-serif] leading-[0] not-italic opacity-50 relative shrink-0 text-[20px] text-[color:var(--컬러\/black,#000000)] text-center whitespace-nowrap" data-node-id="188:1461">
+                          <p className="leading-[1.5]">홍길동</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="h-0 relative shrink-0 w-full" data-node-id="196:1431">
+                    <div className="absolute bottom-[-0.5px] left-0 right-0 top-[-0.5px]" style={{ "--stroke-0": "rgba(0, 49, 121, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={imgVector10} />
+                    </div>
+                  </div>
+                  <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full" data-name="Campaign Name Container" data-node-id="196:1433">
+                    <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full" data-name="Post Content Container" data-node-id="196:1434">
+                      <div className="font-['Paperlogy:8_ExtraBold',sans-serif] leading-[0] not-italic relative shrink-0 text-[24px] text-[color:var(--#color-primary1,#003179)] w-full" data-node-id="196:1435">
+                        <p className="leading-[1.5] whitespace-pre-wrap">회사명*</p>
+                      </div>
+                      <div className="bg-[var(--컬러\/white,#ffffff)] border border-[var(--#color-primary1,#003179)] border-solid box-border content-stretch flex gap-[10px] h-[70px] items-start px-[24px] py-[20px] relative rounded-[12px] shrink-0 w-full" data-name="Search Input Container" data-node-id="196:1436">
+                        <div className="content-stretch flex flex-[1_0_0] gap-[10px] items-center min-h-px min-w-px relative shrink-0" data-node-id="219:1386">
+                          <div className="font-['Pretendard:Regular',sans-serif] leading-[0] not-italic opacity-50 relative shrink-0 text-[20px] text-[color:var(--컬러\/black,#000000)] whitespace-nowrap" data-node-id="196:1437">
+                            <p className="leading-[1.5]">00물산</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="h-0 relative shrink-0 w-full" data-node-id="196:1438">
+                    <div className="absolute bottom-[-0.5px] left-0 right-0 top-[-0.5px]" style={{ "--stroke-0": "rgba(0, 49, 121, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={imgVector10} />
+                    </div>
+                  </div>
+                  <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full" data-name="Campaign Name Container" data-node-id="188:1463">
+                    <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full" data-name="Post Content Container" data-node-id="188:1464">
+                      <div className="font-['Paperlogy:8_ExtraBold',sans-serif] leading-[0] not-italic relative shrink-0 text-[24px] text-[color:var(--#color-primary1,#003179)] w-full" data-node-id="188:1465">
+                        <p className="leading-[1.5] whitespace-pre-wrap">생년월일*</p>
+                      </div>
+                      <div className="bg-[var(--컬러\/white,#ffffff)] border border-[var(--#color-primary1,#003179)] border-solid box-border content-stretch flex gap-[10px] h-[70px] items-start px-[24px] py-[20px] relative rounded-[12px] shrink-0 w-full" data-name="Search Input Container" data-node-id="188:1466">
+                        <div className="flex-[1_0_0] font-['Pretendard:Regular',sans-serif] leading-[0] min-h-px min-w-px not-italic opacity-50 relative shrink-0 text-[20px] text-[color:var(--컬러\/black,#000000)]" data-node-id="188:1467">
+                          <p className="leading-[1.5] whitespace-pre-wrap">19XX. XX. XX</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="h-0 relative shrink-0 w-full" data-node-id="196:1399">
+                    <div className="absolute bottom-[-0.5px] left-0 right-0 top-[-0.5px]" style={{ "--stroke-0": "rgba(0, 49, 121, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={imgVector10} />
+                    </div>
+                  </div>
+                  <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full" data-name="Post Content Container" data-node-id="188:1474">
+                    <div className="font-['Paperlogy:8_ExtraBold',sans-serif] leading-[0] not-italic relative shrink-0 text-[24px] text-[color:var(--#color-primary1,#003179)] w-full" data-node-id="188:1475">
+                      <p className="leading-[1.5] whitespace-pre-wrap">전화번호</p>
+                    </div>
+                    <div className="content-stretch flex gap-[20px] items-start relative shrink-0 w-full" data-name="Phone Number Container" data-node-id="188:1476">
+                      <div className="bg-[var(--컬러\/white,#ffffff)] border border-[var(--#color-primary1,#003179)] border-solid box-border content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-center justify-center min-h-px min-w-px px-[24px] py-[20px] relative rounded-[12px] shrink-0" data-name="Search Input Container" data-node-id="188:1477">
+                        <div className="content-stretch flex items-center justify-between relative shrink-0 w-full" data-name="Phone Number Input" data-node-id="188:1478">
+                          <div className="flex-[1_0_0] font-['Pretendard:Regular',sans-serif] leading-[0] min-h-px min-w-px not-italic opacity-50 relative shrink-0 text-[20px] text-[color:var(--컬러\/black,#000000)] text-center" data-node-id="188:1479">
+                            <p className="leading-[1.5] whitespace-pre-wrap">010</p>
+                          </div>
+                          <div className="h-[16px] relative shrink-0 w-[20px]" data-name="Vector" data-node-id="188:1480">
+                            <div className="absolute inset-0" style={{ "--fill-0": "rgba(0, 49, 121, 1)" } as React.CSSProperties}>
+                              <img alt="" className="block max-w-none size-full" src={imgVector1} />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="bg-[var(--컬러\/white,#ffffff)] border border-[var(--#color-primary1,#003179)] border-solid box-border content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-center justify-center min-h-px min-w-px px-0 py-[20px] relative rounded-[12px] shrink-0" data-name="Search Input Container" data-node-id="188:1481">
+                        <div className="font-['Pretendard:Regular',sans-serif] leading-[0] not-italic opacity-50 relative shrink-0 text-[20px] text-[color:var(--컬러\/black,#000000)] text-center w-full" data-node-id="188:1482">
+                          <p className="leading-[1.5] whitespace-pre-wrap">1234</p>
+                        </div>
+                      </div>
+                      <div className="bg-[var(--컬러\/white,#ffffff)] border border-[var(--#color-primary1,#003179)] border-solid box-border content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-center justify-center min-h-px min-w-px px-0 py-[20px] relative rounded-[12px] shrink-0" data-name="Search Input Container" data-node-id="188:1483">
+                        <div className="font-['Pretendard:Regular',sans-serif] leading-[0] not-italic opacity-50 relative shrink-0 text-[20px] text-[color:var(--컬러\/black,#000000)] text-center w-full" data-node-id="188:1484">
+                          <p className="leading-[1.5] whitespace-pre-wrap">1234</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="h-0 relative shrink-0 w-full" data-node-id="196:1323">
+                    <div className="absolute bottom-[-0.5px] left-0 right-0 top-[-0.5px]" style={{ "--stroke-0": "rgba(0, 49, 121, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={imgVector10} />
+                    </div>
+                  </div>
+                  <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full" data-name="Post Content Container" data-node-id="196:1400">
+                    <div className="font-['Paperlogy:8_ExtraBold',sans-serif] leading-[0] not-italic relative shrink-0 text-[24px] text-[color:var(--#color-primary1,#003179)] w-full" data-node-id="196:1401">
+                      <p className="leading-[1.5] whitespace-pre-wrap">학교와의 관계</p>
+                    </div>
+                    <div className="content-stretch flex gap-[20px] items-start relative shrink-0 w-full" data-name="Phone Number Container" data-node-id="196:1402">
+                      <div className="bg-[var(--컬러\/white,#ffffff)] border border-[var(--#color-primary1,#003179)] border-solid box-border content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-center justify-center min-h-px min-w-px px-[24px] py-[20px] relative rounded-[12px] shrink-0" data-name="Search Input Container" data-node-id="196:1403">
+                        <div className="content-stretch flex items-center justify-between relative shrink-0 w-full" data-name="Phone Number Input" data-node-id="196:1404">
+                          <div className="font-['Pretendard:Regular',sans-serif] leading-[0] not-italic opacity-50 relative shrink-0 text-[20px] text-[color:var(--컬러\/black,#000000)] whitespace-nowrap" data-node-id="196:1405">
+                            <p className="leading-[1.5]">졸업생</p>
+                          </div>
+                          <div className="h-[16px] relative shrink-0 w-[20px]" data-name="Vector" data-node-id="196:1406">
+                            <div className="absolute inset-0" style={{ "--fill-0": "rgba(0, 49, 121, 1)" } as React.CSSProperties}>
+                              <img alt="" className="block max-w-none size-full" src={imgVector1} />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="h-0 relative shrink-0 w-full" data-node-id="196:1411">
+                    <div className="absolute bottom-[-0.5px] left-0 right-0 top-[-0.5px]" style={{ "--stroke-0": "rgba(0, 49, 121, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={imgVector10} />
+                    </div>
+                  </div>
+                  <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid justify-items-start leading-[0] relative shrink-0 w-full" data-name="Address Container" data-node-id="188:1485">
+                    <div className="box-border col-[1] content-stretch flex flex-col gap-[20px] items-start ml-0 mt-0 relative row-[1] w-[1120px]" data-name="Campaign Name Container" data-node-id="188:1486">
+                      <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full" data-name="Post Content Container" data-node-id="188:1487">
+                        <div className="font-['Paperlogy:8_ExtraBold',sans-serif] leading-[0] not-italic relative shrink-0 text-[24px] text-[color:var(--#color-primary1,#003179)] w-full" data-node-id="188:1488">
+                          <p className="leading-[1.5] whitespace-pre-wrap">주소</p>
+                        </div>
+                        <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full" data-name="Address Input" data-node-id="188:1489">
+                          <div className="bg-[var(--컬러\/white,#ffffff)] border border-[var(--#color-primary1,#003179)] border-solid box-border content-stretch flex gap-[10px] h-[70px] items-start px-[24px] py-[20px] relative rounded-[12px] shrink-0 w-full" data-name="Search Input Container" data-node-id="188:1490">
+                            <div className="font-['Pretendard:Regular',sans-serif] leading-[0] not-italic opacity-50 relative shrink-0 text-[20px] text-[color:var(--컬러\/black,#000000)] text-center whitespace-nowrap" data-node-id="188:1491">
+                              <p className="leading-[1.5]">경남 창원시 의창구 창원대학로 20</p>
+                            </div>
+                          </div>
+                          <div className="bg-[var(--#color-primary1,#003179)] border border-[var(--#color-primary1,#003179)] border-solid box-border content-stretch flex gap-[10px] h-[70px] items-center justify-center px-[24px] py-[20px] relative rounded-[12px] shrink-0 w-full" data-name="Search Input Container" data-node-id="188:1492">
+                            <div className="font-['Pretendard:ExtraBold',sans-serif] leading-[0] not-italic relative shrink-0 text-[24px] text-[color:var(--컬러\/white,#ffffff)] text-center whitespace-nowrap" data-node-id="188:1493">
+                              <p className="leading-[1.5]">주소찾기</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="bg-[var(--컬러\/white,#ffffff)] border border-[var(--#color-primary1,#003179)] border-solid box-border content-stretch flex gap-[10px] h-[70px] items-start px-[24px] py-[20px] relative rounded-[12px] shrink-0 w-full" data-name="Search Input Container" data-node-id="188:1494">
+                          <div className="font-['Pretendard:Regular',sans-serif] leading-[0] not-italic opacity-50 relative shrink-0 text-[20px] text-[color:var(--컬러\/black,#000000)] text-center whitespace-nowrap" data-node-id="188:1495">
+                            <p className="leading-[1.5]">상세주소를 입력해 주세요.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="h-0 relative shrink-0 w-full" data-node-id="188:1496">
+                    <div className="absolute bottom-[-0.5px] left-0 right-0 top-[-0.5px]" style={{ "--stroke-0": "rgba(0, 49, 121, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={imgVector10} />
+                    </div>
+                  </div>
+                  <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full" data-name="Post Content Container" data-node-id="188:1497">
+                    <div className="font-['Paperlogy:8_ExtraBold',sans-serif] leading-[0] not-italic relative shrink-0 text-[24px] text-[color:var(--#color-primary1,#003179)] w-full" data-node-id="188:1498">
+                      <p className="leading-[1.5] whitespace-pre-wrap">기타 전달사항</p>
+                    </div>
+                    <div className="content-stretch flex gap-[20px] items-start relative shrink-0 w-full" data-name="Additional Notes Container" data-node-id="188:1499">
+                      <div className="bg-[var(--컬러\/white,#ffffff)] border border-[var(--#color-primary1,#003179)] border-solid box-border content-stretch flex flex-[1_0_0] flex-col gap-[10px] h-[320px] items-start min-h-px min-w-px px-[24px] py-[20px] relative rounded-[12px] shrink-0" data-name="Search Input Container" data-node-id="188:1500">
+                        <div className="font-['Pretendard:Regular',sans-serif] leading-[0] not-italic opacity-50 relative shrink-0 text-[20px] text-[color:var(--컬러\/black,#000000)] text-center whitespace-nowrap" data-node-id="188:1501">
+                          <p className="leading-[1.5]">전달사항을 입력해 주세요.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex gap-[20px] items-start relative shrink-0" data-name="Button Container" data-node-id="162:1883">
+              <div className="box-border content-stretch flex h-[78px] items-center justify-center px-0 py-[20px] relative rounded-[12px] shrink-0 w-[360px]" data-name="Button" data-node-id="196:2440">
+                <div className="content-stretch flex gap-[8px] items-center justify-center relative shrink-0" data-name="Text input container" data-node-id="I196:2440;18:128">
+                  <div className="overflow-clip relative shrink-0 size-[32.819px]" data-name="Text input container" data-node-id="I196:2440;18:108">
+                    <div className="absolute contents inset-0" data-name="Text input container" data-node-id="I196:2440;18:109">
+                      <div className="absolute contents inset-0" data-name="Text input container" data-node-id="I196:2440;18:127">
+                        <div className="absolute contents inset-[3.77%_1.95%_10.55%_3%]" data-name="Text input container" data-node-id="I196:2440;18:110">
+                          <div className="absolute inset-[64.37%_20.06%_13.7%_22.41%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-7.356px_-21.127px] mask-size-[32.819px_32.819px]" data-name="Text input" data-node-id="I196:2440;18:111" style={{ maskImage: `url('${img}')` }}>
+                            <div className="absolute inset-[-10.04%_-3.83%]">
+                              <img alt="" className="block max-w-none size-full" src={img1} />
+                            </div>
+                          </div>
+                          <div className="absolute inset-[56.89%_45.14%_24.93%_12.6%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-4.136px_-18.672px] mask-size-[32.819px_32.819px]" data-name="Text input" data-node-id="I196:2440;18:113" style={{ maskImage: `url('${img}')` }}>
+                            <div className="absolute inset-[-12.11%_-5.21%]">
+                              <img alt="" className="block max-w-none size-full" src={img2} />
+                            </div>
+                          </div>
+                          <div className="absolute inset-[64.58%_77.08%_10.55%_3%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-0.984px_-21.195px] mask-size-[32.819px_32.819px]" data-name="Text input" data-node-id="I196:2440;18:115" style={{ maskImage: `url('${img}')` }}>
+                            <div className="absolute inset-[-8.85%_-11.05%]">
+                              <img alt="" className="block max-w-none size-full" src={img3} />
+                            </div>
+                          </div>
+                          <div className="absolute inset-[19.1%_12.56%_56.82%_51.95%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-17.051px_-6.268px] mask-size-[32.819px_32.819px]" data-name="Text input" data-node-id="I196:2440;18:117" style={{ maskImage: `url('${img}')` }}>
+                            <div className="absolute inset-[-9.14%_-6.21%_-9.14%_-6.2%]">
+                              <img alt="" className="block max-w-none size-full" src={img4} />
+                            </div>
+                          </div>
+                          <div className="absolute inset-[3.77%_1.95%_71.39%_82.74%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-27.153px_-1.238px] mask-size-[32.819px_32.819px]" data-name="Text input" data-node-id="I196:2440;18:119" style={{ maskImage: `url('${img}')` }}>
+                            <div className="absolute inset-[-8.87%_-14.38%]">
+                              <img alt="" className="block max-w-none size-full" src={img5} />
+                            </div>
+                          </div>
+                          <div className="absolute inset-[5.04%_16.53%_73.8%_41.47%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-13.609px_-1.653px] mask-size-[32.819px_32.819px]" data-name="Text input" data-node-id="I196:2440;18:121" style={{ maskImage: `url('${img}')` }}>
+                            <div className="absolute inset-[-10.4%_-5.24%]">
+                              <img alt="" className="block max-w-none size-full" src={img6} />
+                            </div>
+                          </div>
+                          <div className="absolute inset-[25.98%_37.34%_41.4%_28.09%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-9.218px_-8.526px] mask-size-[32.819px_32.819px]" data-name="Text input" data-node-id="I196:2440;18:123" style={{ maskImage: `url('${img}')` }}>
+                            <div className="absolute inset-[-6.75%_-6.37%]">
+                              <img alt="" className="block max-w-none size-full" src={img7} />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="font-['Paperlogy:8_ExtraBold',sans-serif] leading-[0] not-italic relative shrink-0 text-[32px] text-white whitespace-nowrap" data-node-id="I196:2440;18:97">
+                    <p className="leading-[1.5]">기부하기</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <Footer className="bg-[var(--컬러\/black,#000000)] box-border content-stretch flex flex-col gap-[40px] h-[322px] items-center justify-center px-0 py-[80px] relative shrink-0 w-full" />
+      </div>
+      <div className="absolute bg-[var(--컬러\/white,#ffffff)] box-border content-stretch flex flex-col gap-[10px] items-center justify-center left-1/2 max-w-[1920px] shadow-[0px_2px_20px_0px_rgba(0,0,0,0.08)] top-0 translate-x-[-50%] w-[1920px]" data-name="header" data-node-id="161:1272">
+        <div className="content-stretch flex h-[120px] items-center justify-between relative shrink-0 w-[1420px]" data-name="Container" data-node-id="I161:1272;68:7886">
+          <div className="h-[29px] overflow-clip relative shrink-0 w-[253px]" data-name="Text input container" data-node-id="I161:1272;68:7887">
+            <div className="absolute bottom-[3.45%] contents left-0 right-[35.18%] top-0" data-name="Text input container" data-node-id="I161:1272;68:7888">
+              <div className="absolute inset-[6.9%_35.18%_17.24%_12.25%]" data-name="Text input container" data-node-id="I161:1272;68:7889">
+                <img alt="" className="block max-w-none size-full" src={img8} />
+              </div>
+              <div className="absolute bottom-[3.45%] left-0 right-[89.72%] top-0" data-name="Text input container" data-node-id="I161:1272;68:7907">
+                <img alt="" className="block max-w-none size-full" src={img9} />
+              </div>
+            </div>
+            <div className="absolute bottom-[24.14%] left-[70.75%] right-0 top-[10.34%]" data-name="Text input" data-node-id="I161:1272;68:7911">
+              <img alt="" className="block max-w-none size-full" src={img10} />
+            </div>
+            <div className="absolute bottom-0 left-[66.8%] right-[33.2%] top-0" data-name="선 1" data-node-id="I161:1272;68:7916">
+              <div className="absolute bottom-0 left-[-0.5px] right-[-0.5px] top-0" style={{ "--fill-0": "rgba(0, 0, 0, 1)", "--stroke-0": "rgba(0, 0, 0, 1)" } as React.CSSProperties}>
+                <img alt="" className="block max-w-none size-full" src={img11} />
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex font-['Pretendard:ExtraBold',sans-serif] gap-[44px] items-center leading-[0] not-italic relative shrink-0 text-[20px] text-black whitespace-nowrap" data-name="Paragraph container" data-node-id="I161:1272;68:7917">
+            <div className="relative shrink-0" data-node-id="I161:1272;68:7918">
+              <p className="leading-[1.5]">재단소개</p>
+            </div>
+            <div className="relative shrink-0" data-node-id="I161:1272;68:7919">
+              <p className="leading-[1.5]">캠페인</p>
+            </div>
+            <div className="relative shrink-0" data-node-id="I161:1272;68:7920">
+              <p className="leading-[1.5]">기부유형</p>
+            </div>
+            <div className="relative shrink-0" data-node-id="I161:1272;68:7921">
+              <p className="leading-[1.5]">기부금 사용현황</p>
+            </div>
+            <div className="relative shrink-0" data-node-id="I161:1272;68:7922">
+              <p className="leading-[1.5]">기부자 라운지</p>
+            </div>
+          </div>
+          <div className="content-stretch flex gap-[20px] items-center justify-end relative shrink-0" data-name="Button container" data-node-id="I161:1272;68:7923">
+            <div className="content-stretch flex gap-[8px] items-center relative shrink-0" data-name="Button" data-node-id="I161:1272;68:7924">
+              <Gnb1 className="border border-[#003179] border-solid box-border content-stretch flex items-center justify-center px-[16px] py-[8px] relative rounded-[1000px] shrink-0" />
+              <Gnb className="bg-[var(--#color-primary1,#003179)] border border-[#003179] border-solid box-border content-stretch flex items-center justify-center px-[16px] py-[8px] relative rounded-[1000px] shrink-0" />
+            </div>
+            <div className="gap-[3px] grid grid-cols-2 grid-rows-2 relative shrink-0 size-[28px]" data-name="Text input container" data-node-id="I161:1272;68:7927">
+              <div className="col-[1] rounded-[2px] row-[1] shrink-0" data-name="Text input" data-node-id="I161:1272;68:7928" style={{ backgroundImage: "linear-gradient(90deg, rgba(0, 49, 121, 1) 0%, rgba(0, 49, 121, 1) 100%), linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 100%)" }} />
+              <div className="col-[2] rounded-[2px] row-[1] shrink-0" data-name="Text input" data-node-id="I161:1272;68:7929" style={{ backgroundImage: "linear-gradient(90deg, rgba(0, 49, 121, 1) 0%, rgba(0, 49, 121, 1) 100%), linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 100%)" }} />
+              <div className="col-[1] rounded-[2px] row-[2] shrink-0" data-name="Text input" data-node-id="I161:1272;68:7930" style={{ backgroundImage: "linear-gradient(90deg, rgba(0, 49, 121, 1) 0%, rgba(0, 49, 121, 1) 100%), linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 100%)" }} />
+              <div className="col-[2] rounded-[2px] row-[2] shrink-0" data-name="Text input" data-node-id="I161:1272;68:7931" style={{ backgroundImage: "linear-gradient(90deg, rgba(0, 49, 121, 1) 0%, rgba(0, 49, 121, 1) 100%), linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 100%)" }} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

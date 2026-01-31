@@ -1,0 +1,37 @@
+---
+pid: 71444
+cwd: "/home/ubuntu/aws"
+command: "chmod 600 pem/wings.pem && ./softwing.sh"
+started_at: 2026-01-29T08:47:35.266Z
+running_for_seconds: 13905 
+---
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Welcome to Ubuntu 20.04.6 LTS (GNU/Linux 5.15.0-1056-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Thu Jan 29 17:47:35 KST 2026
+
+  System load:  0.0                Processes:             113
+  Usage of /:   20.3% of 48.27GB   Users logged in:       0
+  Memory usage: 51%                IPv4 address for eth0: 172.31.12.225
+  Swap usage:   0%
+
+ * Ubuntu Pro delivers the most comprehensive open source security and
+   compliance features.
+
+   https://ubuntu.com/aws/pro
+
+Expanded Security Maintenance for Infrastructure is not enabled.
+
+53 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+87 additional security updates can be applied with ESM Infra.
+Learn more about enabling ESM Infra service for Ubuntu 20.04 at
+https://ubuntu.com/20-04
+
+
+*** System restart required ***

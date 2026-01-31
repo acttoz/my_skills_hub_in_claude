@@ -1,0 +1,20 @@
+me_id,me_code,me_name,me_link,me_target,me_order,me_use,me_mobile_use
+444,10,회사소개,/subpage/ceo.php,self,0,1,1
+445,1010,인사말,/subpage/ceo.php,self,0,1,1
+446,1020,오시는길,/subpage/map.php,self,0,1,1
+447,1030,자체발전소 현황,/bbs/board.php?bo_table=microgrid,self,0,1,1
+448,20,RPS,/subpage/rps.php,self,0,1,1
+449,30,임대사업,/subpage/rent.php,self,0,1,1
+450,40,팩토링,/subpage/factoring.php,self,0,1,1
+451,50,사업실적,/bbs/board.php?bo_table=landsite,self,0,1,1
+452,5010,토지현장,/bbs/board.php?bo_table=landsite,self,0,1,1
+453,5020,건축물현장,/bbs/board.php?bo_table=buildingsite,self,0,1,1
+454,60,고객지원,/bbs/board.php?bo_table=landreview,self,0,1,1
+455,6010,사업검토,/bbs/board.php?bo_table=landreview,self,0,1,1
+456,6020,견적문의,/bbs/write.php?bo_table=online,self,0,1,1
+457,6030,업계 정책자료,/bbs/board.php?bo_table=dataroom,self,0,1,1
+458,6040,공지사항,/bbs/board.php?bo_table=notice,self,0,1,1
+459,6050,FAQ,/bbs/board.php?bo_table=faq,self,0,1,1
+460,70,CONTACT US,/bbs/content.php?co_id=privacy,self,0,0,0
+461,7010,개인정보처리방침,/bbs/content.php?co_id=privacy,self,0,1,1
+462,7020,이메일무단수집거부,/bbs/content.php?co_id=email,self,0,1,1

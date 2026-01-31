@@ -1,0 +1,6 @@
+{
+  "uri": "mysql://g5_group_member/data",
+  "name": "Table: g5_group_member",
+  "description": "Data in table: g5_group_member",
+  "mimeType": "text/plain"
+}

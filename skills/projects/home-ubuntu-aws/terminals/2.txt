@@ -1,0 +1,33 @@
+---
+pid: 61630
+cwd: /home/ubuntu/aws
+last_command: ./baraem_131.sh
+last_exit_code: 255
+---
+ubuntu@ITK-20220526XTN:~/aws$ ssh -i pem/wings.pem ubuntu@43.201.164.14
+The authenticity of host '43.201.164.14 (43.201.164.14)' can't be established.
+ED25519 key fingerprint is SHA256:pYrl297TiwHQfx1v0qgQFSaoAtIVHXB/4/MIP7T0XQw.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? ㅛyews
+Please type 'yes', 'no' or the fingerprint: yes
+Warning: Permanently added '43.201.164.14' (ED25519) to the list of known hosts.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Permissions 0644 for 'pem/wings.pem' are too open.
+It is required that your private key files are NOT accessible by others.
+This private key will be ignored.
+Load key "pem/wings.pem": bad permissions
+ubuntu@43.201.164.14: Permission denied (pu
+ubuntu@ITK-20220526XTN:~/aws$ 
+ubuntu@ITK-20220526XTN:~/aws$ 
+ubuntu@ITK-20220526XTN:~/aws$ ./baraem_131.sh 
+SSH 키 파일 권한 설정 완료: /home/ubuntu/aws/pem/baraem_131.pem
+baraem_131 서버에 접속 중...
+호스트: 210.205.6.131
+포트: 2020
+사용자: root
+
+Last login: Thu Jan 29 14:22:45 2026 from 210.117.124.191
+[root@baraem ~]# client_loop: send disconnect: Broken pipe
+ubuntu@ITK-20220526XTN:~/aws$

@@ -1,0 +1,217 @@
+---
+pid: 80433
+cwd: /home/ubuntu/changwon_fund
+active_command: agent
+---
+
+  Cursor Agent v2026.01.28-fd13201
+  ~/changwon_fund · main
+
+ ┌───────────────────────────────────┐
+ │ playwright ui test 실행명령어     │
+ └───────────────────────────────────┘
+
+  먼저 package.json을 한 번 읽어서 지금
+   프로젝트에서 Playwright를 어떻게
+  실행하도록 설정했는지 확인하겠다.
+
+  ⬢ Read package.json
+
+
+  Playwright UI 테스트 실행 명령어
+
+  이 프로젝트에서는 package.json에 이미
+   스크립트가 잡혀 있어요.
+  • Playwright UI 모드 전체 테스트 
+    실행
+
+
+  npm run test:ui
+
+  • 특정 테스트(`tests/member-form-br
+    i.spec.ts`)를 UI 모드로 실행
+
+
+  npm run test:member-form
+
+  • 같은 테스트를 헤드 모드(브라우저 
+    뜨는 모드)로 실행
+
+
+  npm run test:member-form:headed
+
+  원하는 게 “UI 모드 전체 실행”이면 npm
+   run test:ui 쓰면 됩니다.
+
+ ┌───────────────────────────────────┐
+ │ playwright 설치 방법              │
+ └───────────────────────────────────┘
+
+
+  이 프로젝트 기준으로 설치 상황
+
+  지금 프로젝트 package.json 보면 이미
+  @playwright/test가 devDependencies에
+  들어 있습니다.
+  즉, 의존성은 설치만 하면 되고, 초기 
+  세팅은 대부분 끝난 상태일 가능성이
+  큽니다.
+
+  "devDependencies": {
+    "@playwright/test": "^1.58.0",
+    ...
+  }
+
+
+  ─────────────────────────────────────
+  ───
+
+
+  1. 일반적인 Playwright 설치 절차 (새 
+  프로젝트 기준)
+
+  1. Node 프로젝트 초기화 (없다면)
+
+
+  npm init -y
+
+  2. Playwright 테스트 러너 설치
+
+
+  npm install -D @playwright/test
+
+  3. 브라우저 바이너리 및 기본 설정 
+     설치
+
+
+  npx playwright install
+
+  선택적으로, Playwright가 기본
+  예제/설정까지 만들어 주는 방식은:
+
+  npm init playwright@latest
+
+  이렇게 하면 playwright.config.ts,
+  예제 테스트, 폴더 구조까지 자동
+  생성됩니다.
+
+  ─────────────────────────────────────
+  ───
+
+
+  2. 이 프로젝트에서 해야 할 것
+
+  이미 @playwright/test가 들어
+  있으니까, 보통은 아래 한 번만 
+  실행하면 충분합니다.
+
+  npm install
+  # 그리고 (브라우저 안 깔렸으면)
+  npx playwright install
+
+  원하시면:
+  • TypeScript 사용 여부,
+  • 브라우저 종류(Chromium만/모두)
+
+  등을 기준으로 더 구체적인 설치 옵션도
+   설명해 줄 수 있습니다.
+
+ ┌───────────────────────────────────┐
+ │ Install Playwright operating      │
+ │ system dependencies (requires     │
+ │ sudo / root - can be done         │
+ │ manually via 'sudo npx            │
+ │ playwright install-deps')?        │
+ └───────────────────────────────────┘
+
+  이 메시지는 Playwright가 
+  브라우저(Chromium 등)를 쓰기 위해 
+  필요한 OS 쪽 라이브러리를 설치할지
+  묻는 것입니다.
+
+  ─────────────────────────────────────
+  ───
+
+
+  1. 무엇을 설치하는지
+
+  playwright install-deps는 브라우저 
+  실행에 필요한 시스템 패키지를
+  설치합니다.
+  예: Linux에서 Chromium이 쓰는 libgbm,
+   libnss3, libx11 등.
+  • Linux: 보통 필요함. 특히
+    서버/CI/헤드리스 환경.
+  • Windows / macOS: 대부분 이미
+    있어서 묻지 않거나, 해도 문제
+    없음.
+
+
+  ─────────────────────────────────────
+  ───
+
+
+  2. 어떻게 하면 되는지
+
+  방법 A – 프롬프트에서 Yes
+  • 설치 과정에서 Yes 선택하면,
+    Playwright가 내부적으로 sudo로
+    playwright install-deps를
+    실행하는 것과 비슷하게
+    동작합니다.
+
+  방법 B – 나중에 수동으로 (Linux에서 
+  권장)
+
+  sudo npx playwright install-deps
+
+  • npx playwright install 할 때 No로
+    두고, 위 명령만 따로 실행해도
+    됩니다.
+  • 한 번만 하면 되고, 그 다음부터는
+    npx playwright install만 해도
+    됩니다.
+
+
+  ─────────────────────────────────────
+  ───
+
+
+  3. sudo를 쓰기 어려울 때
+
+  • Docker/CI: 보통 이미지에
+    playwright install-deps를 넣거나,
+    Playwright 공식 Docker 이미지를
+    쓰면 됩니다.
+  • sudo 권한 없음:
+    • 로컬 개발이면 No로 두고,
+      브라우저가 정상 실행되는지 먼저
+       확인해 보세요.
+    • 실행이 안 되면(라이브러리
+      없다는 에러가 나면) 관리자에게
+      sudo npx playwright 
+      install-deps 실행을 요청하면
+      됩니다.
+
+
+  ─────────────────────────────────────
+  ───
+
+  요약: Linux에서 개발/테스트할 거면
+  Yes 하거나, 나중에 `sudo npx 
+  playwright install-deps` 한 번 실행해
+   두는 것이 좋습니다.
+  Windows/macOS에서는 보통 Yes 해도
+  무방하고, 필요 없으면 설치가
+  스킵되거나 아무 일도 안 할 수
+  있습니다.
+
+
+
+ ┌───────────────────────────────────┐
+ │ → Add a follow-up                 │
+ └───────────────────────────────────┘
+  ◎ Ask (shift+tab to cycle)
+
+  Auto · 11.5%
+  / commands · @ files · ! shell

@@ -1,0 +1,5 @@
+bo_table,wr_id,bf_no,bf_source,bf_file,bf_download,bf_content,bf_fileurl,bf_thumburl,bf_storage,bf_filesize,bf_width,bf_height,bf_type,bf_datetime
+calendar,39,0,natalie-kinnear-3bh8qgT8k24-unsplash.jpg,e0061ce158b3436bb078b525a8da815d_al9RuJTb_dd8f8da4cf2d88e99649e6d13d102c6ae93de6b6.jpg,0,,,,,4276868,5705,3803,2,2026-01-13 12:02:38
+calendar,40,0,natalie-kinnear-3bh8qgT8k24-unsplash.jpg,e0061ce158b3436bb078b525a8da815d_T586SyKu_f15c882c3ad3ca05b3f3245371355be774b3aea4.jpg,0,,,,,4276868,5705,3803,2,2026-01-13 12:03:07
+calendar,44,0,일정표.jpg,4f2f61683c8e10d56b9584b4f5b71cdc_06mw7YTG_8e475b94d00e1ad67abc8e8250295d0cacd46d50.jpg,0,,,,,190773,678,960,2,2026-01-26 15:58:36
+notice,4,0,Gemini_Generated_Image_rgkf36rgkf36rgkf 1.png,4f2f61683c8e10d56b9584b4f5b71cdc_1YGwTy8d_b7c05bb3b5b44b48a252a454b05f7c62ac22a5df.png,0,,,,,3021750,1488,2000,3,2026-01-24 15:03:58

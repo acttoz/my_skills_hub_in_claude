@@ -1,0 +1,6 @@
+{
+  "uri": "mysql://tables/g5_write_inquiry",
+  "name": "g5_write_inquiry",
+  "description": "Table g5_write_inquiry in database rainbow_2025",
+  "mimeType": "application/json"
+}

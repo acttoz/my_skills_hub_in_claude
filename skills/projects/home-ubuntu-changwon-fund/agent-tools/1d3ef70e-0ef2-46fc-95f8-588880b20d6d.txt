@@ -1,0 +1,1159 @@
+<canvas id="0:1" name="PC" x="0" y="0" width="0" height="0">
+  <frame id="161:1136" name="사용자 캠페인참여" x="8411" y="-8" width="1920" height="5372">
+    <frame id="188:1561" name="bn" x="-2.3525390625" y="120" width="1923.3525390625" height="1179.51904296875">
+      <frame id="161:1158" name="Title Container" x="0" y="120" width="1921" height="1179.51904296875" />
+      <frame id="161:1137" name="로고" x="-2.3525390625" y="334.707763671875" width="1922.3525390625" height="745.64794921875">
+        <frame id="161:1627" name="Text input container" x="-2.3525390625" y="334.70776176452637" width="1922.3525390625" height="745.64794921875">
+          <vector id="161:1628" name="패스 361" x="446.3177490234375" y="346.4814643859863" width="535.8728637695312" height="722.0999145507812" />
+          <frame id="161:1629" name="Text input container" x="1514.937255859375" y="346.4814643859863" width="405.06280517578125" height="733.873779296875">
+            <frame id="161:1630" name="Text input" x="1514.937260499215" y="346.4814802627334" width="405.06280517578125" height="733.873779296875">
+              <vector id="161:1631" name="패스 362" x="1514.937265139055" y="346.4814656219014" width="405.06280517578125" height="733.873779296875" />
+            </frame>
+          </frame>
+          <vector id="161:1632" name="패스 363" x="-2.352539062501819" y="334.70776176452637" width="399.98516845703125" height="745.64794921875" />
+          <vector id="161:1633" name="패스 364" x="1044.159423828125" y="346.4814643859863" width="399.9546203613281" height="722.1152954101562" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="188:1563" name="Main Frame" x="-1" y="120" width="1920" height="5251.51904296875">
+      <frame id="188:1562" name="Container" x="250" y="120" width="1420" height="4629.51904296875">
+        <frame id="161:1160" name="Campaign Card" x="0" y="0" width="1423" height="399.51898193359375">
+          <frame id="161:1161" name="Campaign Card" x="1.5" y="0" width="1420" height="399.51898193359375">
+            <frame id="161:1162" name="Campaign Card" x="0" y="0" width="1420" height="399.51898193359375">
+              <frame id="161:1163" name="Switch" x="664.4999389648438" y="0" width="91.00013732910156" height="128.51898193359375" />
+              <frame id="161:1180" name="Campaign Info" x="0" y="152.51898193359375" width="1420" height="247">
+                <text id="161:1181" name="Campaign Title" x="0" y="0" width="1420" height="83" />
+                <text id="161:1182" name="Campaign Description" x="0" y="103" width="1420" height="144" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="188:1559" name="Container" x="0" y="519.5189819335938" width="1420" height="4110">
+          <frame id="188:1503" name="Container" x="0" y="0" width="1420" height="3972">
+            <frame id="161:1184" name="Campaign Content Container" x="0" y="0" width="1420" height="1376">
+              <frame id="161:1186" name="Campaign Info Title Container" x="539" y="116" width="342" height="88">
+                <text id="161:1187" name="Campaign Info Title" x="86.5" y="8" width="169" height="72" />
+              </frame>
+              <frame id="161:1188" name="Campaign Info Content Container" x="150" y="344" width="1120" height="916">
+                <frame id="161:1189" name="Campaign Info Pin Container" x="0" y="0" width="1120" height="156">
+                  <text id="161:1190" name="Campaign Info Pin Title" x="0" y="0" width="97" height="36" />
+                  <frame id="161:1191" name="Campaign Info Pin Options" x="0" y="56" width="1120" height="100">
+                    <frame id="161:1192" name="Campaign Info Pin Option" x="0" y="35" width="108" height="30">
+                      <ellipse id="161:1193" name="Ellipse 2" x="0" y="2" width="26" height="26" />
+                      <text id="161:1194" name="Campaign Info Pin Option Text" x="38" y="0" width="70" height="30" />
+                    </frame>
+                    <frame id="161:1195" name="Campaign Info Pin Option" x="148" y="35" width="108" height="30">
+                      <ellipse id="161:1196" name="Ellipse 3" x="0" y="2" width="26" height="26" />
+                      <text id="161:1197" name="Campaign Info Pin Option Text" x="38" y="0" width="70" height="30" />
+                    </frame>
+                    <frame id="161:1636" name="Campaign Info Pin Option" x="296" y="35" width="108" height="30">
+                      <ellipse id="161:1637" name="Ellipse 3" x="0" y="2" width="26" height="26" />
+                      <text id="161:1638" name="Campaign Info Pin Option Text" x="38" y="0" width="70" height="30" />
+                    </frame>
+                  </frame>
+                </frame>
+                <vector id="162:1329" name="Vector 10" x="0" y="208" width="1120" height="0" />
+                <frame id="162:1294" name="Donation Type Container" x="0" y="260" width="1120" height="176">
+                  <frame id="162:1295" name="Donation Type Options Container" x="0" y="0" width="1120" height="86">
+                    <text id="162:1296" name="Donation Type Title" x="0" y="0" width="1120" height="36" />
+                    <frame id="162:1297" name="Donation Type Options" x="0" y="56" width="1120" height="30">
+                      <frame id="162:1298" name="Donation Type Option" x="0" y="0" width="83" height="30">
+                        <ellipse id="162:1299" name="Ellipse 2" x="0" y="2" width="26" height="26" />
+                        <text id="162:1300" name="Donation Type Option Text" x="38" y="0" width="45" height="30" />
+                      </frame>
+                      <frame id="162:1301" name="Donation Type Option" x="123" y="0" width="85" height="30">
+                        <ellipse id="162:1302" name="Ellipse 3" x="0" y="2" width="26" height="26" />
+                        <text id="162:1303" name="Donation Type Option Text" x="38" y="0" width="47" height="30" />
+                      </frame>
+                      <frame id="162:1304" name="Donation Type Option" x="248" y="0" width="85" height="30">
+                        <ellipse id="162:1305" name="Ellipse 3" x="0" y="2" width="26" height="26" />
+                        <text id="162:1306" name="Donation Type Option Text" x="38" y="0" width="47" height="30" />
+                      </frame>
+                      <frame id="162:1307" name="Donation Type Option" x="373" y="0" width="85" height="30">
+                        <ellipse id="162:1308" name="Ellipse 3" x="0" y="2" width="26" height="26" />
+                        <text id="162:1309" name="Donation Type Option Text" x="38" y="0" width="47" height="30" />
+                      </frame>
+                      <frame id="162:1310" name="Donation Type Option" x="498" y="0" width="94" height="30">
+                        <ellipse id="162:1311" name="Ellipse 3" x="0" y="2" width="26" height="26" />
+                        <text id="162:1312" name="Donation Type Option Text" x="38" y="0" width="56" height="30" />
+                      </frame>
+                      <frame id="162:1320" name="Donation Type Option" x="632" y="0" width="106" height="30">
+                        <ellipse id="162:1321" name="Ellipse 3" x="0" y="2" width="26" height="26" />
+                        <text id="162:1322" name="Donation Type Option Text" x="38" y="0" width="68" height="30" />
+                      </frame>
+                      <frame id="162:1324" name="Donation Type Option" x="778" y="0" width="108" height="30">
+                        <ellipse id="162:1325" name="Ellipse 3" x="0" y="2" width="26" height="26" />
+                        <text id="162:1326" name="Donation Type Option Text" x="38" y="0" width="70" height="30" />
+                      </frame>
+                    </frame>
+                  </frame>
+                  <frame id="162:1313" name="Search Input Container" x="0" y="106" width="1120" height="70">
+                    <text id="162:1314" name="Search Placeholder" x="24" y="20" width="1072" height="30" />
+                  </frame>
+                </frame>
+                <vector id="162:1331" name="Vector 11" x="0" y="488" width="1120" height="0" />
+                <frame id="161:1198" name="Campaign Name Container" x="0" y="540" width="1120" height="376">
+                  <frame id="162:1223" name="Post Content Container" x="0" y="0" width="1120" height="376">
+                    <text id="162:1224" name="Post Content Title" x="0" y="0" width="1120" height="36" />
+                    <frame id="162:1225" name="Search Input Container" x="0" y="56" width="1120" height="320">
+                      <text id="162:1226" name="Search Placeholder" x="24" y="20" width="1072" height="30" />
+                    </frame>
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+            <frame id="188:1437" name="Container" x="0" y="1456" width="1420" height="2516">
+              <frame id="188:1438" name="Campaign Content Title Container" x="539" y="116" width="342" height="88">
+                <text id="188:1439" name="Campaign Content Title" x="60" y="8" width="222" height="72" />
+              </frame>
+              <frame id="188:1440" name="Main Container" x="150" y="284" width="1120" height="2116">
+                <frame id="188:1441" name="Header Container" x="0" y="0" width="1120" height="128">
+                  <frame id="188:1442" name="Donation Type Container" x="0" y="0" width="1120" height="86">
+                    <frame id="188:1443" name="Donation Type Options Container" x="0" y="0" width="1120" height="86">
+                      <text id="188:1444" name="Donation Type Title" x="0" y="0" width="1120" height="36" />
+                      <frame id="188:1445" name="Donation Type Options" x="0" y="56" width="1120" height="30">
+                        <frame id="188:1446" name="Donation Type Option" x="0" y="0" width="108" height="30">
+                          <ellipse id="188:1447" name="Ellipse 2" x="0" y="2" width="26" height="26" />
+                          <text id="188:1448" name="Donation Type Option Text" x="38" y="0" width="70" height="30" />
+                        </frame>
+                        <frame id="188:1449" name="Donation Type Option" x="148" y="0" width="108" height="30">
+                          <ellipse id="188:1450" name="Ellipse 3" x="0" y="2" width="26" height="26" />
+                          <text id="188:1451" name="Donation Type Option Text" x="38" y="0" width="70" height="30" />
+                        </frame>
+                        <frame id="188:1452" name="Donation Type Option" x="296" y="0" width="108" height="30">
+                          <ellipse id="188:1453" name="Ellipse 3" x="0" y="2" width="26" height="26" />
+                          <text id="188:1454" name="Donation Type Option Text" x="38" y="0" width="70" height="30" />
+                        </frame>
+                      </frame>
+                    </frame>
+                  </frame>
+                  <vector id="188:1455" name="Vector 11" x="0" y="128" width="1120" height="0" />
+                </frame>
+                <frame id="188:1457" name="Campaign Name Container" x="0" y="180" width="1120" height="126">
+                  <frame id="188:1458" name="Post Content Container" x="0" y="0" width="1120" height="126">
+                    <text id="188:1459" name="Post Content Title" x="0" y="0" width="1120" height="36" />
+                    <frame id="188:1460" name="Search Input Container" x="0" y="56" width="1120" height="70">
+                      <text id="188:1461" name="Search Placeholder" x="24" y="20" width="52" height="30" />
+                    </frame>
+                  </frame>
+                </frame>
+                <vector id="196:1431" name="Vector 15" x="0" y="358" width="1120" height="0" />
+                <frame id="196:1433" name="Campaign Name Container" x="0" y="410" width="1120" height="126">
+                  <frame id="196:1434" name="Post Content Container" x="0" y="0" width="1120" height="126">
+                    <text id="196:1435" name="Post Content Title" x="0" y="0" width="1120" height="36" />
+                    <frame id="196:1436" name="Search Input Container" x="0" y="56" width="1120" height="70">
+                      <frame id="219:1386" name="Frame 31" x="24" y="20" width="1072" height="30">
+                        <text id="196:1437" name="Search Placeholder" x="0" y="0" width="59" height="30" />
+                      </frame>
+                    </frame>
+                  </frame>
+                </frame>
+                <vector id="196:1438" name="Vector 17" x="0" y="588" width="1120" height="0" />
+                <frame id="188:1463" name="Campaign Name Container" x="0" y="640" width="1120" height="126">
+                  <frame id="188:1464" name="Post Content Container" x="0" y="0" width="1120" height="126">
+                    <text id="188:1465" name="Post Content Title" x="0" y="0" width="1120" height="36" />
+                    <frame id="188:1466" name="Search Input Container" x="0" y="56" width="1120" height="70">
+                      <text id="188:1467" name="Search Placeholder" x="24" y="20" width="1072" height="30" />
+                    </frame>
+                  </frame>
+                </frame>
+                <vector id="196:1399" name="Vector 15" x="0" y="818" width="1120" height="0" />
+                <frame id="188:1474" name="Post Content Container" x="0" y="870" width="1120" height="126">
+                  <text id="188:1475" name="Post Content Title" x="0" y="0" width="1120" height="36" />
+                  <frame id="188:1476" name="Phone Number Container" x="0" y="56" width="1120" height="70">
+                    <frame id="188:1477" name="Search Input Container" x="0" y="0" width="360" height="70">
+                      <frame id="188:1478" name="Phone Number Input" x="24" y="20" width="312" height="30">
+                        <text id="188:1479" name="Search Placeholder" x="0" y="0" width="292" height="30" />
+                        <vector id="188:1480" name="Vector" x="292" y="7" width="20" height="16" />
+                      </frame>
+                    </frame>
+                    <frame id="188:1481" name="Search Input Container" x="380" y="0" width="360" height="70">
+                      <text id="188:1482" name="Search Placeholder" x="0" y="20" width="360" height="30" />
+                    </frame>
+                    <frame id="188:1483" name="Search Input Container" x="760" y="0" width="360" height="70">
+                      <text id="188:1484" name="Search Placeholder" x="0" y="20" width="360" height="30" />
+                    </frame>
+                  </frame>
+                </frame>
+                <vector id="196:1323" name="Vector 14" x="0" y="1048" width="1120" height="0" />
+                <frame id="196:1400" name="Post Content Container" x="0" y="1100" width="1120" height="126">
+                  <text id="196:1401" name="Post Content Title" x="0" y="0" width="1120" height="36" />
+                  <frame id="196:1402" name="Phone Number Container" x="0" y="56" width="1120" height="70">
+                    <frame id="196:1403" name="Search Input Container" x="0" y="0" width="1120" height="70">
+                      <frame id="196:1404" name="Phone Number Input" x="24" y="20" width="1072" height="30">
+                        <text id="196:1405" name="Search Placeholder" x="0" y="0" width="52" height="30" />
+                        <vector id="196:1406" name="Vector" x="1052" y="7" width="20" height="16" />
+                      </frame>
+                    </frame>
+                  </frame>
+                </frame>
+                <vector id="196:1411" name="Vector 16" x="0" y="1278" width="1120" height="0" />
+                <frame id="188:1485" name="Address Container" x="0" y="1330" width="1120" height="306">
+                  <frame id="188:1486" name="Campaign Name Container" x="0" y="1330" width="1120" height="306">
+                    <frame id="188:1487" name="Post Content Container" x="0" y="0" width="1120" height="306">
+                      <text id="188:1488" name="Post Content Title" x="0" y="0" width="1120" height="36" />
+                      <frame id="188:1489" name="Address Input" x="0" y="56" width="1120" height="160">
+                        <frame id="188:1490" name="Search Input Container" x="0" y="0" width="1120" height="70">
+                          <text id="188:1491" name="Search Placeholder" x="24" y="20" width="269" height="30" />
+                        </frame>
+                        <frame id="188:1492" name="Search Input Container" x="0" y="90" width="1120" height="70">
+                          <text id="188:1493" name="Search Placeholder" x="518.5" y="17" width="83" height="36" />
+                        </frame>
+                      </frame>
+                      <frame id="188:1494" name="Search Input Container" x="0" y="236" width="1120" height="70">
+                        <text id="188:1495" name="Search Placeholder" x="24" y="20" width="206" height="30" />
+                      </frame>
+                    </frame>
+                  </frame>
+                </frame>
+                <vector id="188:1496" name="Vector 12" x="0" y="1688" width="1120" height="0" />
+                <frame id="188:1497" name="Post Content Container" x="0" y="1740" width="1120" height="376">
+                  <text id="188:1498" name="Post Content Title" x="0" y="0" width="1120" height="36" />
+                  <frame id="188:1499" name="Additional Notes Container" x="0" y="56" width="1120" height="320">
+                    <frame id="188:1500" name="Search Input Container" x="0" y="0" width="1120" height="320">
+                      <text id="188:1501" name="Search Placeholder" x="24" y="20" width="206" height="30" />
+                    </frame>
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="162:1883" name="Button Container" x="530" y="4032" width="360" height="78">
+            <instance id="196:2440" name="Button" x="0" y="0" width="360" height="78" />
+          </frame>
+        </frame>
+      </frame>
+      <instance id="188:1507" name="Footer" x="0" y="4929.51904296875" width="1920" height="322" />
+    </frame>
+    <instance id="161:1272" name="header" x="0" y="0" width="1920" height="120" />
+  </frame>
+  <frame id="220:2087" name="로그인2" x="10427" y="-8" width="1920" height="1905">
+    <instance id="220:2145" name="header" x="0" y="0" width="1920" height="120" />
+    <frame id="212:2171" name="로고" x="4" y="533" width="1912.199951171875" height="718.2380981445312">
+      <frame id="212:2172" name="Text input container" x="0" y="-0.000009059906005859375" width="1922.3525390625" height="722.051513671875">
+        <vector id="212:2173" name="패스 361" x="448.6702880859375" y="11.401108264923096" width="535.8728637695312" height="699.2486572265625" />
+        <frame id="212:2174" name="Text input container" x="1517.289794921875" y="11.401108264923096" width="405.06280517578125" height="710.64990234375">
+          <frame id="212:2175" name="Text input" x="1517.289799561715" y="11.401124141670152" width="405.06280517578125" height="710.64990234375">
+            <vector id="212:2176" name="패스 362" x="1517.289804201555" y="11.401109500838174" width="405.06280517578125" height="710.64990234375" />
+          </frame>
+        </frame>
+        <vector id="212:2177" name="패스 363" x="-1.8189894035458565e-12" y="-0.000009059905977437666" width="399.98516845703125" height="722.051513671875" />
+        <vector id="212:2178" name="패스 364" x="1046.511962890625" y="11.401108264923096" width="399.9546203613281" height="699.2635498046875" />
+      </frame>
+    </frame>
+    <frame id="220:2646" name="Frame 32" x="0" y="120" width="1920" height="1785.51904296875">
+      <frame id="220:2645" name="Frame 32" x="0" y="0" width="1920" height="1463.51904296875">
+        <frame id="224:1394" name="Frame 31" x="0" y="120" width="1920" height="1223.51904296875">
+          <frame id="220:2435" name="Title Container" x="0" y="0" width="1920" height="303.51898193359375">
+            <frame id="220:2436" name="Main Title Container" x="551.5" y="0" width="817" height="303.51898193359375">
+              <frame id="220:2437" name="Campaign Card" x="0" y="0" width="817" height="303.51898193359375">
+                <frame id="220:2438" name="Campaign Card" x="0" y="0" width="817" height="303.51898193359375">
+                  <frame id="220:2439" name="Campaign Card" x="0" y="0" width="817" height="303.51898193359375">
+                    <frame id="220:2440" name="Switch" x="363" y="0" width="91.00013732910156" height="128.51898193359375" />
+                    <frame id="220:2457" name="Campaign Info" x="0" y="152.51898193359375" width="817" height="151">
+                      <text id="220:2458" name="Campaign Title" x="0" y="0" width="817" height="83" />
+                      <text id="220:2459" name="Campaign Description" x="0" y="103" width="817" height="48" />
+                    </frame>
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="220:2461" name="Campaign Content Container" x="610" y="393.51898193359375" width="700" height="830">
+            <frame id="220:2463" name="Campaign Info Content Container" x="60" y="90" width="580" height="316">
+              <frame id="220:2464" name="Donation Type Container" x="0" y="0" width="580" height="182">
+                <frame id="220:2465" name="Frame 29" x="0" y="0" width="580" height="182">
+                  <text id="220:2466" name="Donation Type Title" x="0" y="0" width="580" height="72" />
+                  <frame id="220:2467" name="Search Input Container" x="0" y="112" width="580" height="70">
+                    <text id="220:2468" name="Search Placeholder" x="24" y="20" width="532" height="30" />
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="220:2473" name="Donation Type Container" x="0" y="202" width="580" height="114">
+                <frame id="220:2475" name="Search Input Container" x="0" y="0" width="580" height="70">
+                  <text id="220:2476" name="Search Placeholder" x="24" y="20" width="109" height="30" />
+                  <frame id="220:2477" name="Donation Type Options" x="143" y="20" width="413" height="30" />
+                </frame>
+                <frame id="220:2478" name="Donation Type Options" x="0" y="90" width="580" height="24">
+                  <frame id="220:2479" name="Donation Type Option" x="0" y="0" width="107" height="24">
+                    <text id="220:2480" name="Donation Type Option Text" x="0" y="0" width="107" height="24" />
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+            <frame id="220:2481" name="Frame 31" x="60" y="466" width="580" height="274">
+              <instance id="220:2482" name="Button" x="0" y="0" width="580" height="78" />
+              <frame id="220:2644" name="Frame 33" x="0" y="98" width="580" height="78">
+                <instance id="220:2634" name="Button" x="0" y="0" width="280" height="78" />
+                <instance id="220:2639" name="Button" x="300" y="0" width="280" height="78" />
+              </frame>
+              <instance id="220:2483" name="Button" x="0" y="196" width="580" height="78" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <instance id="220:2144" name="Footer" x="0" y="1463.51904296875" width="1920" height="322" />
+    </frame>
+  </frame>
+  <frame id="84:1730" name="캠페인작성" x="6304" y="-8" width="1920" height="4749">
+    <frame id="162:1821" name="Group 20" x="-2" y="104" width="1923.3525390625" height="1179.51904296875">
+      <frame id="162:1812" name="Title Container" x="0.3525390625" y="104" width="1921" height="1179.51904296875" />
+      <frame id="162:1813" name="로고" x="-2" y="247.37222290039062" width="1922.3525390625" height="584.7382202148438">
+        <frame id="162:1814" name="Text input container" x="-2" y="247.37221586704254" width="1922.3525390625" height="584.7382202148438">
+          <vector id="162:1815" name="패스 361" x="446.6702880859375" y="256.6051689386368" width="535.8728637695312" height="566.27197265625" />
+          <frame id="162:1816" name="Text input container" x="1515.289794921875" y="256.6051689386368" width="405.06280517578125" height="575.5050659179688">
+            <frame id="162:1817" name="Text input" x="1515.289799561715" y="256.60518481538384" width="405.06280517578125" height="575.5050659179688">
+              <vector id="162:1818" name="패스 362" x="1515.289804201555" y="256.60517017455186" width="405.06280517578125" height="575.5050659179688" />
+            </frame>
+          </frame>
+          <vector id="162:1819" name="패스 363" x="-2.000000000001819" y="247.37221586704257" width="399.98516845703125" height="584.7382202148438" />
+          <vector id="162:1820" name="패스 364" x="1044.511962890625" y="256.6051689386368" width="399.9546203613281" height="566.2840576171875" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="158:1117" name="Switch container" x="1120" y="242.18850708007812" width="958.247802734375" height="1425.0413818359375" hidden="true">
+      <frame id="158:1118" name="Switch" x="1119.9999994039536" y="242.18851232528687" width="958.247802734375" height="1425.0413818359375">
+        <vector id="158:1119" name="패스 437" x="1342.847045302391" y="683.6207938194275" width="14.851223945617676" height="24.78982925415039" />
+        <vector id="158:1120" name="패스 438" x="1460.7036737203598" y="676.3923087120056" width="21.231382369995117" height="44.69260025024414" />
+        <vector id="158:1121" name="패스 439" x="1708.772338271141" y="580.456120967865" width="21.23023223876953" height="44.73898696899414" />
+        <vector id="158:1122" name="패스 440" x="1468.0327447652817" y="587.75665807724" width="14.861063957214355" height="24.7897891998291" />
+        <vector id="158:1123" name="패스 441" x="1576.660033583641" y="683.6207938194275" width="14.870831489562988" height="24.78982925415039" />
+        <vector id="158:1124" name="패스 442" x="1190.7937005758286" y="520.7209219932556" width="760.29638671875" height="1056.10791015625" />
+        <vector id="158:1125" name="패스 443" x="1119.9999994039536" y="505.51740026474" width="901.9225463867188" height="1161.7125244140625" />
+        <vector id="158:1126" name="사각형 467" x="2021.8932489156723" y="446.186589717865" width="56.35422134399414" height="59.34061813354492" />
+        <vector id="158:1127" name="사각형 468" x="1965.5388177633286" y="386.84615087509155" width="56.35422134399414" height="59.34061813354492" />
+        <vector id="158:1128" name="사각형 469" x="1120.0099845193326" y="386.84615087509155" width="56.35422134399414" height="59.34061813354492" />
+        <vector id="158:1129" name="패스 444" x="1176.363673567772" y="320.811719417572" width="789.1846313476562" height="184.7047576904297" />
+        <vector id="158:1130" name="패스 445" x="1725.0918573141098" y="333.51013708114624" width="9.616787910461426" height="13.204700469970703" />
+        <vector id="158:1131" name="패스 446" x="1690.1401361227036" y="350.78018712997437" width="9.598864555358887" height="13.146354675292969" />
+        <vector id="158:1132" name="패스 447" x="1655.0531610250473" y="333.51013708114624" width="9.607691764831543" height="13.204208374023438" />
+        <vector id="158:1133" name="패스 448" x="1578.131682753563" y="242.1885123252864" width="204.0032958984375" height="213.9124755859375" />
+        <vector id="158:1134" name="패스 449" x="1359.8071435689926" y="242.2121729105711" width="203.9639892578125" height="213.89105224609375" />
+      </frame>
+    </frame>
+    <frame id="84:1778" name="ChevronLeft" x="1326" y="4887" width="20" height="20" hidden="true" />
+    <instance id="96:1111" name="header" x="0" y="0" width="1920" height="120" />
+    <frame id="188:1763" name="Container" x="0" y="121" width="1920" height="4627.51904296875">
+      <frame id="188:1708" name="Frame 28" x="248.5" y="0" width="1423" height="4125.51904296875">
+        <frame id="188:1570" name="Frame 29" x="0" y="0" width="1423" height="4125.51904296875">
+          <frame id="188:1571" name="Frame 28" x="0" y="120" width="1423" height="3905.51904296875">
+            <frame id="188:1572" name="Frame 28" x="0" y="0" width="1423" height="3905.51904296875">
+              <frame id="188:1573" name="Title Container" x="303" y="0" width="817" height="303.51898193359375">
+                <frame id="188:1574" name="Main Title Container" x="0" y="0" width="817" height="303.51898193359375">
+                  <frame id="188:1575" name="Campaign Card" x="0" y="0" width="817" height="303.51898193359375">
+                    <frame id="188:1576" name="Campaign Card" x="0" y="0" width="817" height="303.51898193359375">
+                      <frame id="188:1577" name="Campaign Card" x="0" y="0" width="817" height="303.51898193359375">
+                        <frame id="188:1578" name="Switch" x="363" y="0" width="91.00013732910156" height="128.51898193359375" />
+                        <frame id="188:1595" name="Campaign Info" x="0" y="152.51898193359375" width="817" height="151">
+                          <text id="188:1596" name="Campaign Title" x="0" y="0" width="817" height="83" />
+                          <text id="188:1597" name="Campaign Description" x="0" y="103" width="817" height="48" />
+                        </frame>
+                      </frame>
+                    </frame>
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="188:1598" name="Frame 28" x="0" y="423.51898193359375" width="1423" height="3482">
+                <frame id="188:1600" name="Campaign Content Container" x="0" y="0" width="1420" height="1476">
+                  <frame id="188:1601" name="Frame 17" x="150" y="116" width="1120" height="1244">
+                    <frame id="188:1602" name="Frame 13" x="0" y="0" width="1120" height="1244">
+                      <frame id="188:1603" name="Campaign Info Title Container" x="389" y="0" width="342" height="88">
+                        <text id="188:1604" name="Campaign Info Title" x="60" y="8" width="222" height="72" />
+                      </frame>
+                      <frame id="188:1605" name="Campaign Info Content Container" x="0" y="168" width="1120" height="1076">
+                        <frame id="188:1606" name="Campaign Info Pin Container" x="0" y="0" width="1120" height="138">
+                          <frame id="188:1607" name="Frame 19" x="0" y="0" width="1120" height="86">
+                            <text id="188:1608" name="Campaign Info Pin Title" x="0" y="0" width="1120" height="36" />
+                            <frame id="188:1609" name="Campaign Info Pin Options" x="0" y="56" width="1120" height="30">
+                              <frame id="188:1610" name="Campaign Info Pin Option" x="0" y="0" width="125" height="30">
+                                <ellipse id="188:1611" name="Ellipse 2" x="0" y="2" width="26" height="26" />
+                                <text id="188:1612" name="Campaign Info Pin Option Text" x="38" y="0" width="87" height="30" />
+                              </frame>
+                              <frame id="188:1613" name="Campaign Info Pin Option" x="165" y="0" width="125" height="30">
+                                <ellipse id="188:1614" name="Ellipse 3" x="0" y="2" width="26" height="26" />
+                                <text id="188:1615" name="Campaign Info Pin Option Text" x="38" y="0" width="87" height="30" />
+                              </frame>
+                            </frame>
+                          </frame>
+                          <frame id="188:1616" name="Frame 19" x="0" y="138" width="1120" height="0">
+                            <vector id="188:1617" name="Vector 11" x="0" y="0" width="1120" height="0" />
+                          </frame>
+                        </frame>
+                        <frame id="188:1618" name="Frame 19" x="0" y="190" width="1120" height="178">
+                          <frame id="188:1619" name="Campaign Name Container" x="0" y="0" width="1120" height="126">
+                            <text id="188:1620" name="Campaign Name Title" x="0" y="0" width="1120" height="36" />
+                            <frame id="188:1621" name="Search Input Container" x="0" y="56" width="1120" height="70">
+                              <text id="188:1622" name="Search Placeholder" x="24" y="20" width="1072" height="30" />
+                            </frame>
+                          </frame>
+                          <frame id="188:1623" name="Frame 19" x="0" y="178" width="1120" height="0">
+                            <vector id="188:1624" name="Vector 11" x="0" y="0" width="1120" height="0" />
+                          </frame>
+                        </frame>
+                        <frame id="188:1625" name="Campaign Duration Container" x="0" y="420" width="1120" height="126">
+                          <text id="188:1626" name="Campaign Duration Title" x="0" y="0" width="1120" height="36" />
+                          <frame id="188:1627" name="Campaign Duration Inputs" x="0" y="56" width="1120" height="70">
+                            <frame id="188:1628" name="Search Input Container" x="0" y="0" width="550" height="70">
+                              <text id="188:1629" name="Search Placeholder" x="24" y="20" width="502" height="30" />
+                            </frame>
+                            <frame id="188:1630" name="Search Input Container" x="570" y="0" width="550" height="70">
+                              <text id="188:1631" name="Search Placeholder" x="24" y="20" width="502" height="30" />
+                            </frame>
+                          </frame>
+                        </frame>
+                        <vector id="188:1632" name="Vector 11" x="0" y="598" width="1120" height="0" />
+                        <frame id="188:1633" name="Campaign Goal Container" x="0" y="650" width="1120" height="126">
+                          <text id="188:1634" name="Campaign Goal Title" x="0" y="0" width="1120" height="36" />
+                          <frame id="188:1635" name="Search Input Container" x="0" y="56" width="1120" height="70">
+                            <text id="188:1636" name="Search Placeholder" x="24" y="20" width="1072" height="30" />
+                          </frame>
+                        </frame>
+                        <vector id="188:1637" name="Vector 12" x="0" y="828" width="1120" height="0" />
+                        <frame id="188:1638" name="Donation Type Container" x="0" y="880" width="1120" height="196">
+                          <frame id="188:1639" name="Donation Type Options Container" x="0" y="0" width="1120" height="86">
+                            <text id="188:1640" name="Donation Type Title" x="0" y="0" width="1120" height="36" />
+                            <frame id="188:1641" name="Donation Type Options" x="0" y="56" width="1120" height="30">
+                              <frame id="188:1642" name="Donation Type Option" x="0" y="0" width="108" height="30">
+                                <ellipse id="188:1643" name="Ellipse 2" x="0" y="2" width="26" height="26" />
+                                <text id="188:1644" name="Donation Type Option Text" x="38" y="0" width="70" height="30" />
+                              </frame>
+                              <frame id="188:1645" name="Donation Type Option" x="148" y="0" width="108" height="30">
+                                <ellipse id="188:1646" name="Ellipse 3" x="0" y="2" width="26" height="26" />
+                                <text id="188:1647" name="Donation Type Option Text" x="38" y="0" width="70" height="30" />
+                              </frame>
+                              <frame id="188:1648" name="Donation Type Option" x="296" y="0" width="108" height="30">
+                                <ellipse id="188:1649" name="Ellipse 3" x="0" y="2" width="26" height="26" />
+                                <text id="188:1650" name="Donation Type Option Text" x="38" y="0" width="70" height="30" />
+                              </frame>
+                              <frame id="188:1651" name="Donation Type Option" x="444" y="0" width="108" height="30">
+                                <ellipse id="188:1652" name="Ellipse 3" x="0" y="2" width="26" height="26" />
+                                <text id="188:1653" name="Donation Type Option Text" x="38" y="0" width="70" height="30" />
+                              </frame>
+                              <frame id="188:1654" name="Donation Type Option" x="592" y="0" width="156" height="30">
+                                <ellipse id="188:1655" name="Ellipse 3" x="0" y="2" width="26" height="26" />
+                                <text id="188:1656" name="Donation Type Option Text" x="38" y="0" width="118" height="30" />
+                              </frame>
+                            </frame>
+                          </frame>
+                          <frame id="188:1657" name="Search Input Container" x="0" y="126" width="1120" height="70">
+                            <text id="188:1658" name="Search Placeholder" x="24" y="20" width="127" height="30" />
+                          </frame>
+                        </frame>
+                      </frame>
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="188:1659" name="Campaign Content Section" x="0" y="1556" width="1420" height="1926">
+                  <frame id="188:1660" name="Frame 13" x="150" y="116" width="1120" height="1694">
+                    <frame id="188:1661" name="Campaign Content Title Container" x="389" y="0" width="342" height="88">
+                      <text id="188:1662" name="Campaign Content Title" x="60" y="8" width="222" height="72" />
+                    </frame>
+                    <frame id="188:1663" name="Campaign Content Container" x="0" y="168" width="1120" height="1526">
+                      <frame id="188:1664" name="Main Title Container" x="0" y="0" width="1120" height="126">
+                        <text id="188:1665" name="Main Title" x="0" y="0" width="1120" height="36" />
+                        <frame id="188:1666" name="Search Input Container" x="0" y="56" width="1120" height="70">
+                          <text id="188:1667" name="Search Placeholder" x="24" y="20" width="1072" height="30" />
+                        </frame>
+                      </frame>
+                      <vector id="188:1668" name="Vector 13" x="0" y="178" width="1120" height="0" />
+                      <frame id="188:1669" name="Subtitle Container" x="0" y="230" width="1120" height="126">
+                        <text id="188:1670" name="Subtitle" x="0" y="0" width="1120" height="36" />
+                        <frame id="188:1671" name="Search Input Container" x="0" y="56" width="1120" height="70">
+                          <text id="188:1672" name="Search Placeholder" x="24" y="20" width="1072" height="30" />
+                        </frame>
+                      </frame>
+                      <vector id="188:1673" name="Vector 14" x="0" y="408" width="1120" height="0" />
+                      <frame id="188:1674" name="Slogan Container" x="0" y="460" width="1120" height="126">
+                        <text id="188:1675" name="Slogan" x="0" y="0" width="1120" height="36" />
+                        <frame id="188:1676" name="Search Input Container" x="0" y="56" width="1120" height="70">
+                          <text id="188:1677" name="Search Placeholder" x="24" y="20" width="188" height="30" />
+                        </frame>
+                      </frame>
+                      <vector id="188:1678" name="Vector 15" x="0" y="638" width="1120" height="0" />
+                      <frame id="188:1679" name="Post Content Container" x="0" y="690" width="1120" height="376">
+                        <text id="188:1680" name="Post Content Title" x="0" y="0" width="1120" height="36" />
+                        <frame id="188:1681" name="Search Input Container" x="0" y="56" width="1120" height="320">
+                          <text id="188:1682" name="Search Placeholder" x="24" y="20" width="1072" height="30" />
+                        </frame>
+                      </frame>
+                      <vector id="188:1683" name="Vector 17" x="0" y="1118" width="1120" height="0" />
+                      <frame id="188:1684" name="Thumbnail Container" x="0" y="1170" width="1120" height="126">
+                        <text id="188:1685" name="Thumbnail Title" x="0" y="0" width="1120" height="36" />
+                        <frame id="188:1686" name="Search Input Container" x="0" y="56" width="1120" height="70">
+                          <frame id="188:1687" name="Thumbnail Input Container" x="24" y="20" width="527" height="30">
+                            <frame id="188:1688" name="FileEarmarkImage" x="0" y="5" width="20" height="20" />
+                            <text id="188:1691" name="Search Placeholder" x="40" y="0" width="487" height="30" />
+                          </frame>
+                        </frame>
+                      </frame>
+                      <vector id="188:1692" name="Vector 18" x="0" y="1348" width="1120" height="0" />
+                      <frame id="188:1693" name="Thumbnail Container" x="0" y="1400" width="1120" height="126">
+                        <text id="188:1694" name="Thumbnail Title" x="0" y="0" width="1120" height="36" />
+                        <frame id="188:1695" name="Search Input Container" x="0" y="56" width="1120" height="70">
+                          <frame id="188:1696" name="Thumbnail Input Container" x="24" y="20" width="538" height="30">
+                            <frame id="188:1697" name="FileEarmarkImage" x="0" y="5" width="20" height="20" />
+                            <text id="188:1700" name="Search Placeholder" x="40" y="0" width="498" height="30" />
+                          </frame>
+                        </frame>
+                      </frame>
+                    </frame>
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="188:1701" name="Container" x="0" y="4085.51904296875" width="1423" height="40">
+            <frame id="188:1702" name="Container" x="1237.5" y="0" width="185.5" height="40">
+              <instance id="188:1703" name="Button" x="0" y="0" width="88" height="40" />
+              <instance id="188:1704" name="Button" x="96" y="0" width="88" height="40" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="188:1712" name="Group 28" x="0" y="4305.51904296875" width="1920" height="322">
+        <instance id="188:1713" name="Footer" x="0" y="4305.51904296875" width="1920" height="322" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="79:647" name="캠페인상세" x="4197" y="-8" width="1920" height="4995">
+    <frame id="84:827" name="배경" x="0" y="1663.19091796875" width="1923" height="3015.808837890625">
+      <rounded-rectangle id="79:4927" name="Footer Background" x="0" y="1663.1909584999084" width="1923" height="3015.808837890625" />
+      <frame id="84:1018" name="Switch container" x="1248" y="1693.9476318359375" width="602.044189453125" height="754.7392578125">
+        <frame id="84:1019" name="Switch" x="1248" y="1693.9476062059402" width="602.044189453125" height="754.7392578125">
+          <vector id="84:1020" name="패스 437" x="1388.00927734375" y="1927.7418261766434" width="9.330676078796387" height="13.129339218139648" />
+          <vector id="84:1021" name="패스 438" x="1462.05615234375" y="1923.9132128953934" width="13.339179992675781" height="23.67036247253418" />
+          <vector id="84:1022" name="패스 439" x="1617.91162109375" y="1873.1027880907059" width="13.338457107543945" height="23.694934844970703" />
+          <vector id="84:1023" name="패스 440" x="1466.66064453125" y="1876.969502568245" width="9.336857795715332" height="13.129317283630371" />
+          <vector id="84:1024" name="패스 441" x="1534.90869140625" y="1927.7418261766434" width="9.342994689941406" height="13.129339218139648" />
+          <vector id="84:1025" name="패스 442" x="1292.47802734375" y="1841.4652453660965" width="477.6763916015625" height="559.3422241210938" />
+          <vector id="84:1026" name="패스 443" x="1247.999999999999" y="1833.4134112596512" width="566.6567993164062" height="615.2732543945312" />
+          <vector id="84:1027" name="사각형 467" x="1814.63818359375" y="1801.9903002977371" width="35.406036376953125" height="31.428333282470703" />
+          <vector id="84:1028" name="사각형 468" x="1779.23193359375" y="1770.5618716478348" width="35.406036376953125" height="31.428333282470703" />
+          <vector id="84:1029" name="사각형 469" x="1248.00634765625" y="1770.5618716478348" width="35.406036376953125" height="31.428333282470703" />
+          <vector id="84:1030" name="패스 444" x="1283.41162109375" y="1735.588658452034" width="495.8262023925781" height="97.82445526123047" />
+          <vector id="84:1031" name="패스 445" x="1628.1650390625" y="1742.3137065172195" width="6.0420026779174805" height="6.99355411529541" />
+          <vector id="84:1032" name="패스 446" x="1606.20556640625" y="1751.4602748155594" width="6.030741214752197" height="6.962652206420898" />
+          <vector id="84:1033" name="패스 447" x="1584.1611328125" y="1742.3137065172195" width="6.0362868309021" height="6.993293285369873" />
+          <vector id="84:1034" name="패스 448" x="1535.83349609375" y="1693.9476062059402" width="128.1704864501953" height="113.29360961914062" />
+          <vector id="84:1035" name="패스 449" x="1398.6650390625" y="1693.9603583496064" width="128.14578247070312" height="113.2822494506836" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="79:695" name="ChevronLeft" x="1326" y="5302" width="20" height="20" />
+    <frame id="79:4925" name="Footer Text Container" x="250" y="171" width="151" height="36" />
+    <instance id="79:4600" name="달성금액" x="970" y="1072" width="306" height="128" hidden="true" />
+    <instance id="79:4735" name="달성금액" x="970" y="1220.5" width="306" height="128" hidden="true" />
+    <instance id="79:4612" name="비활성화" x="850" y="1092" width="712" height="78" hidden="true" />
+    <frame id="79:4978" name="Footer Button Container" x="469.5" y="2487" width="195" height="60">
+      <frame id="79:4979" name="Text input container" x="0" y="19.5" width="44" height="44" hidden="true" />
+    </frame>
+    <frame id="79:4970" name="Footer Links Container" x="586.5" y="2386" width="44" height="44">
+      <frame id="79:4971" name="Text input container" x="0" y="0" width="44" height="44" hidden="true" />
+    </frame>
+    <instance id="96:1175" name="header" x="-4214" y="-606" width="1920" height="120" />
+    <instance id="96:1038" name="header" x="0" y="0" width="1920" height="120" />
+    <frame id="188:1257" name="Frame 28" x="0" y="144" width="1920" height="4535">
+      <frame id="188:1253" name="Group 27" x="0" y="0" width="1920" height="4355">
+        <frame id="79:4956" name="Main Container" x="0" y="0" width="1920" height="1621.7757568359375">
+          <frame id="84:895" name="Main Title Container" x="551.5" y="120" width="817" height="423.51898193359375">
+            <frame id="84:2282" name="Campaign Card" x="0" y="0" width="817" height="423.51898193359375">
+              <frame id="84:2283" name="Campaign Card" x="-301.5" y="0" width="1420" height="423.51898193359375">
+                <frame id="84:2305" name="Campaign Card" x="301.5" y="0" width="817" height="303.51898193359375">
+                  <frame id="84:2284" name="Switch" x="363" y="0" width="91.00013732910156" height="128.51898193359375" />
+                  <frame id="84:2301" name="Campaign Info" x="0" y="152.51898193359375" width="817" height="151">
+                    <text id="84:2302" name="Campaign Title" x="0" y="0" width="817" height="83" />
+                    <text id="84:2303" name="Campaign Description" x="0" y="103" width="817" height="48" />
+                  </frame>
+                </frame>
+                <vector id="84:893" name="Line 4" x="0" y="423.51898193359375" width="1420" height="0" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="79:4888" name="Image and Info Container" x="250" y="670.51904296875" width="1420" height="680">
+            <rounded-rectangle id="79:4778" name="Image" x="0" y="0" width="680" height="680" />
+            <frame id="79:4887" name="Info Container" x="717" y="0" width="703" height="680">
+              <frame id="79:4890" name="Info Container" x="0" y="0" width="703" height="572.125244140625">
+                <frame id="79:4585" name="Campaign Info" x="0" y="0" width="703" height="180">
+                  <frame id="79:4586" name="Campaign Info" x="0" y="0" width="703" height="40">
+                    <frame id="79:4587" name="Button Group" x="0" y="0" width="236" height="40">
+                      <instance id="79:4590" name="종료" x="174" y="0" width="60" height="40" hidden="true" />
+                      <frame id="188:1348" name="Button Group" x="0" y="0" width="236" height="40">
+                        <instance id="188:1349" name="고정" x="0" y="0" width="60" height="40" />
+                        <instance id="188:1350" name="Badge" x="68" y="0" width="88" height="40" />
+                        <instance id="188:1351" name="종료" x="174" y="0" width="60" height="40" hidden="true" />
+                        <instance id="188:1352" name="Button" x="164" y="0" width="72" height="40" />
+                      </frame>
+                    </frame>
+                    <frame id="162:2357" name="Share Button" x="591" y="0" width="112" height="40">
+                      <vector id="162:2358" name="Vector" x="16" y="12" width="16" height="16" />
+                      <text id="162:2359" name="Share Text" x="40" y="8" width="56" height="24" />
+                    </frame>
+                  </frame>
+                  <frame id="188:1267" name="Frame 28" x="0" y="60" width="703" height="120">
+                    <text id="79:4596" name="Campaign Title" x="0" y="0" width="703" height="84" />
+                    <frame id="79:4769" name="Campaign Title" x="0" y="96" width="703" height="24">
+                      <frame id="79:4774" name="Date Container" x="0" y="0" width="151" height="24">
+                        <text id="79:4770" name="Campaign Title" x="0" y="0" width="51" height="24" />
+                        <text id="79:4772" name="Campaign Title" x="63" y="0" width="88" height="24" />
+                      </frame>
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="79:4881" name="Details Container" x="0" y="214" width="703" height="358.125244140625">
+                  <frame id="79:4879" name="Details Container" x="0" y="0" width="703" height="173">
+                    <frame id="79:4826" name="목표금액" x="0" y="0" width="345" height="173">
+                      <frame id="79:4827" name="Goal Amount Container" x="61.5" y="41.5" width="222" height="90">
+                        <text id="79:4828" name="Campaign Description" x="0" y="0" width="85" height="36" />
+                        <frame id="79:4829" name="Goal Amount Container" x="0" y="56" width="222" height="34">
+                          <frame id="79:4830" name="Goal Amount Container" x="0" y="0" width="222" height="34">
+                            <frame id="79:4831" name="Goal Amount Container" x="1" y="0" width="221" height="34">
+                              <frame id="79:4832" name="Amount Container" x="126" y="0" width="95" height="30">
+                                <frame id="79:4833" name="Amount Container" x="126" y="0" width="95" height="30">
+                                  <text id="79:4834" name="Campaign Description" x="0" y="0" width="73" height="30" />
+                                  <text id="79:4835" name="Campaign Description" x="77" y="0" width="18" height="30" />
+                                </frame>
+                              </frame>
+                              <vector id="79:4836" name="Vector 4" x="0" y="34" width="221" height="0" />
+                            </frame>
+                          </frame>
+                        </frame>
+                      </frame>
+                    </frame>
+                    <frame id="79:4601" name="Campaign Duration" x="357" y="0" width="345" height="173">
+                      <frame id="79:4602" name="Campaign Duration" x="61.5" y="41.5" width="222" height="90">
+                        <frame id="79:4603" name="Campaign Duration" x="0" y="0" width="222" height="90">
+                          <text id="79:4604" name="Campaign Description" x="0" y="0" width="111" height="36" />
+                          <frame id="79:4605" name="Campaign Duration" x="0" y="56" width="222" height="34">
+                            <frame id="79:4606" name="Campaign Duration" x="0" y="0" width="222" height="34">
+                              <frame id="79:4607" name="Campaign Duration" x="-16" y="0" width="238" height="34">
+                                <frame id="79:4608" name="Campaign Duration" x="0" y="0" width="238" height="30">
+                                  <text id="79:4609" name="Campaign Description" x="0" y="0" width="238" height="30" />
+                                </frame>
+                                <vector id="79:4610" name="Vector 4" x="17" y="34" width="221" height="0" />
+                              </frame>
+                            </frame>
+                          </frame>
+                        </frame>
+                      </frame>
+                    </frame>
+                  </frame>
+                  <frame id="79:4880" name="Details Container" x="0" y="185" width="702" height="173.12522888183594">
+                    <frame id="79:4837" name="목표금액" x="0" y="0.000021204352378845215" width="345" height="173.12522888183594">
+                      <frame id="79:4838" name="Participants Container" x="61.5" y="41.56261444091797" width="222" height="90">
+                        <text id="79:4839" name="Campaign Description" x="0" y="0" width="85" height="36" />
+                        <frame id="79:4840" name="Participants Container" x="0" y="56" width="222" height="34">
+                          <frame id="79:4841" name="Participants Container" x="0" y="0" width="222" height="34">
+                            <frame id="79:4842" name="Participants Container" x="1" y="0" width="221" height="34">
+                              <frame id="79:4843" name="Participants Number Container" x="126" y="0" width="95" height="30">
+                                <frame id="79:4844" name="Participants Number Container" x="126" y="0" width="95" height="30">
+                                  <text id="79:4845" name="Campaign Description" x="38" y="0" width="35" height="30" />
+                                  <text id="79:4846" name="Campaign Description" x="77" y="0" width="18" height="30" />
+                                </frame>
+                              </frame>
+                              <vector id="79:4847" name="Vector 4" x="0" y="34" width="221" height="0" />
+                            </frame>
+                          </frame>
+                        </frame>
+                      </frame>
+                    </frame>
+                    <frame id="79:4756" name="Campaign Amount" x="357" y="0" width="345" height="173.12522888183594">
+                      <instance id="79:4757" name="목표금액" x="0" y="22.56261444091797" width="345" height="128" />
+                      <instance id="79:4758" name="달성금액" x="0" y="140" width="306" height="128" hidden="true" />
+                    </frame>
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="162:2005" name="활성화" x="0" y="602" width="703" height="78">
+                <frame id="162:2006" name="Text input container" x="257.09051513671875" y="15" width="188.81900024414062" height="48">
+                  <frame id="162:2028" name="Button Text" x="-25.864181518554688" y="0" width="240.54736328125" height="48">
+                    <frame id="162:2007" name="Text input container" x="-25.864181518554688" y="4.5904541015625" width="28.58077621459961" height="32.819000244140625" />
+                    <text id="162:2027" name="Button Text" x="9.683345794677734" y="0" width="205" height="48" />
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="79:4968" name="Story Container" x="872" y="1477.51904296875" width="176" height="84.25669860839844">
+            <frame id="79:4963" name="Story Container" x="0" y="0" width="176" height="84.25669860839844">
+              <text id="79:4966" name="Story Title" x="0" y="0" width="176" height="48" />
+              <frame id="79:4969" name="Story Icon Container" x="79.8740463256836" y="56" width="16.25190544128418" height="28.25670051574707">
+                <vector id="79:4959" name="Vector" x="16.251953125" y="8.752197265625" width="16.25190544128418" height="8.752233505249023" />
+                <vector id="79:4961" name="Vector" x="16.25190544128418" y="18.504467010498047" width="16.25190544128418" height="8.752233505249023" />
+                <vector id="79:4964" name="Vector" x="16.25190544128418" y="28.25670051574707" width="16.25190544128418" height="8.752233505249023" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="188:1245" name="Frame 26" x="248" y="1622" width="1424" height="2733">
+          <frame id="188:1206" name="Frame 26" x="0" y="180" width="1424" height="2333">
+            <frame id="188:1243" name="Frame 26" x="0" y="0" width="1424" height="2333">
+              <frame id="84:829" name="Footer Content Container" x="0" y="0" width="1424" height="1609">
+                <frame id="84:828" name="Footer Text Container" x="0" y="0" width="717" height="289">
+                  <frame id="84:884" name="Footer Title Container" x="0" y="0" width="684" height="166">
+                    <rounded-rectangle id="84:883" name="Footer Title Icon" x="0" y="0" width="10" height="166" />
+                    <text id="79:4931" name="Footer Title" x="50" y="0" width="634" height="166" />
+                  </frame>
+                  <text id="79:4977" name="Footer Subtitle" x="0" y="206" width="717" height="83" />
+                </frame>
+                <rounded-rectangle id="162:2383" name="Image" x="0" y="369" width="1420" height="800" />
+                <text id="79:4985" name="Footer Description" x="0" y="1249" width="1424" height="360" />
+              </frame>
+              <frame id="188:1211" name="Frame 26" x="0" y="1789.0001220703125" width="1424" height="544">
+                <frame id="84:1124" name="Footer Info Container" x="0" y="0" width="1424" height="544">
+                  <frame id="84:898" name="Footer Title Container" x="0" y="0" width="684" height="166">
+                    <rounded-rectangle id="84:899" name="Footer Title Icon" x="0" y="0" width="10" height="149" />
+                    <text id="84:900" name="Footer Title" x="50" y="0" width="634" height="166" />
+                  </frame>
+                  <frame id="84:1122" name="Footer Info Row" x="4" y="250" width="1420" height="294">
+                    <frame id="84:1121" name="Footer Info Column" x="0" y="0" width="297" height="294">
+                      <text id="84:902" name="Footer Description" x="0" y="222" width="297" height="72" />
+                      <frame id="84:1070" name="Footer Info Number Container" x="30" y="0" width="267" height="200">
+                        <text id="84:1038" name="Footer Description" x="0" y="0" width="267" height="200" />
+                      </frame>
+                    </frame>
+                    <vector id="84:1078" name="Vector 8" x="411.25" y="58" width="0.000007780627129250206" height="178" hidden="true" />
+                    <frame id="84:1120" name="Footer Info Column" x="525.5" y="0" width="318" height="294">
+                      <frame id="84:1071" name="Footer Info Number Container" x="542.5" y="0" width="267" height="200">
+                        <text id="84:1072" name="Footer Description" x="0" y="0" width="267" height="200" />
+                      </frame>
+                      <text id="84:904" name="Footer Description" x="525.5" y="222" width="318" height="72" />
+                    </frame>
+                    <vector id="84:1079" name="Vector 9" x="919.6666259765625" y="58" width="0.000007780627129250206" height="178" hidden="true" />
+                    <frame id="84:1119" name="Footer Info Column" x="1072" y="0" width="348" height="294">
+                      <frame id="84:1073" name="Footer Info Number Container" x="1122" y="0" width="267" height="200">
+                        <text id="84:1074" name="Footer Description" x="0" y="0" width="267" height="200" />
+                      </frame>
+                      <text id="84:905" name="Footer Description" x="1072" y="222" width="348" height="72" />
+                    </frame>
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="188:1239" name="Frame 26" x="0" y="2693" width="1424" height="40">
+            <vector id="162:2301" name="Vector" x="578" y="0" width="40" height="40" />
+            <frame id="188:1238" name="Frame 26" x="634" y="0" width="156" height="40">
+              <instance id="188:1234" name="버튼01" x="0" y="0" width="60" height="40" />
+              <instance id="188:1240" name="버튼01" x="68" y="0" width="88" height="40" />
+            </frame>
+            <vector id="162:2308" name="Vector" x="846" y="0" width="40" height="40" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <instance id="208:1464" name="Footer Container" x="0" y="4678" width="1920" height="321" />
+    <frame id="84:1287" name="Button" x="1726" y="253" width="153" height="181.25669860839844">
+      <frame id="84:1282" name="Story Icon Container" x="84.6259536743164" y="48.25669860839844" width="16.25190791156365" height="28.256701936533773">
+        <vector id="84:1283" name="Vector" x="16.251953125" y="8.752197265625" width="16.25190620642843" height="8.752234926035726" />
+        <vector id="84:1284" name="Vector" x="16.25190544128418" y="18.504467010498047" width="16.25190620642843" height="8.752234926035726" />
+        <vector id="84:1285" name="Vector" x="16.25190544128418" y="28.25670051574707" width="16.25190620642843" height="8.752234926035726" />
+      </frame>
+      <text id="84:1277" name="Button Text" x="20" y="65.2567138671875" width="113" height="96" />
+    </frame>
+  </frame>
+  <frame id="68:7885" name="캠페인목록" x="2088" y="-8" width="1920" height="4631">
+    <symbol id="96:942" name="header" x="0" y="0" width="1920" height="120" />
+    <frame id="68:8648" name="ChevronLeft" x="1326" y="4887" width="20" height="20" />
+    <frame id="91:933" name="Campaign List" x="-1" y="120" width="1921" height="4513.51904296875">
+      <frame id="68:8701" name="Campaign List" x="0" y="0" width="1921" height="4011.51904296875">
+        <frame id="68:8526" name="Campaign List" x="0" y="0" width="1921" height="3899.51904296875">
+          <frame id="68:8209" name="Campaign List" x="0" y="0" width="1921" height="670.5189819335938">
+            <symbol id="208:1463" name="Campaign Card" x="552" y="120" width="817" height="303.51898193359375" />
+            <instance id="208:1452" name="Frame 7" x="651.75537109375" y="480.51898193359375" width="617.4892578125" height="70" />
+          </frame>
+          <frame id="68:8525" name="Campaign Filters" x="250.5" y="810.5189819335938" width="1420" height="3089">
+            <frame id="68:8524" name="Campaign Filters" x="0" y="0" width="1420" height="3089">
+              <frame id="68:8523" name="Donation Type Filters" x="0" y="0" width="1420" height="259">
+                <frame id="68:8249" name="Donation Type Options" x="0" y="0" width="1420" height="78">
+                  <frame id="68:8262" name="Donation Type Option" x="0" y="-3" width="355" height="84">
+                    <text id="68:8246" name="All Donation Types" x="0" y="24" width="355" height="36" />
+                  </frame>
+                  <vector id="68:8251" name="Vector 5" x="355" y="21" width="0.0000015736104614916258" height="36" />
+                  <frame id="68:8263" name="Donation Type Option" x="355" y="-3" width="355" height="84">
+                    <text id="68:8245" name="Individual Donation" x="0" y="24" width="355" height="36" />
+                  </frame>
+                  <vector id="68:8253" name="Vector 6" x="710" y="-3" width="0.0000015370151231763884" height="84" />
+                  <text id="68:8243" name="Corporate Donation" x="710" y="21" width="355" height="36" />
+                  <vector id="68:8261" name="Vector 7" x="1065" y="-3" width="0.0000036717578950629104" height="84" />
+                  <text id="68:8247" name="Other Donation" x="1065" y="21" width="355" height="36" />
+                </frame>
+                <frame id="68:8520" name="Campaign Status Filters" x="0" y="158" width="1420" height="101">
+                  <frame id="68:8216" name="Campaign Status Filters" x="0" y="0" width="1420" height="101">
+                    <frame id="68:8215" name="Campaign Status Options" x="0" y="24" width="1420" height="53">
+                      <frame id="68:8232" name="Campaign Status Option" x="-0.9966583251953125" y="0" width="473.3333435058594" height="53">
+                        <text id="68:8213" name="All Campaigns" x="0" y="8.5" width="473.3333435058594" height="36" />
+                      </frame>
+                      <text id="68:8211" name="Ongoing Campaigns" x="472.336669921875" y="8.5" width="474.3299865722656" height="36" />
+                      <text id="68:8212" name="Ended Campaigns" x="946.6666259765625" y="8.5" width="474.3299865722656" height="36" />
+                    </frame>
+                  </frame>
+                  <vector id="68:8202" name="Line 1" x="0" y="101" width="1420" height="0" />
+                  <vector id="68:8233" name="Line 2" x="0" y="101" width="474.3299865722656" height="0" />
+                </frame>
+              </frame>
+              <frame id="162:2379" name="Frame 26" x="0" y="319" width="1420" height="2770">
+                <frame id="68:8330" name="Campaign Cards" x="0" y="0" width="1420" height="2690">
+                  <frame id="79:3366" name="Campaign Card" x="0" y="0" width="1420" height="490">
+                    <ellipse id="162:2129" name="Ellipse 5" x="0" y="0" width="23" height="23" />
+                    <frame id="162:2131" name="Frame 22" x="0" y="43" width="1420" height="447">
+                      <instance id="79:3367" name="Campaign Image" x="0" y="0" width="699.687744140625" height="447" />
+                      <instance id="79:3368" name="Campaign Info" x="719.687744140625" y="0" width="699" height="447" />
+                    </frame>
+                  </frame>
+                  <frame id="220:1661" name="Campaign Card" x="0" y="550" width="1420" height="490">
+                    <ellipse id="220:1662" name="Ellipse 5" x="0" y="0" width="23" height="23" />
+                    <frame id="220:1663" name="Frame 22" x="0" y="43" width="1420" height="447">
+                      <instance id="220:1731" name="Campaign Image" x="0" y="0" width="689" height="447" />
+                      <instance id="220:1665" name="Campaign Info" x="708" y="0" width="712" height="447" />
+                    </frame>
+                  </frame>
+                  <frame id="220:1802" name="Campaign Card" x="0" y="1100" width="1420" height="490">
+                    <ellipse id="220:1803" name="Ellipse 5" x="0" y="0" width="23" height="23" />
+                    <frame id="220:1804" name="Frame 22" x="0" y="43" width="1420" height="447">
+                      <instance id="220:1872" name="Campaign Image" x="0" y="0" width="689" height="447" />
+                      <instance id="220:1806" name="Campaign Info" x="708" y="0" width="712" height="447" />
+                    </frame>
+                  </frame>
+                  <frame id="220:1875" name="Campaign Card" x="0" y="1650" width="1420" height="490">
+                    <ellipse id="220:1876" name="Ellipse 5" x="0" y="0" width="23" height="23" />
+                    <frame id="220:1877" name="Frame 22" x="0" y="43" width="1420" height="447">
+                      <instance id="220:2009" name="Campaign Image" x="0" y="0" width="689" height="447" />
+                      <instance id="220:1945" name="Campaign Info" x="709" y="0" width="711" height="447" />
+                    </frame>
+                  </frame>
+                  <frame id="220:2015" name="Campaign Card" x="0" y="2200" width="1420" height="490">
+                    <ellipse id="220:2016" name="Ellipse 5" x="0" y="0" width="23" height="23" />
+                    <frame id="220:2017" name="Frame 22" x="0" y="43" width="1420" height="447">
+                      <instance id="220:2084" name="Campaign Image" x="0" y="0" width="689" height="447" />
+                      <instance id="220:2019" name="Campaign Info" x="709" y="0" width="711" height="447" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="162:2375" name="Frame 23" x="0" y="2730" width="1420" height="40">
+                  <frame id="162:2376" name="Frame 24" x="1235" y="0" width="185" height="40">
+                    <frame id="162:2378" name="Group 25" x="0" y="0" width="185.5" height="40">
+                      <frame id="162:2377" name="Frame 25" x="0" y="0" width="185.5" height="40">
+                        <instance id="162:2371" name="버튼01" x="0" y="0" width="88" height="40" />
+                        <instance id="162:2370" name="Button" x="98" y="0" width="88" height="40" />
+                      </frame>
+                    </frame>
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="68:8639" name="Pagination" x="657.6239013671875" y="3979.51904296875" width="605.7522583007812" height="32">
+          <frame id="68:8645" name="ChevronLeft" x="0" y="6" width="20" height="20" />
+          <frame id="68:8638" name="Page Number Container" x="60" y="0" width="32" height="32">
+            <text id="68:8628" name="Page Number" x="12" y="4" width="8" height="24" />
+          </frame>
+          <text id="68:8629" name="Page Number" x="132" y="4" width="10" height="24" />
+          <text id="68:8630" name="Page Number" x="182" y="4" width="11" height="24" />
+          <text id="68:8631" name="Page Number" x="233" y="4" width="11" height="24" />
+          <text id="68:8632" name="Page Number" x="284" y="4" width="11" height="24" />
+          <text id="68:8633" name="Page Number" x="335" y="4" width="11" height="24" />
+          <text id="68:8634" name="Page Number" x="386" y="4" width="10" height="24" />
+          <text id="68:8635" name="Page Number" x="436" y="4" width="11" height="24" />
+          <text id="68:8636" name="Page Number" x="487" y="4" width="11" height="24" />
+          <text id="68:8637" name="Page Number" x="538" y="4" width="19" height="24" />
+          <vector id="68:8649" name="Vector" x="605.7522583007812" y="7.87404727935791" width="8.752233505249023" height="16.25190544128418" />
+        </frame>
+      </frame>
+      <instance id="68:8651" name="Footer" x="0" y="4191.51904296875" width="1921" height="322" />
+    </frame>
+  </frame>
+  <frame id="1:2" name="메인" x="-15" y="-8" width="1920" height="7780">
+    <symbol id="68:8650" name="Footer" x="0" y="7458" width="1920" height="322" />
+    <frame id="196:1331" name="Container" x="0" y="920" width="1920" height="1866">
+      <frame id="38:638" name="Card" x="0" y="0" width="1920" height="1866">
+        <frame id="38:639" name="Card" x="0" y="160" width="1671" height="1546">
+          <frame id="38:417" name="Switch container" x="0" y="810" width="609.1690673828125" height="860.32421875">
+            <frame id="38:418" name="Switch" x="-5.960464477539062e-7" y="810.0000000000002" width="609.1690673828125" height="860.32421875">
+              <vector id="38:419" name="패스 437" x="141.66628968715668" y="1076.5010070800784" width="9.441099166870117" height="14.966084480285645" />
+              <vector id="38:420" name="패스 438" x="216.58914124965668" y="1072.1369628906252" width="13.497041702270508" height="26.98175811767578" />
+              <vector id="38:421" name="패스 439" x="374.2894891500473" y="1014.2184753417971" width="13.496310234069824" height="27.009767532348633" />
+              <vector id="38:422" name="패스 440" x="221.24854981899261" y="1018.6258850097659" width="9.447354316711426" height="14.96606159210205" />
+              <vector id="38:423" name="패스 441" x="290.3043817281723" y="1076.5010070800784" width="9.453563690185547" height="14.966084480285645" />
+              <vector id="38:424" name="패스 442" x="45.00430238246918" y="978.1551818847659" width="483.3294372558594" height="637.5921630859375" />
+              <vector id="38:425" name="패스 443" x="-0.0000011846676102322817" y="968.9764862060549" width="573.3628540039062" height="701.3477172851562" />
+              <vector id="38:426" name="사각형 467" x="573.3440545797348" y="933.1575546264651" width="35.82504653930664" height="35.82504653930664" />
+              <vector id="38:427" name="사각형 468" x="537.5190423727036" y="897.3325195312502" width="35.82504653930664" height="35.82504653930664" />
+              <vector id="38:428" name="사각형 469" x="0.006274433806538582" y="897.3325195312502" width="35.82504653930664" height="35.82504653930664" />
+              <vector id="38:429" name="패스 444" x="35.83129441738129" y="857.4662666320803" width="501.69403076171875" height="111.50972747802734" />
+              <vector id="38:430" name="패스 445" x="384.66406190395355" y="865.13245010376" width="6.113506317138672" height="7.971926212310791" />
+              <vector id="38:431" name="패스 446" x="362.4450067281723" y="875.558776855469" width="6.10211181640625" height="7.936701774597168" />
+              <vector id="38:432" name="패스 447" x="340.1398614645004" y="865.13245010376" width="6.107723236083984" height="7.971628665924072" />
+              <vector id="38:433" name="패스 448" x="291.2398980855942" y="810.0000000000005" width="129.68731689453125" height="129.14297485351562" />
+              <vector id="38:434" name="패스 449" x="152.44813477993011" y="810.0136755229908" width="129.66232299804688" height="129.13003540039062" />
+            </frame>
+          </frame>
+          <frame id="38:637" name="Card" x="249" y="160" width="1422" height="1546">
+            <frame id="38:636" name="Card" x="0" y="0" width="318" height="822">
+              <frame id="38:355" name="Button" x="0" y="0" width="221" height="223">
+                <symbol id="38:446" name="Frame 3" x="0" y="0" width="225" height="167" />
+                <instance id="38:352" name="Button" x="0" y="187" width="116" height="36" />
+              </frame>
+              <vector id="38:356" name="Vector 1" x="4" y="154" width="0" height="668" />
+              <frame id="38:366" name="Button" x="0" y="304" width="318" height="184">
+                <symbol id="38:367" name="Frame 3" x="0" y="0" width="318" height="48" />
+                <symbol id="38:368" name="Frame 4" x="48" y="68" width="270" height="48" />
+                <instance id="38:369" name="Container" x="48" y="136" width="270" height="48" />
+              </frame>
+            </frame>
+            <frame id="38:415" name="Container" x="483" y="0" width="939" height="1546">
+              <frame id="38:414" name="Container" x="0" y="0" width="939" height="490">
+                <symbol id="68:252" name="Frame 3" x="0" y="0" width="460" height="490" />
+                <frame id="38:384" name="Card" x="479" y="0" width="460" height="448">
+                  <rounded-rectangle id="38:385" name="Image" x="0" y="0" width="460" height="326" />
+                  <frame id="38:386" name="Paragraph container" x="0" y="350" width="413" height="98">
+                    <text id="38:387" name="Campaign Title" x="0" y="0" width="370" height="42" />
+                    <text id="38:388" name="Campaign Description" x="0" y="50" width="264" height="48" />
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="38:412" name="Rating container" x="0" y="570" width="939" height="448">
+                <frame id="38:390" name="Container" x="0" y="570" width="460" height="448">
+                  <rounded-rectangle id="38:391" name="Image" x="0" y="0" width="460" height="326" />
+                  <frame id="38:392" name="Paragraph container" x="0" y="350" width="413" height="98">
+                    <text id="38:393" name="Campaign Title" x="0" y="0" width="161" height="42" />
+                    <text id="38:394" name="Campaign Description" x="0" y="50" width="256" height="48" />
+                  </frame>
+                </frame>
+                <frame id="38:395" name="Rating" x="479" y="570" width="460" height="448">
+                  <rounded-rectangle id="38:396" name="Image" x="0" y="0" width="460" height="326" />
+                  <frame id="38:397" name="Paragraph container" x="0" y="350" width="413" height="98">
+                    <text id="38:398" name="Campaign Title" x="0" y="0" width="206" height="42" />
+                    <text id="38:399" name="Campaign Description" x="0" y="50" width="256" height="48" />
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="38:413" name="Button container" x="0" y="1098" width="939" height="448">
+                <frame id="38:401" name="Container" x="0" y="1098" width="460" height="448">
+                  <rounded-rectangle id="38:402" name="Image" x="0" y="0" width="460" height="326" />
+                  <frame id="38:403" name="Paragraph container" x="0" y="350" width="413" height="98">
+                    <text id="38:404" name="Campaign Title" x="0" y="0" width="216" height="42" />
+                    <text id="38:405" name="Campaign Description" x="0" y="50" width="256" height="48" />
+                  </frame>
+                </frame>
+                <frame id="38:406" name="Button" x="479" y="1098" width="460" height="448">
+                  <rounded-rectangle id="38:407" name="Image" x="0" y="0" width="460" height="326" />
+                  <frame id="38:408" name="Paragraph container" x="0" y="350" width="413" height="98">
+                    <text id="38:409" name="Campaign Title" x="0" y="0" width="228" height="42" />
+                    <text id="38:410" name="Campaign Description" x="0" y="50" width="256" height="48" />
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="209:1763" name="Container" x="0" y="2786" width="2635" height="1260">
+      <frame id="209:1762" name="Container" x="0" y="2786" width="2635" height="1260">
+        <rounded-rectangle id="38:490" name="Container" x="0" y="2786" width="1920" height="1260" />
+        <frame id="209:1761" name="Container" x="250" y="2966" width="2385" height="918">
+          <frame id="38:629" name="Horizontal container" x="250" y="2966" width="1420" height="179">
+            <frame id="38:500" name="Text input container" x="0" y="0" width="649" height="179">
+              <rounded-rectangle id="38:477" name="Text input" x="0" y="0" width="10" height="179" />
+              <frame id="38:499" name="Text input container" x="38" y="6.5" width="611" height="166">
+                <frame id="38:489" name="Text input" x="0" y="0" width="611" height="83">
+                  <text id="38:481" name="Title" x="0" y="0" width="169" height="83" />
+                  <vector id="38:487" name="Vector 2" x="181" y="41.5" width="120" height="0" />
+                  <text id="38:485" name="Subtitle" x="313" y="0" width="282" height="83" />
+                </frame>
+                <frame id="38:498" name="Paragraph container" x="0" y="83" width="611" height="83">
+                  <text id="38:482" name="Title" x="0" y="0" width="352" height="83" />
+                  <text id="38:486" name="Subtitle" x="352" y="0" width="254" height="83" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="38:628" name="Container" x="1075" y="13.5" width="345" height="152">
+              <frame id="38:621" name="Paragraph container" x="0" y="0" width="345" height="96">
+                <text id="38:619" name="Title" x="0" y="0" width="345" height="96" />
+              </frame>
+              <instance id="38:625" name="Button" x="229" y="116" width="116" height="36" />
+            </frame>
+          </frame>
+          <frame id="120:2044" name="Container" x="250" y="3225" width="2385" height="659">
+            <instance id="120:2045" name="Container" x="0" y="9" width="460" height="641" />
+            <frame id="120:2046" name="Button container" x="480" y="6.5" width="460" height="646">
+              <frame id="120:2047" name="Button" x="480" y="6.5" width="460" height="641">
+                <rounded-rectangle id="120:2048" name="Image" x="480" y="6.5" width="460" height="641" />
+                <rounded-rectangle id="120:2049" name="Card" x="480" y="6.5" width="460" height="641" />
+              </frame>
+              <frame id="120:2050" name="Button" x="480" y="408.5" width="460" height="244">
+                <instance id="120:2051" name="Donation type badge" x="40" y="0" width="88" height="40" />
+                <text id="120:2052" name="Description" x="40" y="60" width="305" height="144" />
+              </frame>
+            </frame>
+            <frame id="120:2053" name="Container" x="960" y="4.5" width="463" height="650">
+              <rounded-rectangle id="120:2054" name="Image" x="960" y="4.5" width="460" height="641" />
+              <rounded-rectangle id="120:2055" name="Card" x="960" y="4.5" width="460" height="641" />
+              <frame id="120:2056" name="Card" x="963" y="410.5" width="460" height="244">
+                <instance id="120:2057" name="Donation type badge" x="40" y="0" width="88" height="40" />
+                <text id="120:2058" name="Description" x="40" y="60" width="305" height="144" />
+              </frame>
+            </frame>
+            <frame id="120:2059" name="Tooltip" x="1443" y="7.5" width="460" height="644">
+              <frame id="120:2060" name="Button" x="1443" y="7.5" width="460" height="644">
+                <rounded-rectangle id="120:2061" name="Image" x="1443" y="7.5" width="460" height="641" />
+                <rounded-rectangle id="120:2062" name="Card" x="1443" y="7.5" width="460" height="641" />
+                <frame id="120:2063" name="Container" x="1443" y="425.5" width="460" height="226">
+                  <instance id="120:2064" name="Donation type badge" x="40" y="15" width="88" height="40" />
+                  <text id="120:2065" name="Description" x="40" y="75" width="249" height="96" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="120:2066" name="Container" x="1923" y="0" width="460" height="659">
+              <rounded-rectangle id="120:2067" name="Image" x="1923" y="0" width="460" height="641" />
+              <rounded-rectangle id="120:2068" name="Card" x="1923" y="0" width="460" height="641" />
+              <frame id="120:2069" name="Container" x="1923" y="415" width="460" height="244">
+                <instance id="120:2070" name="Donation type badge" x="40" y="0" width="88" height="40" />
+                <text id="120:2071" name="Description" x="40" y="60" width="314" height="144" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <rounded-rectangle id="38:630" name="Card" x="1450" y="3230.49609375" width="470" height="649.0250244140625" />
+    </frame>
+    <frame id="60:333" name="LOOF" x="0" y="5333" width="6139" height="220">
+      <text id="60:324" name="Header text" x="0" y="5333" width="6139" height="220" />
+      <rounded-rectangle id="60:331" name="Text input" x="0" y="5273" width="1920" height="339" />
+    </frame>
+    <frame id="60:323" name="container" x="250" y="4046" width="1420" height="1255">
+      <instance id="38:454" name="title" x="0" y="180" width="523" height="167" />
+      <frame id="60:322" name="Container" x="0" y="427" width="1420" height="828">
+        <frame id="57:416" name="Button" x="0" y="0" width="1420" height="266">
+          <instance id="57:418" name="Container" x="0" y="0" width="699" height="266" />
+          <instance id="57:399" name="Container" x="719" y="0" width="699" height="266" />
+        </frame>
+        <frame id="60:318" name="List data" x="0" y="326" width="1420" height="502">
+          <instance id="60:258" name="Container" x="0" y="0" width="1420" height="85" />
+          <instance id="60:273" name="Container" x="0" y="105" width="1420" height="85" />
+          <instance id="60:259" name="Container" x="0" y="210" width="1420" height="84" />
+          <instance id="60:280" name="Container" x="0" y="314" width="1420" height="84" />
+          <instance id="60:288" name="Container" x="0" y="418" width="1420" height="84" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="66:966" name="Card" x="0" y="5553" width="1920" height="1905">
+      <frame id="66:965" name="Container" x="0" y="180" width="1920" height="1725">
+        <frame id="64:135" name="Button container" x="0" y="0" width="1920" height="1725">
+          <frame id="64:132" name="Button" x="0" y="0" width="1920" height="1725">
+            <rounded-rectangle id="64:129" name="Text input" x="0" y="0" width="1920" height="1725" />
+            <rounded-rectangle id="64:128" name="Image" x="-44.711090087890625" y="-59.456993103027344" width="2785.787109375" height="1856.7379150390625" />
+          </frame>
+          <rounded-rectangle id="64:134" name="Text input" x="0" y="0" width="1920" height="1725" />
+        </frame>
+        <frame id="66:964" name="Input form container" x="248" y="-6.5" width="1424.2208251953125" height="1738">
+          <frame id="64:136" name="Text input container" x="0" y="180" width="735" height="170">
+            <rounded-rectangle id="64:137" name="Text input" x="0" y="6.5" width="10" height="157" />
+            <frame id="64:138" name="Text input container" x="38" y="0" width="697" height="170">
+              <frame id="64:139" name="Text input" x="0" y="0" width="697" height="83">
+                <text id="64:140" name="Title" x="0" y="0" width="697" height="83" />
+              </frame>
+              <text id="64:144" name="Subtitle" x="0" y="87" width="483" height="83" />
+            </frame>
+          </frame>
+          <frame id="66:963" name="Input form container" x="0" y="430" width="1424.2208251953125" height="1128">
+            <frame id="66:229" name="Input form container" x="0" y="0" width="938" height="1128">
+              <frame id="66:228" name="Button container" x="32" y="60" width="874" height="180">
+                <frame id="66:150" name="Button container" x="0" y="0" width="318.09185791015625" height="180">
+                  <frame id="66:165" name="Button" x="0" y="0" width="318.09185791015625" height="180">
+                    <frame id="66:164" name="Paragraph container" x="0" y="0" width="318.09185791015625" height="120">
+                      <frame id="208:1528" name="Section title" x="0" y="0" width="318.09185791015625" height="120">
+                        <text id="66:147" name="Section title" x="0" y="0" width="318.09185791015625" height="48" />
+                        <text id="66:149" name="Section subtitle" x="0" y="48" width="318.09185791015625" height="72" />
+                      </frame>
+                    </frame>
+                    <instance id="66:161" name="Button" x="0" y="140" width="116" height="40" />
+                  </frame>
+                </frame>
+                <frame id="208:1529" name="Description" x="556" y="0" width="318" height="180">
+                  <text id="66:166" name="Description" x="0" y="0" width="318" height="108" />
+                </frame>
+              </frame>
+              <frame id="66:187" name="Main Content Area" x="32" y="265" width="874" height="803">
+                <instance id="66:356" name="Donor list" x="0" y="0" width="427" height="254" />
+                <instance id="66:306" name="Donor list" x="447" y="0" width="427" height="254" />
+                <instance id="66:316" name="Donor list" x="0" y="274" width="427" height="254" />
+                <instance id="66:326" name="Donor list" x="447" y="274" width="427" height="254" />
+                <instance id="66:336" name="Donor list" x="0" y="548" width="427" height="254" />
+                <instance id="66:346" name="Donor list" x="447" y="548" width="427" height="254" />
+              </frame>
+            </frame>
+            <frame id="66:962" name="Card" x="958" y="0" width="460.2208251953125" height="1128">
+              <instance id="66:746" name="Button" x="0" y="0" width="460.2208251953125" height="220" />
+              <instance id="66:763" name="Account info" x="0" y="240" width="460.2208251953125" height="220" />
+              <instance id="66:931" name="Total donation amount" x="0" y="480" width="460.2208251953125" height="648" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="38:644" name="Banner" x="0" y="0" width="1920" height="920">
+      <frame id="36:8" name="Button" x="0" y="0" width="1920" height="920">
+        <rounded-rectangle id="32:41" name="Image" x="0" y="0.35894775390625" width="1920" height="918.5647583007812" />
+        <rounded-rectangle id="34:2" name="Text input" x="2.9953198432922363" y="0" width="1917.004638671875" height="920" />
+      </frame>
+      <frame id="36:29" name="Horizontal container" x="609" y="318" width="700" height="297.9638366699219">
+        <frame id="36:10" name="Text input container" x="301.156005859375" y="0" width="97.68800354003906" height="137.96383666992188" />
+        <text id="34:4" name="University name" x="0" y="149.96383666992188" width="700" height="83" />
+        <text id="36:5" name="University slogan" x="0" y="244.96383666992188" width="700" height="53" />
+      </frame>
+      <frame id="38:182" name="Card" x="1472" y="125" width="360" height="740">
+        <instance id="36:103" name="Container" x="0" y="0" width="360" height="196" />
+        <symbol id="38:155" name="중간" x="0" y="208" width="360" height="442" />
+        <instance id="38:183" name="Button" x="0" y="662" width="360" height="78" />
+      </frame>
+      <frame id="38:343" name="Button" x="1856" y="432" width="64" height="181">
+        <text id="38:344" name="Quick donate button" x="44" y="20" width="24" height="141" />
+      </frame>
+      <symbol id="96:943" name="Container" x="250" y="0" width="1420" height="120" />
+    </frame>
+  </frame>
+  <frame id="213:1444" name="컨포넌트" x="3834" y="-6722" width="5106" height="4658">
+    <instance id="103:1924" name="드롭다운2" x="508" y="1704" width="1920" height="241" />
+    <frame id="213:1450" name="Group 30" x="512" y="1585" width="1920" height="120">
+      <instance id="196:2320" name="header" x="512" y="1585" width="1920" height="120" />
+    </frame>
+    <frame id="213:1541" name="드롭다운" x="447" y="2047" width="1920" height="241">
+      <frame id="213:1542" name="Container" x="0" y="0" width="1920" height="240">
+        <rounded-rectangle id="213:1543" name="Background" x="0" y="0" width="1920" height="240" />
+        <frame id="213:1544" name="Text input container" x="1041.0323486328125" y="29" width="566.9676513671875" height="182.1175537109375">
+          <vector id="213:1545" name="패스 361" x="1173.3601531982422" y="31.8756103515625" width="158.04742431640625" height="176.3661651611328" />
+          <frame id="213:1546" name="Text input container" x="1488.5330200195312" y="31.8756103515625" width="119.46702575683594" height="179.24185180664062" />
+          <vector id="213:1549" name="패스 363" x="1041.0324013009667" y="29" width="117.96945190429688" height="182.1175537109375" />
+          <vector id="213:1550" name="패스 364" x="1349.6844482421875" y="31.8756103515625" width="117.96043395996094" height="176.36996459960938" />
+        </frame>
+      </frame>
+      <frame id="213:1551" name="Container" x="233" y="1" width="1420" height="240">
+        <frame id="213:1552" name="Container" x="233" y="1" width="1420" height="240">
+          <frame id="213:1553" name="Container" x="0" y="60" width="317" height="120">
+            <text id="213:1554" name="Introduction" x="0" y="0" width="317" height="48" />
+            <text id="213:1555" name="Introduction" x="0" y="48" width="169" height="72" />
+          </frame>
+          <frame id="213:1556" name="Container" x="477" y="72" width="129" height="96">
+            <frame id="213:1557" name="Frame 11" x="0" y="0" width="129" height="120" hidden="true">
+              <text id="213:1558" name="Introduction" x="0" y="0" width="129" height="24" />
+              <text id="213:1559" name="Introduction" x="0" y="48" width="129" height="24" />
+              <text id="213:1560" name="Introduction" x="0" y="96" width="129" height="24" />
+            </frame>
+            <frame id="213:1561" name="Frame 12" x="189" y="0" width="129" height="120" hidden="true">
+              <text id="213:1562" name="Introduction" x="0" y="0" width="129" height="24" />
+              <text id="213:1563" name="Introduction" x="0" y="48" width="129" height="24" />
+              <text id="213:1564" name="Introduction" x="0" y="96" width="129" height="24" />
+            </frame>
+            <frame id="213:1565" name="Container" x="0" y="0" width="129" height="96">
+              <text id="213:1566" name="Introduction" x="0" y="0" width="129" height="24" />
+              <text id="213:1567" name="Introduction" x="0" y="36" width="129" height="24" />
+              <text id="213:1568" name="Introduction" x="0" y="72" width="129" height="24" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+</canvas>

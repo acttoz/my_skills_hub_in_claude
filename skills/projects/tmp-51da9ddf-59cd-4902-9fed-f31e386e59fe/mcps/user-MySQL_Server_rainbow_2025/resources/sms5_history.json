@@ -1,0 +1,6 @@
+{
+  "uri": "mysql://tables/sms5_history",
+  "name": "sms5_history",
+  "description": "Table sms5_history in database rainbow_2025",
+  "mimeType": "application/json"
+}

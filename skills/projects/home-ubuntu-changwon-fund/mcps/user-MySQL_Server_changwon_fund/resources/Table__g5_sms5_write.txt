@@ -1,0 +1,1 @@
+wr_no,wr_renum,wr_reply,wr_message,wr_booking,wr_total,wr_re_total,wr_success,wr_failure,wr_datetime,wr_memo

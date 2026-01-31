@@ -1,0 +1,6 @@
+{
+  "uri": "mysql://g5_sms5_book/data",
+  "name": "Table: g5_sms5_book",
+  "description": "Data in table: g5_sms5_book",
+  "mimeType": "text/plain"
+}

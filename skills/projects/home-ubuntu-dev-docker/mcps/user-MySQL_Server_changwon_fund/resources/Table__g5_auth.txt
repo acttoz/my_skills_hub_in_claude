@@ -1,0 +1,4 @@
+mb_id,au_menu,au_auth
+admin,200500,{'w', 'd', 'r'}
+admin,400310,{'w', 'd', 'r'}
+admin,400420,{'w', 'd', 'r'}

@@ -1,0 +1,1 @@
+bn_id,bn_alt,bn_url,bn_device,bn_position,bn_border,bn_new_win,bn_begin_time,bn_end_time,bn_time,bn_hit,bn_order

@@ -1,0 +1,1185 @@
+[info] runServer socketPath=/home/ubuntu/.cursor/projects/home-ubuntu-aws/worker.sock
+[debug] Starting typescript-language-server npxPath=/usr/bin/npx
+[debug] Child Typescript LSP process spawned with PID: 39600
+[debug] Sending LSP initialize request
+[info] Indexing now
+[info] Getting tree structure for workspacePath=/home/ubuntu/aws
+[debug] did not initialize LSP provider error=Request initialize failed with message: Could not find a valid TypeScript installation. Please ensure that the "typescript" dependency is installed in the workspace or that a valid `tsserver.path` is specified. Exiting.
+[info] Syncing merkle subtree path=. localHash=f1c89458672bcd5b3fda0b8e157f60c3b32dddb7baab33c172908655ec68af27 remoteHash=
+[info] Syncing merkle subtree path=pem_backup_20260123_231919 localHash=4863ed2b0c7889c2826c2fce8983edd75a0a88c37f6ccf20d3ebae10a9d86813 remoteHash=undefined
+[info] Syncing merkle subtree path=baraem_191.sh localHash=c3399edc39d3210d1b4eaf50d7e4799ae9b632e5b4e2322303ee3ded298db2eb remoteHash=undefined
+[info] Applying change type=add relativePath=baraem_191.sh
+[info] Syncing merkle subtree path=rainbow_rsa.pem.pub localHash=2c04493931d531f30953a8297d35dfb74b3b1f5623107c96ab46bb324992e493 remoteHash=undefined
+[info] Applying change type=add relativePath=rainbow_rsa.pem.pub
+[info] Syncing merkle subtree path=.gitignore localHash=890cd8f72764c5aa0d57ee033b5646204eee9cbfc1074cbcc5b9782ad99ca27d remoteHash=undefined
+[info] Applying change type=add relativePath=.gitignore
+[info] Syncing merkle subtree path=pem_backup_20260123_231923 localHash=5772a388a8fd784d000928b9bd59d6fa56b5daa79fe082e1b2f92c612940cc3b remoteHash=undefined
+[info] Syncing merkle subtree path=etc localHash=186d7ed3b25ab59e4a290cb4a68e1dca6c4ebd576d5e81496d69fcff8b77672b remoteHash=undefined
+[info] Syncing merkle subtree path=eflip.sh localHash=2c0196b8fb0f680b876885a857651e1649d180e482cba34c179d586c29ecfee0 remoteHash=undefined
+[info] Applying change type=add relativePath=eflip.sh
+[info] Syncing merkle subtree path=pi_moon.ps1 localHash=79ad995dac4c09717a66c78658f2fca07b51b01d058f337439b117b92d26ded9 remoteHash=undefined
+[info] Applying change type=add relativePath=pi_moon.ps1
+[info] Syncing merkle subtree path=gnuboard5-playwright-auth_cursor localHash=99edd782cee6925dd41a69eae54e8abe8865d29be8c58464024b6b1d9094a314 remoteHash=undefined
+[info] Syncing merkle subtree path=pi_moon.sh localHash=729086d9b6c2538f437ace59d1e254c4d8c1a848e7e761da0be24d774e200532 remoteHash=undefined
+[info] Applying change type=add relativePath=pi_moon.sh
+[info] Syncing merkle subtree path=baraem_131.sh localHash=64bb5f716dd5ba696b6f1e21c3be369047d2e0584a9451f9cc2d5bc7d618be10 remoteHash=undefined
+[info] Applying change type=add relativePath=baraem_131.sh
+[info] Syncing merkle subtree path=md localHash=e51eb56254b65469f03891035d0004529fe2f22a41412af955fb425b5c042d3b remoteHash=undefined
+[info] Syncing merkle subtree path=notion localHash=73d7f71054e28983b0bb9db627f58c11e3b82f6ae0d3b1f242c93581399f5333 remoteHash=undefined
+[info] Syncing merkle subtree path=pem localHash=4c686bcc3e38cb8d56886764c8b9d98d29fd12ccde5112a48aa325307116a22e remoteHash=undefined
+[info] Syncing merkle subtree path=develofun.sh localHash=8beb57cd7eb7b89e8fbd89317e3484f6f129925ac5f3363ddbfa2112f9f5c968 remoteHash=undefined
+[info] Applying change type=add relativePath=develofun.sh
+[info] Syncing merkle subtree path=rainbow.sh localHash=c6dfd346aca78e3a8e48d3b82db502fff03a0630b98eacc822753037bb68ca6e remoteHash=undefined
+[info] Syncing merkle subtree path=gnuboard-playwright-auth_claude localHash=f4e2404ece4d3633f3c639300b1d10c75718f0b74a81b17c8dc66e68b81058df remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231919/Baraem-Center.pem.backup localHash=a7a0ab0bb255a378e252ec1dc0c9564a6bb9827408f4b71967d5b12545773c59 remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231919/baraem_dev.pem.backup localHash=31e5ad8cd63167b6d0b32a416a782111076a85a349c537f549e49663d2934c7b remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231919/baraem_131.pem.backup localHash=104554be9e460c121898e06d348ae133aaae8578753da5a8e6ec9339080d3c1d remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231919/baraem_main.pem.backup localHash=1a6b615699ff8e07ec0830bc891c7147d41cefdca8ee7eb414eb11709018c9c2 remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231919/e_flip_private_key.pem.backup localHash=dd8a3e6249991637ba939e13b5551e45765e5311661b73e75093a04d72799e20 remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231919/baraem_191.pem.backup localHash=fd65e9391ff420c6bf10d4d5bfbdc768be4351763236f158bb2c20894693b0a5 remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231919/cawsbaraem_131.pem.backup localHash=f9d665af90d72f80a5c09bf3307284f66ed76c16adadc0603b175e02d40c737c remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231919/bagel.pem.backup localHash=9287f1d16651993ca576e2d6bc8a79f2ac3f098446ee4788536b7911f1d0e038 remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/baraem_191.pem.backup localHash=fd65e9391ff420c6bf10d4d5bfbdc768be4351763236f158bb2c20894693b0a5 remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/baraem_131.pem.backup localHash=104554be9e460c121898e06d348ae133aaae8578753da5a8e6ec9339080d3c1d remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/baraem_dev.pem.backup localHash=31e5ad8cd63167b6d0b32a416a782111076a85a349c537f549e49663d2934c7b remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/id_rsa_131.pem.backup localHash=3ecfe8ab8d88542253772b069368f9799c492e3d601791d24a90ccb120461ec3 remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/minastik.pem.backup localHash=f785627cea9d015e3f63d2dcf09bdf6b1856d1858afcff292b45a6376b46114a remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/e_flip_private_key.pem.backup localHash=dd8a3e6249991637ba939e13b5551e45765e5311661b73e75093a04d72799e20 remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/towndoctor.pem.backup localHash=49d713e189e408c30d7910d1f74905e904fbfe07b91fde42530fae9f626f5598 remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/baraem_main.pem.backup localHash=1a6b615699ff8e07ec0830bc891c7147d41cefdca8ee7eb414eb11709018c9c2 remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/pi_moon.pem.backup localHash=eab47f357bf53b1ae82d468f3607e81e57cdfdc7f07e607695d68f524d9539f0 remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/cawsbaraem_131.pem.backup localHash=f9d665af90d72f80a5c09bf3307284f66ed76c16adadc0603b175e02d40c737c remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/star_defense-sungho_co_kr_NginX_cert.pem.backup localHash=c5e2500dd7433c7ba0bb749568c6dedc74038c2b198bc50fffee93eee6810ef4 remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/ubpd.pem.backup localHash=339e9693a59924e1819786d1f4c32d4edb0fd9df82e9487f3283f44337f0301b remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/Baraem-Center.pem.backup localHash=a7a0ab0bb255a378e252ec1dc0c9564a6bb9827408f4b71967d5b12545773c59 remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/bagel.pem.backup localHash=9287f1d16651993ca576e2d6bc8a79f2ac3f098446ee4788536b7911f1d0e038 remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/superfreshmeal.pem.backup localHash=2b91491212a15114cc1ec3dbc792d1d74b00600a983762ecb07eed146f406d54 remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/t14s_keu.pem.backup localHash=f1d3e417ccd029cf1bc1f35885ec419e35da04fda21a9d564166887aeca719dc remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/star_defense-sungho_co_kr_cert.pem.backup localHash=839379e96c7663a4a028ce852941816fa6a217a6bbe91fae9fbb8758d5780f51 remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/privateKey_nopass.pem.backup localHash=904bce30e485887cae7fc45c32456ebbe3da1dedb26079a1f3cc359fb2089c8c remoteHash=undefined
+[info] Syncing merkle subtree path=etc/replace_when_ready.ps1 localHash=80a3ece0dc2e3f5cc91f6be6083dbbe2a16d5231d9980ec0781db58a038ba63f remoteHash=undefined
+[info] Syncing merkle subtree path=etc/setup_ssh_server.ps1 localHash=9f52c8d5b055d275287569c516a7efc13d495d1b84c07557da527062016fd440 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/id_rsa_131_new localHash=f9d665af90d72f80a5c09bf3307284f66ed76c16adadc0603b175e02d40c737c remoteHash=undefined
+[info] Syncing merkle subtree path=etc/id_rsa_131.pub localHash=51519a605e114d53ec6bff20081beab0dc686c775edff9adbfa240ddabe0f39a remoteHash=undefined
+[info] Syncing merkle subtree path=etc/monitor_ssh_logs.sh localHash=8ad855eee2c9ac2082180c561ba4885004cb03f0428f88aebaacb5f6879e8d3a remoteHash=undefined
+[info] Syncing merkle subtree path=etc/setup_ssh_server.bat localHash=1d71c92e7dc03404451799ae9ae4f63a4a40e0541f5444f6482e1e4a46fdaa1e remoteHash=undefined
+[info] Syncing merkle subtree path=etc/replace_all_fixed.ps1 localHash=f349820de1fcb73c4a8a78da755b432aa322e6e38bc6b14e6843a89e5aad5527 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/id_rsa_131_raw localHash=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/replace_fixed_files.sh localHash=45b60faa8fb8f46c5229159b302e5c859ab04241b387bd28f243b9b71556d4c4 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/force_delete_originals.ps1 localHash=b3234414c034ba350ca9fe16583ea0b731baee53bf9bbb0691813ed98f109014 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/replace_fixed_content.ps1 localHash=9426b9cb63513f738fa32de3a1a0d5cdf9a4c35199ed3e5603013c2191796f59 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/195_server_info.sh localHash=f05a1cb5f2808308de48034e0f218bc53168591ce2840e15266cb2600d071887 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/id_rsa_131 localHash=3ecfe8ab8d88542253772b069368f9799c492e3d601791d24a90ccb120461ec3 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/QUICK_START.txt localHash=a01b07665c7cb8706b62cdc3f59cba0cf340f07b6231843341aad92947aceb15 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/wsl_port_forward_auto.ps1 localHash=4ff42984c2e0e7f8b67826a98518c1590aae700539f9ce159adb13f0a88a3aa7 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/fix_encoding.ps1 localHash=a2f404d047bb1cf0efad93f4ca4c26acec4b156b756be0b48e1ec75733b34fb3 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/SSH_설정_명령어.txt localHash=34f31f9078acaa91569bbb118f5cc5e34ec2adc732dd241f7069f9147f998baf remoteHash=undefined
+[info] Syncing merkle subtree path=etc/setup_utf8.bat localHash=9578d6a98cd428b36ebd2adce1918899d2bb82d7e34808c542419da8c3d70a93 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/fix_ssh_auth.ps1 localHash=4c5e81756b72943fe61cd1c6fa9c8fedc1d51154820ae4ade4081873982bac66 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/d2utmpoXsLi8 localHash=dd8a3e6249991637ba939e13b5551e45765e5311661b73e75093a04d72799e20 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/verify_fixed_files.sh localHash=27cd0a46e8a4654073473214f183760190d5e0e5f8132be1a616c1eff1b80a0f remoteHash=undefined
+[info] Syncing merkle subtree path=etc/eflip_check_result.txt localHash=48d2d740c0f2b3380873fc774182cdbb7e92c56a5fb8eb7ea5a2e649e53aa1bd remoteHash=undefined
+[info] Syncing merkle subtree path=etc/check_ssh_connection.sh localHash=c71fcaee7518f17896e9f059f587aeecdb08a8f13dd1a9f1651c4decbce3aca5 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/한글_인코딩_설정.txt localHash=62c177e1ce6eaf17ceadbfaa88f75045bd6a53d3d80db4d38f73de31a0573615 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/replace_fixed_files.ps1 localHash=f0d5bb004c11e600d7504f627bb17d3f2535965bf38d6925e40e1c1c9e148566 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/restart_ssh_with_aws_mount.sh localHash=a5a5f9b4a044148f4b2015044cb9266296912e6c099f0929a344b81cedb1492b remoteHash=undefined
+[info] Syncing merkle subtree path=etc/eflip_점검_실행방법.txt localHash=92601ec55559959c5b2761ddbe1571743356205aa500cfeb21e3c442896d290d remoteHash=undefined
+[info] Syncing merkle subtree path=etc/wakeup_t14s.ps1 localHash=11bc54239ce85664bae0a5540fa5020ed58626d5c12923aae6fa7a5ebd3a6c83 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/check_locked_files.ps1 localHash=0fae5daddc18f46105eab55c019759274d6a4795a004b91a34a2de104a81d5d5 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/delete_original_keys.ps1 localHash=de15975e2b5a08f6c0c0f4d2ef05481dc7851331eb99b53231ec924fa92a1c8d remoteHash=undefined
+[info] Syncing merkle subtree path=etc/rename_fixed_to_key.ps1 localHash=16ce3910cc6ba90a146816ffa7446036d71b18cd3c1cd8d9233719cf4791b31c remoteHash=undefined
+[info] Syncing merkle subtree path=etc/id_rsa_131_server localHash=f9d665af90d72f80a5c09bf3307284f66ed76c16adadc0603b175e02d40c737c remoteHash=undefined
+[info] Syncing merkle subtree path=etc/run_setup_ssh.ps1 localHash=2a7c76f8b792acca6b7c98ab58e2b5ac18724b92289d4814d228d1a0817566eb remoteHash=undefined
+[info] Syncing merkle subtree path=etc/ssh_status.txt localHash=0fc4b8555b88a7250a697df6024bfe46f47b7124c58cb990d3b47dc8f2a214ca remoteHash=undefined
+[info] Syncing merkle subtree path=etc/fix_all_pem_files.sh localHash=f8ae2a7b9a7280f0b2b64795afec05d1b28a0cf7414fb13758bd482012da018f remoteHash=undefined
+[info] Syncing merkle subtree path=etc/wakeup_t14s.sh localHash=ed1f893d46e7605d5c2d1e80a0301cfc1ebf8da2b48b0107b82cffc1d441bbf5 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/setup_wsl_port_forward.ps1 localHash=539c8344d256e4307569d25406485d2b279b5cd7186e3270b325177b56c87661 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/fix_ssh_auth.bat localHash=274ab2b12269fdac3a9bf823b606b10a789a29d17d8e31635db4065d40ab4ec3 remoteHash=undefined
+[info] Syncing merkle subtree path=gnuboard5-playwright-auth_cursor/references localHash=e2eda10738636928a4e7be58774dc409c2770dff97b63bee6e5ccb34fd371b73 remoteHash=undefined
+[info] Syncing merkle subtree path=gnuboard5-playwright-auth_cursor/assets localHash=cdde8fa8e907a79a3cce3a2c9cb009306ce045ad49a5548ee1a61b6ee13b3dc6 remoteHash=undefined
+[info] Syncing merkle subtree path=gnuboard5-playwright-auth_cursor/SKILL.md localHash=2f2ecbdfeac80c1ea6578d3193ea1a093551ddef73ab8ecb4cff9bf19d1ae235 remoteHash=undefined
+[info] Syncing merkle subtree path=md/eflip.md localHash=8d892f7665208aa83f32b9b7e810952535983292c93f361570bfd09984ac0279 remoteHash=undefined
+[info] Syncing merkle subtree path=md/bsmhc.md localHash=de6bdec94816ef42ec627af34492fb9b974294130bd8bfd7b5234887785e650f remoteHash=undefined
+[info] Syncing merkle subtree path=md/develofun_ssh.md localHash=a50e420f93cf423a0b400abcd5999ccc3c6ba68fd30ebd41b6633443801f06b2 remoteHash=undefined
+[info] Syncing merkle subtree path=md/pem_파일_변환_결과.md localHash=25632a46b23fdabed5bd1fdca4db951fac738af2008bc171f164e837a76a5f43 remoteHash=undefined
+[info] Syncing merkle subtree path=md/eflip_ssh_진단_결과.md localHash=50f7a9a71f9d3624e7a78531e4fc9274af7cd80f47ec3f254a566f5976c0f1d1 remoteHash=undefined
+[info] Syncing merkle subtree path=md/ssh_connection_guide.md localHash=1987279e8f800343bf01cc35b7413192fb9ae5c3942eccf0cf6adebae374d0b9 remoteHash=undefined
+[info] Syncing merkle subtree path=md/t14s_ssh_setup.md localHash=ddec118bb6fbed5c87ef0d84f60297124fcddff9d6fe3002be2aa0e2732a3997 remoteHash=undefined
+[info] Syncing merkle subtree path=md/eflip_서버_다운_원인_분석_최종.md localHash=7a7e92a957369f289390e611f7e8c6f68a1291c4a168bea4a26af1779b1fa66e remoteHash=undefined
+[info] Syncing merkle subtree path=md/tmux_명령어_안내.md localHash=2230f99c5579357d7938b66909cdf25502531de7795577f3f813fdf25527326b remoteHash=undefined
+[info] Syncing merkle subtree path=md/tabby-ssh-인증-오류-해결.md localHash=2b3260a6b41aa1a77b932e20ea91076300ae3ba0bc8f9f5dc6869598a1d9bae1 remoteHash=undefined
+[info] Syncing merkle subtree path=md/195.md localHash=e0b25ef5d424895c293b826e6160bcf8d5235662ea03d4415bd37fdec190a1c7 remoteHash=undefined
+[info] Syncing merkle subtree path=md/화성생약20260115_sms미발송건.md localHash=5f55fad075f26d98f4d77fe67f371264ecf3f63adcadd1ca8fbfe1793036f440 remoteHash=undefined
+[info] Syncing merkle subtree path=md/191.md localHash=7368f630a0e1fcd16c0e7ddb425f2d21a28781dacdaad18f4db101eed14f6455 remoteHash=undefined
+[info] Syncing merkle subtree path=md/baraem-center.md localHash=c242ddbefd00e1b14ae21ab55c331051fcc0790a3389c9084cd37bb10b1e1d32 remoteHash=undefined
+[info] Syncing merkle subtree path=md/baraem_131.md localHash=8da48e167fd2a86e9e8709b6005c6bee54e0edb1194865648b486ced08b43512 remoteHash=undefined
+[info] Syncing merkle subtree path=md/eflip_ssh_해결_완료.md localHash=1f1b126efe8a98bdd9e7167955dddeaf53c2a03c78e0e58390273c353f429342 remoteHash=undefined
+[info] Syncing merkle subtree path=md/n8n-mcp-재설치-완료.md localHash=df5cebca0e153ae987dfebf6dc429e6144cecf503e8a3c44dc8d96cfba629e6d remoteHash=undefined
+[info] Syncing merkle subtree path=md/ssl.md localHash=e814c4292c5846da0f1584683546d87d2409bbb74de31fe8679b30bbd177b951 remoteHash=undefined
+[info] Syncing merkle subtree path=md/eflip_서버_다운_원인_분석.md localHash=9f247af3059bf8163a63c6b9a5931ba876dc2eb60456961b080a7e63d345c146 remoteHash=undefined
+[info] Syncing merkle subtree path=md/skill_comparison_report.md localHash=42709320b9fdcac68534d024d2fce5744786afeb93e8e285de9395836b925356 remoteHash=undefined
+[info] Syncing merkle subtree path=md/n8n-mcp-install-guide.md localHash=a852a09f53f63ea743832a2e9b7a2b8d3cec63a15cb149653b38fb94ad38039d remoteHash=undefined
+[info] Syncing merkle subtree path=md/eflip_서버_점검_결과.md localHash=85112885c2ff6d43a70ed71caac230cd3d4ea58938244d4069068f5559220269 remoteHash=undefined
+[info] Syncing merkle subtree path=md/ssh_log_analysis.md localHash=1836446e921b3196a84a4a2fa6b8b79ba992a244def472cce17ff6bb3e17196e remoteHash=undefined
+[info] Syncing merkle subtree path=md/eflip_점검_결과_최종.md localHash=ee260ac3b4e8828e32c47e69f14315d2ed3fc89db11ee474011b43b48c4511b6 remoteHash=undefined
+[info] Syncing merkle subtree path=md/README_SSH_SETUP.md localHash=c6851cd6a54b99452dbbe624477f5844e62fa34deb38edf30427bcbff8f26303 remoteHash=undefined
+[info] Syncing merkle subtree path=md/파일_대체_상황_안내.md localHash=d1cf0075a1cbdb29696c7d2ccdf93fe2797f0017969051b534d4c31139b02377 remoteHash=undefined
+[info] Syncing merkle subtree path=md/195infra.md localHash=fee6533805998f9f6a1793248502961b7db0d5d439084995aed90a7c682190bd remoteHash=undefined
+[info] Syncing merkle subtree path=md/develofun_git_상태_확인.md localHash=3ddb9241be402c5955b897ba65771e919e32dd6d4eebfbce4a461c9eebae375c remoteHash=undefined
+[info] Syncing merkle subtree path=md/wsl_port_forward_guide.md localHash=d2afb833ffede6c2739edfca40f2013f50ad7448052e9b9490ef71840b831647 remoteHash=undefined
+[info] Syncing merkle subtree path=md/pi.md localHash=edc52696882e7fa744ac467f88b4c8228d4a56e1970a9b40cbb893306e2f6ca7 remoteHash=undefined
+[info] Syncing merkle subtree path=notion/update_notion_title.py localHash=34c69b4da3017fc6b6e4c80c766fc40c054ad4fa5e2739b0a8aa76a4dd43acaa remoteHash=undefined
+[info] Syncing merkle subtree path=pem/star_defense-sungho_co_kr_NginX_cert.pem localHash=c5e2500dd7433c7ba0bb749568c6dedc74038c2b198bc50fffee93eee6810ef4 remoteHash=undefined
+[info] Syncing merkle subtree path=pem/develofun_keypair.ppk localHash=6e6b2b05d3090387800f9d4a508d9f404a8b0f3316d336ba07d6f2ef2f8b80da remoteHash=undefined
+[info] Syncing merkle subtree path=pem/baraem_131.pem localHash=104554be9e460c121898e06d348ae133aaae8578753da5a8e6ec9339080d3c1d remoteHash=undefined
+[info] Syncing merkle subtree path=pem/t14s.pem localHash=7195f3afc2de3ad6bc1166d92e16054f34f368b77113e9d4446c62962c4012da remoteHash=undefined
+[info] Syncing merkle subtree path=pem/pi_moon.pem localHash=eab47f357bf53b1ae82d468f3607e81e57cdfdc7f07e607695d68f524d9539f0 remoteHash=undefined
+[info] Syncing merkle subtree path=pem/e_flip_private.pem localHash=dd8a3e6249991637ba939e13b5551e45765e5311661b73e75093a04d72799e20 remoteHash=undefined
+[info] Syncing merkle subtree path=pem/baraem_main.pem localHash=1a6b615699ff8e07ec0830bc891c7147d41cefdca8ee7eb414eb11709018c9c2 remoteHash=undefined
+[info] Syncing merkle subtree path=pem/cawsid_rsa_131_new localHash=f9d665af90d72f80a5c09bf3307284f66ed76c16adadc0603b175e02d40c737c remoteHash=undefined
+[info] Syncing merkle subtree path=pem/cawsid_rsa_131 localHash=f3b2ca5db8411963f84ef31e19dd0b76e8e76d4eeec066e5839c45115c90cdef remoteHash=undefined
+[info] Syncing merkle subtree path=pem/baraem_dev.pem localHash=31e5ad8cd63167b6d0b32a416a782111076a85a349c537f549e49663d2934c7b remoteHash=undefined
+[info] Syncing merkle subtree path=pem/privateKey_nopass.pem localHash=904bce30e485887cae7fc45c32456ebbe3da1dedb26079a1f3cc359fb2089c8c remoteHash=undefined
+[info] Syncing merkle subtree path=pem/baraem_191.pem localHash=fd65e9391ff420c6bf10d4d5bfbdc768be4351763236f158bb2c20894693b0a5 remoteHash=undefined
+[info] Syncing merkle subtree path=pem/minastik.pem localHash=f785627cea9d015e3f63d2dcf09bdf6b1856d1858afcff292b45a6376b46114a remoteHash=undefined
+[info] Syncing merkle subtree path=pem/superfreshmeal.pem localHash=2b91491212a15114cc1ec3dbc792d1d74b00600a983762ecb07eed146f406d54 remoteHash=undefined
+[info] Syncing merkle subtree path=pem/develofun_keypair.pem localHash=a6e37a272132c805cc16a963daa93119e9c61b0c9adf68440d3af7083ef949a7 remoteHash=undefined
+[info] Syncing merkle subtree path=pem/Baraem-Center.pem localHash=a7a0ab0bb255a378e252ec1dc0c9564a6bb9827408f4b71967d5b12545773c59 remoteHash=undefined
+[info] Syncing merkle subtree path=pem/bagel.pem localHash=9287f1d16651993ca576e2d6bc8a79f2ac3f098446ee4788536b7911f1d0e038 remoteHash=undefined
+[info] Syncing merkle subtree path=pem/rainbo_key.pem localHash=f4529863b9a5c8343a46907508e4db20f8b961425eb4691883a5947c58094ff3 remoteHash=undefined
+[info] Syncing merkle subtree path=pem/minastik_key.pem localHash=f785627cea9d015e3f63d2dcf09bdf6b1856d1858afcff292b45a6376b46114a remoteHash=undefined
+[info] Syncing merkle subtree path=pem/ubpd.pem localHash=339e9693a59924e1819786d1f4c32d4edb0fd9df82e9487f3283f44337f0301b remoteHash=undefined
+[info] Syncing merkle subtree path=pem/id_rsa_131.pem localHash=3ecfe8ab8d88542253772b069368f9799c492e3d601791d24a90ccb120461ec3 remoteHash=undefined
+[info] Syncing merkle subtree path=pem/cawsbaraem_131.pem localHash=f9d665af90d72f80a5c09bf3307284f66ed76c16adadc0603b175e02d40c737c remoteHash=undefined
+[info] Syncing merkle subtree path=pem/groun_d.pem localHash=14c31492de0dea4d29ae0e2da0f6023889fb101549f0599ce6b3f1310421b220 remoteHash=undefined
+[info] Syncing merkle subtree path=pem/towndoctor.pem localHash=49d713e189e408c30d7910d1f74905e904fbfe07b91fde42530fae9f626f5598 remoteHash=undefined
+[info] Syncing merkle subtree path=pem/star_defense-sungho_co_kr_cert.pem localHash=839379e96c7663a4a028ce852941816fa6a217a6bbe91fae9fbb8758d5780f51 remoteHash=undefined
+[info] Syncing merkle subtree path=gnuboard-playwright-auth_claude/SKILL.md localHash=f07da45cf3e0cede6185d98aa8fb5fc794b71854bed3d6237d80bdbfd72ae3fe remoteHash=undefined
+[info] Syncing merkle subtree path=gnuboard-playwright-auth_claude/references localHash=c8e0f1ad71fbe69925c46216fc2055ab769aef95ba4a05f60611c7ccf8e567c4 remoteHash=undefined
+[info] Syncing merkle subtree path=gnuboard-playwright-auth_claude/assets localHash=aea66a69ba5a4fa38abe7dc78219e689031e69eca47ec359401584577ea9ce1d remoteHash=undefined
+[info] Syncing merkle subtree path=gnuboard5-playwright-auth_cursor/references/troubleshooting.md localHash=dd1743c8bb03a8c121429ffe22d89aa8e4264493d2cf26e4e2be137605f46929 remoteHash=undefined
+[info] Syncing merkle subtree path=gnuboard5-playwright-auth_cursor/assets/example.spec.ts localHash=eb3614e2f9703a3f0418c03efad1685bb4ee3cef6bc201dd34423bd1112ffdf4 remoteHash=undefined
+[info] Syncing merkle subtree path=gnuboard5-playwright-auth_cursor/assets/gnuboard-auth.ts localHash=c718bfd47bde5ac8053c57d8dfd3e847f5520428906594274c9524fc04d3d31e remoteHash=undefined
+[info] Syncing merkle subtree path=gnuboard5-playwright-auth_cursor/assets/playwright.config.ts localHash=fa52e596ea933c57ac0f4b85f86f388d261876574e29a96eeb28a7c0fcbf44a9 remoteHash=undefined
+[info] Syncing merkle subtree path=gnuboard-playwright-auth_claude/references/setup-guide.md localHash=9a5315d98253b4761cca225ccb3888ec4a09e5610ef86d3394868077352bdfdd remoteHash=undefined
+[info] Syncing merkle subtree path=gnuboard-playwright-auth_claude/assets/gnuboard_auth.ts localHash=ff0008ea9a1a955c04a12860a7c4a1508651c9808d7a7145d4fde35195eea94a remoteHash=undefined
+[info] Updating file updateType=1 ancestorSpline=[object Object] partialPath=[object Object]
+[info] Updating files requestId=8b9e08c5-9baf-44d8-adc6-8c9705a8a5db changes=1
+[info] Updating file updateType=1 ancestorSpline=[object Object] partialPath=[object Object]
+[info] Updating files requestId=a3323cdd-c344-4537-bd26-e623958c7761 changes=1
+[info] Updating file updateType=1 ancestorSpline=[object Object] partialPath=[object Object]
+[info] Updating files requestId=80560bee-8d09-456d-b954-ac387224c3ca changes=1
+[info] Updating file updateType=1 ancestorSpline=[object Object] partialPath=[object Object]
+[info] Updating files requestId=2c509bfc-91d9-4d7f-97a1-f52c699f9e33 changes=1
+[info] Updating file updateType=1 ancestorSpline=[object Object] partialPath=[object Object]
+[info] Updating files requestId=13f18c5a-56ca-4307-ae4d-62cb7f429f98 changes=1
+[info] Updating file updateType=1 ancestorSpline=[object Object] partialPath=[object Object]
+[info] Updating files requestId=95ce0c65-7723-4df9-b3d0-7c2dd918d8b5 changes=1
+[info] Updating file updateType=1 ancestorSpline=[object Object] partialPath=[object Object]
+[info] Updating files requestId=735a1bb1-ee4f-4f73-93bf-1baa9a6a33d4 changes=1
+[info] Updating file updateType=1 ancestorSpline=[object Object] partialPath=[object Object]
+[info] Updating files requestId=5b2f3c0e-0210-49ee-822e-68f0ce3df9a0 changes=1
+[info] Updated files requestId=80560bee-8d09-456d-b954-ac387224c3ca response=[object Object]
+[info] Applying change type=add relativePath=rainbow.sh
+[info] Applying change type=add relativePath=pem_backup_20260123_231919/Baraem-Center.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231919/baraem_dev.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231919/baraem_131.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231919/baraem_main.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231919/e_flip_private_key.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231919/baraem_191.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231919/cawsbaraem_131.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231919/bagel.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/baraem_191.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/baraem_131.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/baraem_dev.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/id_rsa_131.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/minastik.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/e_flip_private_key.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/towndoctor.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/baraem_main.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/pi_moon.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/cawsbaraem_131.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/star_defense-sungho_co_kr_NginX_cert.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/ubpd.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/Baraem-Center.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/bagel.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/superfreshmeal.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/t14s_keu.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/star_defense-sungho_co_kr_cert.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/privateKey_nopass.pem.backup
+[info] Applying change type=add relativePath=etc/replace_when_ready.ps1
+[info] Applying change type=add relativePath=etc/setup_ssh_server.ps1
+[info] Applying change type=add relativePath=etc/id_rsa_131_new
+[info] Applying change type=add relativePath=etc/id_rsa_131.pub
+[info] Applying change type=add relativePath=etc/monitor_ssh_logs.sh
+[info] Updating file updateType=1 ancestorSpline=[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating files requestId=59d5f42a-b705-4e3e-a458-8a911881e113 changes=32
+[info] Updated files requestId=5b2f3c0e-0210-49ee-822e-68f0ce3df9a0 response=[object Object]
+[info] Applying change type=add relativePath=etc/setup_ssh_server.bat
+[info] Applying change type=add relativePath=etc/replace_all_fixed.ps1
+[info] Applying change type=add relativePath=etc/id_rsa_131_raw
+[info] Applying change type=add relativePath=etc/replace_fixed_files.sh
+[info] Applying change type=add relativePath=etc/force_delete_originals.ps1
+[info] Applying change type=add relativePath=etc/replace_fixed_content.ps1
+[info] Applying change type=add relativePath=etc/195_server_info.sh
+[info] Applying change type=add relativePath=etc/id_rsa_131
+[info] Applying change type=add relativePath=etc/QUICK_START.txt
+[info] Applying change type=add relativePath=etc/wsl_port_forward_auto.ps1
+[info] Applying change type=add relativePath=etc/fix_encoding.ps1
+[info] Applying change type=add relativePath=etc/SSH_설정_명령어.txt
+[info] Applying change type=add relativePath=etc/setup_utf8.bat
+[info] Applying change type=add relativePath=etc/fix_ssh_auth.ps1
+[info] Applying change type=add relativePath=etc/d2utmpoXsLi8
+[info] Applying change type=add relativePath=etc/verify_fixed_files.sh
+[info] Applying change type=add relativePath=etc/eflip_check_result.txt
+[info] Applying change type=add relativePath=etc/check_ssh_connection.sh
+[info] Applying change type=add relativePath=etc/한글_인코딩_설정.txt
+[info] Applying change type=add relativePath=etc/replace_fixed_files.ps1
+[info] Applying change type=add relativePath=etc/restart_ssh_with_aws_mount.sh
+[info] Applying change type=add relativePath=etc/eflip_점검_실행방법.txt
+[info] Applying change type=add relativePath=etc/wakeup_t14s.ps1
+[info] Applying change type=add relativePath=etc/check_locked_files.ps1
+[info] Applying change type=add relativePath=etc/delete_original_keys.ps1
+[info] Applying change type=add relativePath=etc/rename_fixed_to_key.ps1
+[info] Applying change type=add relativePath=etc/id_rsa_131_server
+[info] Applying change type=add relativePath=etc/run_setup_ssh.ps1
+[info] Applying change type=add relativePath=etc/ssh_status.txt
+[info] Applying change type=add relativePath=etc/fix_all_pem_files.sh
+[info] Applying change type=add relativePath=etc/wakeup_t14s.sh
+[info] Applying change type=add relativePath=etc/setup_wsl_port_forward.ps1
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating files requestId=bcb052c3-7880-439b-8d0d-3c50a5d9b61b changes=32
+[info] Updated files requestId=13f18c5a-56ca-4307-ae4d-62cb7f429f98 response=[object Object]
+[info] Applying change type=add relativePath=etc/fix_ssh_auth.bat
+[info] Applying change type=add relativePath=gnuboard5-playwright-auth_cursor/SKILL.md
+[info] Applying change type=add relativePath=md/eflip.md
+[info] Applying change type=add relativePath=md/bsmhc.md
+[info] Applying change type=add relativePath=md/develofun_ssh.md
+[info] Applying change type=add relativePath=md/pem_파일_변환_결과.md
+[info] Applying change type=add relativePath=md/eflip_ssh_진단_결과.md
+[info] Applying change type=add relativePath=md/ssh_connection_guide.md
+[info] Applying change type=add relativePath=md/t14s_ssh_setup.md
+[info] Applying change type=add relativePath=md/eflip_서버_다운_원인_분석_최종.md
+[info] Applying change type=add relativePath=md/tmux_명령어_안내.md
+[info] Applying change type=add relativePath=md/tabby-ssh-인증-오류-해결.md
+[info] Applying change type=add relativePath=md/195.md
+[info] Applying change type=add relativePath=md/화성생약20260115_sms미발송건.md
+[info] Applying change type=add relativePath=md/191.md
+[info] Applying change type=add relativePath=md/baraem-center.md
+[info] Applying change type=add relativePath=md/baraem_131.md
+[info] Applying change type=add relativePath=md/eflip_ssh_해결_완료.md
+[info] Applying change type=add relativePath=md/n8n-mcp-재설치-완료.md
+[info] Applying change type=add relativePath=md/ssl.md
+[info] Applying change type=add relativePath=md/eflip_서버_다운_원인_분석.md
+[info] Applying change type=add relativePath=md/skill_comparison_report.md
+[info] Applying change type=add relativePath=md/n8n-mcp-install-guide.md
+[info] Applying change type=add relativePath=md/eflip_서버_점검_결과.md
+[info] Applying change type=add relativePath=md/ssh_log_analysis.md
+[info] Applying change type=add relativePath=md/eflip_점검_결과_최종.md
+[info] Applying change type=add relativePath=md/README_SSH_SETUP.md
+[info] Applying change type=add relativePath=md/파일_대체_상황_안내.md
+[info] Applying change type=add relativePath=md/195infra.md
+[info] Applying change type=add relativePath=md/develofun_git_상태_확인.md
+[info] Applying change type=add relativePath=md/wsl_port_forward_guide.md
+[info] Applying change type=add relativePath=md/pi.md
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating files requestId=b3f2a707-314a-46bd-aca8-409e6255fb17 changes=32
+[info] Updated files requestId=2c509bfc-91d9-4d7f-97a1-f52c699f9e33 response=[object Object]
+[info] Applying change type=add relativePath=notion/update_notion_title.py
+[info] Applying change type=add relativePath=pem/star_defense-sungho_co_kr_NginX_cert.pem
+[info] Applying change type=add relativePath=pem/develofun_keypair.ppk
+[info] Applying change type=add relativePath=pem/baraem_131.pem
+[info] Applying change type=add relativePath=pem/t14s.pem
+[info] Applying change type=add relativePath=pem/pi_moon.pem
+[info] Applying change type=add relativePath=pem/e_flip_private.pem
+[info] Applying change type=add relativePath=pem/baraem_main.pem
+[info] Applying change type=add relativePath=pem/cawsid_rsa_131_new
+[info] Applying change type=add relativePath=pem/cawsid_rsa_131
+[info] Applying change type=add relativePath=pem/baraem_dev.pem
+[info] Applying change type=add relativePath=pem/privateKey_nopass.pem
+[info] Applying change type=add relativePath=pem/baraem_191.pem
+[info] Applying change type=add relativePath=pem/minastik.pem
+[info] Applying change type=add relativePath=pem/superfreshmeal.pem
+[info] Applying change type=add relativePath=pem/develofun_keypair.pem
+[info] Applying change type=add relativePath=pem/Baraem-Center.pem
+[info] Applying change type=add relativePath=pem/bagel.pem
+[info] Applying change type=add relativePath=pem/rainbo_key.pem
+[info] Applying change type=add relativePath=pem/minastik_key.pem
+[info] Applying change type=add relativePath=pem/ubpd.pem
+[info] Applying change type=add relativePath=pem/id_rsa_131.pem
+[info] Applying change type=add relativePath=pem/cawsbaraem_131.pem
+[info] Applying change type=add relativePath=pem/groun_d.pem
+[info] Applying change type=add relativePath=pem/towndoctor.pem
+[info] Applying change type=add relativePath=pem/star_defense-sungho_co_kr_cert.pem
+[info] Applying change type=add relativePath=gnuboard-playwright-auth_claude/SKILL.md
+[info] Applying change type=add relativePath=gnuboard5-playwright-auth_cursor/references/troubleshooting.md
+[info] Applying change type=add relativePath=gnuboard5-playwright-auth_cursor/assets/example.spec.ts
+[info] Applying change type=add relativePath=gnuboard5-playwright-auth_cursor/assets/gnuboard-auth.ts
+[info] Applying change type=add relativePath=gnuboard5-playwright-auth_cursor/assets/playwright.config.ts
+[info] Applying change type=add relativePath=gnuboard-playwright-auth_claude/references/setup-guide.md
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object],[object Object] partialPath=[object Object]
+[info] Updating files requestId=07fbde63-f212-4201-9c7a-85105116d366 changes=32
+[info] Updated files requestId=735a1bb1-ee4f-4f73-93bf-1baa9a6a33d4 response=[object Object]
+[info] Applying change type=add relativePath=gnuboard-playwright-auth_claude/assets/gnuboard_auth.ts
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object],[object Object] partialPath=[object Object]
+[info] Updating files requestId=ba915d00-b508-437c-81b8-ba7fbc750b28 changes=1
+[info] Updated files requestId=8b9e08c5-9baf-44d8-adc6-8c9705a8a5db response=[object Object]
+[info] Updated files requestId=a3323cdd-c344-4537-bd26-e623958c7761 response=[object Object]
+[info] Updated files requestId=95ce0c65-7723-4df9-b3d0-7c2dd918d8b5 response=[object Object]
+[info] Updated files requestId=bcb052c3-7880-439b-8d0d-3c50a5d9b61b response=[object Object]
+[info] Updated files requestId=ba915d00-b508-437c-81b8-ba7fbc750b28 response=[object Object]
+[info] Updated files requestId=07fbde63-f212-4201-9c7a-85105116d366 response=[object Object]
+[info] Updated files requestId=59d5f42a-b705-4e3e-a458-8a911881e113 response=[object Object]
+[info] Updated files requestId=b3f2a707-314a-46bd-aca8-409e6255fb17 response=[object Object]
+[info] Indexing finished
+[info] Indexing now
+[info] Getting tree structure for workspacePath=/home/ubuntu/aws
+[info] Syncing merkle subtree path=. localHash=f1c89458672bcd5b3fda0b8e157f60c3b32dddb7baab33c172908655ec68af27 remoteHash=
+[info] Syncing merkle subtree path=notion localHash=73d7f71054e28983b0bb9db627f58c11e3b82f6ae0d3b1f242c93581399f5333 remoteHash=73d7f71054e28983b0bb9db627f58c11e3b82f6ae0d3b1f242c93581399f5333
+[info] Syncing merkle subtree path=pem_backup_20260123_231923 localHash=5772a388a8fd784d000928b9bd59d6fa56b5daa79fe082e1b2f92c612940cc3b remoteHash=5772a388a8fd784d000928b9bd59d6fa56b5daa79fe082e1b2f92c612940cc3b
+[info] Syncing merkle subtree path=rainbow_rsa.pem.pub localHash=2c04493931d531f30953a8297d35dfb74b3b1f5623107c96ab46bb324992e493 remoteHash=2c04493931d531f30953a8297d35dfb74b3b1f5623107c96ab46bb324992e493
+[info] Syncing merkle subtree path=baraem_191.sh localHash=c3399edc39d3210d1b4eaf50d7e4799ae9b632e5b4e2322303ee3ded298db2eb remoteHash=c3399edc39d3210d1b4eaf50d7e4799ae9b632e5b4e2322303ee3ded298db2eb
+[info] Syncing merkle subtree path=gnuboard-playwright-auth_claude localHash=f4e2404ece4d3633f3c639300b1d10c75718f0b74a81b17c8dc66e68b81058df remoteHash=f4e2404ece4d3633f3c639300b1d10c75718f0b74a81b17c8dc66e68b81058df
+[info] Syncing merkle subtree path=gnuboard5-playwright-auth_cursor localHash=99edd782cee6925dd41a69eae54e8abe8865d29be8c58464024b6b1d9094a314 remoteHash=99edd782cee6925dd41a69eae54e8abe8865d29be8c58464024b6b1d9094a314
+[info] Syncing merkle subtree path=eflip.sh localHash=2c0196b8fb0f680b876885a857651e1649d180e482cba34c179d586c29ecfee0 remoteHash=2c0196b8fb0f680b876885a857651e1649d180e482cba34c179d586c29ecfee0
+[info] Syncing merkle subtree path=rainbow.sh localHash=c6dfd346aca78e3a8e48d3b82db502fff03a0630b98eacc822753037bb68ca6e remoteHash=c6dfd346aca78e3a8e48d3b82db502fff03a0630b98eacc822753037bb68ca6e
+[info] Syncing merkle subtree path=etc localHash=186d7ed3b25ab59e4a290cb4a68e1dca6c4ebd576d5e81496d69fcff8b77672b remoteHash=e674bb39dbecb7cfe3de232f2fb695a395bd3ddd5402e69fe34cc23cf0db739d
+[info] Syncing merkle subtree path=develofun.sh localHash=8beb57cd7eb7b89e8fbd89317e3484f6f129925ac5f3363ddbfa2112f9f5c968 remoteHash=8beb57cd7eb7b89e8fbd89317e3484f6f129925ac5f3363ddbfa2112f9f5c968
+[info] Syncing merkle subtree path=.gitignore localHash=890cd8f72764c5aa0d57ee033b5646204eee9cbfc1074cbcc5b9782ad99ca27d remoteHash=890cd8f72764c5aa0d57ee033b5646204eee9cbfc1074cbcc5b9782ad99ca27d
+[info] Syncing merkle subtree path=pem_backup_20260123_231919 localHash=4863ed2b0c7889c2826c2fce8983edd75a0a88c37f6ccf20d3ebae10a9d86813 remoteHash=4863ed2b0c7889c2826c2fce8983edd75a0a88c37f6ccf20d3ebae10a9d86813
+[info] Syncing merkle subtree path=pem localHash=4c686bcc3e38cb8d56886764c8b9d98d29fd12ccde5112a48aa325307116a22e remoteHash=4c686bcc3e38cb8d56886764c8b9d98d29fd12ccde5112a48aa325307116a22e
+[info] Syncing merkle subtree path=pi_moon.sh localHash=729086d9b6c2538f437ace59d1e254c4d8c1a848e7e761da0be24d774e200532 remoteHash=729086d9b6c2538f437ace59d1e254c4d8c1a848e7e761da0be24d774e200532
+[info] Syncing merkle subtree path=md localHash=e51eb56254b65469f03891035d0004529fe2f22a41412af955fb425b5c042d3b remoteHash=e51eb56254b65469f03891035d0004529fe2f22a41412af955fb425b5c042d3b
+[info] Syncing merkle subtree path=pi_moon.ps1 localHash=79ad995dac4c09717a66c78658f2fca07b51b01d058f337439b117b92d26ded9 remoteHash=79ad995dac4c09717a66c78658f2fca07b51b01d058f337439b117b92d26ded9
+[info] Syncing merkle subtree path=baraem_131.sh localHash=64bb5f716dd5ba696b6f1e21c3be369047d2e0584a9451f9cc2d5bc7d618be10 remoteHash=64bb5f716dd5ba696b6f1e21c3be369047d2e0584a9451f9cc2d5bc7d618be10
+[info] Syncing merkle subtree path=etc/force_delete_originals.ps1 localHash=b3234414c034ba350ca9fe16583ea0b731baee53bf9bbb0691813ed98f109014 remoteHash=b3234414c034ba350ca9fe16583ea0b731baee53bf9bbb0691813ed98f109014
+[info] Syncing merkle subtree path=etc/QUICK_START.txt localHash=a01b07665c7cb8706b62cdc3f59cba0cf340f07b6231843341aad92947aceb15 remoteHash=a01b07665c7cb8706b62cdc3f59cba0cf340f07b6231843341aad92947aceb15
+[info] Syncing merkle subtree path=etc/delete_original_keys.ps1 localHash=de15975e2b5a08f6c0c0f4d2ef05481dc7851331eb99b53231ec924fa92a1c8d remoteHash=de15975e2b5a08f6c0c0f4d2ef05481dc7851331eb99b53231ec924fa92a1c8d
+[info] Syncing merkle subtree path=etc/id_rsa_131.pub localHash=51519a605e114d53ec6bff20081beab0dc686c775edff9adbfa240ddabe0f39a remoteHash=51519a605e114d53ec6bff20081beab0dc686c775edff9adbfa240ddabe0f39a
+[info] Syncing merkle subtree path=etc/id_rsa_131 localHash=3ecfe8ab8d88542253772b069368f9799c492e3d601791d24a90ccb120461ec3 remoteHash=3ecfe8ab8d88542253772b069368f9799c492e3d601791d24a90ccb120461ec3
+[info] Syncing merkle subtree path=etc/replace_fixed_content.ps1 localHash=9426b9cb63513f738fa32de3a1a0d5cdf9a4c35199ed3e5603013c2191796f59 remoteHash=9426b9cb63513f738fa32de3a1a0d5cdf9a4c35199ed3e5603013c2191796f59
+[info] Syncing merkle subtree path=etc/fix_ssh_auth.ps1 localHash=4c5e81756b72943fe61cd1c6fa9c8fedc1d51154820ae4ade4081873982bac66 remoteHash=4c5e81756b72943fe61cd1c6fa9c8fedc1d51154820ae4ade4081873982bac66
+[info] Syncing merkle subtree path=etc/replace_fixed_files.ps1 localHash=f0d5bb004c11e600d7504f627bb17d3f2535965bf38d6925e40e1c1c9e148566 remoteHash=f0d5bb004c11e600d7504f627bb17d3f2535965bf38d6925e40e1c1c9e148566
+[info] Syncing merkle subtree path=etc/replace_when_ready.ps1 localHash=80a3ece0dc2e3f5cc91f6be6083dbbe2a16d5231d9980ec0781db58a038ba63f remoteHash=80a3ece0dc2e3f5cc91f6be6083dbbe2a16d5231d9980ec0781db58a038ba63f
+[info] Syncing merkle subtree path=etc/d2utmpoXsLi8 localHash=dd8a3e6249991637ba939e13b5551e45765e5311661b73e75093a04d72799e20 remoteHash=dd8a3e6249991637ba939e13b5551e45765e5311661b73e75093a04d72799e20
+[info] Syncing merkle subtree path=etc/setup_utf8.bat localHash=9578d6a98cd428b36ebd2adce1918899d2bb82d7e34808c542419da8c3d70a93 remoteHash=9578d6a98cd428b36ebd2adce1918899d2bb82d7e34808c542419da8c3d70a93
+[info] Syncing merkle subtree path=etc/verify_fixed_files.sh localHash=27cd0a46e8a4654073473214f183760190d5e0e5f8132be1a616c1eff1b80a0f remoteHash=27cd0a46e8a4654073473214f183760190d5e0e5f8132be1a616c1eff1b80a0f
+[info] Syncing merkle subtree path=etc/setup_ssh_server.ps1 localHash=9f52c8d5b055d275287569c516a7efc13d495d1b84c07557da527062016fd440 remoteHash=9f52c8d5b055d275287569c516a7efc13d495d1b84c07557da527062016fd440
+[info] Syncing merkle subtree path=etc/setup_wsl_port_forward.ps1 localHash=539c8344d256e4307569d25406485d2b279b5cd7186e3270b325177b56c87661 remoteHash=539c8344d256e4307569d25406485d2b279b5cd7186e3270b325177b56c87661
+[info] Syncing merkle subtree path=etc/한글_인코딩_설정.txt localHash=62c177e1ce6eaf17ceadbfaa88f75045bd6a53d3d80db4d38f73de31a0573615 remoteHash=62c177e1ce6eaf17ceadbfaa88f75045bd6a53d3d80db4d38f73de31a0573615
+[info] Syncing merkle subtree path=etc/wsl_port_forward_auto.ps1 localHash=4ff42984c2e0e7f8b67826a98518c1590aae700539f9ce159adb13f0a88a3aa7 remoteHash=4ff42984c2e0e7f8b67826a98518c1590aae700539f9ce159adb13f0a88a3aa7
+[info] Syncing merkle subtree path=etc/monitor_ssh_logs.sh localHash=8ad855eee2c9ac2082180c561ba4885004cb03f0428f88aebaacb5f6879e8d3a remoteHash=8ad855eee2c9ac2082180c561ba4885004cb03f0428f88aebaacb5f6879e8d3a
+[info] Syncing merkle subtree path=etc/eflip_점검_실행방법.txt localHash=92601ec55559959c5b2761ddbe1571743356205aa500cfeb21e3c442896d290d remoteHash=92601ec55559959c5b2761ddbe1571743356205aa500cfeb21e3c442896d290d
+[info] Syncing merkle subtree path=etc/check_locked_files.ps1 localHash=0fae5daddc18f46105eab55c019759274d6a4795a004b91a34a2de104a81d5d5 remoteHash=0fae5daddc18f46105eab55c019759274d6a4795a004b91a34a2de104a81d5d5
+[info] Syncing merkle subtree path=etc/check_ssh_connection.sh localHash=c71fcaee7518f17896e9f059f587aeecdb08a8f13dd1a9f1651c4decbce3aca5 remoteHash=c71fcaee7518f17896e9f059f587aeecdb08a8f13dd1a9f1651c4decbce3aca5
+[info] Syncing merkle subtree path=etc/eflip_check_result.txt localHash=48d2d740c0f2b3380873fc774182cdbb7e92c56a5fb8eb7ea5a2e649e53aa1bd remoteHash=48d2d740c0f2b3380873fc774182cdbb7e92c56a5fb8eb7ea5a2e649e53aa1bd
+[info] Syncing merkle subtree path=etc/id_rsa_131_new localHash=f9d665af90d72f80a5c09bf3307284f66ed76c16adadc0603b175e02d40c737c remoteHash=f9d665af90d72f80a5c09bf3307284f66ed76c16adadc0603b175e02d40c737c
+[info] Syncing merkle subtree path=etc/fix_all_pem_files.sh localHash=f8ae2a7b9a7280f0b2b64795afec05d1b28a0cf7414fb13758bd482012da018f remoteHash=f8ae2a7b9a7280f0b2b64795afec05d1b28a0cf7414fb13758bd482012da018f
+[info] Syncing merkle subtree path=etc/ssh_status.txt localHash=0fc4b8555b88a7250a697df6024bfe46f47b7124c58cb990d3b47dc8f2a214ca remoteHash=0fc4b8555b88a7250a697df6024bfe46f47b7124c58cb990d3b47dc8f2a214ca
+[info] Syncing merkle subtree path=etc/fix_ssh_auth.bat localHash=274ab2b12269fdac3a9bf823b606b10a789a29d17d8e31635db4065d40ab4ec3 remoteHash=274ab2b12269fdac3a9bf823b606b10a789a29d17d8e31635db4065d40ab4ec3
+[info] Syncing merkle subtree path=etc/wakeup_t14s.ps1 localHash=11bc54239ce85664bae0a5540fa5020ed58626d5c12923aae6fa7a5ebd3a6c83 remoteHash=11bc54239ce85664bae0a5540fa5020ed58626d5c12923aae6fa7a5ebd3a6c83
+[info] Syncing merkle subtree path=etc/run_setup_ssh.ps1 localHash=2a7c76f8b792acca6b7c98ab58e2b5ac18724b92289d4814d228d1a0817566eb remoteHash=2a7c76f8b792acca6b7c98ab58e2b5ac18724b92289d4814d228d1a0817566eb
+[info] Syncing merkle subtree path=etc/195_server_info.sh localHash=f05a1cb5f2808308de48034e0f218bc53168591ce2840e15266cb2600d071887 remoteHash=f05a1cb5f2808308de48034e0f218bc53168591ce2840e15266cb2600d071887
+[info] Syncing merkle subtree path=etc/replace_fixed_files.sh localHash=45b60faa8fb8f46c5229159b302e5c859ab04241b387bd28f243b9b71556d4c4 remoteHash=45b60faa8fb8f46c5229159b302e5c859ab04241b387bd28f243b9b71556d4c4
+[info] Syncing merkle subtree path=etc/setup_ssh_server.bat localHash=1d71c92e7dc03404451799ae9ae4f63a4a40e0541f5444f6482e1e4a46fdaa1e remoteHash=1d71c92e7dc03404451799ae9ae4f63a4a40e0541f5444f6482e1e4a46fdaa1e
+[info] Syncing merkle subtree path=etc/rename_fixed_to_key.ps1 localHash=16ce3910cc6ba90a146816ffa7446036d71b18cd3c1cd8d9233719cf4791b31c remoteHash=16ce3910cc6ba90a146816ffa7446036d71b18cd3c1cd8d9233719cf4791b31c
+[info] Syncing merkle subtree path=etc/id_rsa_131_raw localHash=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 remoteHash=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[info] Syncing merkle subtree path=etc/SSH_설정_명령어.txt localHash=34f31f9078acaa91569bbb118f5cc5e34ec2adc732dd241f7069f9147f998baf remoteHash=34f31f9078acaa91569bbb118f5cc5e34ec2adc732dd241f7069f9147f998baf
+[info] Syncing merkle subtree path=etc/fix_encoding.ps1 localHash=a2f404d047bb1cf0efad93f4ca4c26acec4b156b756be0b48e1ec75733b34fb3 remoteHash=a2f404d047bb1cf0efad93f4ca4c26acec4b156b756be0b48e1ec75733b34fb3
+[info] Syncing merkle subtree path=etc/restart_ssh_with_aws_mount.sh localHash=a5a5f9b4a044148f4b2015044cb9266296912e6c099f0929a344b81cedb1492b remoteHash=a5a5f9b4a044148f4b2015044cb9266296912e6c099f0929a344b81cedb1492b
+[info] Syncing merkle subtree path=etc/id_rsa_131_server localHash=f9d665af90d72f80a5c09bf3307284f66ed76c16adadc0603b175e02d40c737c remoteHash=f9d665af90d72f80a5c09bf3307284f66ed76c16adadc0603b175e02d40c737c
+[info] Syncing merkle subtree path=etc/replace_all_fixed.ps1 localHash=f349820de1fcb73c4a8a78da755b432aa322e6e38bc6b14e6843a89e5aad5527 remoteHash=a13d9620a991d6b87830f8518c2c4b56705ff859f7abacfe3d3625e9d323fc6b
+[info] Syncing merkle subtree path=etc/wakeup_t14s.sh localHash=ed1f893d46e7605d5c2d1e80a0301cfc1ebf8da2b48b0107b82cffc1d441bbf5 remoteHash=ed1f893d46e7605d5c2d1e80a0301cfc1ebf8da2b48b0107b82cffc1d441bbf5
+[info] Applying change type=add relativePath=etc/replace_all_fixed.ps1
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating files requestId=46405e55-0227-4fdc-8d9f-ec31f0122783 changes=1
+[info] Updated files requestId=46405e55-0227-4fdc-8d9f-ec31f0122783 response=[object Object]
+[info] Indexing finished
+[info] runServer socketPath=/home/ubuntu/.cursor/projects/home-ubuntu-aws/worker.sock
+[debug] Starting typescript-language-server npxPath=/usr/bin/npx
+[debug] Child Typescript LSP process spawned with PID: 43544
+[debug] Sending LSP initialize request
+[info] Indexing now
+[debug] did not initialize LSP provider error=Request initialize failed with message: Could not find a valid TypeScript installation. Please ensure that the "typescript" dependency is installed in the workspace or that a valid `tsserver.path` is specified. Exiting.
+[info] Getting tree structure for workspacePath=/home/ubuntu/aws
+[info] Syncing merkle subtree path=. localHash=f1c89458672bcd5b3fda0b8e157f60c3b32dddb7baab33c172908655ec68af27 remoteHash=
+[info] Syncing merkle subtree path=pi_moon.ps1 localHash=79ad995dac4c09717a66c78658f2fca07b51b01d058f337439b117b92d26ded9 remoteHash=undefined
+[info] Applying change type=add relativePath=pi_moon.ps1
+[info] Syncing merkle subtree path=pem_backup_20260123_231919 localHash=4863ed2b0c7889c2826c2fce8983edd75a0a88c37f6ccf20d3ebae10a9d86813 remoteHash=undefined
+[info] Syncing merkle subtree path=.gitignore localHash=890cd8f72764c5aa0d57ee033b5646204eee9cbfc1074cbcc5b9782ad99ca27d remoteHash=undefined
+[info] Applying change type=add relativePath=.gitignore
+[info] Syncing merkle subtree path=baraem_191.sh localHash=c3399edc39d3210d1b4eaf50d7e4799ae9b632e5b4e2322303ee3ded298db2eb remoteHash=undefined
+[info] Applying change type=add relativePath=baraem_191.sh
+[info] Syncing merkle subtree path=rainbow.sh localHash=c6dfd346aca78e3a8e48d3b82db502fff03a0630b98eacc822753037bb68ca6e remoteHash=undefined
+[info] Applying change type=add relativePath=rainbow.sh
+[info] Syncing merkle subtree path=baraem_131.sh localHash=64bb5f716dd5ba696b6f1e21c3be369047d2e0584a9451f9cc2d5bc7d618be10 remoteHash=undefined
+[info] Applying change type=add relativePath=baraem_131.sh
+[info] Syncing merkle subtree path=pem localHash=4c686bcc3e38cb8d56886764c8b9d98d29fd12ccde5112a48aa325307116a22e remoteHash=undefined
+[info] Syncing merkle subtree path=md localHash=e51eb56254b65469f03891035d0004529fe2f22a41412af955fb425b5c042d3b remoteHash=undefined
+[info] Syncing merkle subtree path=eflip.sh localHash=2c0196b8fb0f680b876885a857651e1649d180e482cba34c179d586c29ecfee0 remoteHash=undefined
+[info] Applying change type=add relativePath=eflip.sh
+[info] Syncing merkle subtree path=develofun.sh localHash=8beb57cd7eb7b89e8fbd89317e3484f6f129925ac5f3363ddbfa2112f9f5c968 remoteHash=undefined
+[info] Applying change type=add relativePath=develofun.sh
+[info] Syncing merkle subtree path=gnuboard5-playwright-auth_cursor localHash=99edd782cee6925dd41a69eae54e8abe8865d29be8c58464024b6b1d9094a314 remoteHash=undefined
+[info] Syncing merkle subtree path=pi_moon.sh localHash=729086d9b6c2538f437ace59d1e254c4d8c1a848e7e761da0be24d774e200532 remoteHash=undefined
+[info] Applying change type=add relativePath=pi_moon.sh
+[info] Syncing merkle subtree path=etc localHash=186d7ed3b25ab59e4a290cb4a68e1dca6c4ebd576d5e81496d69fcff8b77672b remoteHash=undefined
+[info] Syncing merkle subtree path=gnuboard-playwright-auth_claude localHash=f4e2404ece4d3633f3c639300b1d10c75718f0b74a81b17c8dc66e68b81058df remoteHash=undefined
+[info] Syncing merkle subtree path=notion localHash=73d7f71054e28983b0bb9db627f58c11e3b82f6ae0d3b1f242c93581399f5333 remoteHash=undefined
+[info] Syncing merkle subtree path=rainbow_rsa.pem.pub localHash=2c04493931d531f30953a8297d35dfb74b3b1f5623107c96ab46bb324992e493 remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923 localHash=5772a388a8fd784d000928b9bd59d6fa56b5daa79fe082e1b2f92c612940cc3b remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231919/e_flip_private_key.pem.backup localHash=dd8a3e6249991637ba939e13b5551e45765e5311661b73e75093a04d72799e20 remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231919/bagel.pem.backup localHash=9287f1d16651993ca576e2d6bc8a79f2ac3f098446ee4788536b7911f1d0e038 remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231919/baraem_131.pem.backup localHash=104554be9e460c121898e06d348ae133aaae8578753da5a8e6ec9339080d3c1d remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231919/baraem_dev.pem.backup localHash=31e5ad8cd63167b6d0b32a416a782111076a85a349c537f549e49663d2934c7b remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231919/baraem_191.pem.backup localHash=fd65e9391ff420c6bf10d4d5bfbdc768be4351763236f158bb2c20894693b0a5 remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231919/Baraem-Center.pem.backup localHash=a7a0ab0bb255a378e252ec1dc0c9564a6bb9827408f4b71967d5b12545773c59 remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231919/baraem_main.pem.backup localHash=1a6b615699ff8e07ec0830bc891c7147d41cefdca8ee7eb414eb11709018c9c2 remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231919/cawsbaraem_131.pem.backup localHash=f9d665af90d72f80a5c09bf3307284f66ed76c16adadc0603b175e02d40c737c remoteHash=undefined
+[info] Syncing merkle subtree path=pem/cawsid_rsa_131 localHash=f3b2ca5db8411963f84ef31e19dd0b76e8e76d4eeec066e5839c45115c90cdef remoteHash=undefined
+[info] Syncing merkle subtree path=pem/baraem_dev.pem localHash=31e5ad8cd63167b6d0b32a416a782111076a85a349c537f549e49663d2934c7b remoteHash=undefined
+[info] Syncing merkle subtree path=pem/develofun_keypair.pem localHash=a6e37a272132c805cc16a963daa93119e9c61b0c9adf68440d3af7083ef949a7 remoteHash=undefined
+[info] Syncing merkle subtree path=pem/baraem_191.pem localHash=fd65e9391ff420c6bf10d4d5bfbdc768be4351763236f158bb2c20894693b0a5 remoteHash=undefined
+[info] Syncing merkle subtree path=pem/t14s.pem localHash=7195f3afc2de3ad6bc1166d92e16054f34f368b77113e9d4446c62962c4012da remoteHash=undefined
+[info] Syncing merkle subtree path=pem/Baraem-Center.pem localHash=a7a0ab0bb255a378e252ec1dc0c9564a6bb9827408f4b71967d5b12545773c59 remoteHash=undefined
+[info] Syncing merkle subtree path=pem/e_flip_private.pem localHash=dd8a3e6249991637ba939e13b5551e45765e5311661b73e75093a04d72799e20 remoteHash=undefined
+[info] Syncing merkle subtree path=pem/superfreshmeal.pem localHash=2b91491212a15114cc1ec3dbc792d1d74b00600a983762ecb07eed146f406d54 remoteHash=undefined
+[info] Syncing merkle subtree path=pem/minastik.pem localHash=f785627cea9d015e3f63d2dcf09bdf6b1856d1858afcff292b45a6376b46114a remoteHash=undefined
+[info] Syncing merkle subtree path=pem/id_rsa_131.pem localHash=3ecfe8ab8d88542253772b069368f9799c492e3d601791d24a90ccb120461ec3 remoteHash=undefined
+[info] Syncing merkle subtree path=pem/bagel.pem localHash=9287f1d16651993ca576e2d6bc8a79f2ac3f098446ee4788536b7911f1d0e038 remoteHash=undefined
+[info] Syncing merkle subtree path=pem/rainbo_key.pem localHash=f4529863b9a5c8343a46907508e4db20f8b961425eb4691883a5947c58094ff3 remoteHash=undefined
+[info] Syncing merkle subtree path=pem/baraem_main.pem localHash=1a6b615699ff8e07ec0830bc891c7147d41cefdca8ee7eb414eb11709018c9c2 remoteHash=undefined
+[info] Syncing merkle subtree path=pem/cawsbaraem_131.pem localHash=f9d665af90d72f80a5c09bf3307284f66ed76c16adadc0603b175e02d40c737c remoteHash=undefined
+[info] Syncing merkle subtree path=pem/privateKey_nopass.pem localHash=904bce30e485887cae7fc45c32456ebbe3da1dedb26079a1f3cc359fb2089c8c remoteHash=undefined
+[info] Syncing merkle subtree path=pem/develofun_keypair.ppk localHash=6e6b2b05d3090387800f9d4a508d9f404a8b0f3316d336ba07d6f2ef2f8b80da remoteHash=undefined
+[info] Syncing merkle subtree path=pem/towndoctor.pem localHash=49d713e189e408c30d7910d1f74905e904fbfe07b91fde42530fae9f626f5598 remoteHash=undefined
+[info] Syncing merkle subtree path=pem/star_defense-sungho_co_kr_cert.pem localHash=839379e96c7663a4a028ce852941816fa6a217a6bbe91fae9fbb8758d5780f51 remoteHash=undefined
+[info] Syncing merkle subtree path=pem/cawsid_rsa_131_new localHash=f9d665af90d72f80a5c09bf3307284f66ed76c16adadc0603b175e02d40c737c remoteHash=undefined
+[info] Syncing merkle subtree path=pem/groun_d.pem localHash=14c31492de0dea4d29ae0e2da0f6023889fb101549f0599ce6b3f1310421b220 remoteHash=undefined
+[info] Syncing merkle subtree path=pem/ubpd.pem localHash=339e9693a59924e1819786d1f4c32d4edb0fd9df82e9487f3283f44337f0301b remoteHash=undefined
+[info] Syncing merkle subtree path=pem/star_defense-sungho_co_kr_NginX_cert.pem localHash=c5e2500dd7433c7ba0bb749568c6dedc74038c2b198bc50fffee93eee6810ef4 remoteHash=undefined
+[info] Syncing merkle subtree path=pem/minastik_key.pem localHash=f785627cea9d015e3f63d2dcf09bdf6b1856d1858afcff292b45a6376b46114a remoteHash=undefined
+[info] Syncing merkle subtree path=pem/pi_moon.pem localHash=eab47f357bf53b1ae82d468f3607e81e57cdfdc7f07e607695d68f524d9539f0 remoteHash=undefined
+[info] Syncing merkle subtree path=pem/baraem_131.pem localHash=104554be9e460c121898e06d348ae133aaae8578753da5a8e6ec9339080d3c1d remoteHash=undefined
+[info] Syncing merkle subtree path=md/baraem_131.md localHash=8da48e167fd2a86e9e8709b6005c6bee54e0edb1194865648b486ced08b43512 remoteHash=undefined
+[info] Syncing merkle subtree path=md/n8n-mcp-install-guide.md localHash=a852a09f53f63ea743832a2e9b7a2b8d3cec63a15cb149653b38fb94ad38039d remoteHash=undefined
+[info] Syncing merkle subtree path=md/develofun_ssh.md localHash=a50e420f93cf423a0b400abcd5999ccc3c6ba68fd30ebd41b6633443801f06b2 remoteHash=undefined
+[info] Syncing merkle subtree path=md/eflip_ssh_진단_결과.md localHash=50f7a9a71f9d3624e7a78531e4fc9274af7cd80f47ec3f254a566f5976c0f1d1 remoteHash=undefined
+[info] Syncing merkle subtree path=md/eflip_ssh_해결_완료.md localHash=1f1b126efe8a98bdd9e7167955dddeaf53c2a03c78e0e58390273c353f429342 remoteHash=undefined
+[info] Syncing merkle subtree path=md/develofun_git_상태_확인.md localHash=3ddb9241be402c5955b897ba65771e919e32dd6d4eebfbce4a461c9eebae375c remoteHash=undefined
+[info] Syncing merkle subtree path=md/파일_대체_상황_안내.md localHash=d1cf0075a1cbdb29696c7d2ccdf93fe2797f0017969051b534d4c31139b02377 remoteHash=undefined
+[info] Syncing merkle subtree path=md/eflip.md localHash=8d892f7665208aa83f32b9b7e810952535983292c93f361570bfd09984ac0279 remoteHash=undefined
+[info] Syncing merkle subtree path=md/baraem-center.md localHash=c242ddbefd00e1b14ae21ab55c331051fcc0790a3389c9084cd37bb10b1e1d32 remoteHash=undefined
+[info] Syncing merkle subtree path=md/wsl_port_forward_guide.md localHash=d2afb833ffede6c2739edfca40f2013f50ad7448052e9b9490ef71840b831647 remoteHash=undefined
+[info] Syncing merkle subtree path=md/tabby-ssh-인증-오류-해결.md localHash=2b3260a6b41aa1a77b932e20ea91076300ae3ba0bc8f9f5dc6869598a1d9bae1 remoteHash=undefined
+[info] Syncing merkle subtree path=md/eflip_서버_점검_결과.md localHash=85112885c2ff6d43a70ed71caac230cd3d4ea58938244d4069068f5559220269 remoteHash=undefined
+[info] Syncing merkle subtree path=md/ssl.md localHash=e814c4292c5846da0f1584683546d87d2409bbb74de31fe8679b30bbd177b951 remoteHash=undefined
+[info] Syncing merkle subtree path=md/n8n-mcp-재설치-완료.md localHash=df5cebca0e153ae987dfebf6dc429e6144cecf503e8a3c44dc8d96cfba629e6d remoteHash=undefined
+[info] Syncing merkle subtree path=md/화성생약20260115_sms미발송건.md localHash=5f55fad075f26d98f4d77fe67f371264ecf3f63adcadd1ca8fbfe1793036f440 remoteHash=undefined
+[info] Syncing merkle subtree path=md/t14s_ssh_setup.md localHash=ddec118bb6fbed5c87ef0d84f60297124fcddff9d6fe3002be2aa0e2732a3997 remoteHash=undefined
+[info] Syncing merkle subtree path=md/191.md localHash=7368f630a0e1fcd16c0e7ddb425f2d21a28781dacdaad18f4db101eed14f6455 remoteHash=undefined
+[info] Syncing merkle subtree path=md/tmux_명령어_안내.md localHash=2230f99c5579357d7938b66909cdf25502531de7795577f3f813fdf25527326b remoteHash=undefined
+[info] Syncing merkle subtree path=md/pem_파일_변환_결과.md localHash=25632a46b23fdabed5bd1fdca4db951fac738af2008bc171f164e837a76a5f43 remoteHash=undefined
+[info] Syncing merkle subtree path=md/195.md localHash=e0b25ef5d424895c293b826e6160bcf8d5235662ea03d4415bd37fdec190a1c7 remoteHash=undefined
+[info] Syncing merkle subtree path=md/ssh_log_analysis.md localHash=1836446e921b3196a84a4a2fa6b8b79ba992a244def472cce17ff6bb3e17196e remoteHash=undefined
+[info] Syncing merkle subtree path=md/eflip_서버_다운_원인_분석.md localHash=9f247af3059bf8163a63c6b9a5931ba876dc2eb60456961b080a7e63d345c146 remoteHash=undefined
+[info] Syncing merkle subtree path=md/pi.md localHash=edc52696882e7fa744ac467f88b4c8228d4a56e1970a9b40cbb893306e2f6ca7 remoteHash=undefined
+[info] Syncing merkle subtree path=md/ssh_connection_guide.md localHash=1987279e8f800343bf01cc35b7413192fb9ae5c3942eccf0cf6adebae374d0b9 remoteHash=undefined
+[info] Syncing merkle subtree path=md/195infra.md localHash=fee6533805998f9f6a1793248502961b7db0d5d439084995aed90a7c682190bd remoteHash=undefined
+[info] Syncing merkle subtree path=md/bsmhc.md localHash=de6bdec94816ef42ec627af34492fb9b974294130bd8bfd7b5234887785e650f remoteHash=undefined
+[info] Syncing merkle subtree path=md/skill_comparison_report.md localHash=42709320b9fdcac68534d024d2fce5744786afeb93e8e285de9395836b925356 remoteHash=undefined
+[info] Syncing merkle subtree path=md/README_SSH_SETUP.md localHash=c6851cd6a54b99452dbbe624477f5844e62fa34deb38edf30427bcbff8f26303 remoteHash=undefined
+[info] Syncing merkle subtree path=md/eflip_서버_다운_원인_분석_최종.md localHash=7a7e92a957369f289390e611f7e8c6f68a1291c4a168bea4a26af1779b1fa66e remoteHash=undefined
+[info] Syncing merkle subtree path=md/eflip_점검_결과_최종.md localHash=ee260ac3b4e8828e32c47e69f14315d2ed3fc89db11ee474011b43b48c4511b6 remoteHash=undefined
+[info] Syncing merkle subtree path=gnuboard5-playwright-auth_cursor/SKILL.md localHash=2f2ecbdfeac80c1ea6578d3193ea1a093551ddef73ab8ecb4cff9bf19d1ae235 remoteHash=undefined
+[info] Syncing merkle subtree path=gnuboard5-playwright-auth_cursor/references localHash=e2eda10738636928a4e7be58774dc409c2770dff97b63bee6e5ccb34fd371b73 remoteHash=undefined
+[info] Syncing merkle subtree path=gnuboard5-playwright-auth_cursor/assets localHash=cdde8fa8e907a79a3cce3a2c9cb009306ce045ad49a5548ee1a61b6ee13b3dc6 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/verify_fixed_files.sh localHash=27cd0a46e8a4654073473214f183760190d5e0e5f8132be1a616c1eff1b80a0f remoteHash=undefined
+[info] Syncing merkle subtree path=etc/SSH_설정_명령어.txt localHash=34f31f9078acaa91569bbb118f5cc5e34ec2adc732dd241f7069f9147f998baf remoteHash=undefined
+[info] Syncing merkle subtree path=etc/replace_fixed_content.ps1 localHash=9426b9cb63513f738fa32de3a1a0d5cdf9a4c35199ed3e5603013c2191796f59 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/fix_ssh_auth.ps1 localHash=4c5e81756b72943fe61cd1c6fa9c8fedc1d51154820ae4ade4081873982bac66 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/QUICK_START.txt localHash=a01b07665c7cb8706b62cdc3f59cba0cf340f07b6231843341aad92947aceb15 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/eflip_check_result.txt localHash=48d2d740c0f2b3380873fc774182cdbb7e92c56a5fb8eb7ea5a2e649e53aa1bd remoteHash=undefined
+[info] Syncing merkle subtree path=etc/eflip_점검_실행방법.txt localHash=92601ec55559959c5b2761ddbe1571743356205aa500cfeb21e3c442896d290d remoteHash=undefined
+[info] Syncing merkle subtree path=etc/d2utmpoXsLi8 localHash=dd8a3e6249991637ba939e13b5551e45765e5311661b73e75093a04d72799e20 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/ssh_status.txt localHash=0fc4b8555b88a7250a697df6024bfe46f47b7124c58cb990d3b47dc8f2a214ca remoteHash=undefined
+[info] Syncing merkle subtree path=etc/한글_인코딩_설정.txt localHash=62c177e1ce6eaf17ceadbfaa88f75045bd6a53d3d80db4d38f73de31a0573615 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/check_ssh_connection.sh localHash=c71fcaee7518f17896e9f059f587aeecdb08a8f13dd1a9f1651c4decbce3aca5 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/id_rsa_131_new localHash=f9d665af90d72f80a5c09bf3307284f66ed76c16adadc0603b175e02d40c737c remoteHash=undefined
+[info] Syncing merkle subtree path=etc/run_setup_ssh.ps1 localHash=2a7c76f8b792acca6b7c98ab58e2b5ac18724b92289d4814d228d1a0817566eb remoteHash=undefined
+[info] Syncing merkle subtree path=etc/force_delete_originals.ps1 localHash=b3234414c034ba350ca9fe16583ea0b731baee53bf9bbb0691813ed98f109014 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/wakeup_t14s.sh localHash=ed1f893d46e7605d5c2d1e80a0301cfc1ebf8da2b48b0107b82cffc1d441bbf5 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/setup_ssh_server.bat localHash=1d71c92e7dc03404451799ae9ae4f63a4a40e0541f5444f6482e1e4a46fdaa1e remoteHash=undefined
+[info] Syncing merkle subtree path=etc/id_rsa_131_server localHash=f9d665af90d72f80a5c09bf3307284f66ed76c16adadc0603b175e02d40c737c remoteHash=undefined
+[info] Syncing merkle subtree path=etc/replace_fixed_files.sh localHash=45b60faa8fb8f46c5229159b302e5c859ab04241b387bd28f243b9b71556d4c4 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/check_locked_files.ps1 localHash=0fae5daddc18f46105eab55c019759274d6a4795a004b91a34a2de104a81d5d5 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/195_server_info.sh localHash=f05a1cb5f2808308de48034e0f218bc53168591ce2840e15266cb2600d071887 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/rename_fixed_to_key.ps1 localHash=16ce3910cc6ba90a146816ffa7446036d71b18cd3c1cd8d9233719cf4791b31c remoteHash=undefined
+[info] Syncing merkle subtree path=etc/monitor_ssh_logs.sh localHash=8ad855eee2c9ac2082180c561ba4885004cb03f0428f88aebaacb5f6879e8d3a remoteHash=undefined
+[info] Syncing merkle subtree path=etc/id_rsa_131.pub localHash=51519a605e114d53ec6bff20081beab0dc686c775edff9adbfa240ddabe0f39a remoteHash=undefined
+[info] Syncing merkle subtree path=etc/setup_ssh_server.ps1 localHash=9f52c8d5b055d275287569c516a7efc13d495d1b84c07557da527062016fd440 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/fix_ssh_auth.bat localHash=274ab2b12269fdac3a9bf823b606b10a789a29d17d8e31635db4065d40ab4ec3 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/replace_fixed_files.ps1 localHash=f0d5bb004c11e600d7504f627bb17d3f2535965bf38d6925e40e1c1c9e148566 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/delete_original_keys.ps1 localHash=de15975e2b5a08f6c0c0f4d2ef05481dc7851331eb99b53231ec924fa92a1c8d remoteHash=undefined
+[info] Syncing merkle subtree path=etc/restart_ssh_with_aws_mount.sh localHash=a5a5f9b4a044148f4b2015044cb9266296912e6c099f0929a344b81cedb1492b remoteHash=undefined
+[info] Syncing merkle subtree path=etc/setup_utf8.bat localHash=9578d6a98cd428b36ebd2adce1918899d2bb82d7e34808c542419da8c3d70a93 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/fix_all_pem_files.sh localHash=f8ae2a7b9a7280f0b2b64795afec05d1b28a0cf7414fb13758bd482012da018f remoteHash=undefined
+[info] Syncing merkle subtree path=etc/replace_all_fixed.ps1 localHash=f349820de1fcb73c4a8a78da755b432aa322e6e38bc6b14e6843a89e5aad5527 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/setup_wsl_port_forward.ps1 localHash=539c8344d256e4307569d25406485d2b279b5cd7186e3270b325177b56c87661 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/id_rsa_131_raw localHash=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/fix_encoding.ps1 localHash=a2f404d047bb1cf0efad93f4ca4c26acec4b156b756be0b48e1ec75733b34fb3 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/wsl_port_forward_auto.ps1 localHash=4ff42984c2e0e7f8b67826a98518c1590aae700539f9ce159adb13f0a88a3aa7 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/wakeup_t14s.ps1 localHash=11bc54239ce85664bae0a5540fa5020ed58626d5c12923aae6fa7a5ebd3a6c83 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/id_rsa_131 localHash=3ecfe8ab8d88542253772b069368f9799c492e3d601791d24a90ccb120461ec3 remoteHash=undefined
+[info] Syncing merkle subtree path=etc/replace_when_ready.ps1 localHash=80a3ece0dc2e3f5cc91f6be6083dbbe2a16d5231d9980ec0781db58a038ba63f remoteHash=undefined
+[info] Syncing merkle subtree path=gnuboard-playwright-auth_claude/SKILL.md localHash=f07da45cf3e0cede6185d98aa8fb5fc794b71854bed3d6237d80bdbfd72ae3fe remoteHash=undefined
+[info] Syncing merkle subtree path=gnuboard-playwright-auth_claude/assets localHash=aea66a69ba5a4fa38abe7dc78219e689031e69eca47ec359401584577ea9ce1d remoteHash=undefined
+[info] Syncing merkle subtree path=gnuboard-playwright-auth_claude/references localHash=c8e0f1ad71fbe69925c46216fc2055ab769aef95ba4a05f60611c7ccf8e567c4 remoteHash=undefined
+[info] Syncing merkle subtree path=notion/update_notion_title.py localHash=34c69b4da3017fc6b6e4c80c766fc40c054ad4fa5e2739b0a8aa76a4dd43acaa remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/star_defense-sungho_co_kr_cert.pem.backup localHash=839379e96c7663a4a028ce852941816fa6a217a6bbe91fae9fbb8758d5780f51 remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/privateKey_nopass.pem.backup localHash=904bce30e485887cae7fc45c32456ebbe3da1dedb26079a1f3cc359fb2089c8c remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/baraem_131.pem.backup localHash=104554be9e460c121898e06d348ae133aaae8578753da5a8e6ec9339080d3c1d remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/baraem_dev.pem.backup localHash=31e5ad8cd63167b6d0b32a416a782111076a85a349c537f549e49663d2934c7b remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/superfreshmeal.pem.backup localHash=2b91491212a15114cc1ec3dbc792d1d74b00600a983762ecb07eed146f406d54 remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/id_rsa_131.pem.backup localHash=3ecfe8ab8d88542253772b069368f9799c492e3d601791d24a90ccb120461ec3 remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/baraem_main.pem.backup localHash=1a6b615699ff8e07ec0830bc891c7147d41cefdca8ee7eb414eb11709018c9c2 remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/e_flip_private_key.pem.backup localHash=dd8a3e6249991637ba939e13b5551e45765e5311661b73e75093a04d72799e20 remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/towndoctor.pem.backup localHash=49d713e189e408c30d7910d1f74905e904fbfe07b91fde42530fae9f626f5598 remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/ubpd.pem.backup localHash=339e9693a59924e1819786d1f4c32d4edb0fd9df82e9487f3283f44337f0301b remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/baraem_191.pem.backup localHash=fd65e9391ff420c6bf10d4d5bfbdc768be4351763236f158bb2c20894693b0a5 remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/Baraem-Center.pem.backup localHash=a7a0ab0bb255a378e252ec1dc0c9564a6bb9827408f4b71967d5b12545773c59 remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/t14s_keu.pem.backup localHash=f1d3e417ccd029cf1bc1f35885ec419e35da04fda21a9d564166887aeca719dc remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/minastik.pem.backup localHash=f785627cea9d015e3f63d2dcf09bdf6b1856d1858afcff292b45a6376b46114a remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/pi_moon.pem.backup localHash=eab47f357bf53b1ae82d468f3607e81e57cdfdc7f07e607695d68f524d9539f0 remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/cawsbaraem_131.pem.backup localHash=f9d665af90d72f80a5c09bf3307284f66ed76c16adadc0603b175e02d40c737c remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/bagel.pem.backup localHash=9287f1d16651993ca576e2d6bc8a79f2ac3f098446ee4788536b7911f1d0e038 remoteHash=undefined
+[info] Syncing merkle subtree path=pem_backup_20260123_231923/star_defense-sungho_co_kr_NginX_cert.pem.backup localHash=c5e2500dd7433c7ba0bb749568c6dedc74038c2b198bc50fffee93eee6810ef4 remoteHash=undefined
+[info] Syncing merkle subtree path=gnuboard5-playwright-auth_cursor/references/troubleshooting.md localHash=dd1743c8bb03a8c121429ffe22d89aa8e4264493d2cf26e4e2be137605f46929 remoteHash=undefined
+[info] Syncing merkle subtree path=gnuboard5-playwright-auth_cursor/assets/gnuboard-auth.ts localHash=c718bfd47bde5ac8053c57d8dfd3e847f5520428906594274c9524fc04d3d31e remoteHash=undefined
+[info] Syncing merkle subtree path=gnuboard5-playwright-auth_cursor/assets/playwright.config.ts localHash=fa52e596ea933c57ac0f4b85f86f388d261876574e29a96eeb28a7c0fcbf44a9 remoteHash=undefined
+[info] Syncing merkle subtree path=gnuboard5-playwright-auth_cursor/assets/example.spec.ts localHash=eb3614e2f9703a3f0418c03efad1685bb4ee3cef6bc201dd34423bd1112ffdf4 remoteHash=undefined
+[info] Syncing merkle subtree path=gnuboard-playwright-auth_claude/assets/gnuboard_auth.ts localHash=ff0008ea9a1a955c04a12860a7c4a1508651c9808d7a7145d4fde35195eea94a remoteHash=undefined
+[info] Syncing merkle subtree path=gnuboard-playwright-auth_claude/references/setup-guide.md localHash=9a5315d98253b4761cca225ccb3888ec4a09e5610ef86d3394868077352bdfdd remoteHash=undefined
+[info] Updating file updateType=1 ancestorSpline=[object Object] partialPath=[object Object]
+[info] Updating files requestId=14a7f3f8-a997-46af-b165-de52444b9b50 changes=1
+[info] Updating file updateType=1 ancestorSpline=[object Object] partialPath=[object Object]
+[info] Updating files requestId=cb9295b9-7437-43b6-b590-eeb344172e2d changes=1
+[info] Updating file updateType=1 ancestorSpline=[object Object] partialPath=[object Object]
+[info] Updating files requestId=5f893e29-baaa-45a2-afee-3d2748745107 changes=1
+[info] Updating file updateType=1 ancestorSpline=[object Object] partialPath=[object Object]
+[info] Updating files requestId=a9743669-04a5-4197-9499-b8798a3b062c changes=1
+[info] Updating file updateType=1 ancestorSpline=[object Object] partialPath=[object Object]
+[info] Updating files requestId=e3129ff3-63ce-415b-9283-723da3aa1674 changes=1
+[info] Updating file updateType=1 ancestorSpline=[object Object] partialPath=[object Object]
+[info] Updating files requestId=3310469a-b78f-4dbd-86b2-acc8bbe65157 changes=1
+[info] Updating file updateType=1 ancestorSpline=[object Object] partialPath=[object Object]
+[info] Updating files requestId=b6cd3988-2421-4acf-9bef-d4337670dc81 changes=1
+[info] Updating file updateType=1 ancestorSpline=[object Object] partialPath=[object Object]
+[info] Updating files requestId=6df0be69-cb1b-41ec-b331-b5ce1846024e changes=1
+[info] Updated files requestId=cb9295b9-7437-43b6-b590-eeb344172e2d response=[object Object]
+[info] Applying change type=add relativePath=rainbow_rsa.pem.pub
+[info] Applying change type=add relativePath=pem_backup_20260123_231919/e_flip_private_key.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231919/bagel.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231919/baraem_131.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231919/baraem_dev.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231919/baraem_191.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231919/Baraem-Center.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231919/baraem_main.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231919/cawsbaraem_131.pem.backup
+[info] Applying change type=add relativePath=pem/cawsid_rsa_131
+[info] Applying change type=add relativePath=pem/baraem_dev.pem
+[info] Applying change type=add relativePath=pem/develofun_keypair.pem
+[info] Applying change type=add relativePath=pem/baraem_191.pem
+[info] Applying change type=add relativePath=pem/t14s.pem
+[info] Applying change type=add relativePath=pem/Baraem-Center.pem
+[info] Applying change type=add relativePath=pem/e_flip_private.pem
+[info] Applying change type=add relativePath=pem/superfreshmeal.pem
+[info] Applying change type=add relativePath=pem/minastik.pem
+[info] Applying change type=add relativePath=pem/id_rsa_131.pem
+[info] Applying change type=add relativePath=pem/bagel.pem
+[info] Applying change type=add relativePath=pem/rainbo_key.pem
+[info] Applying change type=add relativePath=pem/baraem_main.pem
+[info] Applying change type=add relativePath=pem/cawsbaraem_131.pem
+[info] Applying change type=add relativePath=pem/privateKey_nopass.pem
+[info] Applying change type=add relativePath=pem/develofun_keypair.ppk
+[info] Applying change type=add relativePath=pem/towndoctor.pem
+[info] Applying change type=add relativePath=pem/star_defense-sungho_co_kr_cert.pem
+[info] Applying change type=add relativePath=pem/cawsid_rsa_131_new
+[info] Applying change type=add relativePath=pem/groun_d.pem
+[info] Applying change type=add relativePath=pem/ubpd.pem
+[info] Applying change type=add relativePath=pem/star_defense-sungho_co_kr_NginX_cert.pem
+[info] Applying change type=add relativePath=pem/minastik_key.pem
+[info] Updating file updateType=1 ancestorSpline=[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating files requestId=f073ac4f-5c09-4413-96d8-7c69132aec77 changes=32
+[info] Updated files requestId=b6cd3988-2421-4acf-9bef-d4337670dc81 response=[object Object]
+[info] Applying change type=add relativePath=pem/pi_moon.pem
+[info] Applying change type=add relativePath=pem/baraem_131.pem
+[info] Applying change type=add relativePath=md/baraem_131.md
+[info] Applying change type=add relativePath=md/n8n-mcp-install-guide.md
+[info] Applying change type=add relativePath=md/develofun_ssh.md
+[info] Applying change type=add relativePath=md/eflip_ssh_진단_결과.md
+[info] Applying change type=add relativePath=md/eflip_ssh_해결_완료.md
+[info] Applying change type=add relativePath=md/develofun_git_상태_확인.md
+[info] Applying change type=add relativePath=md/파일_대체_상황_안내.md
+[info] Applying change type=add relativePath=md/eflip.md
+[info] Applying change type=add relativePath=md/baraem-center.md
+[info] Applying change type=add relativePath=md/wsl_port_forward_guide.md
+[info] Applying change type=add relativePath=md/tabby-ssh-인증-오류-해결.md
+[info] Applying change type=add relativePath=md/eflip_서버_점검_결과.md
+[info] Applying change type=add relativePath=md/ssl.md
+[info] Applying change type=add relativePath=md/n8n-mcp-재설치-완료.md
+[info] Applying change type=add relativePath=md/화성생약20260115_sms미발송건.md
+[info] Applying change type=add relativePath=md/t14s_ssh_setup.md
+[info] Applying change type=add relativePath=md/191.md
+[info] Applying change type=add relativePath=md/tmux_명령어_안내.md
+[info] Applying change type=add relativePath=md/pem_파일_변환_결과.md
+[info] Applying change type=add relativePath=md/195.md
+[info] Applying change type=add relativePath=md/ssh_log_analysis.md
+[info] Applying change type=add relativePath=md/eflip_서버_다운_원인_분석.md
+[info] Applying change type=add relativePath=md/pi.md
+[info] Applying change type=add relativePath=md/ssh_connection_guide.md
+[info] Applying change type=add relativePath=md/195infra.md
+[info] Applying change type=add relativePath=md/bsmhc.md
+[info] Applying change type=add relativePath=md/skill_comparison_report.md
+[info] Applying change type=add relativePath=md/README_SSH_SETUP.md
+[info] Applying change type=add relativePath=md/eflip_서버_다운_원인_분석_최종.md
+[info] Applying change type=add relativePath=md/eflip_점검_결과_최종.md
+[info] Updated files requestId=a9743669-04a5-4197-9499-b8798a3b062c response=[object Object]
+[info] Applying change type=add relativePath=gnuboard5-playwright-auth_cursor/SKILL.md
+[info] Applying change type=add relativePath=etc/verify_fixed_files.sh
+[info] Applying change type=add relativePath=etc/SSH_설정_명령어.txt
+[info] Applying change type=add relativePath=etc/replace_fixed_content.ps1
+[info] Applying change type=add relativePath=etc/fix_ssh_auth.ps1
+[info] Applying change type=add relativePath=etc/QUICK_START.txt
+[info] Applying change type=add relativePath=etc/eflip_check_result.txt
+[info] Applying change type=add relativePath=etc/eflip_점검_실행방법.txt
+[info] Applying change type=add relativePath=etc/d2utmpoXsLi8
+[info] Applying change type=add relativePath=etc/ssh_status.txt
+[info] Applying change type=add relativePath=etc/한글_인코딩_설정.txt
+[info] Applying change type=add relativePath=etc/check_ssh_connection.sh
+[info] Applying change type=add relativePath=etc/id_rsa_131_new
+[info] Applying change type=add relativePath=etc/run_setup_ssh.ps1
+[info] Applying change type=add relativePath=etc/force_delete_originals.ps1
+[info] Applying change type=add relativePath=etc/wakeup_t14s.sh
+[info] Applying change type=add relativePath=etc/setup_ssh_server.bat
+[info] Applying change type=add relativePath=etc/id_rsa_131_server
+[info] Applying change type=add relativePath=etc/replace_fixed_files.sh
+[info] Applying change type=add relativePath=etc/check_locked_files.ps1
+[info] Applying change type=add relativePath=etc/195_server_info.sh
+[info] Applying change type=add relativePath=etc/rename_fixed_to_key.ps1
+[info] Applying change type=add relativePath=etc/monitor_ssh_logs.sh
+[info] Applying change type=add relativePath=etc/id_rsa_131.pub
+[info] Applying change type=add relativePath=etc/setup_ssh_server.ps1
+[info] Applying change type=add relativePath=etc/fix_ssh_auth.bat
+[info] Applying change type=add relativePath=etc/replace_fixed_files.ps1
+[info] Applying change type=add relativePath=etc/delete_original_keys.ps1
+[info] Applying change type=add relativePath=etc/restart_ssh_with_aws_mount.sh
+[info] Applying change type=add relativePath=etc/setup_utf8.bat
+[info] Applying change type=add relativePath=etc/fix_all_pem_files.sh
+[info] Applying change type=add relativePath=etc/replace_all_fixed.ps1
+[info] Updated files requestId=14a7f3f8-a997-46af-b165-de52444b9b50 response=[object Object]
+[info] Applying change type=add relativePath=etc/setup_wsl_port_forward.ps1
+[info] Applying change type=add relativePath=etc/id_rsa_131_raw
+[info] Applying change type=add relativePath=etc/fix_encoding.ps1
+[info] Applying change type=add relativePath=etc/wsl_port_forward_auto.ps1
+[info] Applying change type=add relativePath=etc/wakeup_t14s.ps1
+[info] Applying change type=add relativePath=etc/id_rsa_131
+[info] Applying change type=add relativePath=etc/replace_when_ready.ps1
+[info] Applying change type=add relativePath=gnuboard-playwright-auth_claude/SKILL.md
+[info] Applying change type=add relativePath=notion/update_notion_title.py
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/star_defense-sungho_co_kr_cert.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/privateKey_nopass.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/baraem_131.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/baraem_dev.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/superfreshmeal.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/id_rsa_131.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/baraem_main.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/e_flip_private_key.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/towndoctor.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/ubpd.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/baraem_191.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/Baraem-Center.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/t14s_keu.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/minastik.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/pi_moon.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/cawsbaraem_131.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/bagel.pem.backup
+[info] Applying change type=add relativePath=pem_backup_20260123_231923/star_defense-sungho_co_kr_NginX_cert.pem.backup
+[info] Applying change type=add relativePath=gnuboard5-playwright-auth_cursor/references/troubleshooting.md
+[info] Applying change type=add relativePath=gnuboard5-playwright-auth_cursor/assets/gnuboard-auth.ts
+[info] Applying change type=add relativePath=gnuboard5-playwright-auth_cursor/assets/playwright.config.ts
+[info] Applying change type=add relativePath=gnuboard5-playwright-auth_cursor/assets/example.spec.ts
+[info] Applying change type=add relativePath=gnuboard-playwright-auth_claude/assets/gnuboard_auth.ts
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating files requestId=a473f293-5de8-4ab2-8cf0-f11e6c05040b changes=32
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating files requestId=591397b4-0c6d-4b2f-bd21-ce45259ca134 changes=32
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object],[object Object] partialPath=[object Object]
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object],[object Object] partialPath=[object Object]
+[info] Updating files requestId=6bf86ee3-6aa2-4819-9d6f-e119f2c8111c changes=32
+[info] Updated files requestId=3310469a-b78f-4dbd-86b2-acc8bbe65157 response=[object Object]
+[info] Applying change type=add relativePath=gnuboard-playwright-auth_claude/references/setup-guide.md
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object],[object Object] partialPath=[object Object]
+[info] Updating files requestId=9b4791ce-f66e-48ef-9678-19f660aa1bcd changes=1
+[info] Updated files requestId=6df0be69-cb1b-41ec-b331-b5ce1846024e response=[object Object]
+[info] Updated files requestId=e3129ff3-63ce-415b-9283-723da3aa1674 response=[object Object]
+[info] Updated files requestId=5f893e29-baaa-45a2-afee-3d2748745107 response=[object Object]
+[info] Updated files requestId=f073ac4f-5c09-4413-96d8-7c69132aec77 response=[object Object]
+[info] Updated files requestId=9b4791ce-f66e-48ef-9678-19f660aa1bcd response=[object Object]
+[info] Updated files requestId=6bf86ee3-6aa2-4819-9d6f-e119f2c8111c response=[object Object]
+[info] Updated files requestId=a473f293-5de8-4ab2-8cf0-f11e6c05040b response=[object Object]
+[info] Updated files requestId=591397b4-0c6d-4b2f-bd21-ce45259ca134 response=[object Object]
+[info] Indexing finished
+[info] Indexing now
+[info] Getting tree structure for workspacePath=/home/ubuntu/aws
+[info] Syncing merkle subtree path=. localHash=f1c89458672bcd5b3fda0b8e157f60c3b32dddb7baab33c172908655ec68af27 remoteHash=
+[info] Syncing merkle subtree path=.gitignore localHash=890cd8f72764c5aa0d57ee033b5646204eee9cbfc1074cbcc5b9782ad99ca27d remoteHash=890cd8f72764c5aa0d57ee033b5646204eee9cbfc1074cbcc5b9782ad99ca27d
+[info] Syncing merkle subtree path=rainbow_rsa.pem.pub localHash=2c04493931d531f30953a8297d35dfb74b3b1f5623107c96ab46bb324992e493 remoteHash=2c04493931d531f30953a8297d35dfb74b3b1f5623107c96ab46bb324992e493
+[info] Syncing merkle subtree path=pem localHash=4c686bcc3e38cb8d56886764c8b9d98d29fd12ccde5112a48aa325307116a22e remoteHash=4c686bcc3e38cb8d56886764c8b9d98d29fd12ccde5112a48aa325307116a22e
+[info] Syncing merkle subtree path=rainbow.sh localHash=c6dfd346aca78e3a8e48d3b82db502fff03a0630b98eacc822753037bb68ca6e remoteHash=c6dfd346aca78e3a8e48d3b82db502fff03a0630b98eacc822753037bb68ca6e
+[info] Syncing merkle subtree path=develofun.sh localHash=8beb57cd7eb7b89e8fbd89317e3484f6f129925ac5f3363ddbfa2112f9f5c968 remoteHash=8beb57cd7eb7b89e8fbd89317e3484f6f129925ac5f3363ddbfa2112f9f5c968
+[info] Syncing merkle subtree path=baraem_131.sh localHash=64bb5f716dd5ba696b6f1e21c3be369047d2e0584a9451f9cc2d5bc7d618be10 remoteHash=64bb5f716dd5ba696b6f1e21c3be369047d2e0584a9451f9cc2d5bc7d618be10
+[info] Syncing merkle subtree path=eflip.sh localHash=2c0196b8fb0f680b876885a857651e1649d180e482cba34c179d586c29ecfee0 remoteHash=2c0196b8fb0f680b876885a857651e1649d180e482cba34c179d586c29ecfee0
+[info] Syncing merkle subtree path=etc localHash=186d7ed3b25ab59e4a290cb4a68e1dca6c4ebd576d5e81496d69fcff8b77672b remoteHash=e674bb39dbecb7cfe3de232f2fb695a395bd3ddd5402e69fe34cc23cf0db739d
+[info] Syncing merkle subtree path=pem_backup_20260123_231919 localHash=4863ed2b0c7889c2826c2fce8983edd75a0a88c37f6ccf20d3ebae10a9d86813 remoteHash=4863ed2b0c7889c2826c2fce8983edd75a0a88c37f6ccf20d3ebae10a9d86813
+[info] Syncing merkle subtree path=pem_backup_20260123_231923 localHash=5772a388a8fd784d000928b9bd59d6fa56b5daa79fe082e1b2f92c612940cc3b remoteHash=5772a388a8fd784d000928b9bd59d6fa56b5daa79fe082e1b2f92c612940cc3b
+[info] Syncing merkle subtree path=pi_moon.sh localHash=729086d9b6c2538f437ace59d1e254c4d8c1a848e7e761da0be24d774e200532 remoteHash=729086d9b6c2538f437ace59d1e254c4d8c1a848e7e761da0be24d774e200532
+[info] Syncing merkle subtree path=baraem_191.sh localHash=c3399edc39d3210d1b4eaf50d7e4799ae9b632e5b4e2322303ee3ded298db2eb remoteHash=c3399edc39d3210d1b4eaf50d7e4799ae9b632e5b4e2322303ee3ded298db2eb
+[info] Syncing merkle subtree path=md localHash=e51eb56254b65469f03891035d0004529fe2f22a41412af955fb425b5c042d3b remoteHash=e51eb56254b65469f03891035d0004529fe2f22a41412af955fb425b5c042d3b
+[info] Syncing merkle subtree path=gnuboard-playwright-auth_claude localHash=f4e2404ece4d3633f3c639300b1d10c75718f0b74a81b17c8dc66e68b81058df remoteHash=b13f1d9f963358822086cf0b5c5d3e628ea35d798d3ea3a85e38bdc83adc96ed
+[info] Syncing merkle subtree path=notion localHash=73d7f71054e28983b0bb9db627f58c11e3b82f6ae0d3b1f242c93581399f5333 remoteHash=73d7f71054e28983b0bb9db627f58c11e3b82f6ae0d3b1f242c93581399f5333
+[info] Syncing merkle subtree path=pi_moon.ps1 localHash=79ad995dac4c09717a66c78658f2fca07b51b01d058f337439b117b92d26ded9 remoteHash=79ad995dac4c09717a66c78658f2fca07b51b01d058f337439b117b92d26ded9
+[info] Syncing merkle subtree path=gnuboard5-playwright-auth_cursor localHash=99edd782cee6925dd41a69eae54e8abe8865d29be8c58464024b6b1d9094a314 remoteHash=99edd782cee6925dd41a69eae54e8abe8865d29be8c58464024b6b1d9094a314
+[info] Syncing merkle subtree path=gnuboard-playwright-auth_claude/references localHash=c8e0f1ad71fbe69925c46216fc2055ab769aef95ba4a05f60611c7ccf8e567c4 remoteHash=c8e0f1ad71fbe69925c46216fc2055ab769aef95ba4a05f60611c7ccf8e567c4
+[info] Syncing merkle subtree path=gnuboard-playwright-auth_claude/SKILL.md localHash=f07da45cf3e0cede6185d98aa8fb5fc794b71854bed3d6237d80bdbfd72ae3fe remoteHash=f07da45cf3e0cede6185d98aa8fb5fc794b71854bed3d6237d80bdbfd72ae3fe
+[info] Syncing merkle subtree path=gnuboard-playwright-auth_claude/assets localHash=aea66a69ba5a4fa38abe7dc78219e689031e69eca47ec359401584577ea9ce1d remoteHash=inserting
+[info] Syncing merkle subtree path=etc/setup_ssh_server.ps1 localHash=9f52c8d5b055d275287569c516a7efc13d495d1b84c07557da527062016fd440 remoteHash=9f52c8d5b055d275287569c516a7efc13d495d1b84c07557da527062016fd440
+[info] Syncing merkle subtree path=etc/fix_ssh_auth.bat localHash=274ab2b12269fdac3a9bf823b606b10a789a29d17d8e31635db4065d40ab4ec3 remoteHash=274ab2b12269fdac3a9bf823b606b10a789a29d17d8e31635db4065d40ab4ec3
+[info] Syncing merkle subtree path=etc/id_rsa_131.pub localHash=51519a605e114d53ec6bff20081beab0dc686c775edff9adbfa240ddabe0f39a remoteHash=51519a605e114d53ec6bff20081beab0dc686c775edff9adbfa240ddabe0f39a
+[info] Syncing merkle subtree path=etc/delete_original_keys.ps1 localHash=de15975e2b5a08f6c0c0f4d2ef05481dc7851331eb99b53231ec924fa92a1c8d remoteHash=de15975e2b5a08f6c0c0f4d2ef05481dc7851331eb99b53231ec924fa92a1c8d
+[info] Syncing merkle subtree path=etc/eflip_점검_실행방법.txt localHash=92601ec55559959c5b2761ddbe1571743356205aa500cfeb21e3c442896d290d remoteHash=92601ec55559959c5b2761ddbe1571743356205aa500cfeb21e3c442896d290d
+[info] Syncing merkle subtree path=etc/id_rsa_131_server localHash=f9d665af90d72f80a5c09bf3307284f66ed76c16adadc0603b175e02d40c737c remoteHash=f9d665af90d72f80a5c09bf3307284f66ed76c16adadc0603b175e02d40c737c
+[info] Syncing merkle subtree path=etc/check_ssh_connection.sh localHash=c71fcaee7518f17896e9f059f587aeecdb08a8f13dd1a9f1651c4decbce3aca5 remoteHash=c71fcaee7518f17896e9f059f587aeecdb08a8f13dd1a9f1651c4decbce3aca5
+[info] Syncing merkle subtree path=etc/setup_wsl_port_forward.ps1 localHash=539c8344d256e4307569d25406485d2b279b5cd7186e3270b325177b56c87661 remoteHash=539c8344d256e4307569d25406485d2b279b5cd7186e3270b325177b56c87661
+[info] Syncing merkle subtree path=etc/id_rsa_131 localHash=3ecfe8ab8d88542253772b069368f9799c492e3d601791d24a90ccb120461ec3 remoteHash=3ecfe8ab8d88542253772b069368f9799c492e3d601791d24a90ccb120461ec3
+[info] Syncing merkle subtree path=etc/replace_all_fixed.ps1 localHash=f349820de1fcb73c4a8a78da755b432aa322e6e38bc6b14e6843a89e5aad5527 remoteHash=a13d9620a991d6b87830f8518c2c4b56705ff859f7abacfe3d3625e9d323fc6b
+[info] Syncing merkle subtree path=etc/wakeup_t14s.sh localHash=ed1f893d46e7605d5c2d1e80a0301cfc1ebf8da2b48b0107b82cffc1d441bbf5 remoteHash=ed1f893d46e7605d5c2d1e80a0301cfc1ebf8da2b48b0107b82cffc1d441bbf5
+[info] Syncing merkle subtree path=etc/id_rsa_131_raw localHash=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 remoteHash=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[info] Syncing merkle subtree path=etc/setup_ssh_server.bat localHash=1d71c92e7dc03404451799ae9ae4f63a4a40e0541f5444f6482e1e4a46fdaa1e remoteHash=1d71c92e7dc03404451799ae9ae4f63a4a40e0541f5444f6482e1e4a46fdaa1e
+[info] Syncing merkle subtree path=etc/wakeup_t14s.ps1 localHash=11bc54239ce85664bae0a5540fa5020ed58626d5c12923aae6fa7a5ebd3a6c83 remoteHash=11bc54239ce85664bae0a5540fa5020ed58626d5c12923aae6fa7a5ebd3a6c83
+[info] Syncing merkle subtree path=etc/SSH_설정_명령어.txt localHash=34f31f9078acaa91569bbb118f5cc5e34ec2adc732dd241f7069f9147f998baf remoteHash=34f31f9078acaa91569bbb118f5cc5e34ec2adc732dd241f7069f9147f998baf
+[info] Syncing merkle subtree path=etc/fix_encoding.ps1 localHash=a2f404d047bb1cf0efad93f4ca4c26acec4b156b756be0b48e1ec75733b34fb3 remoteHash=a2f404d047bb1cf0efad93f4ca4c26acec4b156b756be0b48e1ec75733b34fb3
+[info] Syncing merkle subtree path=etc/check_locked_files.ps1 localHash=0fae5daddc18f46105eab55c019759274d6a4795a004b91a34a2de104a81d5d5 remoteHash=0fae5daddc18f46105eab55c019759274d6a4795a004b91a34a2de104a81d5d5
+[info] Syncing merkle subtree path=etc/verify_fixed_files.sh localHash=27cd0a46e8a4654073473214f183760190d5e0e5f8132be1a616c1eff1b80a0f remoteHash=27cd0a46e8a4654073473214f183760190d5e0e5f8132be1a616c1eff1b80a0f
+[info] Syncing merkle subtree path=etc/한글_인코딩_설정.txt localHash=62c177e1ce6eaf17ceadbfaa88f75045bd6a53d3d80db4d38f73de31a0573615 remoteHash=62c177e1ce6eaf17ceadbfaa88f75045bd6a53d3d80db4d38f73de31a0573615
+[info] Syncing merkle subtree path=etc/replace_when_ready.ps1 localHash=80a3ece0dc2e3f5cc91f6be6083dbbe2a16d5231d9980ec0781db58a038ba63f remoteHash=80a3ece0dc2e3f5cc91f6be6083dbbe2a16d5231d9980ec0781db58a038ba63f
+[info] Syncing merkle subtree path=etc/fix_all_pem_files.sh localHash=f8ae2a7b9a7280f0b2b64795afec05d1b28a0cf7414fb13758bd482012da018f remoteHash=f8ae2a7b9a7280f0b2b64795afec05d1b28a0cf7414fb13758bd482012da018f
+[info] Syncing merkle subtree path=etc/force_delete_originals.ps1 localHash=b3234414c034ba350ca9fe16583ea0b731baee53bf9bbb0691813ed98f109014 remoteHash=b3234414c034ba350ca9fe16583ea0b731baee53bf9bbb0691813ed98f109014
+[info] Syncing merkle subtree path=etc/wsl_port_forward_auto.ps1 localHash=4ff42984c2e0e7f8b67826a98518c1590aae700539f9ce159adb13f0a88a3aa7 remoteHash=4ff42984c2e0e7f8b67826a98518c1590aae700539f9ce159adb13f0a88a3aa7
+[info] Syncing merkle subtree path=etc/eflip_check_result.txt localHash=48d2d740c0f2b3380873fc774182cdbb7e92c56a5fb8eb7ea5a2e649e53aa1bd remoteHash=48d2d740c0f2b3380873fc774182cdbb7e92c56a5fb8eb7ea5a2e649e53aa1bd
+[info] Syncing merkle subtree path=etc/ssh_status.txt localHash=0fc4b8555b88a7250a697df6024bfe46f47b7124c58cb990d3b47dc8f2a214ca remoteHash=0fc4b8555b88a7250a697df6024bfe46f47b7124c58cb990d3b47dc8f2a214ca
+[info] Syncing merkle subtree path=etc/fix_ssh_auth.ps1 localHash=4c5e81756b72943fe61cd1c6fa9c8fedc1d51154820ae4ade4081873982bac66 remoteHash=4c5e81756b72943fe61cd1c6fa9c8fedc1d51154820ae4ade4081873982bac66
+[info] Syncing merkle subtree path=etc/195_server_info.sh localHash=f05a1cb5f2808308de48034e0f218bc53168591ce2840e15266cb2600d071887 remoteHash=f05a1cb5f2808308de48034e0f218bc53168591ce2840e15266cb2600d071887
+[info] Syncing merkle subtree path=etc/rename_fixed_to_key.ps1 localHash=16ce3910cc6ba90a146816ffa7446036d71b18cd3c1cd8d9233719cf4791b31c remoteHash=16ce3910cc6ba90a146816ffa7446036d71b18cd3c1cd8d9233719cf4791b31c
+[info] Syncing merkle subtree path=etc/id_rsa_131_new localHash=f9d665af90d72f80a5c09bf3307284f66ed76c16adadc0603b175e02d40c737c remoteHash=f9d665af90d72f80a5c09bf3307284f66ed76c16adadc0603b175e02d40c737c
+[info] Syncing merkle subtree path=etc/replace_fixed_content.ps1 localHash=9426b9cb63513f738fa32de3a1a0d5cdf9a4c35199ed3e5603013c2191796f59 remoteHash=9426b9cb63513f738fa32de3a1a0d5cdf9a4c35199ed3e5603013c2191796f59
+[info] Syncing merkle subtree path=etc/run_setup_ssh.ps1 localHash=2a7c76f8b792acca6b7c98ab58e2b5ac18724b92289d4814d228d1a0817566eb remoteHash=2a7c76f8b792acca6b7c98ab58e2b5ac18724b92289d4814d228d1a0817566eb
+[info] Syncing merkle subtree path=etc/d2utmpoXsLi8 localHash=dd8a3e6249991637ba939e13b5551e45765e5311661b73e75093a04d72799e20 remoteHash=dd8a3e6249991637ba939e13b5551e45765e5311661b73e75093a04d72799e20
+[info] Syncing merkle subtree path=etc/restart_ssh_with_aws_mount.sh localHash=a5a5f9b4a044148f4b2015044cb9266296912e6c099f0929a344b81cedb1492b remoteHash=a5a5f9b4a044148f4b2015044cb9266296912e6c099f0929a344b81cedb1492b
+[info] Syncing merkle subtree path=etc/QUICK_START.txt localHash=a01b07665c7cb8706b62cdc3f59cba0cf340f07b6231843341aad92947aceb15 remoteHash=a01b07665c7cb8706b62cdc3f59cba0cf340f07b6231843341aad92947aceb15
+[info] Syncing merkle subtree path=etc/replace_fixed_files.ps1 localHash=f0d5bb004c11e600d7504f627bb17d3f2535965bf38d6925e40e1c1c9e148566 remoteHash=f0d5bb004c11e600d7504f627bb17d3f2535965bf38d6925e40e1c1c9e148566
+[info] Syncing merkle subtree path=etc/replace_fixed_files.sh localHash=45b60faa8fb8f46c5229159b302e5c859ab04241b387bd28f243b9b71556d4c4 remoteHash=45b60faa8fb8f46c5229159b302e5c859ab04241b387bd28f243b9b71556d4c4
+[info] Syncing merkle subtree path=etc/setup_utf8.bat localHash=9578d6a98cd428b36ebd2adce1918899d2bb82d7e34808c542419da8c3d70a93 remoteHash=9578d6a98cd428b36ebd2adce1918899d2bb82d7e34808c542419da8c3d70a93
+[info] Syncing merkle subtree path=etc/monitor_ssh_logs.sh localHash=8ad855eee2c9ac2082180c561ba4885004cb03f0428f88aebaacb5f6879e8d3a remoteHash=8ad855eee2c9ac2082180c561ba4885004cb03f0428f88aebaacb5f6879e8d3a
+[info] Syncing merkle subtree path=gnuboard-playwright-auth_claude/assets/gnuboard_auth.ts localHash=ff0008ea9a1a955c04a12860a7c4a1508651c9808d7a7145d4fde35195eea94a remoteHash=ff0008ea9a1a955c04a12860a7c4a1508651c9808d7a7145d4fde35195eea94a
+[info] Applying change type=add relativePath=etc/replace_all_fixed.ps1
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating files requestId=b4c20405-02c4-410f-9635-cba1632300d4 changes=1
+[info] Updated files requestId=b4c20405-02c4-410f-9635-cba1632300d4 response=[object Object]
+[info] Indexing finished
+[info] runServer socketPath=/home/ubuntu/.cursor/projects/home-ubuntu-aws/worker.sock
+[debug] Starting typescript-language-server npxPath=/usr/bin/npx
+[debug] Child Typescript LSP process spawned with PID: 60459
+[debug] Sending LSP initialize request
+[info] Indexing now
+[info] Getting tree structure for workspacePath=/home/ubuntu/aws
+[debug] did not initialize LSP provider error=Request initialize failed with message: Could not find a valid TypeScript installation. Please ensure that the "typescript" dependency is installed in the workspace or that a valid `tsserver.path` is specified. Exiting.
+[info] Syncing merkle subtree path=. localHash=f1c89458672bcd5b3fda0b8e157f60c3b32dddb7baab33c172908655ec68af27 remoteHash=
+[info] Syncing merkle subtree path=pi_moon.sh localHash=729086d9b6c2538f437ace59d1e254c4d8c1a848e7e761da0be24d774e200532 remoteHash=729086d9b6c2538f437ace59d1e254c4d8c1a848e7e761da0be24d774e200532
+[info] Syncing merkle subtree path=baraem_131.sh localHash=64bb5f716dd5ba696b6f1e21c3be369047d2e0584a9451f9cc2d5bc7d618be10 remoteHash=64bb5f716dd5ba696b6f1e21c3be369047d2e0584a9451f9cc2d5bc7d618be10
+[info] Syncing merkle subtree path=develofun.sh localHash=8beb57cd7eb7b89e8fbd89317e3484f6f129925ac5f3363ddbfa2112f9f5c968 remoteHash=8beb57cd7eb7b89e8fbd89317e3484f6f129925ac5f3363ddbfa2112f9f5c968
+[info] Syncing merkle subtree path=eflip.sh localHash=2c0196b8fb0f680b876885a857651e1649d180e482cba34c179d586c29ecfee0 remoteHash=2c0196b8fb0f680b876885a857651e1649d180e482cba34c179d586c29ecfee0
+[info] Syncing merkle subtree path=pem localHash=4c686bcc3e38cb8d56886764c8b9d98d29fd12ccde5112a48aa325307116a22e remoteHash=4c686bcc3e38cb8d56886764c8b9d98d29fd12ccde5112a48aa325307116a22e
+[info] Syncing merkle subtree path=etc localHash=186d7ed3b25ab59e4a290cb4a68e1dca6c4ebd576d5e81496d69fcff8b77672b remoteHash=e674bb39dbecb7cfe3de232f2fb695a395bd3ddd5402e69fe34cc23cf0db739d
+[info] Syncing merkle subtree path=rainbow.sh localHash=c6dfd346aca78e3a8e48d3b82db502fff03a0630b98eacc822753037bb68ca6e remoteHash=c6dfd346aca78e3a8e48d3b82db502fff03a0630b98eacc822753037bb68ca6e
+[info] Syncing merkle subtree path=.gitignore localHash=890cd8f72764c5aa0d57ee033b5646204eee9cbfc1074cbcc5b9782ad99ca27d remoteHash=890cd8f72764c5aa0d57ee033b5646204eee9cbfc1074cbcc5b9782ad99ca27d
+[info] Syncing merkle subtree path=pem_backup_20260123_231923 localHash=5772a388a8fd784d000928b9bd59d6fa56b5daa79fe082e1b2f92c612940cc3b remoteHash=5772a388a8fd784d000928b9bd59d6fa56b5daa79fe082e1b2f92c612940cc3b
+[info] Syncing merkle subtree path=pi_moon.ps1 localHash=79ad995dac4c09717a66c78658f2fca07b51b01d058f337439b117b92d26ded9 remoteHash=79ad995dac4c09717a66c78658f2fca07b51b01d058f337439b117b92d26ded9
+[info] Syncing merkle subtree path=md localHash=e51eb56254b65469f03891035d0004529fe2f22a41412af955fb425b5c042d3b remoteHash=e51eb56254b65469f03891035d0004529fe2f22a41412af955fb425b5c042d3b
+[info] Syncing merkle subtree path=gnuboard-playwright-auth_claude localHash=f4e2404ece4d3633f3c639300b1d10c75718f0b74a81b17c8dc66e68b81058df remoteHash=b13f1d9f963358822086cf0b5c5d3e628ea35d798d3ea3a85e38bdc83adc96ed
+[info] Syncing merkle subtree path=rainbow_rsa.pem.pub localHash=2c04493931d531f30953a8297d35dfb74b3b1f5623107c96ab46bb324992e493 remoteHash=2c04493931d531f30953a8297d35dfb74b3b1f5623107c96ab46bb324992e493
+[info] Syncing merkle subtree path=pem_backup_20260123_231919 localHash=4863ed2b0c7889c2826c2fce8983edd75a0a88c37f6ccf20d3ebae10a9d86813 remoteHash=4863ed2b0c7889c2826c2fce8983edd75a0a88c37f6ccf20d3ebae10a9d86813
+[info] Syncing merkle subtree path=baraem_191.sh localHash=c3399edc39d3210d1b4eaf50d7e4799ae9b632e5b4e2322303ee3ded298db2eb remoteHash=c3399edc39d3210d1b4eaf50d7e4799ae9b632e5b4e2322303ee3ded298db2eb
+[info] Syncing merkle subtree path=gnuboard5-playwright-auth_cursor localHash=99edd782cee6925dd41a69eae54e8abe8865d29be8c58464024b6b1d9094a314 remoteHash=99edd782cee6925dd41a69eae54e8abe8865d29be8c58464024b6b1d9094a314
+[info] Syncing merkle subtree path=notion localHash=73d7f71054e28983b0bb9db627f58c11e3b82f6ae0d3b1f242c93581399f5333 remoteHash=73d7f71054e28983b0bb9db627f58c11e3b82f6ae0d3b1f242c93581399f5333
+[info] Syncing merkle subtree path=gnuboard-playwright-auth_claude/assets localHash=aea66a69ba5a4fa38abe7dc78219e689031e69eca47ec359401584577ea9ce1d remoteHash=inserting
+[info] Syncing merkle subtree path=gnuboard-playwright-auth_claude/references localHash=c8e0f1ad71fbe69925c46216fc2055ab769aef95ba4a05f60611c7ccf8e567c4 remoteHash=c8e0f1ad71fbe69925c46216fc2055ab769aef95ba4a05f60611c7ccf8e567c4
+[info] Syncing merkle subtree path=gnuboard-playwright-auth_claude/SKILL.md localHash=f07da45cf3e0cede6185d98aa8fb5fc794b71854bed3d6237d80bdbfd72ae3fe remoteHash=f07da45cf3e0cede6185d98aa8fb5fc794b71854bed3d6237d80bdbfd72ae3fe
+[info] Syncing merkle subtree path=etc/setup_ssh_server.ps1 localHash=9f52c8d5b055d275287569c516a7efc13d495d1b84c07557da527062016fd440 remoteHash=9f52c8d5b055d275287569c516a7efc13d495d1b84c07557da527062016fd440
+[info] Syncing merkle subtree path=etc/replace_all_fixed.ps1 localHash=f349820de1fcb73c4a8a78da755b432aa322e6e38bc6b14e6843a89e5aad5527 remoteHash=a13d9620a991d6b87830f8518c2c4b56705ff859f7abacfe3d3625e9d323fc6b
+[info] Syncing merkle subtree path=etc/check_locked_files.ps1 localHash=0fae5daddc18f46105eab55c019759274d6a4795a004b91a34a2de104a81d5d5 remoteHash=0fae5daddc18f46105eab55c019759274d6a4795a004b91a34a2de104a81d5d5
+[info] Syncing merkle subtree path=etc/ssh_status.txt localHash=0fc4b8555b88a7250a697df6024bfe46f47b7124c58cb990d3b47dc8f2a214ca remoteHash=0fc4b8555b88a7250a697df6024bfe46f47b7124c58cb990d3b47dc8f2a214ca
+[info] Syncing merkle subtree path=etc/setup_utf8.bat localHash=9578d6a98cd428b36ebd2adce1918899d2bb82d7e34808c542419da8c3d70a93 remoteHash=9578d6a98cd428b36ebd2adce1918899d2bb82d7e34808c542419da8c3d70a93
+[info] Syncing merkle subtree path=etc/wakeup_t14s.ps1 localHash=11bc54239ce85664bae0a5540fa5020ed58626d5c12923aae6fa7a5ebd3a6c83 remoteHash=11bc54239ce85664bae0a5540fa5020ed58626d5c12923aae6fa7a5ebd3a6c83
+[info] Syncing merkle subtree path=etc/run_setup_ssh.ps1 localHash=2a7c76f8b792acca6b7c98ab58e2b5ac18724b92289d4814d228d1a0817566eb remoteHash=2a7c76f8b792acca6b7c98ab58e2b5ac18724b92289d4814d228d1a0817566eb
+[info] Syncing merkle subtree path=etc/fix_ssh_auth.bat localHash=274ab2b12269fdac3a9bf823b606b10a789a29d17d8e31635db4065d40ab4ec3 remoteHash=274ab2b12269fdac3a9bf823b606b10a789a29d17d8e31635db4065d40ab4ec3
+[info] Syncing merkle subtree path=etc/check_ssh_connection.sh localHash=c71fcaee7518f17896e9f059f587aeecdb08a8f13dd1a9f1651c4decbce3aca5 remoteHash=c71fcaee7518f17896e9f059f587aeecdb08a8f13dd1a9f1651c4decbce3aca5
+[info] Syncing merkle subtree path=etc/id_rsa_131_raw localHash=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 remoteHash=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[info] Syncing merkle subtree path=etc/한글_인코딩_설정.txt localHash=62c177e1ce6eaf17ceadbfaa88f75045bd6a53d3d80db4d38f73de31a0573615 remoteHash=62c177e1ce6eaf17ceadbfaa88f75045bd6a53d3d80db4d38f73de31a0573615
+[info] Syncing merkle subtree path=etc/SSH_설정_명령어.txt localHash=34f31f9078acaa91569bbb118f5cc5e34ec2adc732dd241f7069f9147f998baf remoteHash=34f31f9078acaa91569bbb118f5cc5e34ec2adc732dd241f7069f9147f998baf
+[info] Syncing merkle subtree path=etc/restart_ssh_with_aws_mount.sh localHash=a5a5f9b4a044148f4b2015044cb9266296912e6c099f0929a344b81cedb1492b remoteHash=a5a5f9b4a044148f4b2015044cb9266296912e6c099f0929a344b81cedb1492b
+[info] Syncing merkle subtree path=etc/id_rsa_131.pub localHash=51519a605e114d53ec6bff20081beab0dc686c775edff9adbfa240ddabe0f39a remoteHash=51519a605e114d53ec6bff20081beab0dc686c775edff9adbfa240ddabe0f39a
+[info] Syncing merkle subtree path=etc/setup_wsl_port_forward.ps1 localHash=539c8344d256e4307569d25406485d2b279b5cd7186e3270b325177b56c87661 remoteHash=539c8344d256e4307569d25406485d2b279b5cd7186e3270b325177b56c87661
+[info] Syncing merkle subtree path=etc/replace_fixed_files.ps1 localHash=f0d5bb004c11e600d7504f627bb17d3f2535965bf38d6925e40e1c1c9e148566 remoteHash=f0d5bb004c11e600d7504f627bb17d3f2535965bf38d6925e40e1c1c9e148566
+[info] Syncing merkle subtree path=etc/QUICK_START.txt localHash=a01b07665c7cb8706b62cdc3f59cba0cf340f07b6231843341aad92947aceb15 remoteHash=a01b07665c7cb8706b62cdc3f59cba0cf340f07b6231843341aad92947aceb15
+[info] Syncing merkle subtree path=etc/replace_fixed_files.sh localHash=45b60faa8fb8f46c5229159b302e5c859ab04241b387bd28f243b9b71556d4c4 remoteHash=45b60faa8fb8f46c5229159b302e5c859ab04241b387bd28f243b9b71556d4c4
+[info] Syncing merkle subtree path=etc/wakeup_t14s.sh localHash=ed1f893d46e7605d5c2d1e80a0301cfc1ebf8da2b48b0107b82cffc1d441bbf5 remoteHash=ed1f893d46e7605d5c2d1e80a0301cfc1ebf8da2b48b0107b82cffc1d441bbf5
+[info] Syncing merkle subtree path=etc/monitor_ssh_logs.sh localHash=8ad855eee2c9ac2082180c561ba4885004cb03f0428f88aebaacb5f6879e8d3a remoteHash=8ad855eee2c9ac2082180c561ba4885004cb03f0428f88aebaacb5f6879e8d3a
+[info] Syncing merkle subtree path=etc/rename_fixed_to_key.ps1 localHash=16ce3910cc6ba90a146816ffa7446036d71b18cd3c1cd8d9233719cf4791b31c remoteHash=16ce3910cc6ba90a146816ffa7446036d71b18cd3c1cd8d9233719cf4791b31c
+[info] Syncing merkle subtree path=etc/setup_ssh_server.bat localHash=1d71c92e7dc03404451799ae9ae4f63a4a40e0541f5444f6482e1e4a46fdaa1e remoteHash=1d71c92e7dc03404451799ae9ae4f63a4a40e0541f5444f6482e1e4a46fdaa1e
+[info] Syncing merkle subtree path=etc/d2utmpoXsLi8 localHash=dd8a3e6249991637ba939e13b5551e45765e5311661b73e75093a04d72799e20 remoteHash=dd8a3e6249991637ba939e13b5551e45765e5311661b73e75093a04d72799e20
+[info] Syncing merkle subtree path=etc/id_rsa_131_new localHash=f9d665af90d72f80a5c09bf3307284f66ed76c16adadc0603b175e02d40c737c remoteHash=f9d665af90d72f80a5c09bf3307284f66ed76c16adadc0603b175e02d40c737c
+[info] Syncing merkle subtree path=etc/id_rsa_131 localHash=3ecfe8ab8d88542253772b069368f9799c492e3d601791d24a90ccb120461ec3 remoteHash=3ecfe8ab8d88542253772b069368f9799c492e3d601791d24a90ccb120461ec3
+[info] Syncing merkle subtree path=etc/fix_ssh_auth.ps1 localHash=4c5e81756b72943fe61cd1c6fa9c8fedc1d51154820ae4ade4081873982bac66 remoteHash=4c5e81756b72943fe61cd1c6fa9c8fedc1d51154820ae4ade4081873982bac66
+[info] Syncing merkle subtree path=etc/eflip_점검_실행방법.txt localHash=92601ec55559959c5b2761ddbe1571743356205aa500cfeb21e3c442896d290d remoteHash=92601ec55559959c5b2761ddbe1571743356205aa500cfeb21e3c442896d290d
+[info] Syncing merkle subtree path=etc/195_server_info.sh localHash=f05a1cb5f2808308de48034e0f218bc53168591ce2840e15266cb2600d071887 remoteHash=f05a1cb5f2808308de48034e0f218bc53168591ce2840e15266cb2600d071887
+[info] Syncing merkle subtree path=etc/replace_fixed_content.ps1 localHash=9426b9cb63513f738fa32de3a1a0d5cdf9a4c35199ed3e5603013c2191796f59 remoteHash=9426b9cb63513f738fa32de3a1a0d5cdf9a4c35199ed3e5603013c2191796f59
+[info] Syncing merkle subtree path=etc/wsl_port_forward_auto.ps1 localHash=4ff42984c2e0e7f8b67826a98518c1590aae700539f9ce159adb13f0a88a3aa7 remoteHash=4ff42984c2e0e7f8b67826a98518c1590aae700539f9ce159adb13f0a88a3aa7
+[info] Syncing merkle subtree path=etc/id_rsa_131_server localHash=f9d665af90d72f80a5c09bf3307284f66ed76c16adadc0603b175e02d40c737c remoteHash=f9d665af90d72f80a5c09bf3307284f66ed76c16adadc0603b175e02d40c737c
+[info] Syncing merkle subtree path=etc/eflip_check_result.txt localHash=48d2d740c0f2b3380873fc774182cdbb7e92c56a5fb8eb7ea5a2e649e53aa1bd remoteHash=48d2d740c0f2b3380873fc774182cdbb7e92c56a5fb8eb7ea5a2e649e53aa1bd
+[info] Syncing merkle subtree path=etc/delete_original_keys.ps1 localHash=de15975e2b5a08f6c0c0f4d2ef05481dc7851331eb99b53231ec924fa92a1c8d remoteHash=de15975e2b5a08f6c0c0f4d2ef05481dc7851331eb99b53231ec924fa92a1c8d
+[info] Syncing merkle subtree path=etc/force_delete_originals.ps1 localHash=b3234414c034ba350ca9fe16583ea0b731baee53bf9bbb0691813ed98f109014 remoteHash=b3234414c034ba350ca9fe16583ea0b731baee53bf9bbb0691813ed98f109014
+[info] Syncing merkle subtree path=etc/verify_fixed_files.sh localHash=27cd0a46e8a4654073473214f183760190d5e0e5f8132be1a616c1eff1b80a0f remoteHash=27cd0a46e8a4654073473214f183760190d5e0e5f8132be1a616c1eff1b80a0f
+[info] Syncing merkle subtree path=etc/replace_when_ready.ps1 localHash=80a3ece0dc2e3f5cc91f6be6083dbbe2a16d5231d9980ec0781db58a038ba63f remoteHash=80a3ece0dc2e3f5cc91f6be6083dbbe2a16d5231d9980ec0781db58a038ba63f
+[info] Syncing merkle subtree path=etc/fix_all_pem_files.sh localHash=f8ae2a7b9a7280f0b2b64795afec05d1b28a0cf7414fb13758bd482012da018f remoteHash=f8ae2a7b9a7280f0b2b64795afec05d1b28a0cf7414fb13758bd482012da018f
+[info] Syncing merkle subtree path=etc/fix_encoding.ps1 localHash=a2f404d047bb1cf0efad93f4ca4c26acec4b156b756be0b48e1ec75733b34fb3 remoteHash=a2f404d047bb1cf0efad93f4ca4c26acec4b156b756be0b48e1ec75733b34fb3
+[info] Applying change type=add relativePath=etc/replace_all_fixed.ps1
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating files requestId=6e144d6c-268e-4cc3-9090-c1d1d83e46a3 changes=1
+[info] Syncing merkle subtree path=gnuboard-playwright-auth_claude/assets/gnuboard_auth.ts localHash=ff0008ea9a1a955c04a12860a7c4a1508651c9808d7a7145d4fde35195eea94a remoteHash=ff0008ea9a1a955c04a12860a7c4a1508651c9808d7a7145d4fde35195eea94a
+[info] Updated files requestId=6e144d6c-268e-4cc3-9090-c1d1d83e46a3 response=[object Object]
+[info] Indexing finished
+[info] Indexing now
+[info] Getting tree structure for workspacePath=/home/ubuntu/aws
+[info] Syncing merkle subtree path=. localHash=f1c89458672bcd5b3fda0b8e157f60c3b32dddb7baab33c172908655ec68af27 remoteHash=
+[info] Syncing merkle subtree path=rainbow.sh localHash=c6dfd346aca78e3a8e48d3b82db502fff03a0630b98eacc822753037bb68ca6e remoteHash=c6dfd346aca78e3a8e48d3b82db502fff03a0630b98eacc822753037bb68ca6e
+[info] Syncing merkle subtree path=gnuboard-playwright-auth_claude localHash=f4e2404ece4d3633f3c639300b1d10c75718f0b74a81b17c8dc66e68b81058df remoteHash=b13f1d9f963358822086cf0b5c5d3e628ea35d798d3ea3a85e38bdc83adc96ed
+[info] Syncing merkle subtree path=eflip.sh localHash=2c0196b8fb0f680b876885a857651e1649d180e482cba34c179d586c29ecfee0 remoteHash=2c0196b8fb0f680b876885a857651e1649d180e482cba34c179d586c29ecfee0
+[info] Syncing merkle subtree path=pem_backup_20260123_231919 localHash=4863ed2b0c7889c2826c2fce8983edd75a0a88c37f6ccf20d3ebae10a9d86813 remoteHash=4863ed2b0c7889c2826c2fce8983edd75a0a88c37f6ccf20d3ebae10a9d86813
+[info] Syncing merkle subtree path=baraem_131.sh localHash=64bb5f716dd5ba696b6f1e21c3be369047d2e0584a9451f9cc2d5bc7d618be10 remoteHash=64bb5f716dd5ba696b6f1e21c3be369047d2e0584a9451f9cc2d5bc7d618be10
+[info] Syncing merkle subtree path=gnuboard5-playwright-auth_cursor localHash=99edd782cee6925dd41a69eae54e8abe8865d29be8c58464024b6b1d9094a314 remoteHash=99edd782cee6925dd41a69eae54e8abe8865d29be8c58464024b6b1d9094a314
+[info] Syncing merkle subtree path=md localHash=e51eb56254b65469f03891035d0004529fe2f22a41412af955fb425b5c042d3b remoteHash=e51eb56254b65469f03891035d0004529fe2f22a41412af955fb425b5c042d3b
+[info] Syncing merkle subtree path=pi_moon.ps1 localHash=79ad995dac4c09717a66c78658f2fca07b51b01d058f337439b117b92d26ded9 remoteHash=79ad995dac4c09717a66c78658f2fca07b51b01d058f337439b117b92d26ded9
+[info] Syncing merkle subtree path=baraem_191.sh localHash=c3399edc39d3210d1b4eaf50d7e4799ae9b632e5b4e2322303ee3ded298db2eb remoteHash=c3399edc39d3210d1b4eaf50d7e4799ae9b632e5b4e2322303ee3ded298db2eb
+[info] Syncing merkle subtree path=pem localHash=4c686bcc3e38cb8d56886764c8b9d98d29fd12ccde5112a48aa325307116a22e remoteHash=4c686bcc3e38cb8d56886764c8b9d98d29fd12ccde5112a48aa325307116a22e
+[info] Syncing merkle subtree path=pem_backup_20260123_231923 localHash=5772a388a8fd784d000928b9bd59d6fa56b5daa79fe082e1b2f92c612940cc3b remoteHash=5772a388a8fd784d000928b9bd59d6fa56b5daa79fe082e1b2f92c612940cc3b
+[info] Syncing merkle subtree path=rainbow_rsa.pem.pub localHash=2c04493931d531f30953a8297d35dfb74b3b1f5623107c96ab46bb324992e493 remoteHash=2c04493931d531f30953a8297d35dfb74b3b1f5623107c96ab46bb324992e493
+[info] Syncing merkle subtree path=pi_moon.sh localHash=729086d9b6c2538f437ace59d1e254c4d8c1a848e7e761da0be24d774e200532 remoteHash=729086d9b6c2538f437ace59d1e254c4d8c1a848e7e761da0be24d774e200532
+[info] Syncing merkle subtree path=notion localHash=73d7f71054e28983b0bb9db627f58c11e3b82f6ae0d3b1f242c93581399f5333 remoteHash=73d7f71054e28983b0bb9db627f58c11e3b82f6ae0d3b1f242c93581399f5333
+[info] Syncing merkle subtree path=develofun.sh localHash=8beb57cd7eb7b89e8fbd89317e3484f6f129925ac5f3363ddbfa2112f9f5c968 remoteHash=8beb57cd7eb7b89e8fbd89317e3484f6f129925ac5f3363ddbfa2112f9f5c968
+[info] Syncing merkle subtree path=.gitignore localHash=890cd8f72764c5aa0d57ee033b5646204eee9cbfc1074cbcc5b9782ad99ca27d remoteHash=890cd8f72764c5aa0d57ee033b5646204eee9cbfc1074cbcc5b9782ad99ca27d
+[info] Syncing merkle subtree path=etc localHash=186d7ed3b25ab59e4a290cb4a68e1dca6c4ebd576d5e81496d69fcff8b77672b remoteHash=e674bb39dbecb7cfe3de232f2fb695a395bd3ddd5402e69fe34cc23cf0db739d
+[info] Syncing merkle subtree path=gnuboard-playwright-auth_claude/assets localHash=aea66a69ba5a4fa38abe7dc78219e689031e69eca47ec359401584577ea9ce1d remoteHash=inserting
+[info] Syncing merkle subtree path=gnuboard-playwright-auth_claude/SKILL.md localHash=f07da45cf3e0cede6185d98aa8fb5fc794b71854bed3d6237d80bdbfd72ae3fe remoteHash=f07da45cf3e0cede6185d98aa8fb5fc794b71854bed3d6237d80bdbfd72ae3fe
+[info] Syncing merkle subtree path=gnuboard-playwright-auth_claude/references localHash=c8e0f1ad71fbe69925c46216fc2055ab769aef95ba4a05f60611c7ccf8e567c4 remoteHash=c8e0f1ad71fbe69925c46216fc2055ab769aef95ba4a05f60611c7ccf8e567c4
+[info] Syncing merkle subtree path=etc/eflip_점검_실행방법.txt localHash=92601ec55559959c5b2761ddbe1571743356205aa500cfeb21e3c442896d290d remoteHash=92601ec55559959c5b2761ddbe1571743356205aa500cfeb21e3c442896d290d
+[info] Syncing merkle subtree path=etc/verify_fixed_files.sh localHash=27cd0a46e8a4654073473214f183760190d5e0e5f8132be1a616c1eff1b80a0f remoteHash=27cd0a46e8a4654073473214f183760190d5e0e5f8132be1a616c1eff1b80a0f
+[info] Syncing merkle subtree path=etc/id_rsa_131_raw localHash=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 remoteHash=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[info] Syncing merkle subtree path=etc/rename_fixed_to_key.ps1 localHash=16ce3910cc6ba90a146816ffa7446036d71b18cd3c1cd8d9233719cf4791b31c remoteHash=16ce3910cc6ba90a146816ffa7446036d71b18cd3c1cd8d9233719cf4791b31c
+[info] Syncing merkle subtree path=etc/restart_ssh_with_aws_mount.sh localHash=a5a5f9b4a044148f4b2015044cb9266296912e6c099f0929a344b81cedb1492b remoteHash=a5a5f9b4a044148f4b2015044cb9266296912e6c099f0929a344b81cedb1492b
+[info] Syncing merkle subtree path=etc/check_ssh_connection.sh localHash=c71fcaee7518f17896e9f059f587aeecdb08a8f13dd1a9f1651c4decbce3aca5 remoteHash=c71fcaee7518f17896e9f059f587aeecdb08a8f13dd1a9f1651c4decbce3aca5
+[info] Syncing merkle subtree path=etc/wakeup_t14s.sh localHash=ed1f893d46e7605d5c2d1e80a0301cfc1ebf8da2b48b0107b82cffc1d441bbf5 remoteHash=ed1f893d46e7605d5c2d1e80a0301cfc1ebf8da2b48b0107b82cffc1d441bbf5
+[info] Syncing merkle subtree path=etc/replace_fixed_files.sh localHash=45b60faa8fb8f46c5229159b302e5c859ab04241b387bd28f243b9b71556d4c4 remoteHash=45b60faa8fb8f46c5229159b302e5c859ab04241b387bd28f243b9b71556d4c4
+[info] Syncing merkle subtree path=etc/fix_encoding.ps1 localHash=a2f404d047bb1cf0efad93f4ca4c26acec4b156b756be0b48e1ec75733b34fb3 remoteHash=a2f404d047bb1cf0efad93f4ca4c26acec4b156b756be0b48e1ec75733b34fb3
+[info] Syncing merkle subtree path=etc/ssh_status.txt localHash=0fc4b8555b88a7250a697df6024bfe46f47b7124c58cb990d3b47dc8f2a214ca remoteHash=0fc4b8555b88a7250a697df6024bfe46f47b7124c58cb990d3b47dc8f2a214ca
+[info] Syncing merkle subtree path=etc/SSH_설정_명령어.txt localHash=34f31f9078acaa91569bbb118f5cc5e34ec2adc732dd241f7069f9147f998baf remoteHash=34f31f9078acaa91569bbb118f5cc5e34ec2adc732dd241f7069f9147f998baf
+[info] Syncing merkle subtree path=etc/wakeup_t14s.ps1 localHash=11bc54239ce85664bae0a5540fa5020ed58626d5c12923aae6fa7a5ebd3a6c83 remoteHash=11bc54239ce85664bae0a5540fa5020ed58626d5c12923aae6fa7a5ebd3a6c83
+[info] Syncing merkle subtree path=etc/id_rsa_131.pub localHash=51519a605e114d53ec6bff20081beab0dc686c775edff9adbfa240ddabe0f39a remoteHash=51519a605e114d53ec6bff20081beab0dc686c775edff9adbfa240ddabe0f39a
+[info] Syncing merkle subtree path=etc/QUICK_START.txt localHash=a01b07665c7cb8706b62cdc3f59cba0cf340f07b6231843341aad92947aceb15 remoteHash=a01b07665c7cb8706b62cdc3f59cba0cf340f07b6231843341aad92947aceb15
+[info] Syncing merkle subtree path=etc/setup_ssh_server.bat localHash=1d71c92e7dc03404451799ae9ae4f63a4a40e0541f5444f6482e1e4a46fdaa1e remoteHash=1d71c92e7dc03404451799ae9ae4f63a4a40e0541f5444f6482e1e4a46fdaa1e
+[info] Syncing merkle subtree path=etc/replace_fixed_files.ps1 localHash=f0d5bb004c11e600d7504f627bb17d3f2535965bf38d6925e40e1c1c9e148566 remoteHash=f0d5bb004c11e600d7504f627bb17d3f2535965bf38d6925e40e1c1c9e148566
+[info] Syncing merkle subtree path=etc/setup_utf8.bat localHash=9578d6a98cd428b36ebd2adce1918899d2bb82d7e34808c542419da8c3d70a93 remoteHash=9578d6a98cd428b36ebd2adce1918899d2bb82d7e34808c542419da8c3d70a93
+[info] Syncing merkle subtree path=etc/한글_인코딩_설정.txt localHash=62c177e1ce6eaf17ceadbfaa88f75045bd6a53d3d80db4d38f73de31a0573615 remoteHash=62c177e1ce6eaf17ceadbfaa88f75045bd6a53d3d80db4d38f73de31a0573615
+[info] Syncing merkle subtree path=etc/id_rsa_131 localHash=3ecfe8ab8d88542253772b069368f9799c492e3d601791d24a90ccb120461ec3 remoteHash=3ecfe8ab8d88542253772b069368f9799c492e3d601791d24a90ccb120461ec3
+[info] Syncing merkle subtree path=etc/replace_all_fixed.ps1 localHash=f349820de1fcb73c4a8a78da755b432aa322e6e38bc6b14e6843a89e5aad5527 remoteHash=a13d9620a991d6b87830f8518c2c4b56705ff859f7abacfe3d3625e9d323fc6b
+[info] Syncing merkle subtree path=etc/fix_ssh_auth.ps1 localHash=4c5e81756b72943fe61cd1c6fa9c8fedc1d51154820ae4ade4081873982bac66 remoteHash=4c5e81756b72943fe61cd1c6fa9c8fedc1d51154820ae4ade4081873982bac66
+[info] Syncing merkle subtree path=etc/id_rsa_131_new localHash=f9d665af90d72f80a5c09bf3307284f66ed76c16adadc0603b175e02d40c737c remoteHash=f9d665af90d72f80a5c09bf3307284f66ed76c16adadc0603b175e02d40c737c
+[info] Syncing merkle subtree path=etc/replace_when_ready.ps1 localHash=80a3ece0dc2e3f5cc91f6be6083dbbe2a16d5231d9980ec0781db58a038ba63f remoteHash=80a3ece0dc2e3f5cc91f6be6083dbbe2a16d5231d9980ec0781db58a038ba63f
+[info] Syncing merkle subtree path=etc/delete_original_keys.ps1 localHash=de15975e2b5a08f6c0c0f4d2ef05481dc7851331eb99b53231ec924fa92a1c8d remoteHash=de15975e2b5a08f6c0c0f4d2ef05481dc7851331eb99b53231ec924fa92a1c8d
+[info] Syncing merkle subtree path=etc/wsl_port_forward_auto.ps1 localHash=4ff42984c2e0e7f8b67826a98518c1590aae700539f9ce159adb13f0a88a3aa7 remoteHash=4ff42984c2e0e7f8b67826a98518c1590aae700539f9ce159adb13f0a88a3aa7
+[info] Syncing merkle subtree path=etc/fix_all_pem_files.sh localHash=f8ae2a7b9a7280f0b2b64795afec05d1b28a0cf7414fb13758bd482012da018f remoteHash=f8ae2a7b9a7280f0b2b64795afec05d1b28a0cf7414fb13758bd482012da018f
+[info] Syncing merkle subtree path=etc/replace_fixed_content.ps1 localHash=9426b9cb63513f738fa32de3a1a0d5cdf9a4c35199ed3e5603013c2191796f59 remoteHash=9426b9cb63513f738fa32de3a1a0d5cdf9a4c35199ed3e5603013c2191796f59
+[info] Syncing merkle subtree path=etc/fix_ssh_auth.bat localHash=274ab2b12269fdac3a9bf823b606b10a789a29d17d8e31635db4065d40ab4ec3 remoteHash=274ab2b12269fdac3a9bf823b606b10a789a29d17d8e31635db4065d40ab4ec3
+[info] Syncing merkle subtree path=etc/force_delete_originals.ps1 localHash=b3234414c034ba350ca9fe16583ea0b731baee53bf9bbb0691813ed98f109014 remoteHash=b3234414c034ba350ca9fe16583ea0b731baee53bf9bbb0691813ed98f109014
+[info] Syncing merkle subtree path=etc/check_locked_files.ps1 localHash=0fae5daddc18f46105eab55c019759274d6a4795a004b91a34a2de104a81d5d5 remoteHash=0fae5daddc18f46105eab55c019759274d6a4795a004b91a34a2de104a81d5d5
+[info] Syncing merkle subtree path=etc/d2utmpoXsLi8 localHash=dd8a3e6249991637ba939e13b5551e45765e5311661b73e75093a04d72799e20 remoteHash=dd8a3e6249991637ba939e13b5551e45765e5311661b73e75093a04d72799e20
+[info] Syncing merkle subtree path=etc/eflip_check_result.txt localHash=48d2d740c0f2b3380873fc774182cdbb7e92c56a5fb8eb7ea5a2e649e53aa1bd remoteHash=48d2d740c0f2b3380873fc774182cdbb7e92c56a5fb8eb7ea5a2e649e53aa1bd
+[info] Syncing merkle subtree path=etc/195_server_info.sh localHash=f05a1cb5f2808308de48034e0f218bc53168591ce2840e15266cb2600d071887 remoteHash=f05a1cb5f2808308de48034e0f218bc53168591ce2840e15266cb2600d071887
+[info] Syncing merkle subtree path=etc/setup_ssh_server.ps1 localHash=9f52c8d5b055d275287569c516a7efc13d495d1b84c07557da527062016fd440 remoteHash=9f52c8d5b055d275287569c516a7efc13d495d1b84c07557da527062016fd440
+[info] Syncing merkle subtree path=etc/monitor_ssh_logs.sh localHash=8ad855eee2c9ac2082180c561ba4885004cb03f0428f88aebaacb5f6879e8d3a remoteHash=8ad855eee2c9ac2082180c561ba4885004cb03f0428f88aebaacb5f6879e8d3a
+[info] Syncing merkle subtree path=etc/run_setup_ssh.ps1 localHash=2a7c76f8b792acca6b7c98ab58e2b5ac18724b92289d4814d228d1a0817566eb remoteHash=2a7c76f8b792acca6b7c98ab58e2b5ac18724b92289d4814d228d1a0817566eb
+[info] Syncing merkle subtree path=etc/setup_wsl_port_forward.ps1 localHash=539c8344d256e4307569d25406485d2b279b5cd7186e3270b325177b56c87661 remoteHash=539c8344d256e4307569d25406485d2b279b5cd7186e3270b325177b56c87661
+[info] Syncing merkle subtree path=etc/id_rsa_131_server localHash=f9d665af90d72f80a5c09bf3307284f66ed76c16adadc0603b175e02d40c737c remoteHash=f9d665af90d72f80a5c09bf3307284f66ed76c16adadc0603b175e02d40c737c
+[info] Syncing merkle subtree path=gnuboard-playwright-auth_claude/assets/gnuboard_auth.ts localHash=ff0008ea9a1a955c04a12860a7c4a1508651c9808d7a7145d4fde35195eea94a remoteHash=ff0008ea9a1a955c04a12860a7c4a1508651c9808d7a7145d4fde35195eea94a
+[info] Applying change type=add relativePath=etc/replace_all_fixed.ps1
+[info] Updating file updateType=1 ancestorSpline=[object Object],[object Object] partialPath=[object Object]
+[info] Updating files requestId=0172e65b-0833-4349-9c3a-cedb997e2131 changes=1
+[info] Updated files requestId=0172e65b-0833-4349-9c3a-cedb997e2131 response=[object Object]
+[info] Indexing finished

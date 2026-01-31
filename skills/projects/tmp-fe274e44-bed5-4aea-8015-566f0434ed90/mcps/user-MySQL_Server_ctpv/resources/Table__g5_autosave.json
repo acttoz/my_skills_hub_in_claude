@@ -1,0 +1,6 @@
+{
+  "uri": "mysql://g5_autosave/data",
+  "name": "Table: g5_autosave",
+  "description": "Data in table: g5_autosave",
+  "mimeType": "text/plain"
+}

@@ -1,0 +1,6 @@
+{
+  "uri": "mysql://tables/g5_write_certificate",
+  "name": "g5_write_certificate",
+  "description": "Table g5_write_certificate in database rainbow_2025",
+  "mimeType": "application/json"
+}

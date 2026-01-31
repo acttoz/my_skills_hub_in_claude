@@ -1,0 +1,14 @@
+---
+pid: 72573
+cwd: "/home/ubuntu/aws"
+command: "cd /home/ubuntu/aws && bash baraem_131.sh"
+started_at: 2026-01-29T09:04:45.097Z
+running_for_seconds: 12876 
+---
+SSH 키 파일 권한 설정 완료: /home/ubuntu/aws/pem/baraem_131.pem
+baraem_131 서버에 접속 중...
+호스트: 210.205.6.131
+포트: 2020
+사용자: root
+
+Pseudo-terminal will not be allocated because stdin is not a terminal.

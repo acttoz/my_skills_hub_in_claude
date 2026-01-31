@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design System Component Examples</title>
+  <link rel="stylesheet" href="design-system.css">
+  <style>
+    body {
+      font-family: 'Pretendard', sans-serif;
+      padding: 40px;
+      background: #f9f9f9;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .section {
+      margin-bottom: 60px;
+    }
+    .section-title {
+      font-family: 'Paperlogy', sans-serif;
+      font-weight: 800;
+      font-size: 32px;
+      color: #003179;
+      margin-bottom: 20px;
+      border-bottom: 3px solid #0046ac;
+      padding-bottom: 10px;
+    }
+    .component-box {
+      background: white;
+      padding: 30px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    .component-title {
+      font-weight: 800;
+      font-size: 18px;
+      margin-bottom: 15px;
+      color: #0046ac;
+    }
+    .code-block {
+      background: #f5f5f5;
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 4px;
+      margin-top: 15px;
+      font-family: 'Courier New', monospace;
+      font-size: 12px;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 class="heading-h1-bold" style="color: #003179; margin-bottom: 40px;">
+    창원대학교 발전기금 관리자 디자인 시스템
+  </h1>
+
+  <!-- Buttons Section -->
+  <div class="section">
+    <h2 class="section-title">Buttons (버튼)</h2>
+
+    <div class="component-box">
+      <h3 class="component-title">Primary Button</h3>
+      <button class="btn btn-primary">등록하기</button>
+      <button class="btn btn-primary btn-sm">작은 버튼</button>
+      <button class="btn btn-primary btn-lg">큰 버튼</button>
+      <div class="code-block">
+&lt;button class="btn btn-primary"&gt;등록하기&lt;/button&gt;
+&lt;button class="btn btn-primary btn-sm"&gt;작은 버튼&lt;/button&gt;
+&lt;button class="btn btn-primary btn-lg"&gt;큰 버튼&lt;/button&gt;
+      </div>
+    </div>
+
+    <div class="component-box">
+      <h3 class="component-title">Secondary Button</h3>
+      <button class="btn btn-secondary">취소</button>
+      <button class="btn btn-secondary" disabled>비활성화</button>
+      <div class="code-block">
+&lt;button class="btn btn-secondary"&gt;취소&lt;/button&gt;
+&lt;button class="btn btn-secondary" disabled&gt;비활성화&lt;/button&gt;
+      </div>
+    </div>
+
+    <div class="component-box">
+      <h3 class="component-title">Warning & Success Buttons</h3>
+      <button class="btn btn-warning">삭제</button>
+      <button class="btn btn-success">승인</button>
+      <div class="code-block">
+&lt;button class="btn btn-warning"&gt;삭제&lt;/button&gt;
+&lt;button class="btn btn-success"&gt;승인&lt;/button&gt;
+      </div>
+    </div>
+  </div>
+
+  <!-- Tables Section -->
+  <div class="section">
+    <h2 class="section-title">Tables (테이블)</h2>
+
+    <div class="component-box">
+      <h3 class="component-title">Admin Table</h3>
+      <table class="admin-table">
+        <thead>
+          <tr>
+            <th>번호</th>
+            <th>이름</th>
+            <th>이메일</th>
+            <th class="center">상태</th>
+            <th class="center">관리</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>홍길동</td>
+            <td>hong@example.com</td>
+            <td class="center"><span class="badge badge-success">활성</span></td>
+            <td class="center">
+              <button class="btn btn-primary btn-sm">수정</button>
+              <button class="btn btn-warning btn-sm">삭제</button>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>김영희</td>
+            <td>kim@example.com</td>
+            <td class="center"><span class="badge badge-warning">대기</span></td>
+            <td class="center">
+              <button class="btn btn-primary btn-sm">수정</button>
+              <button class="btn btn-warning btn-sm">삭제</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="code-block">
+&lt;table class="admin-table"&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;번호&lt;/th&gt;
+      &lt;th&gt;이름&lt;/th&gt;
+      &lt;th class="center"&gt;상태&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;홍길동&lt;/td&gt;
+      &lt;td class="center"&gt;&lt;span class="badge badge-success"&gt;활성&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+      </div>
+    </div>
+  </div>
+
+  <!-- Forms Section -->
+  <div class="section">
+    <h2 class="section-title">Forms (폼)</h2>
+
+    <div class="component-box">
+      <h3 class="component-title">Form Elements</h3>
+
+      <div class="form-group">
+        <label class="form-label required">이름</label>
+        <input type="text" class="form-control" placeholder="이름을 입력하세요">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">이메일</label>
+        <input type="email" class="form-control error" value="invalid-email">
+        <span class="form-error-message">올바른 이메일 주소를 입력하세요.</span>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">회원 등급</label>
+        <select class="form-control">
+          <option>일반회원</option>
+          <option>우수회원</option>
+          <option>VIP회원</option>
+        </select>
+        <span class="form-help-text">회원의 등급을 선택하세요.</span>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">메모</label>
+        <textarea class="form-control" placeholder="메모를 입력하세요"></textarea>
+      </div>
+
+      <div class="code-block">
+&lt;div class="form-group"&gt;
+  &lt;label class="form-label required"&gt;이름&lt;/label&gt;
+  &lt;input type="text" class="form-control" placeholder="이름을 입력하세요"&gt;
+&lt;/div&gt;
+
+&lt;div class="form-group"&gt;
+  &lt;label class="form-label"&gt;이메일&lt;/label&gt;
+  &lt;input type="email" class="form-control error" value="invalid-email"&gt;
+  &lt;span class="form-error-message"&gt;올바른 이메일 주소를 입력하세요.&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="form-group"&gt;
+  &lt;label class="form-label"&gt;선택&lt;/label&gt;
+  &lt;select class="form-control"&gt;
+    &lt;option&gt;옵션 1&lt;/option&gt;
+  &lt;/select&gt;
+&lt;/div&gt;
+      </div>
+    </div>
+  </div>
+
+  <!-- Cards Section -->
+  <div class="section">
+    <h2 class="section-title">Cards (카드)</h2>
+
+    <div class="component-box">
+      <h3 class="component-title">Admin Card</h3>
+      <div class="admin-card">
+        <div class="admin-card-header">카드 제목</div>
+        <div class="admin-card-body">
+          <p>카드 본문 내용입니다. 여기에 원하는 내용을 입력할 수 있습니다.</p>
+          <p>여러 줄의 텍스트를 포함할 수 있습니다.</p>
+        </div>
+        <div class="admin-card-footer">
+          <button class="btn btn-primary">확인</button>
+          <button class="btn btn-secondary">취소</button>
+        </div>
+      </div>
+      <div class="code-block">
+&lt;div class="admin-card"&gt;
+  &lt;div class="admin-card-header"&gt;카드 제목&lt;/div&gt;
+  &lt;div class="admin-card-body"&gt;
+    &lt;p&gt;카드 본문 내용입니다.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="admin-card-footer"&gt;
+    &lt;button class="btn btn-primary"&gt;확인&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+      </div>
+    </div>
+  </div>
+
+  <!-- Badges Section -->
+  <div class="section">
+    <h2 class="section-title">Badges (배지)</h2>
+
+    <div class="component-box">
+      <h3 class="component-title">Badge Variants</h3>
+      <span class="badge badge-primary">Primary</span>
+      <span class="badge badge-secondary">Secondary</span>
+      <span class="badge badge-success">Success</span>
+      <span class="badge badge-warning">Warning</span>
+      <span class="badge badge-info">Info</span>
+      <div class="code-block">
+&lt;span class="badge badge-primary"&gt;Primary&lt;/span&gt;
+&lt;span class="badge badge-secondary"&gt;Secondary&lt;/span&gt;
+&lt;span class="badge badge-success"&gt;Success&lt;/span&gt;
+&lt;span class="badge badge-warning"&gt;Warning&lt;/span&gt;
+&lt;span class="badge badge-info"&gt;Info&lt;/span&gt;
+      </div>
+    </div>
+  </div>
+
+  <!-- Alerts Section -->
+  <div class="section">
+    <h2 class="section-title">Alerts (알림)</h2>
+
+    <div class="component-box">
+      <h3 class="component-title">Alert Types</h3>
+      <div class="alert alert-success">성공적으로 처리되었습니다.</div>
+      <div class="alert alert-warning">주의가 필요한 사항입니다.</div>
+      <div class="alert alert-error">오류가 발생했습니다.</div>
+      <div class="alert alert-info">참고 정보입니다.</div>
+      <div class="code-block">
+&lt;div class="alert alert-success"&gt;성공적으로 처리되었습니다.&lt;/div&gt;
+&lt;div class="alert alert-warning"&gt;주의가 필요한 사항입니다.&lt;/div&gt;
+&lt;div class="alert alert-error"&gt;오류가 발생했습니다.&lt;/div&gt;
+&lt;div class="alert alert-info"&gt;참고 정보입니다.&lt;/div&gt;
+      </div>
+    </div>
+  </div>
+
+  <!-- Pagination Section -->
+  <div class="section">
+    <h2 class="section-title">Pagination (페이지네이션)</h2>
+
+    <div class="component-box">
+      <h3 class="component-title">Pagination</h3>
+      <ul class="pagination">
+        <li class="pagination-item">
+          <a href="#" class="pagination-link">«</a>
+        </li>
+        <li class="pagination-item">
+          <a href="#" class="pagination-link active">1</a>
+        </li>
+        <li class="pagination-item">
+          <a href="#" class="pagination-link">2</a>
+        </li>
+        <li class="pagination-item">
+          <a href="#" class="pagination-link">3</a>
+        </li>
+        <li class="pagination-item">
+          <a href="#" class="pagination-link">»</a>
+        </li>
+      </ul>
+      <div class="code-block">
+&lt;ul class="pagination"&gt;
+  &lt;li class="pagination-item"&gt;
+    &lt;a href="#" class="pagination-link"&gt;«&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class="pagination-item"&gt;
+    &lt;a href="#" class="pagination-link active"&gt;1&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class="pagination-item"&gt;
+    &lt;a href="#" class="pagination-link"&gt;2&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class="pagination-item"&gt;
+    &lt;a href="#" class="pagination-link"&gt;»&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+      </div>
+    </div>
+  </div>
+
+  <!-- Typography Section -->
+  <div class="section">
+    <h2 class="section-title">Typography (타이포그래피)</h2>
+
+    <div class="component-box">
+      <h3 class="component-title">Headings (Paperlogy)</h3>
+      <h1 class="heading-h1-bold">H1 Bold - Paperlogy 700</h1>
+      <h2 class="heading-h2-bold">H2 Bold - Paperlogy 700</h2>
+      <h3 class="heading-h3-bold">H3 Bold - Paperlogy 800</h3>
+      <h4 class="heading-h4-bold">H4 Bold - Paperlogy 800</h4>
+      <h5 class="heading-h5-bold">H5 Bold - Paperlogy 800</h5>
+    </div>
+
+    <div class="component-box">
+      <h3 class="component-title">Body Text (Pretendard)</h3>
+      <p class="body-xl-bold">Extra Large Bold - Pretendard 800</p>
+      <p class="body-large-bold">Large Bold - Pretendard 800</p>
+      <p class="body-medium-regular">Medium Regular - Pretendard 400</p>
+      <p class="body-small-regular">Small Regular - Pretendard 400</p>
+    </div>
+  </div>
+
+  <!-- Utility Classes Section -->
+  <div class="section">
+    <h2 class="section-title">Utility Classes (유틸리티)</h2>
+
+    <div class="component-box">
+      <h3 class="component-title">Text Alignment</h3>
+      <p class="text-left">왼쪽 정렬 텍스트</p>
+      <p class="text-center">가운데 정렬 텍스트</p>
+      <p class="text-right">오른쪽 정렬 텍스트</p>
+      <div class="code-block">
+&lt;p class="text-left"&gt;왼쪽 정렬&lt;/p&gt;
+&lt;p class="text-center"&gt;가운데 정렬&lt;/p&gt;
+&lt;p class="text-right"&gt;오른쪽 정렬&lt;/p&gt;
+      </div>
+    </div>
+
+    <div class="component-box">
+      <h3 class="component-title">Text Colors</h3>
+      <p class="text-primary">Primary 텍스트</p>
+      <p class="text-secondary">Secondary 텍스트</p>
+      <p class="text-warning">Warning 텍스트</p>
+      <p class="text-success">Success 텍스트</p>
+      <p class="text-muted">Muted 텍스트</p>
+      <div class="code-block">
+&lt;p class="text-primary"&gt;Primary 텍스트&lt;/p&gt;
+&lt;p class="text-warning"&gt;Warning 텍스트&lt;/p&gt;
+      </div>
+    </div>
+
+    <div class="component-box">
+      <h3 class="component-title">Spacing (mt, mb, p)</h3>
+      <div class="mt-4 p-3 bg-gray">mt-4 p-3 - 상단 여백 24px, 패딩 16px</div>
+      <div class="mt-2 mb-2 p-2 bg-secondary">mt-2 mb-2 p-2 - 상하 여백 12px, 패딩 12px</div>
+      <div class="code-block">
+&lt;div class="mt-4 p-3"&gt;상단 여백 + 패딩&lt;/div&gt;
+&lt;div class="mt-2 mb-2 p-2"&gt;상하 여백 + 패딩&lt;/div&gt;
+      </div>
+    </div>
+
+    <div class="component-box">
+      <h3 class="component-title">Flexbox</h3>
+      <div class="d-flex justify-between align-center gap-2 p-3 bg-gray">
+        <span>Item 1</span>
+        <span>Item 2</span>
+        <span>Item 3</span>
+      </div>
+      <div class="code-block">
+&lt;div class="d-flex justify-between align-center gap-2"&gt;
+  &lt;span&gt;Item 1&lt;/span&gt;
+  &lt;span&gt;Item 2&lt;/span&gt;
+&lt;/div&gt;
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

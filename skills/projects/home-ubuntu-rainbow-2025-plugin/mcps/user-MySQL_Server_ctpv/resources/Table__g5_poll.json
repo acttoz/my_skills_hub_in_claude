@@ -1,0 +1,6 @@
+{
+  "uri": "mysql://g5_poll/data",
+  "name": "Table: g5_poll",
+  "description": "Data in table: g5_poll",
+  "mimeType": "text/plain"
+}

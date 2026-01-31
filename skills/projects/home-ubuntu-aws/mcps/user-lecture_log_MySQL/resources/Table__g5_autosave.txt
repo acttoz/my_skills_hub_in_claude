@@ -1,0 +1,2 @@
+as_id,mb_id,as_uid,as_subject,as_content,as_datetime
+1,admin,2025101713453136,데이터베이스 설계,MySQL과 PostgreSQL을 활용한 데이터베이스 설계 및 최적화 강의입니다.,2025-10-17 13:46:31

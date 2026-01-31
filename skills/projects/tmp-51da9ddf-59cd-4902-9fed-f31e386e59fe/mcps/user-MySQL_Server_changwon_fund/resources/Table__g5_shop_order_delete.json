@@ -1,0 +1,6 @@
+{
+  "uri": "mysql://g5_shop_order_delete/data",
+  "name": "Table: g5_shop_order_delete",
+  "description": "Data in table: g5_shop_order_delete",
+  "mimeType": "text/plain"
+}

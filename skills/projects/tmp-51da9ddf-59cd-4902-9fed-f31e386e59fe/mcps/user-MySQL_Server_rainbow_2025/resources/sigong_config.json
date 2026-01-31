@@ -1,0 +1,6 @@
+{
+  "uri": "mysql://tables/sigong_config",
+  "name": "sigong_config",
+  "description": "레벨에 따른 시공권한 설정",
+  "mimeType": "application/json"
+}

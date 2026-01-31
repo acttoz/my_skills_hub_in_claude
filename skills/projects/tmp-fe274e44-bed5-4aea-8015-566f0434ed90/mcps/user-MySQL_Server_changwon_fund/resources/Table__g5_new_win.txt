@@ -1,0 +1,2 @@
+nw_id,nw_division,nw_device,nw_begin_time,nw_end_time,nw_disable_hours,nw_left,nw_top,nw_height,nw_width,nw_subject,nw_content,nw_content_html
+1,comm,both,2025-12-01 00:00:00,2025-12-01 23:59:59,24,10,10,500,450,기부안내,<p>기부안내 팝업입니다.</p>,0

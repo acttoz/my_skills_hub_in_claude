@@ -1,0 +1,6 @@
+{
+  "uri": "mysql://g5_member_social_profiles/data",
+  "name": "Table: g5_member_social_profiles",
+  "description": "Data in table: g5_member_social_profiles",
+  "mimeType": "text/plain"
+}

@@ -1,0 +1,142 @@
+user:
+<user_query>
+mysql mcp g5_write_sponsor.wr_1 ~ ...
+여분 필드 몇 번까지 있어?
+</user_query>
+
+assistant:
+<think>
+The user is asking about the "여분 필드" (extra fields) in the g5_write_sponsor table - specifically which numbers exist (wr_1, wr_2, ... etc.). They want to know how many extra fields there are in the table.
+
+I should use the MySQL MCP to query the table structure and find the wr_* columns. Let me first check the MCP tool schema for the MySQL server.
+</think>
+MySQL MCP로 `g5_write_sponsor` 테이블의 여분 필드(wr_1, wr_2 등) 개수 확인 중.
+
+[Tool call] LS
+  target_directory: /home/ubuntu/.cursor/projects/home-ubuntu-changwon-fund/mcps/user-MySQL_Server_changwon_fund
+
+[Tool result] LS
+
+assistant:
+<think>
+Let me read the execute_sql tool schema to know how to call it.
+</think>
+
+
+[Tool call] Read
+  path: /home/ubuntu/.cursor/projects/home-ubuntu-changwon-fund/mcps/user-MySQL_Server_changwon_fund/tools/execute_sql.json
+
+[Tool result] Read
+
+assistant:
+<think>
+I'll run a query to get the columns of g5_write_sponsor that match wr_1, wr_2, etc. I can use SHOW COLUMNS or INFORMATION_SCHEMA to list columns that start with 'wr_'.
+</think>
+
+
+[Tool call] call_mcp_tool
+  server: user-MySQL Server_changwon_fund
+  toolName: execute_sql
+  arguments: {"query":"SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'g5_write_sponsor' AND COLUMN_NAME REGEXP '^wr_[0-9]+$' ORDER BY COLUMN_NAME"}
+
+[Tool result] call_mcp_tool
+
+assistant:
+<think>
+The g5_write_sponsor table has wr_1 through wr_10 - so 10 extra fields (wr_1 ~ wr_10).
+</think>
+`g5_write_sponsor` 테이블의 여분 필드는 **wr_1 ~ wr_10**까지 **10개**입니다.
+
+| 여분 필드 |
+|-----------|
+| wr_1 |
+| wr_2 |
+| wr_3 |
+| wr_4 |
+| wr_5 |
+| wr_6 |
+| wr_7 |
+| wr_8 |
+| wr_9 |
+| wr_10 |
+
+user:
+<user_query>
+wr_50까지 생성해줘
+</user_query>
+
+assistant:
+<think>
+The user wants to add wr_11 through wr_50 to the g5_write_sponsor table. Currently it has wr_1 ~ wr_10, so I need to add wr_11, wr_12, ... wr_50.
+
+First I should check the structure of existing wr_* columns (data type, etc.) so I add the new ones consistently.
+</think>
+기존 wr_* 컬럼 구조 확인 중.
+
+[Tool call] call_mcp_tool
+  server: user-MySQL Server_changwon_fund
+  toolName: execute_sql
+  arguments: {"query":"SELECT COLUMN_NAME, COLUMN_TYPE, IS_NULLABLE, COLUMN_DEFAULT FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'g5_write_sponsor' AND COLUMN_NAME = 'wr_1'"}
+
+[Tool result] call_mcp_tool
+
+assistant:
+<think>
+wr_1 is varchar(255), NOT NULL, no default. I'll add wr_11 through wr_50 with the same structure. I'll generate ALTER TABLE statements for each column.
+</think>
+wr_11 ~ wr_50을 wr_1과 동일한 타입(varchar(255), NOT NULL)으로 추가합니다.
+
+[Tool call] call_mcp_tool
+  server: user-MySQL Server_changwon_fund
+  toolName: execute_sql
+  arguments: {"query":"ALTER TABLE g5_write_sponsor ADD COLUMN wr_11 varchar(255) NOT NULL DEFAULT '' AFTER wr_10, ADD COLUMN wr_12 varchar(255) NOT NULL DEFAULT '' AFTER wr_11, ADD COLUMN wr_13 varchar(255) NOT NULL DEFAULT '' AFTER wr_12, ADD COLUMN wr_14 varchar(255) NOT NULL DEFAULT '' AFTER wr_13, ADD COLUMN wr_15 varchar(255) NOT NULL DEFAULT '' AFTER wr_14, ADD COLUMN wr_16 varchar(255) NOT NULL DEFAULT '' AFTER wr_15, ADD COLUMN wr_17 varchar(255) NOT NULL DEFAULT '' AFTER wr_16, ADD COLUMN wr_18 varchar(255) NOT NULL DEFAULT '' AFTER wr_17, ADD COLUMN wr_19 varchar(255) NOT NULL DEFAULT '' AFTER wr_18, ADD COLUMN wr_20 varchar(255) NOT NULL DEFAULT '' AFTER wr_19"}
+
+[Tool result] call_mcp_tool
+
+assistant:
+<think>
+Good, first 10 columns added. Now add wr_21 ~ wr_30.
+</think>
+
+
+[Tool call] call_mcp_tool
+  server: user-MySQL Server_changwon_fund
+  toolName: execute_sql
+  arguments: {"query":"ALTER TABLE g5_write_sponsor ADD COLUMN wr_21 varchar(255) NOT NULL DEFAULT '' AFTER wr_20, ADD COLUMN wr_22 varchar(255) NOT NULL DEFAULT '' AFTER wr_21, ADD COLUMN wr_23 varchar(255) NOT NULL DEFAULT '' AFTER wr_22, ADD COLUMN wr_24 varchar(255) NOT NULL DEFAULT '' AFTER wr_23, ADD COLUMN wr_25 varchar(255) NOT NULL DEFAULT '' AFTER wr_24, ADD COLUMN wr_26 varchar(255) NOT NULL DEFAULT '' AFTER wr_25, ADD COLUMN wr_27 varchar(255) NOT NULL DEFAULT '' AFTER wr_26, ADD COLUMN wr_28 varchar(255) NOT NULL DEFAULT '' AFTER wr_27, ADD COLUMN wr_29 varchar(255) NOT NULL DEFAULT '' AFTER wr_28, ADD COLUMN wr_30 varchar(255) NOT NULL DEFAULT '' AFTER wr_29"}
+[Tool call] call_mcp_tool
+  server: user-MySQL Server_changwon_fund
+  toolName: execute_sql
+  arguments: {"query":"ALTER TABLE g5_write_sponsor ADD COLUMN wr_31 varchar(255) NOT NULL DEFAULT '' AFTER wr_30, ADD COLUMN wr_32 varchar(255) NOT NULL DEFAULT '' AFTER wr_31, ADD COLUMN wr_33 varchar(255) NOT NULL DEFAULT '' AFTER wr_32, ADD COLUMN wr_34 varchar(255) NOT NULL DEFAULT '' AFTER wr_33, ADD COLUMN wr_35 varchar(255) NOT NULL DEFAULT '' AFTER wr_34, ADD COLUMN wr_36 varchar(255) NOT NULL DEFAULT '' AFTER wr_35, ADD COLUMN wr_37 varchar(255) NOT NULL DEFAULT '' AFTER wr_36, ADD COLUMN wr_38 varchar(255) NOT NULL DEFAULT '' AFTER wr_37, ADD COLUMN wr_39 varchar(255) NOT NULL DEFAULT '' AFTER wr_38, ADD COLUMN wr_40 varchar(255) NOT NULL DEFAULT '' AFTER wr_39"}
+[Tool call] call_mcp_tool
+  server: user-MySQL Server_changwon_fund
+  toolName: execute_sql
+  arguments: {"query":"ALTER TABLE g5_write_sponsor ADD COLUMN wr_41 varchar(255) NOT NULL DEFAULT '' AFTER wr_40, ADD COLUMN wr_42 varchar(255) NOT NULL DEFAULT '' AFTER wr_41, ADD COLUMN wr_43 varchar(255) NOT NULL DEFAULT '' AFTER wr_42, ADD COLUMN wr_44 varchar(255) NOT NULL DEFAULT '' AFTER wr_43, ADD COLUMN wr_45 varchar(255) NOT NULL DEFAULT '' AFTER wr_44, ADD COLUMN wr_46 varchar(255) NOT NULL DEFAULT '' AFTER wr_45, ADD COLUMN wr_47 varchar(255) NOT NULL DEFAULT '' AFTER wr_46, ADD COLUMN wr_48 varchar(255) NOT NULL DEFAULT '' AFTER wr_47, ADD COLUMN wr_49 varchar(255) NOT NULL DEFAULT '' AFTER wr_48, ADD COLUMN wr_50 varchar(255) NOT NULL DEFAULT '' AFTER wr_49"}
+
+[Tool result] call_mcp_tool
+
+[Tool result] call_mcp_tool
+
+[Tool result] call_mcp_tool
+
+assistant:
+<think>
+All ALTER TABLE statements succeeded. Let me verify that wr_1 through wr_50 now exist.
+</think>
+추가 완료. wr_1 ~ wr_50 존재 확인 중입니다.
+
+[Tool call] call_mcp_tool
+  server: user-MySQL Server_changwon_fund
+  toolName: execute_sql
+  arguments: {"query":"SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'g5_write_sponsor' AND COLUMN_NAME REGEXP '^wr_[0-9]+$' ORDER BY CAST(SUBSTRING(COLUMN_NAME, 4) AS UNSIGNED)"}
+
+[Tool result] call_mcp_tool
+
+assistant:
+<think>
+All 50 columns are now present. Done.
+</think>
+작업 반영했습니다. `g5_write_sponsor` 테이블에 **wr_11 ~ wr_50** 여분 필드를 추가했습니다.
+
+- **추가된 컬럼**: wr_11, wr_12, … wr_50 (총 40개)
+- **타입**: `varchar(255) NOT NULL DEFAULT ''` (기존 wr_1과 동일)
+- **현재 여분 필드**: wr_1 ~ wr_50 (총 50개)

@@ -1,0 +1,6 @@
+{
+  "uri": "mysql://tables/Estimate",
+  "name": "Estimate",
+  "description": "이 테이블은 온라인견적을 위한 테이블 입니다.",
+  "mimeType": "application/json"
+}

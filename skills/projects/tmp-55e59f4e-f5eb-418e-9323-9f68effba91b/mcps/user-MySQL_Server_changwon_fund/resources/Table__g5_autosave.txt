@@ -1,0 +1,1 @@
+as_id,mb_id,as_uid,as_subject,as_content,as_datetime

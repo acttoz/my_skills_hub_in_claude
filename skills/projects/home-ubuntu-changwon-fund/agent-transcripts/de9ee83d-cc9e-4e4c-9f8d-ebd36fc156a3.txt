@@ -1,0 +1,333 @@
+user:
+<user_query>
+@index.php 사본 복제해놓고 공사중화면 띄우도록 수정해
+</user_query>
+
+assistant:
+[Thinking] **Planning modifications for index.php**
+
+The user in Korean requested to make a copy of index.php and modify it to show a construction page. I want to clarify but the instruction suggests I shouldn't ask questions. I plan to use the Read tool first, then I’ll read index.php and determine how to duplicate it. Likely, I’ll create a backup file like index.backup.php and then modify index.php to display a minimal message, "공사중입니다." After that, I’ll remember to apply changes without committing my edits.
+[Tool call] Read
+  path: /home/ubuntu/changwon_fund/index.php
+
+[Tool result] Read
+
+assistant:
+[Thinking] **Duplicating backup file**
+
+I need to copy the index.php backup file, and the user provided the instruction "사본 복제해놓고." For naming, I could use names like index.backup.php or index_original.php, but I think I’ll go with index.original.php — it feels clearer. I’ll create a new file with existing content and modify index.php to show the construction screen. I must ensure `_common.php` is loaded for both mobile and theme, while simplifying how the construction message is displayed.
+**Adjusting construction logic**
+
+I need to ensure that my theme index logic is respected while intentionally bypassing certain aspects for the construction screen. After including `_common.php` and defining `_INDEX_`, I should remove any unnecessary logic or comment it out to keep things minimal. I’ll update index.php using ApplyPatch and create the backup file, index.backup.php, first following the instructions. I’ll keep everything clear so that the user knows how it’s set up for construction.
+[Tool call] ApplyPatch*** Begin Patch
+*** Add File: /home/ubuntu/changwon_fund/index.backup.php
++<?php
++include_once('./_common.php');
++
++define('_INDEX_', true);
++if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
++
++if (defined('G5_THEME_PATH')) {
++    require_once(G5_THEME_PATH . '/index.php');
++    return;
++}
++
++if (G5_IS_MOBILE) {
++    include_once(G5_MOBILE_PATH . '/index.php');
++    return;
++}
++
++// 기부자명단 섹션 CSS 로드
++add_stylesheet('<link rel="stylesheet" href="' . G5_CSS_URL . '/donor-section.css?ver=' . G5_CSS_VER . '">', 0);
++
++include_once(G5_PATH . '/head.php');
++?>
++<style>
++    body {
++        padding-top: 0;
++    }
++
++    #hd.header-main {
++        background: transparent;
++        box-shadow: none;
++        position: absolute;
++    }
++
++    #container {
++
++        margin-top: 0;
++    }
++</style>
++
++<form action="<?php echo G5_SHOP_URL ?>/item.php" method="get">
++    <input type="hidden" name="it_id" value="1767150275">
++    <input type="hidden" name="amount" id="donate-amount" value="1000000">
++    <!-- 빠른기부 카드 -->
++    <div id="quick-donate-card" class="quick-donate-card">
++        <!-- 상단 헤더 카드 -->
++        <div class="quick-donate-header">
++            <div class="quick-donate-header-text">
++                <p class="quick-donate-university">국립창원대학교</p>
++                <p class="quick-donate-title">발전기금</p>
++                <p class="quick-donate-subtitle">빠른 기부하기</p>
++            </div>
++            <div class="quick-donate-header-logo">
++                <img src="<?php echo G5_IMG_URL ?>/logo_cwnu.png" alt="CWNU">
++            </div>
++        </div>
++
++        <!-- 하단 기부 금액 선택 카드 -->
++        <div class="quick-donate-content">
++            <div class="quick-donate-content-title">
++                <p class="title-line1">국립창원대 발전기금에</p>
++                <p class="title-line2">기부할 금액을 선택!</p>
++            </div>
++
++            <div class="quick-donate-amount-buttons">
++                <button type="button" class="amount-btn" data-amount="100000">100,000 원</button>
++                <button type="button" class="amount-btn" data-amount="10000">10,000 원</button>
++                <button type="button" class="amount-btn active" data-amount="1000000">
++                    <span class="heart-icon">♥</span> 1,000,000 원
++                </button>
++            </div>
++
++            <div class="quick-donate-amount-display">
++                <div class="amount-display-inner">
++                    <span class="amount-value">1,000,000</span>
++                    <span class="amount-unit">원</span>
++                </div>
++            </div>
++        </div>
++
++        <!-- 기부하기 버튼 (카드 외부) -->
++        <button type="submit" class="quick-donate-submit-btn">
++            <img src="<?php echo G5_IMG_URL ?>/ico_hands.png" alt="기부하기 아이콘">
++            <span>기부하기</span>
++        </button>
++    </div>
++</form>
++
++<!-- QUICK 기부하기 닫기 버튼 -->
++<button id="quick-donate-close-btn" class="quick-donate-close-btn">
++    <img src="<?php echo G5_IMG_URL ?>/btn_close_quick.png" alt="QUICK 기부하기 닫기">
++</button>
++<!-- 메인 배너 섹션 시작 { -->
++<section id="main-banner" class="main-banner-section" data-aos="fade-in">
++    <!-- 배경 이미지 -->
++    <div class="banner-background">
++        <img src="<?php echo G5_IMG_URL ?>/main_banner.jpg" alt="국립창원대학교 배경" width="1920" height="919">
++        <div class="banner-gradient-overlay"></div>
++    </div>
++
++    <!-- 중앙 로고 및 텍스트 -->
++    <div class="banner-center-content">
++        <div class="banner-logo">
++            <img src="<?php echo G5_IMG_URL ?>/mark_main.png" alt="국립창원대학교 심벌">
++        </div>
++        <h2 class="banner-title">국립창원대학교</h2>
++        <p class="banner-subtitle">지역 사회와 함께 빛나는 성장의 중심!</p>
++    </div>
++
++</section>
++<!-- } 메인 배너 섹션 끝 -->
++
++<?php echo latest_shop('campaign', 'campaign', 6, 60); ?>
++<?php echo latest('sponsor', 'lounge', 6, 60); ?>
++<?php echo latest('news', 'donation_news', 6, 60); ?>
++
++<?php
++include_once(G5_PATH . '/donor-section.php');
++?>
++
++<?php
++include_once(G5_PATH . '/tail.php');
+*** End Patch
+
+[Tool result] ApplyPatch
+
+assistant:
+[Tool call] ApplyPatch*** Begin Patch
+*** Update File: /home/ubuntu/changwon_fund/index.php
+@@
+-<?php
+-include_once('./_common.php');
+-
+-define('_INDEX_', true);
+-if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
+-
+-if (defined('G5_THEME_PATH')) {
+-    require_once(G5_THEME_PATH . '/index.php');
+-    return;
+-}
+-
+-if (G5_IS_MOBILE) {
+-    include_once(G5_MOBILE_PATH . '/index.php');
+-    return;
+-}
+-
+-// 기부자명단 섹션 CSS 로드
+-add_stylesheet('<link rel="stylesheet" href="' . G5_CSS_URL . '/donor-section.css?ver=' . G5_CSS_VER . '">', 0);
+-
+-include_once(G5_PATH . '/head.php');
+-?>
+-<style>
+-    body {
+-        padding-top: 0;
+-    }
+-
+-    #hd.header-main {
+-        background: transparent;
+-        box-shadow: none;
+-        position: absolute;
+-    }
+-
+-    #container {
+- 
+-        margin-top: 0;
+-    }
+-</style>
+-
+-<form action="<?php echo G5_SHOP_URL ?>/item.php" method="get">
+-    <input type="hidden" name="it_id" value="1767150275">
+-    <input type="hidden" name="amount" id="donate-amount" value="1000000">
+-    <!-- 빠른기부 카드 -->
+-    <div id="quick-donate-card" class="quick-donate-card">
+-        <!-- 상단 헤더 카드 -->
+-        <div class="quick-donate-header">
+-            <div class="quick-donate-header-text">
+-                <p class="quick-donate-university">국립창원대학교</p>
+-                <p class="quick-donate-title">발전기금</p>
+-                <p class="quick-donate-subtitle">빠른 기부하기</p>
+-            </div>
+-            <div class="quick-donate-header-logo">
+-                <img src="<?php echo G5_IMG_URL ?>/logo_cwnu.png" alt="CWNU">
+-            </div>
+-        </div>
+-
+-        <!-- 하단 기부 금액 선택 카드 -->
+-        <div class="quick-donate-content">
+-            <div class="quick-donate-content-title">
+-                <p class="title-line1">국립창원대 발전기금에</p>
+-                <p class="title-line2">기부할 금액을 선택!</p>
+-            </div>
+-
+-            <div class="quick-donate-amount-buttons">
+-                <button type="button" class="amount-btn" data-amount="100000">100,000 원</button>
+-                <button type="button" class="amount-btn" data-amount="10000">10,000 원</button>
+-                <button type="button" class="amount-btn active" data-amount="1000000">
+-                    <span class="heart-icon">♥</span> 1,000,000 원
+-                </button>
+-            </div>
+-
+-            <div class="quick-donate-amount-display">
+-                <div class="amount-display-inner">
+-                    <span class="amount-value">1,000,000</span>
+-                    <span class="amount-unit">원</span>
+-                </div>
+-            </div>
+-        </div>
+-
+-        <!-- 기부하기 버튼 (카드 외부) -->
+-        <button type="submit" class="quick-donate-submit-btn">
+-            <img src="<?php echo G5_IMG_URL ?>/ico_hands.png" alt="기부하기 아이콘">
+-            <span>기부하기</span>
+-        </button>
+-    </div>
+-</form>
+-
+-<!-- QUICK 기부하기 닫기 버튼 -->
+-<button id="quick-donate-close-btn" class="quick-donate-close-btn">
+-    <img src="<?php echo G5_IMG_URL ?>/btn_close_quick.png" alt="QUICK 기부하기 닫기">
+-</button>
+-<!-- 메인 배너 섹션 시작 { -->
+-<section id="main-banner" class="main-banner-section" data-aos="fade-in">
+-    <!-- 배경 이미지 -->
+-    <div class="banner-background">
+-        <img src="<?php echo G5_IMG_URL ?>/main_banner.jpg" alt="국립창원대학교 배경" width="1920" height="919">
+-        <div class="banner-gradient-overlay"></div>
+-    </div>
+-
+-    <!-- 중앙 로고 및 텍스트 -->
+-    <div class="banner-center-content">
+-        <div class="banner-logo">
+-            <img src="<?php echo G5_IMG_URL ?>/mark_main.png" alt="국립창원대학교 심벌">
+-        </div>
+-        <h2 class="banner-title">국립창원대학교</h2>
+-        <p class="banner-subtitle">지역 사회와 함께 빛나는 성장의 중심!</p>
+-    </div>
+-
+-</section>
+-<!-- } 메인 배너 섹션 끝 -->
+-
+-<?php echo latest_shop('campaign', 'campaign', 6, 60); ?>
+-<?php echo latest('sponsor', 'lounge', 6, 60); ?>
+-<?php echo latest('news', 'donation_news', 6, 60); ?>
+-
+-<?php
+-include_once(G5_PATH . '/donor-section.php');
+-?>
+-
+-<?php
+-include_once(G5_PATH . '/tail.php');
++<?php
++include_once('./_common.php');
++
++define('_INDEX_', true);
++if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
++
++include_once(G5_PATH . '/head.php');
++?>
++
++<style>
++    .maintenance-wrapper {
++        display: flex;
++        flex-direction: column;
++        align-items: center;
++        justify-content: center;
++        min-height: calc(100vh - 200px);
++        text-align: center;
++        padding: 40px 20px;
++        box-sizing: border-box;
++    }
++
++    .maintenance-title {
++        font-size: 32px;
++        font-weight: 700;
++        margin-bottom: 16px;
++    }
++
++    .maintenance-message {
++        font-size: 18px;
++        color: #555;
++        line-height: 1.6;
++    }
++</style>
++
++<div class="maintenance-wrapper">
++    <h1 class="maintenance-title">사이트 공사중입니다.</h1>
++    <p class="maintenance-message">
++        보다 나은 서비스 제공을 위해 현재 홈페이지를 개편 중입니다.<br>
++        잠시 후 다시 접속해 주세요.
++    </p>
++</div>
++
++<?php
++include_once(G5_PATH . '/tail.php');
+*** End Patch
+
+[Tool result] ApplyPatch
+
+assistant:
+### 작업 내용
+
+- **`index.php` 사본 생성**
+  - 기존 내용을 그대로 복사한 `index.backup.php` 파일을 생성해 두었습니다.
+  - 원래 메인 페이지로 복구하고 싶으면 `index.backup.php` 내용을 다시 `index.php`에 복붙하면 됩니다.
+
+- **공사중 화면으로 교체**
+  - `index.php`는 이제 GNUBOARD 기본 헤더/푸터(`head.php`, `tail.php`)만 포함하고,
+  - 중앙에 다음 문구를 띄우는 심플한 공사중 화면을 출력하도록 수정했습니다:
+    - 제목: “사이트 공사중입니다.”
+    - 내용: “보다 나은 서비스 제공을 위해 현재 홈페이지를 개편 중입니다. 잠시 후 다시 접속해 주세요.”
+
+원하는 문구나 스타일이 있으면 말씀 주시면 공사중 화면 디자인을 더 손봐줄게요.

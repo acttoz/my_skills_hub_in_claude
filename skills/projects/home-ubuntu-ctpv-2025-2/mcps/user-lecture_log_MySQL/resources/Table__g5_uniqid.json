@@ -1,0 +1,6 @@
+{
+  "uri": "mysql://g5_uniqid/data",
+  "name": "Table: g5_uniqid",
+  "description": "Data in table: g5_uniqid",
+  "mimeType": "text/plain"
+}

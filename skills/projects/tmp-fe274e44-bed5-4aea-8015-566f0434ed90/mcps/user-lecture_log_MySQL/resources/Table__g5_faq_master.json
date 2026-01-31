@@ -1,0 +1,6 @@
+{
+  "uri": "mysql://g5_faq_master/data",
+  "name": "Table: g5_faq_master",
+  "description": "Data in table: g5_faq_master",
+  "mimeType": "text/plain"
+}

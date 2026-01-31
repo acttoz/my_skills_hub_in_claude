@@ -1,0 +1,6 @@
+{
+  "uri": "mysql://g5_write_calendar/data",
+  "name": "Table: g5_write_calendar",
+  "description": "Data in table: g5_write_calendar",
+  "mimeType": "text/plain"
+}

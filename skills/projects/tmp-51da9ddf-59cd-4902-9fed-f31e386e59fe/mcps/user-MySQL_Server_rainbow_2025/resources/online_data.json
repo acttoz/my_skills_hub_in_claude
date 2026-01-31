@@ -1,0 +1,6 @@
+{
+  "uri": "mysql://tables/online_data",
+  "name": "online_data",
+  "description": "온라인견적 등록용 db",
+  "mimeType": "application/json"
+}

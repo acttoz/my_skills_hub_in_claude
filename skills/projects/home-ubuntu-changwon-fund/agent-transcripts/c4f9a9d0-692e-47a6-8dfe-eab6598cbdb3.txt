@@ -1,0 +1,34 @@
+user:
+<user_query>
+발전기금 → campaign_type = 'fund'
+
+1:1 매칭 장학 → campaign_type = 'matching'
+
+작은사랑 → campaign_type = 'small_love'
+
+우수리 기금 → campaign_type = 'usuri'
+
+후원의 집 → campaign_type = 'shop'
+
+등록금 한번더 → campaign_type = 'tuition_plus'
+
+켐페인타입을 일렬로 나란히 영어로 써줘.
+</user_query>
+
+assistant:
+<think>
+The user wants me to list the campaign types in a single row, in English. They've provided the mapping:
+
+- 발전기금 → campaign_type = 'fund'
+- 1:1 매칭 장학 → campaign_type = 'matching'
+- 작은사랑 → campaign_type = 'small_love'
+- 우수리 기금 → campaign_type = 'usuri'
+- 후원의 집 → campaign_type = 'shop'
+- 등록금 한번더 → campaign_type = 'tuition_plus'
+
+They want these campaign types written in a row in English. So they want:
+fund, matching, small_love, usuri, shop, tuition_plus
+
+Just a simple text response - no file creation or code change needed unless they want it in a specific file. I'll just output the list.
+</think>
+`fund`, `matching`, `small_love`, `usuri`, `shop`, `tuition_plus`

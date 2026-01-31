@@ -1,0 +1,1 @@
+qa_id,qa_num,qa_parent,qa_related,mb_id,qa_name,qa_email,qa_hp,qa_type,qa_category,qa_email_recv,qa_sms_recv,qa_html,qa_subject,qa_content,qa_status,qa_file1,qa_source1,qa_file2,qa_source2,qa_ip,qa_datetime,qa_1,qa_2,qa_3,qa_4,qa_5

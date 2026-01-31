@@ -1,0 +1,6 @@
+{
+  "uri": "mysql://tables/BRI_write_board_01",
+  "name": "BRI_write_board_01",
+  "description": "Table BRI_write_board_01 in database rainbow_2025",
+  "mimeType": "application/json"
+}

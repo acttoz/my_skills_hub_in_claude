@@ -1,0 +1,1 @@
+ch_id,mb_id,ch_name,ch_hp,ch_birth,ch_type,ch_datetime

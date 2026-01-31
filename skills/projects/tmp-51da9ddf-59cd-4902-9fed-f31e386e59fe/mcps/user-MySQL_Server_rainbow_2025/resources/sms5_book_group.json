@@ -1,0 +1,6 @@
+{
+  "uri": "mysql://tables/sms5_book_group",
+  "name": "sms5_book_group",
+  "description": "Table sms5_book_group in database rainbow_2025",
+  "mimeType": "application/json"
+}
