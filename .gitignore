@@ -1,0 +1,13 @@
+# Ignore everything
+*
+
+# Track this file
+!.gitignore
+
+# Track agents folder and its contents
+!agents/
+!agents/**
+
+# Track skills folder and its contents
+!skills/
+!skills/**
